@@ -6,7 +6,7 @@ related:
 status: experimental
 description: Detects the load of known vulnerable drivers via their names only.
 references:
-    - https://risksdrivers.io/
+    - https://boss-net.github.io/risksdrivers/
 author: Nasreddine Bencherchali (Nextron Systems)
 date: 2022/10/03
 modified: 2023/06/28

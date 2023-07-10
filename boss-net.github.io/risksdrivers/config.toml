@@ -1,4 +1,4 @@
-baseURL = "https://www.risksdrivers.io/"
+baseURL = "https://www.boss-net.github.io/risksdrivers/"
 title = "risksDrivers"
 enableRobotsTXT = true
 theme = ["compose"] # loading from local

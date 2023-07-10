@@ -20,7 +20,7 @@ Welcome to risksDrivers (Living Off The Land Drivers), an exciting open-source p
 
 ## Getting Started
 
-To begin your journey with risksDrivers, simply check out the [risksDrivers.io](https://risksdrivers.io/) site or clone the repository and explore the wealth of information available in the categorized directories. We've designed the site to help you easily find the insights you need to protect your systems from vulnerable drivers.
+To begin your journey with risksDrivers, simply check out the [risksDrivers.io](https://boss-net.github.io/risksdrivers/) site or clone the repository and explore the wealth of information available in the categorized directories. We've designed the site to help you easily find the insights you need to protect your systems from vulnerable drivers.
 
 To assist in speeding up the creating of a yaml file, check out [risksdrivers.streamlit.app](https://risksdrivers.streamlit.app)
 
@@ -104,5 +104,5 @@ python bin/site.py
 6. Run the website locally:
 
 ```
-cd risksdrivers.io && hugo serve
+cd boss-net.github.io/risksdrivers && hugo serve
 ```

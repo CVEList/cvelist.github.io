@@ -1,6 +1,6 @@
 # Contributor Code of Conduct
 
-Welcome to the [risksDrivers online community](https://risksdrivers.io/). Our goal is to foster an open, safe, and welcoming environment. As a collective, we—as contributors, maintainers, and the Open Source Projects team of MagicSword—pledge to encourage our project and community to be a harassment-free space. We invite you to collaborate, exchange thoughts or information, and engage with one another. risksDrivers is meant for everyone, regardless of age, personal appearance, body size, disability, nationality, race, ethnicity, gender identity and expression, level of experience or academics, religion, or sexual identity and orientation.
+Welcome to the [risksDrivers online community](https://boss-net.github.io/risksdrivers/). Our goal is to foster an open, safe, and welcoming environment. As a collective, we—as contributors, maintainers, and the Open Source Projects team of MagicSword—pledge to encourage our project and community to be a harassment-free space. We invite you to collaborate, exchange thoughts or information, and engage with one another. risksDrivers is meant for everyone, regardless of age, personal appearance, body size, disability, nationality, race, ethnicity, gender identity and expression, level of experience or academics, religion, or sexual identity and orientation.
 
 ## Our Guidelines
 
@@ -43,7 +43,7 @@ LOLDriver Maintainers have the right and responsibility to remove, edit, or reje
 
 This Code of Conduct applies to all of the LOLDriver project spaces, including public spaces where an individual is representing the project or its community. Examples of representing the project or community include using an official project e-mail address, posting an official social media account, or acting as an appointed representative at an online or offline event.
 
-* [LOLDriver Website](https://risksdrivers.io/)
+* [LOLDriver Website](https://boss-net.github.io/risksdrivers/)
 
 * [LOLDriver GitHub](https://github.com/boss-net/risksDrivers)
 
