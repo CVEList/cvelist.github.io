@@ -1,0 +1,1450 @@
+<!doctype html>
+<html lang="en" class="dark">
+<head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1"><meta name="generator" content="Hugo 0.113.0">
+<link rel="apple-touch-icon" sizes="180x180" href='cvelist.github.io/favicons/apple-touch-icon.png'>
+<link rel="icon" type="image/png" sizes="32x32" href='cvelist.github.io/favicons/favicon-32x32.png'>
+<link rel="icon" type="image/png" sizes="16x16" href='cvelist.github.io/favicons/favicon-16x16.png'>
+<link rel="manifest" href='cvelist.github.io/favicons/site.webmanifest'>
+<link rel="mask-icon" href='cvelist.github.io/favicons/safari-pinned-tab.svg'  color="#004750">
+<link rel="shortcut icon" href='cvelist.github.io/favicons/favicon.ico'>
+<meta name="msapplication-config" content='cvelist.github.io/favicons/browserconfig.xml'>
+<title>9c3c6e89-3916-498f-81e5-da057ab3ed42 | cvelist</title><meta property="og:title" content="9c3c6e89-3916-498f-81e5-da057ab3ed42" />
+<meta property="og:description" content="windbg.sys Description Kernel driver seen in a recent CopperStealer campaign.
+UUID: 9c3c6e89-3916-498f-81e5-da057ab3ed42 Created: 2023-04-22 Author: Michael Haag Acknowledgement: | Download
+This download link contains the malicious driver! Commands sc.exe create windbg.sys binPath=C:\windows\temp\windbg.sys type=kernel &amp;amp;&amp;amp; sc.exe start windbg.sys Use Case Privileges Operating System Elevate privileges kernel Windows 10 Detections YARA 🏹 Expand Exact Match
+with header and size limitation Threat Hunting
+without header and size limitation Sigma 🛡️ Expand Names" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="cvelist.github.io/drivers/9c3c6e89-3916-498f-81e5-da057ab3ed42/" /><meta property="article:section" content="drivers" />
+
+
+<meta itemprop="name" content="9c3c6e89-3916-498f-81e5-da057ab3ed42">
+<meta itemprop="description" content="windbg.sys Description Kernel driver seen in a recent CopperStealer campaign.
+UUID: 9c3c6e89-3916-498f-81e5-da057ab3ed42 Created: 2023-04-22 Author: Michael Haag Acknowledgement: | Download
+This download link contains the malicious driver! Commands sc.exe create windbg.sys binPath=C:\windows\temp\windbg.sys type=kernel &amp;amp;&amp;amp; sc.exe start windbg.sys Use Case Privileges Operating System Elevate privileges kernel Windows 10 Detections YARA 🏹 Expand Exact Match
+with header and size limitation Threat Hunting
+without header and size limitation Sigma 🛡️ Expand Names">
+
+<meta itemprop="wordCount" content="1338">
+<meta itemprop="keywords" content="" /><meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="9c3c6e89-3916-498f-81e5-da057ab3ed42"/>
+<meta name="twitter:description" content="windbg.sys Description Kernel driver seen in a recent CopperStealer campaign.
+UUID: 9c3c6e89-3916-498f-81e5-da057ab3ed42 Created: 2023-04-22 Author: Michael Haag Acknowledgement: | Download
+This download link contains the malicious driver! Commands sc.exe create windbg.sys binPath=C:\windows\temp\windbg.sys type=kernel &amp;amp;&amp;amp; sc.exe start windbg.sys Use Case Privileges Operating System Elevate privileges kernel Windows 10 Detections YARA 🏹 Expand Exact Match
+with header and size limitation Threat Hunting
+without header and size limitation Sigma 🛡️ Expand Names"/>
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-33C5VXLWPQ"></script>
+<script>
+var doNotTrack = false;
+if (!doNotTrack) {
+	window.dataLayer = window.dataLayer || [];
+	function gtag(){dataLayer.push(arguments);}
+	gtag('js', new Date());
+	gtag('config', 'G-33C5VXLWPQ', { 'anonymize_ip': false });
+}
+</script>
+
+<link rel="stylesheet" href="/cvelist.github.io/sass/main.sass" integrity="">
+
+
+
+
+  <meta name="description" content="windbg.sys Description Kernel driver seen in a recent CopperStealer campaign.
+UUID: 9c3c6e89-3916-498f-81e5-da057ab3ed42 Created: 2023-04-22 Author: Michael Haag Acknowledgement: | Download
+This download link contains the malicious driver! Commands sc.exe create windbg.sys binPath=C:\windows\temp\windbg.sys type=kernel &amp;amp;amp;&amp;amp;amp; sc.exe start windbg.sys Use Case Privileges Operating System Elevate privileges kernel Windows 10 Detections YARA 🏹 Expand Exact Match
+with header and size limitation Threat Hunting
+without header and size limitation Sigma 🛡️ Expand Names">
+
+
+</head>
+<body class="page-page" id="pagetop">
+  <header class="nav_header">
+<nav class="wrap nav menu">
+	<a href="cvelist.github.io" class="nav_brand">
+		<picture data-lit="cvelist.github.io/images/logo.png" data-dark="cvelist.github.io/images/logo-dark.png">
+			<img src="cvelist.github.io/images/logo.png" alt="cvelist Logo">
+		</picture>
+		<label class="nav_toggle toggle" title='Site Menu' role="button">
+			<svg class="icon icon_harmburger">
+  <use xlink:href="#harmburger"></use>
+</svg>
+		</label>
+	</a>
+	<ul class="nav_body">
+		<li class="nav-item">
+<div class="search">
+  <label for="find" class="search_label"><svg class="icon icon_search">
+  <use xlink:href="#search"></use>
+</svg>
+  </label>
+  
+  
+  
+  <input type="search" class="search_field" placeholder='Search drivers' id="find" autocomplete="off"  data-scope='drivers'>
+  <div class="search_results results"></div>
+</div>
+
+
+
+		</li>
+		<li class="nav-item">
+			<a class="nav-link" href="cvelist.github.io/about/"><span>About</span></a>
+		</li>
+		
+		<li class="nav-item nav_repo">
+			<a class="nav-link" href="https://github.com/cvelist/cvelist" target="_blank">
+				
+					<picture data-lit="cvelist.github.io/images/GitHubMarkLight.svg" data-dark="cvelist.github.io/images/GitHubMarkDark.svg">
+						<img src="cvelist.github.io/images/GitHubMarkLight.svg" alt="GitHub Repo">
+					</picture>
+				
+			</a>
+		</li>
+		<li class="nav-item"><div class = 'color_mode'>
+  <label for = 'mode'></label>
+  <input type = 'checkbox' class = 'color_choice' id = 'mode' title="Toggle Dark Mode">
+</div>
+</li>
+	</ul>
+</nav>
+
+  </header>
+  
+  <div class="main wrap pt-4">
+    
+    
+    
+      
+    
+      <div class="content">
+<div class="content">
+	<h1>9c3c6e89-3916-498f-81e5-da057ab3ed42</h1>
+	<section class="grid-1"  >
+<div class="mt-2 pt-1"><h1 id="windbgsys-inlineimagestwitter_verifiedpng">windbg.sys <img src="/images/twitter_verified.png" alt=":inline"></h1>
+<h3 id="description">Description</h3>
+<p>Kernel driver seen in a recent CopperStealer campaign.</p>
+<ul>
+<li><strong>UUID</strong>: 9c3c6e89-3916-498f-81e5-da057ab3ed42</li>
+<li><strong>Created</strong>: 2023-04-22</li>
+<li><strong>Author</strong>: Michael Haag</li>
+<li><strong>Acknowledgement</strong>:  | <a href="https://twitter.com/"></a></li>
+</ul>
+<p><a href="https://github.com/cvelist/cvelist/raw/main/drivers/88bea56ae9257b40063785cf47546024.bin" class="button">Download</a></p>
+<div class="tip tip_warning">
+  This download link contains the malicious driver!
+</div>
+<h3 id="commands">Commands</h3>
+<pre tabindex="0"><code>sc.exe create windbg.sys binPath=C:\windows\temp\windbg.sys type=kernel &amp;amp;&amp;amp; sc.exe start windbg.sys
+</code></pre><table>
+<thead>
+<tr>
+<th style="text-align:left">Use Case</th>
+<th>Privileges</th>
+<th>Operating System</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left">Elevate privileges</td>
+<td>kernel</td>
+<td>Windows 10</td>
+</tr>
+</tbody>
+</table>
+<h3 id="detections">Detections</h3>
+<section class="grid-3"  >
+<div><h4 id="yara-">YARA 🏹</h4>
+<details>
+  <summary>Expand</summary>
+  <p><a href="https://github.com/cvelist/cvelist/tree/main/detections/yara/yara-rules_mal_drivers_strict.yar" class="button">Exact Match</a></p>
+<div class="tip">
+  with header and size limitation
+</div>
+<p><a href="https://github.com/cvelist/cvelist/tree/main/detections/yara/yara-rules_mal_drivers.yar" class="button">Threat Hunting</a></p>
+<div class="tip">
+  without header and size limitation
+</div>
+</details>
+</div>
+<div><h4 id="sigma-">Sigma 🛡️</h4>
+<details>
+  <summary>Expand</summary>
+  <p><a href="https://github.com/cvelist/cvelist/tree/main/detections/sigma/driver_load_win_vuln_drivers_names.yml" class="button">Names</a></p>
+<div class="tip">
+  detects loading using name only
+</div>
+<p><a href="https://github.com/cvelist/cvelist/tree/main/detections/sigma/driver_load_win_vuln_drivers.yml" class="button">Hashes</a></p>
+<div class="tip">
+  detects loading using hashes only
+</div>
+</details>
+</div>
+<div class="mb-2"><h4 id="sysmon-">Sysmon 🔎</h4>
+<details>
+  <summary>Expand</summary>
+  <p><a href="https://github.com/cvelist/cvelist/tree/main/detections/sysmon/sysmon_config_vulnerable_hashes_block.xml" class="button">Block</a></p>
+<div class="tip">
+  on hashes
+</div>
+<p><a href="https://github.com/cvelist/cvelist/tree/main/detections/sysmon_config_vulnerable_hashes.xml" class="button">Alert</a></p>
+<div class="tip">
+  on hashes
+</div>
+</details>
+</div>
+</section>
+<h3 id="resources">Resources</h3>
+<br>
+<li><a href="https://www.proofpoint.com/us/blog/threat-insight/now-you-see-it-now-you-dont-copperstealer-performs-widespread-theft">https://www.proofpoint.com/us/blog/threat-insight/now-you-see-it-now-you-dont-copperstealer-performs-widespread-theft</a></li>
+<li><a href="https://twitter.com/jaydinbas/status/1642898531445886978?s=20">https://twitter.com/jaydinbas/status/1642898531445886978?s=20</a></li>
+<li><a href="https://twitter.com/jaydinbas/status/1646475092006785027?s=20">https://twitter.com/jaydinbas/status/1646475092006785027?s=20</a></li>
+<br>
+<h3 id="known-vulnerable-samples">Known Vulnerable Samples</h3>
+<table>
+<thead>
+<tr>
+<th style="text-align:left">Property</th>
+<th style="text-align:left">Value</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left">Filename</td>
+<td style="text-align:left">windbg.sys</td>
+</tr>
+<tr>
+<td style="text-align:left">MD5</td>
+<td style="text-align:left"><a href="https://www.virustotal.com/gui/file/88bea56ae9257b40063785cf47546024">88bea56ae9257b40063785cf47546024</a></td>
+</tr>
+<tr>
+<td style="text-align:left">SHA1</td>
+<td style="text-align:left"><a href="https://www.virustotal.com/gui/file/b5a8e2104d76dbb04cd9ffe86784113585822375">b5a8e2104d76dbb04cd9ffe86784113585822375</a></td>
+</tr>
+<tr>
+<td style="text-align:left">SHA256</td>
+<td style="text-align:left"><a href="https://www.virustotal.com/gui/file/e1cb86386757b947b39086cc8639da988f6e8018ca9995dd669bdc03c8d39d7d">e1cb86386757b947b39086cc8639da988f6e8018ca9995dd669bdc03c8d39d7d</a></td>
+</tr>
+<tr>
+<td style="text-align:left">Authentihash MD5</td>
+<td style="text-align:left"><a href="https://www.virustotal.com/gui/search/authentihash%253A265462dbda175886e0c02257f2385753">265462dbda175886e0c02257f2385753</a></td>
+</tr>
+<tr>
+<td style="text-align:left">Authentihash SHA1</td>
+<td style="text-align:left"><a href="https://www.virustotal.com/gui/search/authentihash%253A0e45b675fec76249e64f8a2d4bd5483886b91169">0e45b675fec76249e64f8a2d4bd5483886b91169</a></td>
+</tr>
+<tr>
+<td style="text-align:left">Authentihash SHA256</td>
+<td style="text-align:left"><a href="https://www.virustotal.com/gui/search/authentihash%253A37a1a3fa4dc148924c1bfb60c88ffef082ee58cd0ee804d2de0f1d22c1e7802c">37a1a3fa4dc148924c1bfb60c88ffef082ee58cd0ee804d2de0f1d22c1e7802c</a></td>
+</tr>
+<tr>
+<td style="text-align:left">RichPEHeaderHash MD5</td>
+<td style="text-align:left"><a href="https://www.virustotal.com/gui/search/rich_pe_header_hash%253Ae1c6e942db6887e4c9e630b5bb75c313">e1c6e942db6887e4c9e630b5bb75c313</a></td>
+</tr>
+<tr>
+<td style="text-align:left">RichPEHeaderHash SHA1</td>
+<td style="text-align:left"><a href="https://www.virustotal.com/gui/search/rich_pe_header_hash%253Ae703cd9718363d923287424967d01ca57fc8a842">e703cd9718363d923287424967d01ca57fc8a842</a></td>
+</tr>
+<tr>
+<td style="text-align:left">RichPEHeaderHash SHA256</td>
+<td style="text-align:left"><a href="https://www.virustotal.com/gui/search/rich_pe_header_hash%253A8afa5d95d504001486a7641c204a06b483d2cf4f3b4ed072606cc05759996d9d">8afa5d95d504001486a7641c204a06b483d2cf4f3b4ed072606cc05759996d9d</a></td>
+</tr>
+<tr>
+<td style="text-align:left">Company</td>
+<td style="text-align:left">Microsoft Corporation</td>
+</tr>
+<tr>
+<td style="text-align:left">Description</td>
+<td style="text-align:left">Windows GUI symbolic debugger</td>
+</tr>
+<tr>
+<td style="text-align:left">Product</td>
+<td style="text-align:left">Microsoft? Windows? Operating System</td>
+</tr>
+<tr>
+<td style="text-align:left">OriginalFilename</td>
+<td style="text-align:left">windbg.sys</td>
+</tr>
+</tbody>
+</table>
+<h4 id="certificates">Certificates</h4>
+<details>
+  <summary>Expand</summary>
+  <h6 id="certificate-61204db4000000000027">Certificate 61204db4000000000027</h6>
+<table>
+<thead>
+<tr>
+<th>Field</th>
+<th>Value</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>ToBeSigned (TBS) MD5</td>
+<td>8e3ffc222fbcebdbb8b23115ab259be7</td>
+</tr>
+<tr>
+<td>ToBeSigned (TBS) SHA1</td>
+<td>ee20bff28ffe13be731c294c90d6ded5aae0ec0e</td>
+</tr>
+<tr>
+<td>ToBeSigned (TBS) SHA256</td>
+<td>59826b69bc8c28118c96323b627da59aaca0b142cc5d8bad25a8fcfd399aa821</td>
+</tr>
+<tr>
+<td>Subject</td>
+<td>C=US, O=DigiCert Inc, OU=www.digicert.com, CN=DigiCert High Assurance EV Root CA</td>
+</tr>
+<tr>
+<td>ValidFrom</td>
+<td>2011-04-15 19:45:33</td>
+</tr>
+<tr>
+<td>ValidTo</td>
+<td>2021-04-15 19:55:33</td>
+</tr>
+<tr>
+<td>Signature</td>
+<td>208cc159ed6f9c6b2dc14a3e751d454c41501cbd80ead9b0928b062a133f53169e56396a8a63b6782479f57db8b947a10a96c2f6cbbda2669f06e1acd279090efd3cdcac020c70af3f1bec787ed4eb4b056026d973619121edb06863e09712ab6fa012edd99fd2da273cb3e456f9d1d4810f71bd427ca689dccdd5bd95a2abf193117de8ac3129a85d6670419dfc75c9d5b31a392ad08505508bac91cac493cb71a59da4946f580cfa6e20c40831b5859d7e81f9d23dca5b18856c0a86ec22091ba574344f7f28bc954aab1db698b05d09a477767eefa78e5d84f61824cbd16da6c3a19cc2107580ff9d32fde6cf433a82f7ce8fe1722a9b62b75fed951a395c2f946d48b7015f332fbbdc2d73348904420a1c8b79f9a3fa17effaa11a10dfe0b2c195eb5c0c05973b353e18884ddb6cbf24898dc8bdd89f7b393a24a0d5dfd1f34a1a97f6a66f7a1fb090a9b3ac013991d361b764f13e573803afce7ad2b590f5aedc3999d5b63c97eda6cb16c77d6b2a4c9094e64c54fd1ecd20ecce689c8758e96160beeb0ec9d5197d9fe978bd0eac2175078fa96ee08c6a2a6b9ce3e765bcbc2d3c6ddc04dc67453632af0481bca8006e614c95c55cd48e8e9f2fc13274bdbd11650307cdefb75e0257da86d41a2834af8849b2cfa5dd82566f68aa14e25954feffeaeeefea9270226081e32523c09fcc0f49b235aa58c33ac3d9169410</td>
+</tr>
+<tr>
+<td>SignatureAlgorithmOID</td>
+<td>1.2.840.113549.1.1.5</td>
+</tr>
+<tr>
+<td>IsCertificateAuthority</td>
+<td>True</td>
+</tr>
+<tr>
+<td>SerialNumber</td>
+<td>61204db4000000000027</td>
+</tr>
+<tr>
+<td>Version</td>
+<td>3</td>
+</tr>
+</tbody>
+</table>
+<h6 id="certificate-012eab44fa8853d913e7107c89406432">Certificate 012eab44fa8853d913e7107c89406432</h6>
+<table>
+<thead>
+<tr>
+<th>Field</th>
+<th>Value</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>ToBeSigned (TBS) MD5</td>
+<td>5d40693a8cfc4fd21f0c610ed3ee8477</td>
+</tr>
+<tr>
+<td>ToBeSigned (TBS) SHA1</td>
+<td>4dffeb59ea4c32c7b87c9fe44d55f5e622444824</td>
+</tr>
+<tr>
+<td>ToBeSigned (TBS) SHA256</td>
+<td>d7380ff1b3d400fdf8cf2d8ab18ac65a071ae51c83cce017fa236fb530c4af74</td>
+</tr>
+<tr>
+<td>Subject</td>
+<td>??=CN, ??=?????????, ??=??????????????????????????????, ??=Private Organization, serialNumber=91420100MA4KN92W72, C=CN, ST=?????????, L=?????????, O=Wuhan Jiajia Yiyong Technology Co., Ltd., CN=Wuhan Jiajia Yiyong Technology Co., Ltd.</td>
+</tr>
+<tr>
+<td>ValidFrom</td>
+<td>2020-11-17 00:00:00</td>
+</tr>
+<tr>
+<td>ValidTo</td>
+<td>2023-11-12 23:59:59</td>
+</tr>
+<tr>
+<td>Signature</td>
+<td>9451eb3eee03a01f0c66d87dc537eb17f37bc157ec9037c05a55ee4a3d0c207c67b981841c2b642084bca0a3c65f8e8eb5413f3e897b267aad91044c4098319a1f703fa995afdc53896d20245af8c2829e80081d36135ac1acb414bf966fd0af157b3fc2dac8f616f2b794a76b0fb7b300db0c579f093e31dd739b43f09fb7a73c6c914d8453032ea14950246e80abfc7fbaff2597ab68b6f03d30d97edbee25c0e2786040a1770e26661867920f3b01132c4ac5dc9ef97ae59e7baad68fe1b2b12acc7ed54697e9d4025ced62ac9dca82104ac7dd8219b331fcbed72aab33b95fed0ef6a1f9831c8b68457be6b080ae3c9ae15df500a53b7b2a198ee71abd1b</td>
+</tr>
+<tr>
+<td>SignatureAlgorithmOID</td>
+<td>1.2.840.113549.1.1.5</td>
+</tr>
+<tr>
+<td>IsCertificateAuthority</td>
+<td>False</td>
+</tr>
+<tr>
+<td>SerialNumber</td>
+<td>012eab44fa8853d913e7107c89406432</td>
+</tr>
+<tr>
+<td>Version</td>
+<td>3</td>
+</tr>
+</tbody>
+</table>
+<h6 id="certificate-0dd0e3374ac95bdbfa6b434b2a48ec06">Certificate 0dd0e3374ac95bdbfa6b434b2a48ec06</h6>
+<table>
+<thead>
+<tr>
+<th>Field</th>
+<th>Value</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>ToBeSigned (TBS) MD5</td>
+<td>f92649915476229b093c211c2b18e6c4</td>
+</tr>
+<tr>
+<td>ToBeSigned (TBS) SHA1</td>
+<td>2d54c16a8f8b69ccdea48d0603c132f547a5cf75</td>
+</tr>
+<tr>
+<td>ToBeSigned (TBS) SHA256</td>
+<td>2cd702a7dec30aa441345672e8992ef9770ce4946f276d767b45b0ed627658fb</td>
+</tr>
+<tr>
+<td>Subject</td>
+<td>C=US, O=DigiCert Inc, OU=www.digicert.com, CN=DigiCert EV Code Signing CA</td>
+</tr>
+<tr>
+<td>ValidFrom</td>
+<td>2012-04-18 12:00:00</td>
+</tr>
+<tr>
+<td>ValidTo</td>
+<td>2027-04-18 12:00:00</td>
+</tr>
+<tr>
+<td>Signature</td>
+<td>9e5b963a2e1288acab016da49f75e40187a3a532d7bcbaa97ea3d61417f7c2136b7c738f2b6ae50f265968b08e259b6ceffa6c939208c14dcf459e9c46d61e74a19b14a3fa012f4ab101e1724048111368b9369d914bd7c2391210c1c4dcbb6214142a615d4f387c661fc61bffadbe4f7f945b7343000f4d73b751cf0ef677c05bcd348cd96313aa0e6111d6f28e27fcb47bb8b91120918678ea0ed428ff2ad52438e837b2ec96bb9fbc4a1650e15ebf517d23a032c7c1949e7ac9c026a2cc2587a0127e749f2d8db1c8e784beb9d1e9debb6a4e887371e12238cb2487e9737e51b2ff98eb4e7e2fe0ca0efab35ed1ba0542a8489f83f63fc4caa8df68a05061</td>
+</tr>
+<tr>
+<td>SignatureAlgorithmOID</td>
+<td>1.2.840.113549.1.1.5</td>
+</tr>
+<tr>
+<td>IsCertificateAuthority</td>
+<td>True</td>
+</tr>
+<tr>
+<td>SerialNumber</td>
+<td>0dd0e3374ac95bdbfa6b434b2a48ec06</td>
+</tr>
+<tr>
+<td>Version</td>
+<td>3</td>
+</tr>
+</tbody>
+</table>
+</details>
+<h4 id="imports">Imports</h4>
+<details>
+  <summary>Expand</summary>
+  <ul>
+<li>ntoskrnl.exe</li>
+</ul>
+</details>
+<h4 id="imports-1">Imports</h4>
+<details>
+  <summary>Expand</summary>
+  <ul>
+<li>ntoskrnl.exe</li>
+</ul>
+</details>
+<h4 id="importedfunctions">ImportedFunctions</h4>
+<details>
+  <summary>Expand</summary>
+  <ul>
+<li>IoDeleteDevice</li>
+<li>IoDetachDevice</li>
+<li>memcpy</li>
+<li>memset</li>
+<li>ZwClose</li>
+<li>ExFreePoolWithTag</li>
+<li>ExAllocatePoolWithTag</li>
+<li>ObOpenObjectByPointer</li>
+<li>PsProcessType</li>
+<li>PsLookupProcessByProcessId</li>
+<li>MmGetSystemRoutineAddress</li>
+<li>RtlInitUnicodeString</li>
+<li>IofCallDriver</li>
+<li>PsGetCurrentProcessId</li>
+<li>IoGetLowerDeviceObject</li>
+<li>ObfDereferenceObject</li>
+<li>IoGetAttachedDeviceReference</li>
+<li>IoUnregisterShutdownNotification</li>
+<li>KeDelayExecutionThread</li>
+<li>IoAttachDeviceToDeviceStackSafe</li>
+<li>IoCreateDevice</li>
+<li>IoEnumerateDeviceObjectList</li>
+<li>IoRegisterShutdownNotification</li>
+<li>IoUnregisterFsRegistrationChange</li>
+<li>IoRegisterFsRegistrationChange</li>
+<li>_vsnwprintf</li>
+<li>PsGetVersion</li>
+<li>ZwAllocateVirtualMemory</li>
+<li>MmUnmapLockedPages</li>
+<li>IoFreeMdl</li>
+<li>MmMapLockedPages</li>
+<li>MmBuildMdlForNonPagedPool</li>
+<li>MmCreateMdl</li>
+<li>ZwReadFile</li>
+<li>ZwQueryInformationFile</li>
+<li>IoCreateFile</li>
+<li>_wcsicmp</li>
+<li>_wcsnicmp</li>
+<li>RtlEqualUnicodeString</li>
+<li>ZwWriteFile</li>
+<li>ZwFlushKey</li>
+<li>ZwSetValueKey</li>
+<li>ZwQueryValueKey</li>
+<li>RtlRandom</li>
+<li>KeQuerySystemTime</li>
+<li>ZwDeleteKey</li>
+<li>ZwOpenKey</li>
+<li>ZwEnumerateKey</li>
+<li>IoFreeIrp</li>
+<li>KeSetEvent</li>
+<li>KeWaitForSingleObject</li>
+<li>KeGetCurrentThread</li>
+<li>KeInitializeEvent</li>
+<li>IoAllocateIrp</li>
+<li>IoGetRelatedDeviceObject</li>
+<li>ObReferenceObjectByHandle</li>
+<li>IoFileObjectType</li>
+<li>ObQueryNameString</li>
+<li>RtlCopyUnicodeString</li>
+<li>MmIsAddressValid</li>
+<li>PsGetProcessPeb</li>
+<li>RtlCreateUnicodeString</li>
+<li>ZwDeleteValueKey</li>
+<li>ZwCreateKey</li>
+<li>RtlFreeUnicodeString</li>
+<li>ZwDeleteFile</li>
+<li>PsRemoveLoadImageNotifyRoutine</li>
+<li>CmUnRegisterCallback</li>
+<li>PsSetLoadImageNotifyRoutine</li>
+<li>CmRegisterCallback</li>
+<li>ObReferenceObjectByName</li>
+<li>ZwFreeVirtualMemory</li>
+<li>ZwWaitForSingleObject</li>
+<li>KeUnstackDetachProcess</li>
+<li>KeStackAttachProcess</li>
+<li>ZwDuplicateObject</li>
+<li>PsGetProcessSessionId</li>
+<li>_strnicmp</li>
+<li>RtlSubAuthoritySid</li>
+<li>RtlSubAuthorityCountSid</li>
+<li>ZwQueryInformationToken</li>
+<li>ZwOpenProcessTokenEx</li>
+<li>PsTerminateSystemThread</li>
+<li>PsThreadType</li>
+<li>PsCreateSystemThread</li>
+<li>KeTickCount</li>
+<li>KeBugCheckEx</li>
+<li>_vsnprintf</li>
+<li>strncmp</li>
+<li>strchr</li>
+<li>strncpy</li>
+<li>strstr</li>
+<li>ExAllocatePool</li>
+<li>_stricmp</li>
+<li>rand</li>
+<li>ZwCreateFile</li>
+<li>IoBuildDeviceIoControlRequest</li>
+<li>MmProbeAndLockPages</li>
+<li>IoAllocateMdl</li>
+<li>_allshl</li>
+<li>RtlUnwind</li>
+</ul>
+</details>
+<h4 id="exportedfunctions">ExportedFunctions</h4>
+<details>
+  <summary>Expand</summary>
+</details>
+<h4 id="signature">Signature</h4>
+<details>
+  <summary>Expand</summary>
+  <pre tabindex="0"><code>{
+  &#34;Certificates&#34;: [
+    {
+      &#34;IsCertificateAuthority&#34;: true,
+      &#34;SerialNumber&#34;: &#34;61204db4000000000027&#34;,
+      &#34;Signature&#34;: &#34;208cc159ed6f9c6b2dc14a3e751d454c41501cbd80ead9b0928b062a133f53169e56396a8a63b6782479f57db8b947a10a96c2f6cbbda2669f06e1acd279090efd3cdcac020c70af3f1bec787ed4eb4b056026d973619121edb06863e09712ab6fa012edd99fd2da273cb3e456f9d1d4810f71bd427ca689dccdd5bd95a2abf193117de8ac3129a85d6670419dfc75c9d5b31a392ad08505508bac91cac493cb71a59da4946f580cfa6e20c40831b5859d7e81f9d23dca5b18856c0a86ec22091ba574344f7f28bc954aab1db698b05d09a477767eefa78e5d84f61824cbd16da6c3a19cc2107580ff9d32fde6cf433a82f7ce8fe1722a9b62b75fed951a395c2f946d48b7015f332fbbdc2d73348904420a1c8b79f9a3fa17effaa11a10dfe0b2c195eb5c0c05973b353e18884ddb6cbf24898dc8bdd89f7b393a24a0d5dfd1f34a1a97f6a66f7a1fb090a9b3ac013991d361b764f13e573803afce7ad2b590f5aedc3999d5b63c97eda6cb16c77d6b2a4c9094e64c54fd1ecd20ecce689c8758e96160beeb0ec9d5197d9fe978bd0eac2175078fa96ee08c6a2a6b9ce3e765bcbc2d3c6ddc04dc67453632af0481bca8006e614c95c55cd48e8e9f2fc13274bdbd11650307cdefb75e0257da86d41a2834af8849b2cfa5dd82566f68aa14e25954feffeaeeefea9270226081e32523c09fcc0f49b235aa58c33ac3d9169410&#34;,
+      &#34;SignatureAlgorithmOID&#34;: &#34;1.2.840.113549.1.1.5&#34;,
+      &#34;Subject&#34;: &#34;C=US, O=DigiCert Inc, OU=www.digicert.com, CN=DigiCert High Assurance EV Root CA&#34;,
+      &#34;TBS&#34;: {
+        &#34;MD5&#34;: &#34;8e3ffc222fbcebdbb8b23115ab259be7&#34;,
+        &#34;SHA1&#34;: &#34;ee20bff28ffe13be731c294c90d6ded5aae0ec0e&#34;,
+        &#34;SHA256&#34;: &#34;59826b69bc8c28118c96323b627da59aaca0b142cc5d8bad25a8fcfd399aa821&#34;
+      },
+      &#34;ValidFrom&#34;: &#34;2011-04-15 19:45:33&#34;,
+      &#34;ValidTo&#34;: &#34;2021-04-15 19:55:33&#34;,
+      &#34;Version&#34;: 3
+    },
+    {
+      &#34;IsCertificateAuthority&#34;: false,
+      &#34;SerialNumber&#34;: &#34;012eab44fa8853d913e7107c89406432&#34;,
+      &#34;Signature&#34;: &#34;9451eb3eee03a01f0c66d87dc537eb17f37bc157ec9037c05a55ee4a3d0c207c67b981841c2b642084bca0a3c65f8e8eb5413f3e897b267aad91044c4098319a1f703fa995afdc53896d20245af8c2829e80081d36135ac1acb414bf966fd0af157b3fc2dac8f616f2b794a76b0fb7b300db0c579f093e31dd739b43f09fb7a73c6c914d8453032ea14950246e80abfc7fbaff2597ab68b6f03d30d97edbee25c0e2786040a1770e26661867920f3b01132c4ac5dc9ef97ae59e7baad68fe1b2b12acc7ed54697e9d4025ced62ac9dca82104ac7dd8219b331fcbed72aab33b95fed0ef6a1f9831c8b68457be6b080ae3c9ae15df500a53b7b2a198ee71abd1b&#34;,
+      &#34;SignatureAlgorithmOID&#34;: &#34;1.2.840.113549.1.1.5&#34;,
+      &#34;Subject&#34;: &#34;??=CN, ??=?????????, ??=??????????????????????????????, ??=Private Organization, serialNumber=91420100MA4KN92W72, C=CN, ST=?????????, L=?????????, O=Wuhan Jiajia Yiyong Technology Co., Ltd., CN=Wuhan Jiajia Yiyong Technology Co., Ltd.&#34;,
+      &#34;TBS&#34;: {
+        &#34;MD5&#34;: &#34;5d40693a8cfc4fd21f0c610ed3ee8477&#34;,
+        &#34;SHA1&#34;: &#34;4dffeb59ea4c32c7b87c9fe44d55f5e622444824&#34;,
+        &#34;SHA256&#34;: &#34;d7380ff1b3d400fdf8cf2d8ab18ac65a071ae51c83cce017fa236fb530c4af74&#34;
+      },
+      &#34;ValidFrom&#34;: &#34;2020-11-17 00:00:00&#34;,
+      &#34;ValidTo&#34;: &#34;2023-11-12 23:59:59&#34;,
+      &#34;Version&#34;: 3
+    },
+    {
+      &#34;IsCertificateAuthority&#34;: true,
+      &#34;SerialNumber&#34;: &#34;0dd0e3374ac95bdbfa6b434b2a48ec06&#34;,
+      &#34;Signature&#34;: &#34;9e5b963a2e1288acab016da49f75e40187a3a532d7bcbaa97ea3d61417f7c2136b7c738f2b6ae50f265968b08e259b6ceffa6c939208c14dcf459e9c46d61e74a19b14a3fa012f4ab101e1724048111368b9369d914bd7c2391210c1c4dcbb6214142a615d4f387c661fc61bffadbe4f7f945b7343000f4d73b751cf0ef677c05bcd348cd96313aa0e6111d6f28e27fcb47bb8b91120918678ea0ed428ff2ad52438e837b2ec96bb9fbc4a1650e15ebf517d23a032c7c1949e7ac9c026a2cc2587a0127e749f2d8db1c8e784beb9d1e9debb6a4e887371e12238cb2487e9737e51b2ff98eb4e7e2fe0ca0efab35ed1ba0542a8489f83f63fc4caa8df68a05061&#34;,
+      &#34;SignatureAlgorithmOID&#34;: &#34;1.2.840.113549.1.1.5&#34;,
+      &#34;Subject&#34;: &#34;C=US, O=DigiCert Inc, OU=www.digicert.com, CN=DigiCert EV Code Signing CA&#34;,
+      &#34;TBS&#34;: {
+        &#34;MD5&#34;: &#34;f92649915476229b093c211c2b18e6c4&#34;,
+        &#34;SHA1&#34;: &#34;2d54c16a8f8b69ccdea48d0603c132f547a5cf75&#34;,
+        &#34;SHA256&#34;: &#34;2cd702a7dec30aa441345672e8992ef9770ce4946f276d767b45b0ed627658fb&#34;
+      },
+      &#34;ValidFrom&#34;: &#34;2012-04-18 12:00:00&#34;,
+      &#34;ValidTo&#34;: &#34;2027-04-18 12:00:00&#34;,
+      &#34;Version&#34;: 3
+    }
+  ],
+  &#34;CertificatesInfo&#34;: &#34;&#34;,
+  &#34;Signer&#34;: [
+    {
+      &#34;Issuer&#34;: &#34;C=US, O=DigiCert Inc, OU=www.digicert.com, CN=DigiCert EV Code Signing CA&#34;,
+      &#34;SerialNumber&#34;: &#34;012eab44fa8853d913e7107c89406432&#34;,
+      &#34;Version&#34;: 1
+    }
+  ],
+  &#34;SignerInfo&#34;: &#34;&#34;
+}
+</code></pre>
+</details>
+<hr>
+<table>
+<thead>
+<tr>
+<th style="text-align:left">Property</th>
+<th style="text-align:left">Value</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left">Filename</td>
+<td style="text-align:left">windbg.sys</td>
+</tr>
+<tr>
+<td style="text-align:left">MD5</td>
+<td style="text-align:left"><a href="https://www.virustotal.com/gui/file/b6b530dd25c5eb66499968ec82e8791e">b6b530dd25c5eb66499968ec82e8791e</a></td>
+</tr>
+<tr>
+<td style="text-align:left">SHA1</td>
+<td style="text-align:left"><a href="https://www.virustotal.com/gui/file/9c1c9032aa1e33461f35dbf79b6f2d061bfc6774">9c1c9032aa1e33461f35dbf79b6f2d061bfc6774</a></td>
+</tr>
+<tr>
+<td style="text-align:left">SHA256</td>
+<td style="text-align:left"><a href="https://www.virustotal.com/gui/file/fa9abb3e7e06f857be191a1e049dd37642ec41fb2520c105df2227fcac3de5d5">fa9abb3e7e06f857be191a1e049dd37642ec41fb2520c105df2227fcac3de5d5</a></td>
+</tr>
+<tr>
+<td style="text-align:left">Authentihash MD5</td>
+<td style="text-align:left"><a href="https://www.virustotal.com/gui/search/authentihash%253Adbc72430b48b0ca636a84b9e5ed0d534">dbc72430b48b0ca636a84b9e5ed0d534</a></td>
+</tr>
+<tr>
+<td style="text-align:left">Authentihash SHA1</td>
+<td style="text-align:left"><a href="https://www.virustotal.com/gui/search/authentihash%253A58ca196bfd54c6166aae0f8000fa8a1a66a0073e">58ca196bfd54c6166aae0f8000fa8a1a66a0073e</a></td>
+</tr>
+<tr>
+<td style="text-align:left">Authentihash SHA256</td>
+<td style="text-align:left"><a href="https://www.virustotal.com/gui/search/authentihash%253A45b969ae1b381716a29cd509622470b5b20b70c7efe4c9b7c0568faa298605ff">45b969ae1b381716a29cd509622470b5b20b70c7efe4c9b7c0568faa298605ff</a></td>
+</tr>
+<tr>
+<td style="text-align:left">RichPEHeaderHash MD5</td>
+<td style="text-align:left"><a href="https://www.virustotal.com/gui/search/rich_pe_header_hash%253Ae1c6e942db6887e4c9e630b5bb75c313">e1c6e942db6887e4c9e630b5bb75c313</a></td>
+</tr>
+<tr>
+<td style="text-align:left">RichPEHeaderHash SHA1</td>
+<td style="text-align:left"><a href="https://www.virustotal.com/gui/search/rich_pe_header_hash%253Ae703cd9718363d923287424967d01ca57fc8a842">e703cd9718363d923287424967d01ca57fc8a842</a></td>
+</tr>
+<tr>
+<td style="text-align:left">RichPEHeaderHash SHA256</td>
+<td style="text-align:left"><a href="https://www.virustotal.com/gui/search/rich_pe_header_hash%253A8afa5d95d504001486a7641c204a06b483d2cf4f3b4ed072606cc05759996d9d">8afa5d95d504001486a7641c204a06b483d2cf4f3b4ed072606cc05759996d9d</a></td>
+</tr>
+<tr>
+<td style="text-align:left">Company</td>
+<td style="text-align:left">Microsoft Corporation</td>
+</tr>
+<tr>
+<td style="text-align:left">Description</td>
+<td style="text-align:left">Windows GUI symbolic debugger</td>
+</tr>
+<tr>
+<td style="text-align:left">Product</td>
+<td style="text-align:left">Microsoft? Windows? Operating System</td>
+</tr>
+<tr>
+<td style="text-align:left">OriginalFilename</td>
+<td style="text-align:left">windbg.sys</td>
+</tr>
+</tbody>
+</table>
+<h4 id="certificates-1">Certificates</h4>
+<details>
+  <summary>Expand</summary>
+  <h6 id="certificate-33000000f3158ea57d1c559f290000000000f3">Certificate 33000000f3158ea57d1c559f290000000000f3</h6>
+<table>
+<thead>
+<tr>
+<th>Field</th>
+<th>Value</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>ToBeSigned (TBS) MD5</td>
+<td>8d4476692bcda36ed89244b94bd705f0</td>
+</tr>
+<tr>
+<td>ToBeSigned (TBS) SHA1</td>
+<td>ce72176d5cad611366e13a9a997ad7ecc7eb815f</td>
+</tr>
+<tr>
+<td>ToBeSigned (TBS) SHA256</td>
+<td>dd1db9c0e7e50040ac6c586c1b6fd479cef240c064473373f75fbeb3e04ff972</td>
+</tr>
+<tr>
+<td>Subject</td>
+<td>C=US, ST=Washington, L=Redmond, O=Microsoft Corporation, CN=Microsoft Windows Hardware Compatibility Publisher</td>
+</tr>
+<tr>
+<td>ValidFrom</td>
+<td>2023-01-12 19:14:51</td>
+</tr>
+<tr>
+<td>ValidTo</td>
+<td>2023-12-15 19:14:51</td>
+</tr>
+<tr>
+<td>Signature</td>
+<td>04d1261b735b38b551b427cf9a295d4eb18edd92de14079aa33a10511ee6d262938b29ae208f96be64a80e2967fb8d7aa5750613901a9da6a82935398175482096430c9acecb55ee2c5468d119f467378c18251a8fe01e9d7b79bce903ccb7afb227e2d0abee00bd9fd6bbbbd67c014888dc46f3efa912d4576f7ca9980957609cd21fbd51815cb11bee95fa780498d905e866bc1a604e407ee0d97a105bcc8e600200b19b9c3a56cb3918047f21ba9ee2228b46b8e5c8b456ba65e6f0c40d28294b654761660e9d14948866c3f0f65f028e47641059d3f195812e871362128bcefb901d5aeace862e3d683b291d65c138138ea1335fe3552f4c46a7f7b0c6e5</td>
+</tr>
+<tr>
+<td>SignatureAlgorithmOID</td>
+<td>1.2.840.113549.1.1.11</td>
+</tr>
+<tr>
+<td>IsCertificateAuthority</td>
+<td>False</td>
+</tr>
+<tr>
+<td>SerialNumber</td>
+<td>33000000f3158ea57d1c559f290000000000f3</td>
+</tr>
+<tr>
+<td>Version</td>
+<td>3</td>
+</tr>
+</tbody>
+</table>
+<h6 id="certificate-610baac1000000000009">Certificate 610baac1000000000009</h6>
+<table>
+<thead>
+<tr>
+<th>Field</th>
+<th>Value</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>ToBeSigned (TBS) MD5</td>
+<td>a569061297e8e824767dbc3184a69bea</td>
+</tr>
+<tr>
+<td>ToBeSigned (TBS) SHA1</td>
+<td>adbb26a587a8f44b4fccaecb306f980d1c55a150</td>
+</tr>
+<tr>
+<td>ToBeSigned (TBS) SHA256</td>
+<td>cec1afd0e310c55c1dcc601ab8e172917706aa32fb5eaf826813547fdf02dd46</td>
+</tr>
+<tr>
+<td>Subject</td>
+<td>C=US, ST=Washington, L=Redmond, O=Microsoft Corporation, CN=Microsoft Windows Third Party Component CA 2012</td>
+</tr>
+<tr>
+<td>ValidFrom</td>
+<td>2012-04-18 23:48:38</td>
+</tr>
+<tr>
+<td>ValidTo</td>
+<td>2027-04-18 23:58:38</td>
+</tr>
+<tr>
+<td>Signature</td>
+<td>5a8a67daccd5fd0d264177bf0a4678b4b3de12692b7723c2652f015fd203f461ba509d2e8c3972f36c3e6ab11e766decb7f382dcccbbc56970287366173f54ebee011648c446d91b80ae813a8d0f796d68b09eea2d3f39d3ca387ebd5e7c086e19dcc6c2f438336861e2524783e1000156d2bacb878205310a418b4ee77f5f5fed5fd3392d45eba213bffd1ec298417161165fc80a70257c59693124e471e70abb0417f79f721ec9d2bb1abe3d02fe090cb243b4591a99539396215fe0d6b72601429536ac27fdbef48577683d18bdf4be98882211865216f345ec0397107087a37043713cdbc98603170cf5735bc67de15c64edd7c548d7ed32e2d1aad3cfa7f6574e61f977eb67f288b3de00da038fd08a34373e1dd862b8d2b1f3e12f8b723b81967c6ffcec667672601b24f2a0896d5b6d002eef28dd868705c2b4b9e5be64c22af24a155c98e2c42785ff52e3627e0fb2020bd766c70ab2d33d200414503259830a7d9bed5a38120152ba2f5e20728e4af1fde771028c3be107bec973f4dd47d8b4efb4a4b330b9893e76cab90098567eabea8ab8a5d038ab6977130b142fe9aa411ff7babd3a2b348aee0aab63e663f788248e200d2b3b9de3c24952ac9f1f0e393b5dd46e506ae67d523aaa7c3315290d265e0158a74ea93d7a846f743f609fe4324f3600af6d71d33ea646655f8174f1fec171da4ca0415a82ddf11f</td>
+</tr>
+<tr>
+<td>SignatureAlgorithmOID</td>
+<td>1.2.840.113549.1.1.11</td>
+</tr>
+<tr>
+<td>IsCertificateAuthority</td>
+<td>True</td>
+</tr>
+<tr>
+<td>SerialNumber</td>
+<td>610baac1000000000009</td>
+</tr>
+<tr>
+<td>Version</td>
+<td>3</td>
+</tr>
+</tbody>
+</table>
+</details>
+<h4 id="imports-2">Imports</h4>
+<details>
+  <summary>Expand</summary>
+  <ul>
+<li>ntoskrnl.exe</li>
+</ul>
+</details>
+<h4 id="imports-3">Imports</h4>
+<details>
+  <summary>Expand</summary>
+  <ul>
+<li>ntoskrnl.exe</li>
+</ul>
+</details>
+<h4 id="importedfunctions-1">ImportedFunctions</h4>
+<details>
+  <summary>Expand</summary>
+  <ul>
+<li>IoDeleteDevice</li>
+<li>IoDetachDevice</li>
+<li>memcpy</li>
+<li>memset</li>
+<li>ZwClose</li>
+<li>ExFreePoolWithTag</li>
+<li>ExAllocatePoolWithTag</li>
+<li>ObOpenObjectByPointer</li>
+<li>PsProcessType</li>
+<li>PsLookupProcessByProcessId</li>
+<li>MmGetSystemRoutineAddress</li>
+<li>RtlInitUnicodeString</li>
+<li>IofCallDriver</li>
+<li>PsGetCurrentProcessId</li>
+<li>IoGetLowerDeviceObject</li>
+<li>ObfDereferenceObject</li>
+<li>IoGetAttachedDeviceReference</li>
+<li>IoUnregisterShutdownNotification</li>
+<li>KeDelayExecutionThread</li>
+<li>IoAttachDeviceToDeviceStackSafe</li>
+<li>IoCreateDevice</li>
+<li>IoEnumerateDeviceObjectList</li>
+<li>IoRegisterShutdownNotification</li>
+<li>IoUnregisterFsRegistrationChange</li>
+<li>IoRegisterFsRegistrationChange</li>
+<li>_vsnwprintf</li>
+<li>PsGetVersion</li>
+<li>ZwAllocateVirtualMemory</li>
+<li>MmUnmapLockedPages</li>
+<li>IoFreeMdl</li>
+<li>MmMapLockedPages</li>
+<li>MmBuildMdlForNonPagedPool</li>
+<li>MmCreateMdl</li>
+<li>ZwReadFile</li>
+<li>ZwQueryInformationFile</li>
+<li>IoCreateFile</li>
+<li>_wcsicmp</li>
+<li>_wcsnicmp</li>
+<li>RtlEqualUnicodeString</li>
+<li>ZwWriteFile</li>
+<li>ZwFlushKey</li>
+<li>ZwSetValueKey</li>
+<li>ZwQueryValueKey</li>
+<li>RtlRandom</li>
+<li>KeQuerySystemTime</li>
+<li>ZwDeleteKey</li>
+<li>ZwOpenKey</li>
+<li>ZwEnumerateKey</li>
+<li>IoFreeIrp</li>
+<li>KeSetEvent</li>
+<li>KeWaitForSingleObject</li>
+<li>KeGetCurrentThread</li>
+<li>KeInitializeEvent</li>
+<li>IoAllocateIrp</li>
+<li>IoGetRelatedDeviceObject</li>
+<li>ObReferenceObjectByHandle</li>
+<li>IoFileObjectType</li>
+<li>ObQueryNameString</li>
+<li>RtlCopyUnicodeString</li>
+<li>MmIsAddressValid</li>
+<li>PsGetProcessPeb</li>
+<li>RtlCreateUnicodeString</li>
+<li>ZwDeleteValueKey</li>
+<li>ZwCreateKey</li>
+<li>RtlFreeUnicodeString</li>
+<li>ZwDeleteFile</li>
+<li>PsRemoveLoadImageNotifyRoutine</li>
+<li>CmUnRegisterCallback</li>
+<li>PsSetLoadImageNotifyRoutine</li>
+<li>CmRegisterCallback</li>
+<li>ObReferenceObjectByName</li>
+<li>ZwFreeVirtualMemory</li>
+<li>ZwWaitForSingleObject</li>
+<li>KeUnstackDetachProcess</li>
+<li>KeStackAttachProcess</li>
+<li>ZwDuplicateObject</li>
+<li>PsGetProcessSessionId</li>
+<li>_strnicmp</li>
+<li>RtlSubAuthoritySid</li>
+<li>RtlSubAuthorityCountSid</li>
+<li>ZwQueryInformationToken</li>
+<li>ZwOpenProcessTokenEx</li>
+<li>PsTerminateSystemThread</li>
+<li>PsThreadType</li>
+<li>PsCreateSystemThread</li>
+<li>KeTickCount</li>
+<li>KeBugCheckEx</li>
+<li>_vsnprintf</li>
+<li>strncmp</li>
+<li>strchr</li>
+<li>strncpy</li>
+<li>strstr</li>
+<li>ExAllocatePool</li>
+<li>_stricmp</li>
+<li>rand</li>
+<li>ZwCreateFile</li>
+<li>IoBuildDeviceIoControlRequest</li>
+<li>MmProbeAndLockPages</li>
+<li>IoAllocateMdl</li>
+<li>_allshl</li>
+<li>RtlUnwind</li>
+</ul>
+</details>
+<h4 id="exportedfunctions-1">ExportedFunctions</h4>
+<details>
+  <summary>Expand</summary>
+</details>
+<h4 id="signature-1">Signature</h4>
+<details>
+  <summary>Expand</summary>
+  <pre tabindex="0"><code>{
+  &#34;Certificates&#34;: [
+    {
+      &#34;IsCertificateAuthority&#34;: true,
+      &#34;SerialNumber&#34;: &#34;61204db4000000000027&#34;,
+      &#34;Signature&#34;: &#34;208cc159ed6f9c6b2dc14a3e751d454c41501cbd80ead9b0928b062a133f53169e56396a8a63b6782479f57db8b947a10a96c2f6cbbda2669f06e1acd279090efd3cdcac020c70af3f1bec787ed4eb4b056026d973619121edb06863e09712ab6fa012edd99fd2da273cb3e456f9d1d4810f71bd427ca689dccdd5bd95a2abf193117de8ac3129a85d6670419dfc75c9d5b31a392ad08505508bac91cac493cb71a59da4946f580cfa6e20c40831b5859d7e81f9d23dca5b18856c0a86ec22091ba574344f7f28bc954aab1db698b05d09a477767eefa78e5d84f61824cbd16da6c3a19cc2107580ff9d32fde6cf433a82f7ce8fe1722a9b62b75fed951a395c2f946d48b7015f332fbbdc2d73348904420a1c8b79f9a3fa17effaa11a10dfe0b2c195eb5c0c05973b353e18884ddb6cbf24898dc8bdd89f7b393a24a0d5dfd1f34a1a97f6a66f7a1fb090a9b3ac013991d361b764f13e573803afce7ad2b590f5aedc3999d5b63c97eda6cb16c77d6b2a4c9094e64c54fd1ecd20ecce689c8758e96160beeb0ec9d5197d9fe978bd0eac2175078fa96ee08c6a2a6b9ce3e765bcbc2d3c6ddc04dc67453632af0481bca8006e614c95c55cd48e8e9f2fc13274bdbd11650307cdefb75e0257da86d41a2834af8849b2cfa5dd82566f68aa14e25954feffeaeeefea9270226081e32523c09fcc0f49b235aa58c33ac3d9169410&#34;,
+      &#34;SignatureAlgorithmOID&#34;: &#34;1.2.840.113549.1.1.5&#34;,
+      &#34;Subject&#34;: &#34;C=US, O=DigiCert Inc, OU=www.digicert.com, CN=DigiCert High Assurance EV Root CA&#34;,
+      &#34;TBS&#34;: {
+        &#34;MD5&#34;: &#34;8e3ffc222fbcebdbb8b23115ab259be7&#34;,
+        &#34;SHA1&#34;: &#34;ee20bff28ffe13be731c294c90d6ded5aae0ec0e&#34;,
+        &#34;SHA256&#34;: &#34;59826b69bc8c28118c96323b627da59aaca0b142cc5d8bad25a8fcfd399aa821&#34;
+      },
+      &#34;ValidFrom&#34;: &#34;2011-04-15 19:45:33&#34;,
+      &#34;ValidTo&#34;: &#34;2021-04-15 19:55:33&#34;,
+      &#34;Version&#34;: 3
+    },
+    {
+      &#34;IsCertificateAuthority&#34;: false,
+      &#34;SerialNumber&#34;: &#34;012eab44fa8853d913e7107c89406432&#34;,
+      &#34;Signature&#34;: &#34;9451eb3eee03a01f0c66d87dc537eb17f37bc157ec9037c05a55ee4a3d0c207c67b981841c2b642084bca0a3c65f8e8eb5413f3e897b267aad91044c4098319a1f703fa995afdc53896d20245af8c2829e80081d36135ac1acb414bf966fd0af157b3fc2dac8f616f2b794a76b0fb7b300db0c579f093e31dd739b43f09fb7a73c6c914d8453032ea14950246e80abfc7fbaff2597ab68b6f03d30d97edbee25c0e2786040a1770e26661867920f3b01132c4ac5dc9ef97ae59e7baad68fe1b2b12acc7ed54697e9d4025ced62ac9dca82104ac7dd8219b331fcbed72aab33b95fed0ef6a1f9831c8b68457be6b080ae3c9ae15df500a53b7b2a198ee71abd1b&#34;,
+      &#34;SignatureAlgorithmOID&#34;: &#34;1.2.840.113549.1.1.5&#34;,
+      &#34;Subject&#34;: &#34;??=CN, ??=?????????, ??=??????????????????????????????, ??=Private Organization, serialNumber=91420100MA4KN92W72, C=CN, ST=?????????, L=?????????, O=Wuhan Jiajia Yiyong Technology Co., Ltd., CN=Wuhan Jiajia Yiyong Technology Co., Ltd.&#34;,
+      &#34;TBS&#34;: {
+        &#34;MD5&#34;: &#34;5d40693a8cfc4fd21f0c610ed3ee8477&#34;,
+        &#34;SHA1&#34;: &#34;4dffeb59ea4c32c7b87c9fe44d55f5e622444824&#34;,
+        &#34;SHA256&#34;: &#34;d7380ff1b3d400fdf8cf2d8ab18ac65a071ae51c83cce017fa236fb530c4af74&#34;
+      },
+      &#34;ValidFrom&#34;: &#34;2020-11-17 00:00:00&#34;,
+      &#34;ValidTo&#34;: &#34;2023-11-12 23:59:59&#34;,
+      &#34;Version&#34;: 3
+    },
+    {
+      &#34;IsCertificateAuthority&#34;: true,
+      &#34;SerialNumber&#34;: &#34;0dd0e3374ac95bdbfa6b434b2a48ec06&#34;,
+      &#34;Signature&#34;: &#34;9e5b963a2e1288acab016da49f75e40187a3a532d7bcbaa97ea3d61417f7c2136b7c738f2b6ae50f265968b08e259b6ceffa6c939208c14dcf459e9c46d61e74a19b14a3fa012f4ab101e1724048111368b9369d914bd7c2391210c1c4dcbb6214142a615d4f387c661fc61bffadbe4f7f945b7343000f4d73b751cf0ef677c05bcd348cd96313aa0e6111d6f28e27fcb47bb8b91120918678ea0ed428ff2ad52438e837b2ec96bb9fbc4a1650e15ebf517d23a032c7c1949e7ac9c026a2cc2587a0127e749f2d8db1c8e784beb9d1e9debb6a4e887371e12238cb2487e9737e51b2ff98eb4e7e2fe0ca0efab35ed1ba0542a8489f83f63fc4caa8df68a05061&#34;,
+      &#34;SignatureAlgorithmOID&#34;: &#34;1.2.840.113549.1.1.5&#34;,
+      &#34;Subject&#34;: &#34;C=US, O=DigiCert Inc, OU=www.digicert.com, CN=DigiCert EV Code Signing CA&#34;,
+      &#34;TBS&#34;: {
+        &#34;MD5&#34;: &#34;f92649915476229b093c211c2b18e6c4&#34;,
+        &#34;SHA1&#34;: &#34;2d54c16a8f8b69ccdea48d0603c132f547a5cf75&#34;,
+        &#34;SHA256&#34;: &#34;2cd702a7dec30aa441345672e8992ef9770ce4946f276d767b45b0ed627658fb&#34;
+      },
+      &#34;ValidFrom&#34;: &#34;2012-04-18 12:00:00&#34;,
+      &#34;ValidTo&#34;: &#34;2027-04-18 12:00:00&#34;,
+      &#34;Version&#34;: 3
+    }
+  ],
+  &#34;CertificatesInfo&#34;: &#34;&#34;,
+  &#34;Signer&#34;: [
+    {
+      &#34;Issuer&#34;: &#34;C=US, O=DigiCert Inc, OU=www.digicert.com, CN=DigiCert EV Code Signing CA&#34;,
+      &#34;SerialNumber&#34;: &#34;012eab44fa8853d913e7107c89406432&#34;,
+      &#34;Version&#34;: 1
+    }
+  ],
+  &#34;SignerInfo&#34;: &#34;&#34;
+}
+</code></pre>
+</details>
+<hr>
+<table>
+<thead>
+<tr>
+<th style="text-align:left">Property</th>
+<th style="text-align:left">Value</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left">Filename</td>
+<td style="text-align:left">windbg.sys</td>
+</tr>
+<tr>
+<td style="text-align:left">MD5</td>
+<td style="text-align:left"><a href="https://www.virustotal.com/gui/file/40b968ecdbe9e967d92c5da51c390eee">40b968ecdbe9e967d92c5da51c390eee</a></td>
+</tr>
+<tr>
+<td style="text-align:left">SHA1</td>
+<td style="text-align:left"><a href="https://www.virustotal.com/gui/file/b8b123a413b7bccfa8433deba4f88669c969b543">b8b123a413b7bccfa8433deba4f88669c969b543</a></td>
+</tr>
+<tr>
+<td style="text-align:left">SHA256</td>
+<td style="text-align:left"><a href="https://www.virustotal.com/gui/file/06c5ebd0371342d18bc81a96f5e5ce28de64101e3c2fd0161d0b54d8368d2f1f">06c5ebd0371342d18bc81a96f5e5ce28de64101e3c2fd0161d0b54d8368d2f1f</a></td>
+</tr>
+<tr>
+<td style="text-align:left">Authentihash MD5</td>
+<td style="text-align:left"><a href="https://www.virustotal.com/gui/search/authentihash%253A98a3ab2b723de48256701b417ff87a65">98a3ab2b723de48256701b417ff87a65</a></td>
+</tr>
+<tr>
+<td style="text-align:left">Authentihash SHA1</td>
+<td style="text-align:left"><a href="https://www.virustotal.com/gui/search/authentihash%253Aff80d6663a92ff454526e88847cbb4d9bd00e21e">ff80d6663a92ff454526e88847cbb4d9bd00e21e</a></td>
+</tr>
+<tr>
+<td style="text-align:left">Authentihash SHA256</td>
+<td style="text-align:left"><a href="https://www.virustotal.com/gui/search/authentihash%253A79278979d9300670d1084493bbc03ae374efc5ab02850941e85753885fa88e47">79278979d9300670d1084493bbc03ae374efc5ab02850941e85753885fa88e47</a></td>
+</tr>
+<tr>
+<td style="text-align:left">RichPEHeaderHash MD5</td>
+<td style="text-align:left"><a href="https://www.virustotal.com/gui/search/rich_pe_header_hash%253A0b8725117e665d5272218cb41038327d">0b8725117e665d5272218cb41038327d</a></td>
+</tr>
+<tr>
+<td style="text-align:left">RichPEHeaderHash SHA1</td>
+<td style="text-align:left"><a href="https://www.virustotal.com/gui/search/rich_pe_header_hash%253Aa6dde20a0c8ba6cfe531ce1a57035b8d7b3d900a">a6dde20a0c8ba6cfe531ce1a57035b8d7b3d900a</a></td>
+</tr>
+<tr>
+<td style="text-align:left">RichPEHeaderHash SHA256</td>
+<td style="text-align:left"><a href="https://www.virustotal.com/gui/search/rich_pe_header_hash%253Ab54213d1248761579f5f569ab7e32402dd88a12622377d381f7eb55d4f4eb053">b54213d1248761579f5f569ab7e32402dd88a12622377d381f7eb55d4f4eb053</a></td>
+</tr>
+<tr>
+<td style="text-align:left">Company</td>
+<td style="text-align:left">Microsoft Corporation</td>
+</tr>
+<tr>
+<td style="text-align:left">Description</td>
+<td style="text-align:left">Windows GUI symbolic debugger</td>
+</tr>
+<tr>
+<td style="text-align:left">Product</td>
+<td style="text-align:left">Microsoft? Windows? Operating System</td>
+</tr>
+<tr>
+<td style="text-align:left">OriginalFilename</td>
+<td style="text-align:left">windbg.sys</td>
+</tr>
+</tbody>
+</table>
+<h4 id="certificates-2">Certificates</h4>
+<details>
+  <summary>Expand</summary>
+  <h6 id="certificate-33000000f5e8773b206b1ccd610000000000f5">Certificate 33000000f5e8773b206b1ccd610000000000f5</h6>
+<table>
+<thead>
+<tr>
+<th>Field</th>
+<th>Value</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>ToBeSigned (TBS) MD5</td>
+<td>bf6aed18e4c3fd6ac87330096df18117</td>
+</tr>
+<tr>
+<td>ToBeSigned (TBS) SHA1</td>
+<td>f96be504b875f1e63bf51eacc6768e4fdecddcc6</td>
+</tr>
+<tr>
+<td>ToBeSigned (TBS) SHA256</td>
+<td>76c137a4dd29ebb1cb6a5d319d17e7049ad6d524f9de5d47c24c14b16a4f0720</td>
+</tr>
+<tr>
+<td>Subject</td>
+<td>C=US, ST=Washington, L=Redmond, O=Microsoft Corporation, CN=Microsoft Windows Hardware Compatibility Publisher</td>
+</tr>
+<tr>
+<td>ValidFrom</td>
+<td>2023-01-12 19:14:52</td>
+</tr>
+<tr>
+<td>ValidTo</td>
+<td>2023-12-15 19:14:52</td>
+</tr>
+<tr>
+<td>Signature</td>
+<td>5548d9042f4a8d4776b5fccbacda2e58d5161fb7932287aa5da1c9afaca15c230908ed96adeb0f6a86dc3972a85de00fb4d4db0a52394116887998fd673f57a0520fa1e39806b348e555cfe5a419c501a0fbfbdb79e88d37656735fa6cd56d5c465fe3871f5157e357d73956d4586bd50508522be7e24d2357d7ab53e3ae46d2d168e52d0d15761eaab962c36ee0791cabd33869f11f9512772261cda6249f16f85772116cc0585975600e5fe949e1a2bb85820ddf901b9e48ee805aacd1c826a1304916e2180de5d3ecc2fc0375d3a877ab8a058dda7e05aa91727523e579d17ce0dce414612d9b638b1ff5ad74d654c5b7e638a3cca372c5f51db638794ed6</td>
+</tr>
+<tr>
+<td>SignatureAlgorithmOID</td>
+<td>1.2.840.113549.1.1.11</td>
+</tr>
+<tr>
+<td>IsCertificateAuthority</td>
+<td>False</td>
+</tr>
+<tr>
+<td>SerialNumber</td>
+<td>33000000f5e8773b206b1ccd610000000000f5</td>
+</tr>
+<tr>
+<td>Version</td>
+<td>3</td>
+</tr>
+</tbody>
+</table>
+<h6 id="certificate-610baac1000000000009">Certificate 610baac1000000000009</h6>
+<table>
+<thead>
+<tr>
+<th>Field</th>
+<th>Value</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>ToBeSigned (TBS) MD5</td>
+<td>a569061297e8e824767dbc3184a69bea</td>
+</tr>
+<tr>
+<td>ToBeSigned (TBS) SHA1</td>
+<td>adbb26a587a8f44b4fccaecb306f980d1c55a150</td>
+</tr>
+<tr>
+<td>ToBeSigned (TBS) SHA256</td>
+<td>cec1afd0e310c55c1dcc601ab8e172917706aa32fb5eaf826813547fdf02dd46</td>
+</tr>
+<tr>
+<td>Subject</td>
+<td>C=US, ST=Washington, L=Redmond, O=Microsoft Corporation, CN=Microsoft Windows Third Party Component CA 2012</td>
+</tr>
+<tr>
+<td>ValidFrom</td>
+<td>2012-04-18 23:48:38</td>
+</tr>
+<tr>
+<td>ValidTo</td>
+<td>2027-04-18 23:58:38</td>
+</tr>
+<tr>
+<td>Signature</td>
+<td>5a8a67daccd5fd0d264177bf0a4678b4b3de12692b7723c2652f015fd203f461ba509d2e8c3972f36c3e6ab11e766decb7f382dcccbbc56970287366173f54ebee011648c446d91b80ae813a8d0f796d68b09eea2d3f39d3ca387ebd5e7c086e19dcc6c2f438336861e2524783e1000156d2bacb878205310a418b4ee77f5f5fed5fd3392d45eba213bffd1ec298417161165fc80a70257c59693124e471e70abb0417f79f721ec9d2bb1abe3d02fe090cb243b4591a99539396215fe0d6b72601429536ac27fdbef48577683d18bdf4be98882211865216f345ec0397107087a37043713cdbc98603170cf5735bc67de15c64edd7c548d7ed32e2d1aad3cfa7f6574e61f977eb67f288b3de00da038fd08a34373e1dd862b8d2b1f3e12f8b723b81967c6ffcec667672601b24f2a0896d5b6d002eef28dd868705c2b4b9e5be64c22af24a155c98e2c42785ff52e3627e0fb2020bd766c70ab2d33d200414503259830a7d9bed5a38120152ba2f5e20728e4af1fde771028c3be107bec973f4dd47d8b4efb4a4b330b9893e76cab90098567eabea8ab8a5d038ab6977130b142fe9aa411ff7babd3a2b348aee0aab63e663f788248e200d2b3b9de3c24952ac9f1f0e393b5dd46e506ae67d523aaa7c3315290d265e0158a74ea93d7a846f743f609fe4324f3600af6d71d33ea646655f8174f1fec171da4ca0415a82ddf11f</td>
+</tr>
+<tr>
+<td>SignatureAlgorithmOID</td>
+<td>1.2.840.113549.1.1.11</td>
+</tr>
+<tr>
+<td>IsCertificateAuthority</td>
+<td>True</td>
+</tr>
+<tr>
+<td>SerialNumber</td>
+<td>610baac1000000000009</td>
+</tr>
+<tr>
+<td>Version</td>
+<td>3</td>
+</tr>
+</tbody>
+</table>
+</details>
+<h4 id="imports-4">Imports</h4>
+<details>
+  <summary>Expand</summary>
+  <ul>
+<li>ntoskrnl.exe</li>
+</ul>
+</details>
+<h4 id="imports-5">Imports</h4>
+<details>
+  <summary>Expand</summary>
+  <ul>
+<li>ntoskrnl.exe</li>
+</ul>
+</details>
+<h4 id="importedfunctions-2">ImportedFunctions</h4>
+<details>
+  <summary>Expand</summary>
+  <ul>
+<li>ExAllocatePoolWithTag</li>
+<li>PsProcessType</li>
+<li>IoGetLowerDeviceObject</li>
+<li>ExFreePoolWithTag</li>
+<li>IoRegisterShutdownNotification</li>
+<li>IoAttachDeviceToDeviceStackSafe</li>
+<li>PsLookupProcessByProcessId</li>
+<li>RtlInitUnicodeString</li>
+<li>IoDeleteDevice</li>
+<li>MmGetSystemRoutineAddress</li>
+<li>IoDetachDevice</li>
+<li>KeDelayExecutionThread</li>
+<li>IoUnregisterShutdownNotification</li>
+<li>ZwClose</li>
+<li>IoGetAttachedDeviceReference</li>
+<li>PsGetCurrentProcessId</li>
+<li>ObfDereferenceObject</li>
+<li>IoCreateDevice</li>
+<li>IoEnumerateDeviceObjectList</li>
+<li>IoUnregisterFsRegistrationChange</li>
+<li>ObOpenObjectByPointer</li>
+<li>IoRegisterFsRegistrationChange</li>
+<li>IofCallDriver</li>
+<li>MmUnmapLockedPages</li>
+<li>_wcsicmp</li>
+<li>PsGetProcessPeb</li>
+<li>ZwCreateKey</li>
+<li>RtlCreateUnicodeString</li>
+<li>MmMapLockedPages</li>
+<li>PsSetLoadImageNotifyRoutine</li>
+<li>_wcsnicmp</li>
+<li>ZwReadFile</li>
+<li>IoGetRelatedDeviceObject</li>
+<li>KeSetEvent</li>
+<li>IoCreateFile</li>
+<li>KeInitializeEvent</li>
+<li>ZwDeleteValueKey</li>
+<li>ZwSetValueKey</li>
+<li>RtlEqualUnicodeString</li>
+<li>MmBuildMdlForNonPagedPool</li>
+<li>IoFreeMdl</li>
+<li>RtlFreeUnicodeString</li>
+<li>ObQueryNameString</li>
+<li>IoFileObjectType</li>
+<li>ZwQueryValueKey</li>
+<li>_vsnwprintf</li>
+<li>RtlRandom</li>
+<li>ObReferenceObjectByHandle</li>
+<li>KeWaitForSingleObject</li>
+<li>PsRemoveLoadImageNotifyRoutine</li>
+<li>ZwFlushKey</li>
+<li>MmCreateMdl</li>
+<li>IoFreeIrp</li>
+<li>ZwDeleteFile</li>
+<li>PsGetVersion</li>
+<li>IoAllocateIrp</li>
+<li>CmRegisterCallback</li>
+<li>RtlCopyUnicodeString</li>
+<li>MmIsAddressValid</li>
+<li>CmUnRegisterCallback</li>
+<li>ZwQueryInformationFile</li>
+<li>ZwWriteFile</li>
+<li>ZwDeleteKey</li>
+<li>ZwEnumerateKey</li>
+<li>ZwAllocateVirtualMemory</li>
+<li>ZwOpenKey</li>
+<li>KeUnstackDetachProcess</li>
+<li>ZwWaitForSingleObject</li>
+<li>ZwFreeVirtualMemory</li>
+<li>PsGetProcessSessionId</li>
+<li>ZwDuplicateObject</li>
+<li>ObReferenceObjectByName</li>
+<li>KeStackAttachProcess</li>
+<li>RtlSubAuthoritySid</li>
+<li>_strnicmp</li>
+<li>ZwOpenProcessTokenEx</li>
+<li>PsCreateSystemThread</li>
+<li>PsTerminateSystemThread</li>
+<li>PsThreadType</li>
+<li>RtlSubAuthorityCountSid</li>
+<li>ZwQueryInformationToken</li>
+<li>KeBugCheckEx</li>
+<li>strncmp</li>
+<li>strstr</li>
+<li>strchr</li>
+<li>strncpy</li>
+<li>_vsnprintf</li>
+<li>rand</li>
+<li>_stricmp</li>
+<li>ExAllocatePool</li>
+<li>IoBuildDeviceIoControlRequest</li>
+<li>ZwCreateFile</li>
+<li>MmProbeAndLockPages</li>
+<li>IoAllocateMdl</li>
+<li>__C_specific_handler</li>
+</ul>
+</details>
+<h4 id="exportedfunctions-2">ExportedFunctions</h4>
+<details>
+  <summary>Expand</summary>
+</details>
+<h4 id="signature-2">Signature</h4>
+<details>
+  <summary>Expand</summary>
+  <pre tabindex="0"><code>{
+  &#34;Certificates&#34;: [
+    {
+      &#34;IsCertificateAuthority&#34;: true,
+      &#34;SerialNumber&#34;: &#34;61204db4000000000027&#34;,
+      &#34;Signature&#34;: &#34;208cc159ed6f9c6b2dc14a3e751d454c41501cbd80ead9b0928b062a133f53169e56396a8a63b6782479f57db8b947a10a96c2f6cbbda2669f06e1acd279090efd3cdcac020c70af3f1bec787ed4eb4b056026d973619121edb06863e09712ab6fa012edd99fd2da273cb3e456f9d1d4810f71bd427ca689dccdd5bd95a2abf193117de8ac3129a85d6670419dfc75c9d5b31a392ad08505508bac91cac493cb71a59da4946f580cfa6e20c40831b5859d7e81f9d23dca5b18856c0a86ec22091ba574344f7f28bc954aab1db698b05d09a477767eefa78e5d84f61824cbd16da6c3a19cc2107580ff9d32fde6cf433a82f7ce8fe1722a9b62b75fed951a395c2f946d48b7015f332fbbdc2d73348904420a1c8b79f9a3fa17effaa11a10dfe0b2c195eb5c0c05973b353e18884ddb6cbf24898dc8bdd89f7b393a24a0d5dfd1f34a1a97f6a66f7a1fb090a9b3ac013991d361b764f13e573803afce7ad2b590f5aedc3999d5b63c97eda6cb16c77d6b2a4c9094e64c54fd1ecd20ecce689c8758e96160beeb0ec9d5197d9fe978bd0eac2175078fa96ee08c6a2a6b9ce3e765bcbc2d3c6ddc04dc67453632af0481bca8006e614c95c55cd48e8e9f2fc13274bdbd11650307cdefb75e0257da86d41a2834af8849b2cfa5dd82566f68aa14e25954feffeaeeefea9270226081e32523c09fcc0f49b235aa58c33ac3d9169410&#34;,
+      &#34;SignatureAlgorithmOID&#34;: &#34;1.2.840.113549.1.1.5&#34;,
+      &#34;Subject&#34;: &#34;C=US, O=DigiCert Inc, OU=www.digicert.com, CN=DigiCert High Assurance EV Root CA&#34;,
+      &#34;TBS&#34;: {
+        &#34;MD5&#34;: &#34;8e3ffc222fbcebdbb8b23115ab259be7&#34;,
+        &#34;SHA1&#34;: &#34;ee20bff28ffe13be731c294c90d6ded5aae0ec0e&#34;,
+        &#34;SHA256&#34;: &#34;59826b69bc8c28118c96323b627da59aaca0b142cc5d8bad25a8fcfd399aa821&#34;
+      },
+      &#34;ValidFrom&#34;: &#34;2011-04-15 19:45:33&#34;,
+      &#34;ValidTo&#34;: &#34;2021-04-15 19:55:33&#34;,
+      &#34;Version&#34;: 3
+    },
+    {
+      &#34;IsCertificateAuthority&#34;: false,
+      &#34;SerialNumber&#34;: &#34;012eab44fa8853d913e7107c89406432&#34;,
+      &#34;Signature&#34;: &#34;9451eb3eee03a01f0c66d87dc537eb17f37bc157ec9037c05a55ee4a3d0c207c67b981841c2b642084bca0a3c65f8e8eb5413f3e897b267aad91044c4098319a1f703fa995afdc53896d20245af8c2829e80081d36135ac1acb414bf966fd0af157b3fc2dac8f616f2b794a76b0fb7b300db0c579f093e31dd739b43f09fb7a73c6c914d8453032ea14950246e80abfc7fbaff2597ab68b6f03d30d97edbee25c0e2786040a1770e26661867920f3b01132c4ac5dc9ef97ae59e7baad68fe1b2b12acc7ed54697e9d4025ced62ac9dca82104ac7dd8219b331fcbed72aab33b95fed0ef6a1f9831c8b68457be6b080ae3c9ae15df500a53b7b2a198ee71abd1b&#34;,
+      &#34;SignatureAlgorithmOID&#34;: &#34;1.2.840.113549.1.1.5&#34;,
+      &#34;Subject&#34;: &#34;??=CN, ??=?????????, ??=??????????????????????????????, ??=Private Organization, serialNumber=91420100MA4KN92W72, C=CN, ST=?????????, L=?????????, O=Wuhan Jiajia Yiyong Technology Co., Ltd., CN=Wuhan Jiajia Yiyong Technology Co., Ltd.&#34;,
+      &#34;TBS&#34;: {
+        &#34;MD5&#34;: &#34;5d40693a8cfc4fd21f0c610ed3ee8477&#34;,
+        &#34;SHA1&#34;: &#34;4dffeb59ea4c32c7b87c9fe44d55f5e622444824&#34;,
+        &#34;SHA256&#34;: &#34;d7380ff1b3d400fdf8cf2d8ab18ac65a071ae51c83cce017fa236fb530c4af74&#34;
+      },
+      &#34;ValidFrom&#34;: &#34;2020-11-17 00:00:00&#34;,
+      &#34;ValidTo&#34;: &#34;2023-11-12 23:59:59&#34;,
+      &#34;Version&#34;: 3
+    },
+    {
+      &#34;IsCertificateAuthority&#34;: true,
+      &#34;SerialNumber&#34;: &#34;0dd0e3374ac95bdbfa6b434b2a48ec06&#34;,
+      &#34;Signature&#34;: &#34;9e5b963a2e1288acab016da49f75e40187a3a532d7bcbaa97ea3d61417f7c2136b7c738f2b6ae50f265968b08e259b6ceffa6c939208c14dcf459e9c46d61e74a19b14a3fa012f4ab101e1724048111368b9369d914bd7c2391210c1c4dcbb6214142a615d4f387c661fc61bffadbe4f7f945b7343000f4d73b751cf0ef677c05bcd348cd96313aa0e6111d6f28e27fcb47bb8b91120918678ea0ed428ff2ad52438e837b2ec96bb9fbc4a1650e15ebf517d23a032c7c1949e7ac9c026a2cc2587a0127e749f2d8db1c8e784beb9d1e9debb6a4e887371e12238cb2487e9737e51b2ff98eb4e7e2fe0ca0efab35ed1ba0542a8489f83f63fc4caa8df68a05061&#34;,
+      &#34;SignatureAlgorithmOID&#34;: &#34;1.2.840.113549.1.1.5&#34;,
+      &#34;Subject&#34;: &#34;C=US, O=DigiCert Inc, OU=www.digicert.com, CN=DigiCert EV Code Signing CA&#34;,
+      &#34;TBS&#34;: {
+        &#34;MD5&#34;: &#34;f92649915476229b093c211c2b18e6c4&#34;,
+        &#34;SHA1&#34;: &#34;2d54c16a8f8b69ccdea48d0603c132f547a5cf75&#34;,
+        &#34;SHA256&#34;: &#34;2cd702a7dec30aa441345672e8992ef9770ce4946f276d767b45b0ed627658fb&#34;
+      },
+      &#34;ValidFrom&#34;: &#34;2012-04-18 12:00:00&#34;,
+      &#34;ValidTo&#34;: &#34;2027-04-18 12:00:00&#34;,
+      &#34;Version&#34;: 3
+    }
+  ],
+  &#34;CertificatesInfo&#34;: &#34;&#34;,
+  &#34;Signer&#34;: [
+    {
+      &#34;Issuer&#34;: &#34;C=US, O=DigiCert Inc, OU=www.digicert.com, CN=DigiCert EV Code Signing CA&#34;,
+      &#34;SerialNumber&#34;: &#34;012eab44fa8853d913e7107c89406432&#34;,
+      &#34;Version&#34;: 1
+    }
+  ],
+  &#34;SignerInfo&#34;: &#34;&#34;
+}
+</code></pre>
+</details>
+<hr>
+<p><a href="https://github.com/cvelist/cvelist/tree/main/yaml/9c3c6e89-3916-498f-81e5-da057ab3ed42.yaml"><em>source</em></a></p>
+<p><em>last_updated:</em> 2023-07-11</p>
+</div>
+
+</section>
+
+
+</div>
+      </div></div>
+  
+<footer class="pt-2 pb-2">
+  <div class="wrap">
+    <p>&copy; <span class="year">2023</span> <a href ="https://cvelist.github.io/about" target="_blank" rel="noopener">With ♥️ from Magicsword</a></p>
+    <a href="#pagetop" id="toTop" title=Back&#32;to&#32;top></a>
+  </div>
+</footer>
+
+
+<svg width="0" height="0" class="hidden">
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 492.004 492.004" id="next">
+    <path d="M484.14 226.886L306.46 49.202c-5.072-5.072-11.832-7.856-19.04-7.856-7.216 0-13.972 2.788-19.044 7.856l-16.132 16.136c-5.068 5.064-7.86 11.828-7.86 19.04 0 7.208 2.792 14.2 7.86 19.264L355.9 207.526H26.58C11.732 207.526 0 219.15 0 234.002v22.812c0 14.852 11.732 27.648 26.58 27.648h330.496L252.248 388.926c-5.068 5.072-7.86 11.652-7.86 18.864 0 7.204 2.792 13.88 7.86 18.948l16.132 16.084c5.072 5.072 11.828 7.836 19.044 7.836 7.208 0 13.968-2.8 19.04-7.872l177.68-177.68c5.084-5.088 7.88-11.88 7.86-19.1.016-7.244-2.776-14.04-7.864-19.12z"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 511.999 511.999" id="search">
+    <path d="M508.874 478.708L360.142 329.976c28.21-34.827 45.191-79.103 45.191-127.309C405.333 90.917 314.416 0 202.666 0S0 90.917 0 202.667s90.917 202.667 202.667 202.667c48.206 0 92.482-16.982 127.309-45.191l148.732 148.732c4.167 4.165 10.919 4.165 15.086 0l15.081-15.082c4.165-4.166 4.165-10.92-.001-15.085zM202.667 362.667c-88.229 0-160-71.771-160-160s71.771-160 160-160 160 71.771 160 160-71.771 160-160 160z"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 241 179" id="harmburger">
+    <path d="M1 10C1 4.477 5.477 0 11 0h220c5.523 0 10 4.477 10 10s-4.477 10-10 10H11C5.477 20 1 15.523 1 10zm0 80c0-5.523 4.477-10 10-10h220c5.523 0 10 4.477 10 10s-4.477 10-10 10H11c-5.523 0-10-4.477-10-10zm9 69c-5.523 0-10 4.477-10 10s4.477 10 10 10h220c5.523 0 10-4.477 10-10s-4.477-10-10-10H10z"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 401.998 401.998" id="sort">
+    <path d="M73.092 164.452h255.813c4.949 0 9.233-1.807 12.848-5.424 3.613-3.616 5.427-7.898 5.427-12.847s-1.813-9.229-5.427-12.85L213.846 5.424C210.232 1.812 205.951 0 200.999 0s-9.233 1.812-12.85 5.424L60.242 133.331c-3.617 3.617-5.424 7.901-5.424 12.85 0 4.948 1.807 9.231 5.424 12.847 3.621 3.617 7.902 5.424 12.85 5.424zm255.813 73.097H73.092c-4.952 0-9.233 1.808-12.85 5.421-3.617 3.617-5.424 7.898-5.424 12.847s1.807 9.233 5.424 12.848L188.149 396.57c3.621 3.617 7.902 5.428 12.85 5.428s9.233-1.811 12.847-5.428l127.907-127.906c3.613-3.614 5.427-7.898 5.427-12.848 0-4.948-1.813-9.229-5.427-12.847-3.614-3.616-7.899-5.42-12.848-5.42z"></path>
+  </symbol>
+</svg>
+
+<svg width="0" height="0" class="hidden">
+  <symbol viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg" id="facebook">
+    <path d="M437 0H75C33.648 0 0 33.648 0 75v362c0 41.352 33.648 75 75 75h151V331h-60v-90h60v-61c0-49.629 40.371-90 90-90h91v90h-91v61h91l-15 90h-76v181h121c41.352 0 75-33.648 75-75V75c0-41.352-33.648-75-75-75zm0 0"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 18.001 18.001" id="twitter">
+    <path d="M15.891 4.013c.808-.496 1.343-1.173 1.605-2.034a8.68 8.68 0 0 1-2.351.861c-.703-.756-1.593-1.14-2.66-1.14-1.043 0-1.924.366-2.643 1.078a3.56 3.56 0 0 0-1.076 2.605c0 .309.039.585.117.819-3.076-.105-5.622-1.381-7.628-3.837-.34.601-.51 1.213-.51 1.846 0 1.301.549 2.332 1.645 3.089-.625-.053-1.176-.211-1.645-.47 0 .929.273 1.705.82 2.388a3.623 3.623 0 0 0 2.115 1.291c-.312.08-.641.118-.979.118-.312 0-.533-.026-.664-.083.23.757.664 1.371 1.291 1.841a3.652 3.652 0 0 0 2.152.743C4.148 14.173 2.625 14.69.902 14.69c-.422 0-.721-.006-.902-.038 1.697 1.102 3.586 1.649 5.676 1.649 2.139 0 4.029-.542 5.674-1.626 1.645-1.078 2.859-2.408 3.639-3.974a10.77 10.77 0 0 0 1.172-4.892v-.468a7.788 7.788 0 0 0 1.84-1.921 8.142 8.142 0 0 1-2.11.593z"
+      ></path>
+  </symbol>
+  <symbol aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" id="mail">
+    <path  d="M502.3 190.8c3.9-3.1 9.7-.2 9.7 4.7V400c0 26.5-21.5 48-48 48H48c-26.5 0-48-21.5-48-48V195.6c0-5 5.7-7.8 9.7-4.7 22.4 17.4 52.1 39.5 154.1 113.6 21.1 15.4 56.7 47.8 92.2 47.6 35.7.3 72-32.8 92.3-47.6 102-74.1 131.6-96.3 154-113.7zM256 320c23.2.4 56.6-29.2 73.4-41.4 132.7-96.3 142.8-104.7 173.4-128.7 5.8-4.5 9.2-11.5 9.2-18.9v-19c0-26.5-21.5-48-48-48H48C21.5 64 0 85.5 0 112v19c0 7.4 3.4 14.3 9.2 18.9 30.6 23.9 40.7 32.4 173.4 128.7 16.8 12.2 50.2 41.8 73.4 41.4z"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" id="calendar">
+    <path d="M452 40h-24V0h-40v40H124V0H84v40H60C26.916 40 0 66.916 0 100v352c0 33.084 26.916 60 60 60h392c33.084 0 60-26.916 60-60V100c0-33.084-26.916-60-60-60zm20 412c0 11.028-8.972 20-20 20H60c-11.028 0-20-8.972-20-20V188h432v264zm0-304H40v-48c0-11.028 8.972-20 20-20h24v40h40V80h264v40h40V80h24c11.028 0 20 8.972 20 20v48z"></path>
+    <path d="M76 230h40v40H76zm80 0h40v40h-40zm80 0h40v40h-40zm80 0h40v40h-40zm80 0h40v40h-40zM76 310h40v40H76zm80 0h40v40h-40zm80 0h40v40h-40zm80 0h40v40h-40zM76 390h40v40H76zm80 0h40v40h-40zm80 0h40v40h-40zm80 0h40v40h-40zm80-80h40v40h-40z"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" id="github">
+    <path d="M255.968 5.329C114.624 5.329 0 120.401 0 262.353c0 113.536 73.344 209.856 175.104 243.872 12.8 2.368 17.472-5.568 17.472-12.384 0-6.112-.224-22.272-.352-43.712-71.2 15.52-86.24-34.464-86.24-34.464-11.616-29.696-28.416-37.6-28.416-37.6-23.264-15.936 1.728-15.616 1.728-15.616 25.696 1.824 39.2 26.496 39.2 26.496 22.848 39.264 59.936 27.936 74.528 21.344 2.304-16.608 8.928-27.936 16.256-34.368-56.832-6.496-116.608-28.544-116.608-127.008 0-28.064 9.984-51.008 26.368-68.992-2.656-6.496-11.424-32.64 2.496-68 0 0 21.504-6.912 70.4 26.336 20.416-5.696 42.304-8.544 64.096-8.64 21.728.128 43.648 2.944 64.096 8.672 48.864-33.248 70.336-26.336 70.336-26.336 13.952 35.392 5.184 61.504 2.56 68 16.416 17.984 26.304 40.928 26.304 68.992 0 98.72-59.84 120.448-116.864 126.816 9.184 7.936 17.376 23.616 17.376 47.584 0 34.368-.32 62.08-.32 70.496 0 6.88 4.608 14.88 17.6 12.352C438.72 472.145 512 375.857 512 262.353 512 120.401 397.376 5.329 255.968 5.329z"></path>
+  </symbol>
+  <symbol viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" id="rss">
+    <circle cx="3.429" cy="20.571" r="3.429"></circle>
+    <path d="M11.429 24h4.57C15.999 15.179 8.821 8.001 0 8v4.572c6.302.001 11.429 5.126 11.429 11.428z"></path>
+    <path d="M24 24C24 10.766 13.234 0 0 0v4.571c10.714 0 19.43 8.714 19.43 19.429z"></path>
+  </symbol>
+  <symbol viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg" id="linkedin">
+    <path d="M437 0H75C33.648 0 0 33.648 0 75v362c0 41.352 33.648 75 75 75h362c41.352 0 75-33.648 75-75V75c0-41.352-33.648-75-75-75zM181 406h-60V196h60zm0-240h-60v-60h60zm210 240h-60V286c0-16.54-13.46-30-30-30s-30 13.46-30 30v120h-60V196h60v11.309C286.719 202.422 296.93 196 316 196c40.691.043 75 36.547 75 79.688zm0 0"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 612 612" id="arrow">
+    <path d="M604.501 440.509L325.398 134.956c-5.331-5.357-12.423-7.627-19.386-7.27-6.989-.357-14.056 1.913-19.387 7.27L7.499 440.509c-9.999 10.024-9.999 26.298 0 36.323s26.223 10.024 36.222 0l262.293-287.164L568.28 476.832c9.999 10.024 26.222 10.024 36.221 0 9.999-10.023 9.999-26.298 0-36.323z"></path>
+  </symbol>
+  <symbol aria-hidden="true" viewBox="0 0 24 24" id="carly">
+    <path fill="currentColor" d="M4 19h6v-2H4v2zM20 5H4v2h16V5zm-3 6H4v2h13.25c1.1 0 2 .9 2 2s-.9 2-2 2H15v-2l-3 3l3 3v-2h2c2.21 0 4-1.79 4-4s-1.79-4-4-4z"></path>
+  </symbol>
+  <symbol viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" id="copy" fill="currentColor">
+    <path d="M23 2.75A2.75 2.75 0 0 0 20.25 0H8.75A2.75 2.75 0 0 0 6 2.75v13.5A2.75 2.75 0 0 0 8.75 19h11.5A2.75 2.75 0 0 0 23 16.25zM18.25 14.5h-7.5a.75.75 0 0 1 0-1.5h7.5a.75.75 0 0 1 0 1.5zm0-3h-7.5a.75.75 0 0 1 0-1.5h7.5a.75.75 0 0 1 0 1.5zm0-3h-7.5a.75.75 0 0 1 0-1.5h7.5a.75.75 0 0 1 0 1.5z"></path>
+    <path d="M8.75 20.5a4.255 4.255 0 0 1-4.25-4.25V2.75c0-.086.02-.166.025-.25H3.75A2.752 2.752 0 0 0 1 5.25v16A2.752 2.752 0 0 0 3.75 24h12a2.752 2.752 0 0 0 2.75-2.75v-.75z"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512.001 512.001" id="closeme">
+    <path d="M284.286 256.002L506.143 34.144c7.811-7.811 7.811-20.475 0-28.285-7.811-7.81-20.475-7.811-28.285 0L256 227.717 34.143 5.859c-7.811-7.811-20.475-7.811-28.285 0-7.81 7.811-7.811 20.475 0 28.285l221.857 221.857L5.858 477.859c-7.811 7.811-7.811 20.475 0 28.285a19.938 19.938 0 0 0 14.143 5.857 19.94 19.94 0 0 0 14.143-5.857L256 284.287l221.857 221.857c3.905 3.905 9.024 5.857 14.143 5.857s10.237-1.952 14.143-5.857c7.811-7.811 7.811-20.475 0-28.285L284.286 256.002z"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" id="open-menu">
+    <path d="M492 236H20c-11.046 0-20 8.954-20 20s8.954 20 20 20h472c11.046 0 20-8.954 20-20s-8.954-20-20-20zm0-160H20C8.954 76 0 84.954 0 96s8.954 20 20 20h472c11.046 0 20-8.954 20-20s-8.954-20-20-20zm0 320H20c-11.046 0-20 8.954-20 20s8.954 20 20 20h472c11.046 0 20-8.954 20-20s-8.954-20-20-20z"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" id="instagram">
+    <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" id="youtube">
+    <path d="M19.615 3.184c-3.604-.246-11.631-.245-15.23 0-3.897.266-4.356 2.62-4.385 8.816.029 6.185.484 8.549 4.385 8.816 3.6.245 11.626.246 15.23 0 3.897-.266 4.356-2.62 4.385-8.816-.029-6.185-.484-8.549-4.385-8.816zm-10.615 12.816v-8l8 3.993-8 4.007z"/>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" id="stackoverflow">
+    <path d="M21 27v-8h3v11H0V19h3v8h18z"></path><path d="M17.1.2L15 1.8l7.9 10.6 2.1-1.6L17.1.2zm3.7 14.7L10.6 6.4l1.7-2 10.2 8.5-1.7 2zM7.2 12.3l12 5.6 1.1-2.4-12-5.6-1.1 2.4zm-1.8 6.8l13.56 1.96.17-2.38-13.26-2.55-.47 2.97zM19 25H5v-3h14v3z"></path>
+  </symbol>
+</svg>
+
+
+<script src="/cvelist.github.io/js/bundle.2fc77b6c985082c66f35d2586a2fd14d6a302711b3b7633d28c3a3c66e9ef6e74d9fcc534bfb802cd174773560722e5a336a7cb7ea92503b8222c58bfe4103a4.js"></script>
+</body>
+</html>

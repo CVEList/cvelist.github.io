@@ -205,10 +205,10 @@ def generate_doc_drivers(REPO_PATH, OUTPUT_DIR, TEMPLATE_PATH, messages, VERBOSE
 if __name__ == "__main__":
 
     # grab arguments
-    parser = argparse.ArgumentParser(description="Generates boss-net.github.io/risksdrivers site", epilog="""
-    This tool converts all boss-net.github.io/risksdrivers yamls and builds the site with all the supporting components.""")
+    parser = argparse.ArgumentParser(description="Generates cvelist.github.io site", epilog="""
+    This tool converts all cvelist.github.io yamls and builds the site with all the supporting components.""")
     parser.add_argument("-p", "--path", required=False, default="yaml", help="path to loldriver yaml folder. Defaults to `yaml`")
-    parser.add_argument("-o", "--output", required=False, default="boss-net.github.io/risksdrivers", help="path to the output directory for the site, defaults to `boss-net.github.io/risksdrivers`")
+    parser.add_argument("-o", "--output", required=False, default="cvelist.github.io", help="path to the output directory for the site, defaults to `cvelist.github.io`")
     parser.add_argument("-v", "--verbose", required=False, default=False, action='store_true', help="prints verbose output")
 
     # parse them

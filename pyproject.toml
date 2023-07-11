@@ -1,7 +1,7 @@
 [tool.poetry]
-name = "risksdrivers"
+name = "cvelist"
 version = "0.1.0"
-description = "risksdrivers data generator"
+description = "cvelist data generator"
 authors = ["Your Name <you@example.com>"]
 
 [tool.poetry.dependencies]

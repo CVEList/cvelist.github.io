@@ -1,0 +1,9 @@
+baseURL = "https://www.cvelist.github.io/"
+title = "cvelist"
+enableRobotsTXT = true
+theme = ["compose"] # loading from local
+enableGitInfo = true
+# Google Analytics
+googleAnalytics = "G-33C5VXLWPQ"
+[outputs]
+  home = ["HTML", "RSS","JSON"]

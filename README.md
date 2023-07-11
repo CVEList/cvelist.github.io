@@ -1,8 +1,8 @@
-# risksDrivers - Living Off The Land Drivers 🚗💨
+# cvelist - Living Off The Land Drivers 🚗💨
 
-![CI build](https://github.com/boss-net/risksDrivers/actions/workflows/validate.yml/badge.svg)
+![CI build](https://github.com/cvelist/cvelist/actions/workflows/validate.yml/badge.svg)
 
-Welcome to risksDrivers (Living Off The Land Drivers), an exciting open-source project that brings together vulnerable, malicious, and known malicious Windows drivers in one comprehensive repository. Our mission is to empower organizations of all sizes with the knowledge and tools to understand and address driver-related security risks, making their systems safer and more reliable.
+Welcome to cvelist (Living Off The Land Drivers), an exciting open-source project that brings together vulnerable, malicious, and known malicious Windows drivers in one comprehensive repository. Our mission is to empower organizations of all sizes with the knowledge and tools to understand and address driver-related security risks, making their systems safer and more reliable.
 
 ## Key Features
 
@@ -11,7 +11,7 @@ Welcome to risksDrivers (Living Off The Land Drivers), an exciting open-source p
 - Easy-to-navigate categories and indices for quick access to relevant information
 - Seamless integration with Sigma for proactive defense using hash prevention
 
-## How risksDrivers Can Help Your Organization
+## How cvelist Can Help Your Organization
 
 - Enhance visibility into vulnerable drivers within your infrastructure, fostering a stronger security posture
 - Stay ahead of the curve by being informed about the latest driver-related threats and vulnerabilities
@@ -20,19 +20,19 @@ Welcome to risksDrivers (Living Off The Land Drivers), an exciting open-source p
 
 ## Getting Started
 
-To begin your journey with risksDrivers, simply check out the [risksDrivers.io](https://boss-net.github.io/risksdrivers/) site or clone the repository and explore the wealth of information available in the categorized directories. We've designed the site to help you easily find the insights you need to protect your systems from vulnerable drivers.
+To begin your journey with cvelist, simply check out the [cvelist.io](https://cvelist.github.io/) site or clone the repository and explore the wealth of information available in the categorized directories. We've designed the site to help you easily find the insights you need to protect your systems from vulnerable drivers.
 
-To assist in speeding up the creating of a yaml file, check out [risksdrivers.streamlit.app](https://risksdrivers.streamlit.app)
+To assist in speeding up the creating of a yaml file, check out [cvelist.streamlit.app](https://cvelist.streamlit.app)
 
 ## Support 📞
 
-Please use the [GitHub issue tracker](https://github.com/boss-net/risksDrivers/issues) to submit bugs or request features.
+Please use the [GitHub issue tracker](https://github.com/cvelist/cvelist/issues) to submit bugs or request features.
 
 ## 🤝 Contributing & Making PRs
 
-Stay engaged with the risksDrivers community by regularly checking for updates and contributing to the project. Your involvement will help ensure the project remains up-to-date and even more valuable to others.
+Stay engaged with the cvelist community by regularly checking for updates and contributing to the project. Your involvement will help ensure the project remains up-to-date and even more valuable to others.
 
-Join us in our quest to create a safer and more secure digital environment for organizations everywhere. With risksDrivers by your side, you'll be well-equipped to tackle driver-related security risks and confidently navigate the ever-evolving cyber landscape.
+Join us in our quest to create a safer and more secure digital environment for organizations everywhere. With cvelist by your side, you'll be well-equipped to tackle driver-related security risks and confidently navigate the ever-evolving cyber landscape.
 
 If you'd like to contribute, please follow these steps:
 
@@ -46,7 +46,7 @@ For more detailed instructions, please refer to the [CONTRIBUTING.md](CONTRIBUTI
 
 ## 🚨 Sigma and Sysmon Detection
 
-risksDrivers provides comprehensive Sigma and Sysmon detection rules to help you effectively detect potential threats. To explore these rules in detail, navigate to the [sigma](detections/sigma/) and [sysmon](detections/sysmon/) directories under the detection folder.
+cvelist provides comprehensive Sigma and Sysmon detection rules to help you effectively detect potential threats. To explore these rules in detail, navigate to the [sigma](detections/sigma/) and [sysmon](detections/sysmon/) directories under the detection folder.
 
 Happy hunting! 🕵️‍♂️
 
@@ -74,13 +74,13 @@ C:\WINDOWS\System32\DriverStore\FileRepository
 1. Clone the repository:
 
 ```
-git clone https://github.com/boss-net/risksDrivers.git
+git clone https://github.com/cvelist/cvelist.git
 ```
 
 2. Change to the project directory:
 
 ```
-cd risksDrivers
+cd cvelist
 ```
 
 3. Install dependencies:
@@ -104,5 +104,5 @@ python bin/site.py
 6. Run the website locally:
 
 ```
-cd boss-net.github.io/risksdrivers && hugo serve
+cd cvelist.github.io && hugo serve
 ```

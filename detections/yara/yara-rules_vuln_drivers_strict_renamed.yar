@@ -1,9 +1,9 @@
 
 rule PUA_VULN_Renamed_Driver_Cpuid_Cpuzsys_Cpuidservice_34BE {
 	meta:
-		description = "Detects renamed vulnerable driver mentioned in risksDrivers project using VersionInfo values from the PE header - cpuz.sys"
+		description = "Detects renamed vulnerable driver mentioned in cvelist project using VersionInfo values from the PE header - cpuz.sys"
 		author = "Florian Roth"
-		reference = "https://github.com/boss-net/risksDrivers"
+		reference = "https://github.com/cvelist/cvelist"
 		hash = "34bee22c18ddbddbe115cf1ab55cabf0e482aba1eb2c343153577fb24b7226d3"
 		hash = "5177a3b7393fb5855b2ec0a45d4c91660b958ee077e76e5a7d0669f2e04bcf02"
 		hash = "ee45fd2d7315fd039f3585a66e7855ba4af9d4721e1448e602623de14e932bbe"
@@ -26,9 +26,9 @@ rule PUA_VULN_Renamed_Driver_Cpuid_Cpuzsys_Cpuidservice_34BE {
 
 rule PUA_VULN_Renamed_Driver_Zemanaltd_Zam_D7E0 {
 	meta:
-		description = "Detects renamed vulnerable driver mentioned in risksDrivers project using VersionInfo values from the PE header - zam64.sys"
+		description = "Detects renamed vulnerable driver mentioned in cvelist project using VersionInfo values from the PE header - zam64.sys"
 		author = "Florian Roth"
-		reference = "https://github.com/boss-net/risksDrivers"
+		reference = "https://github.com/cvelist/cvelist"
 		hash = "d7e091e0d478c34232e8479b950c5513077b3a69309885cee4c61063e5f74ac0"
 		date = "2023-06-14"
 		score = 70
@@ -46,9 +46,9 @@ rule PUA_VULN_Renamed_Driver_Zemanaltd_Zam_D7E0 {
 
 rule PUA_VULN_Renamed_Driver_Eldoscorporation_Elrawdsksys_Rawdisk_4744 {
 	meta:
-		description = "Detects renamed vulnerable driver mentioned in risksDrivers project using VersionInfo values from the PE header - elrawdsk.sys"
+		description = "Detects renamed vulnerable driver mentioned in cvelist project using VersionInfo values from the PE header - elrawdsk.sys"
 		author = "Florian Roth"
-		reference = "https://github.com/boss-net/risksDrivers"
+		reference = "https://github.com/cvelist/cvelist"
 		hash = "4744df6ac02ff0a3f9ad0bf47b15854bbebb73c936dd02f7c79293a2828406f6"
 		hash = "5a826b4fa10891cf63aae832fc645ce680a483b915c608ca26cedbb173b1b80a"
 		date = "2023-06-14"
@@ -69,9 +69,9 @@ rule PUA_VULN_Renamed_Driver_Eldoscorporation_Elrawdsksys_Rawdisk_4744 {
 
 rule PUA_VULN_Renamed_Driver_Gigabytetechnologycoltd_Gdrvsys_Gigabytesoftwaredriver_81AA {
 	meta:
-		description = "Detects renamed vulnerable driver mentioned in risksDrivers project using VersionInfo values from the PE header - gdrv.sys"
+		description = "Detects renamed vulnerable driver mentioned in cvelist project using VersionInfo values from the PE header - gdrv.sys"
 		author = "Florian Roth"
-		reference = "https://github.com/boss-net/risksDrivers"
+		reference = "https://github.com/cvelist/cvelist"
 		hash = "81aafae4c4158d0b9a6431aff0410745a0f6a43fb20a9ab316ffeb8c2e2ccac0"
 		date = "2023-06-14"
 		score = 70
@@ -91,9 +91,9 @@ rule PUA_VULN_Renamed_Driver_Gigabytetechnologycoltd_Gdrvsys_Gigabytesoftwaredri
 
 rule PUA_VULN_Renamed_Driver_Advancedmicrodevices_Amdryzenmasterdriversys_Amdryzenmasterservicedriver_F6CD {
 	meta:
-		description = "Detects renamed vulnerable driver mentioned in risksDrivers project using VersionInfo values from the PE header - AMDRyzenMasterDriver.sys"
+		description = "Detects renamed vulnerable driver mentioned in cvelist project using VersionInfo values from the PE header - AMDRyzenMasterDriver.sys"
 		author = "Florian Roth"
-		reference = "https://github.com/boss-net/risksDrivers"
+		reference = "https://github.com/cvelist/cvelist"
 		hash = "f6cd7353cb6e86e98d387473ed6340f9b44241867508e209e944f548b9db1d5f"
 		date = "2023-06-14"
 		score = 70
@@ -113,9 +113,9 @@ rule PUA_VULN_Renamed_Driver_Advancedmicrodevices_Amdryzenmasterdriversys_Amdryz
 
 rule PUA_VULN_Renamed_Driver_Avgtechnologiesczsro_Aswarpotsys_Avginternetsecuritysystem_2594 {
 	meta:
-		description = "Detects renamed vulnerable driver mentioned in risksDrivers project using VersionInfo values from the PE header - aswArPot.sys, avgArPot.sys"
+		description = "Detects renamed vulnerable driver mentioned in cvelist project using VersionInfo values from the PE header - aswArPot.sys, avgArPot.sys"
 		author = "Florian Roth"
-		reference = "https://github.com/boss-net/risksDrivers"
+		reference = "https://github.com/cvelist/cvelist"
 		hash = "2594b3ef3675ca3a7b465b8ed4962e3251364bab13b12af00ebba7fa2211abb2"
 		date = "2023-06-14"
 		score = 70
@@ -135,9 +135,9 @@ rule PUA_VULN_Renamed_Driver_Avgtechnologiesczsro_Aswarpotsys_Avginternetsecurit
 
 rule PUA_VULN_Renamed_Driver_Cpuid_Cpuzsys_Cpuidservice_6BEF {
 	meta:
-		description = "Detects renamed vulnerable driver mentioned in risksDrivers project using VersionInfo values from the PE header - cpuz.sys"
+		description = "Detects renamed vulnerable driver mentioned in cvelist project using VersionInfo values from the PE header - cpuz.sys"
 		author = "Florian Roth"
-		reference = "https://github.com/boss-net/risksDrivers"
+		reference = "https://github.com/cvelist/cvelist"
 		hash = "6befa481e8cca8084d9ec3a1925782cd3c28ef7a3e4384e034d48deaabb96b63"
 		hash = "8cf0cbbdc43f9b977f0fb79e0a0dd0e1adabe08a67d0f40d727c717c747de775"
 		hash = "2101d5e80e92c55ecfd8c24fcf2202a206a4fd70195a1378f88c4cc04d336f22"
@@ -163,9 +163,9 @@ rule PUA_VULN_Renamed_Driver_Cpuid_Cpuzsys_Cpuidservice_6BEF {
 
 rule PUA_VULN_Renamed_Driver_Rweverything_Rwdrvsys_Rwdrvdriver_45BA {
 	meta:
-		description = "Detects renamed vulnerable driver mentioned in risksDrivers project using VersionInfo values from the PE header - RwDrv.sys"
+		description = "Detects renamed vulnerable driver mentioned in cvelist project using VersionInfo values from the PE header - RwDrv.sys"
 		author = "Florian Roth"
-		reference = "https://github.com/boss-net/risksDrivers"
+		reference = "https://github.com/cvelist/cvelist"
 		hash = "45ba688a4bded8a7e78a4f5b0dc21004e951ddceb014bb92f51a3301d2fbc56a"
 		hash = "3279593db91bb7ad5b489a01808c645eafafda6cc9c39f50d10ccc30203f2ddf"
 		hash = "d969845ef6acc8e5d3421a7ce7e244f419989710871313b04148f9b322751e5d"
@@ -189,9 +189,9 @@ rule PUA_VULN_Renamed_Driver_Rweverything_Rwdrvsys_Rwdrvdriver_45BA {
 
 rule PUA_VULN_Renamed_Driver_Windowsrwinddkprovider_Vmdrvsys_Windowsrwinddkdriver_5C0B {
 	meta:
-		description = "Detects renamed vulnerable driver mentioned in risksDrivers project using VersionInfo values from the PE header - vmdrv.sys"
+		description = "Detects renamed vulnerable driver mentioned in cvelist project using VersionInfo values from the PE header - vmdrv.sys"
 		author = "Florian Roth"
-		reference = "https://github.com/boss-net/risksDrivers"
+		reference = "https://github.com/cvelist/cvelist"
 		hash = "5c0b429e5935814457934fa9c10ac7a88e19068fa1bd152879e4e9b89c103921"
 		hash = "32cccc4f249499061c0afa18f534c825d01034a1f6815f5506bf4c4ff55d1351"
 		hash = "d884ca8cc4ef1826ca3ab03eb3c2d8f356ba25f2d20db0a7d9fc251c565be7f3"
@@ -213,9 +213,9 @@ rule PUA_VULN_Renamed_Driver_Windowsrwinddkprovider_Vmdrvsys_Windowsrwinddkdrive
 
 rule PUA_VULN_Renamed_Driver_Advancedmicrodevices_Amdryzenmasterdriversys_Amdryzenmasterservicedriver_A130 {
 	meta:
-		description = "Detects renamed vulnerable driver mentioned in risksDrivers project using VersionInfo values from the PE header - AMDRyzenMasterDriver.sys"
+		description = "Detects renamed vulnerable driver mentioned in cvelist project using VersionInfo values from the PE header - AMDRyzenMasterDriver.sys"
 		author = "Florian Roth"
-		reference = "https://github.com/boss-net/risksDrivers"
+		reference = "https://github.com/cvelist/cvelist"
 		hash = "a13054f349b7baa8c8a3fcbd31789807a493cc52224bbff5e412eb2bd52a6433"
 		hash = "7e81beae78e1ddbf6c150e15667e1f18783f9b0ab7fbe52c7ab63e754135948d"
 		date = "2023-06-14"
@@ -236,9 +236,9 @@ rule PUA_VULN_Renamed_Driver_Advancedmicrodevices_Amdryzenmasterdriversys_Amdryz
 
 rule PUA_VULN_Renamed_Driver_Avgtechnologiesczsro_Aswarpot_Avginternetsecuritysystem_5BD4 {
 	meta:
-		description = "Detects renamed vulnerable driver mentioned in risksDrivers project using VersionInfo values from the PE header - aswArPot.sys, avgArPot.sys"
+		description = "Detects renamed vulnerable driver mentioned in cvelist project using VersionInfo values from the PE header - aswArPot.sys, avgArPot.sys"
 		author = "Florian Roth"
-		reference = "https://github.com/boss-net/risksDrivers"
+		reference = "https://github.com/cvelist/cvelist"
 		hash = "5bd41a29cbba0d24e639f49d1f201b9bd119b11f5e3b8a5fefa3a5c6f1e7692c"
 		date = "2023-06-14"
 		score = 70
@@ -258,9 +258,9 @@ rule PUA_VULN_Renamed_Driver_Avgtechnologiesczsro_Aswarpot_Avginternetsecuritysy
 
 rule PUA_VULN_Renamed_Driver_Sysinternalswwwsysinternalscom_Procexpsys_Processexplorer_88E2 {
 	meta:
-		description = "Detects renamed vulnerable driver mentioned in risksDrivers project using VersionInfo values from the PE header - procexp.Sys"
+		description = "Detects renamed vulnerable driver mentioned in cvelist project using VersionInfo values from the PE header - procexp.Sys"
 		author = "Florian Roth"
-		reference = "https://github.com/boss-net/risksDrivers"
+		reference = "https://github.com/cvelist/cvelist"
 		hash = "88e2e6a705d3fb71b966d9fb46dc5a4b015548daf585fb54dfcd81dc0bd3ebdc"
 		hash = "f29073dc99cb52fa890aae80037b48a172138f112474a1aecddae21179c93478"
 		hash = "89b9823ed974a5b71de8468324d45b7e9d6dc914f93615ba86c6209b25b3cbf7"
@@ -290,9 +290,9 @@ rule PUA_VULN_Renamed_Driver_Sysinternalswwwsysinternalscom_Procexpsys_Processex
 
 rule PUA_VULN_Renamed_Driver_Windowsrwinddkprovider_Cpuzsys_Windowsrwinddkdriver_1F4D {
 	meta:
-		description = "Detects renamed vulnerable driver mentioned in risksDrivers project using VersionInfo values from the PE header - cpuz.sys"
+		description = "Detects renamed vulnerable driver mentioned in cvelist project using VersionInfo values from the PE header - cpuz.sys"
 		author = "Florian Roth"
-		reference = "https://github.com/boss-net/risksDrivers"
+		reference = "https://github.com/cvelist/cvelist"
 		hash = "1f4d4db4abe26e765a33afb2501ac134d14cadeaa74ae8a0fae420e4ecf58e0c"
 		hash = "c3e150eb7e7292f70299d3054ed429156a4c32b1f7466a706a2b99249022979e"
 		hash = "2a9d481ffdc5c1e2cb50cf078be32be06b21f6e2b38e90e008edfc8c4f2a9c4e"
@@ -318,9 +318,9 @@ rule PUA_VULN_Renamed_Driver_Windowsrwinddkprovider_Cpuzsys_Windowsrwinddkdriver
 
 rule PUA_VULN_Renamed_Driver_Novellinc_Novellxtier_B50F {
 	meta:
-		description = "Detects renamed vulnerable driver mentioned in risksDrivers project using VersionInfo values from the PE header - libnicm.sys"
+		description = "Detects renamed vulnerable driver mentioned in cvelist project using VersionInfo values from the PE header - libnicm.sys"
 		author = "Florian Roth"
-		reference = "https://github.com/boss-net/risksDrivers"
+		reference = "https://github.com/cvelist/cvelist"
 		hash = "b50ffc60eaa4fb7429fdbb67c0aba0c7085f5129564d0a113fec231c5f8ff62e"
 		hash = "b37b3c6877b70289c0f43aeb71349f7344b06063996e6347c3c18d8c5de77f3b"
 		date = "2023-06-14"
@@ -340,9 +340,9 @@ rule PUA_VULN_Renamed_Driver_Novellinc_Novellxtier_B50F {
 
 rule PUA_VULN_Renamed_Driver_Openlibsysorg_Winringsys_Winring_11BD {
 	meta:
-		description = "Detects renamed vulnerable driver mentioned in risksDrivers project using VersionInfo values from the PE header - WinRing0x64.sys"
+		description = "Detects renamed vulnerable driver mentioned in cvelist project using VersionInfo values from the PE header - WinRing0x64.sys"
 		author = "Florian Roth"
-		reference = "https://github.com/boss-net/risksDrivers"
+		reference = "https://github.com/cvelist/cvelist"
 		hash = "11bd2c9f9e2397c9a16e0990e4ed2cf0679498fe0fd418a3dfdac60b5c160ee5"
 		hash = "a7b000abbcc344444a9b00cfade7aa22ab92ce0cadec196c30eb1851ae4fa062"
 		date = "2023-06-14"
@@ -363,9 +363,9 @@ rule PUA_VULN_Renamed_Driver_Openlibsysorg_Winringsys_Winring_11BD {
 
 rule PUA_VULN_Renamed_Driver_Windowswinowsdriverkitsprovider_Hwrwdrvsys_Hardwarereadwritedriver_21CC {
 	meta:
-		description = "Detects renamed vulnerable driver mentioned in risksDrivers project using VersionInfo values from the PE header - HwRwDrv.sys"
+		description = "Detects renamed vulnerable driver mentioned in cvelist project using VersionInfo values from the PE header - HwRwDrv.sys"
 		author = "Florian Roth"
-		reference = "https://github.com/boss-net/risksDrivers"
+		reference = "https://github.com/cvelist/cvelist"
 		hash = "21ccdd306b5183c00ecfd0475b3152e7d94b921e858e59b68a03e925d1715f21"
 		date = "2023-06-14"
 		score = 70
@@ -385,9 +385,9 @@ rule PUA_VULN_Renamed_Driver_Windowswinowsdriverkitsprovider_Hwrwdrvsys_Hardware
 
 rule PUA_VULN_Renamed_Driver_Avastsoftware_Aswarpot_Avastantivirus_AD8F {
 	meta:
-		description = "Detects renamed vulnerable driver mentioned in risksDrivers project using VersionInfo values from the PE header - aswArPot.sys, avgArPot.sys"
+		description = "Detects renamed vulnerable driver mentioned in cvelist project using VersionInfo values from the PE header - aswArPot.sys, avgArPot.sys"
 		author = "Florian Roth"
-		reference = "https://github.com/boss-net/risksDrivers"
+		reference = "https://github.com/cvelist/cvelist"
 		hash = "ad8ffccfde782bc287241152cf24245a8bf21c2530d81c57e17631b3c4adb833"
 		date = "2023-06-14"
 		score = 70
@@ -407,9 +407,9 @@ rule PUA_VULN_Renamed_Driver_Avastsoftware_Aswarpot_Avastantivirus_AD8F {
 
 rule PUA_VULN_Renamed_Driver_Msi_Ntiolibsys_Ntiolib_3124 {
 	meta:
-		description = "Detects renamed vulnerable driver mentioned in risksDrivers project using VersionInfo values from the PE header - NTIOLib.sys"
+		description = "Detects renamed vulnerable driver mentioned in cvelist project using VersionInfo values from the PE header - NTIOLib.sys"
 		author = "Florian Roth"
-		reference = "https://github.com/boss-net/risksDrivers"
+		reference = "https://github.com/cvelist/cvelist"
 		hash = "3124b0411b8077605db2a9b7909d8240e0d554496600e2706e531c93c931e1b5"
 		date = "2023-06-14"
 		score = 70
@@ -429,9 +429,9 @@ rule PUA_VULN_Renamed_Driver_Msi_Ntiolibsys_Ntiolib_3124 {
 
 rule PUA_VULN_Renamed_Driver_Iobit_Monitorsys_Advancedsystemcare_E4A7 {
 	meta:
-		description = "Detects renamed vulnerable driver mentioned in risksDrivers project using VersionInfo values from the PE header - Monitor_win10_x64.sys"
+		description = "Detects renamed vulnerable driver mentioned in cvelist project using VersionInfo values from the PE header - Monitor_win10_x64.sys"
 		author = "Florian Roth"
-		reference = "https://github.com/boss-net/risksDrivers"
+		reference = "https://github.com/cvelist/cvelist"
 		hash = "e4a7da2cf59a4a21fc42b611df1d59cae75051925a7ddf42bf216cc1a026eadb"
 		date = "2023-06-14"
 		score = 70
@@ -451,9 +451,9 @@ rule PUA_VULN_Renamed_Driver_Iobit_Monitorsys_Advancedsystemcare_E4A7 {
 
 rule PUA_VULN_Renamed_Driver_Phoenixtechnologiesltd_Phlashnt_Winphlash_65DB {
 	meta:
-		description = "Detects renamed vulnerable driver mentioned in risksDrivers project using VersionInfo values from the PE header - PhlashNT.sys"
+		description = "Detects renamed vulnerable driver mentioned in cvelist project using VersionInfo values from the PE header - PhlashNT.sys"
 		author = "Florian Roth"
-		reference = "https://github.com/boss-net/risksDrivers"
+		reference = "https://github.com/cvelist/cvelist"
 		hash = "65db1b259e305a52042e07e111f4fa4af16542c8bacd33655f753ef642228890"
 		date = "2023-06-14"
 		score = 70
@@ -473,9 +473,9 @@ rule PUA_VULN_Renamed_Driver_Phoenixtechnologiesltd_Phlashnt_Winphlash_65DB {
 
 rule PUA_VULN_Renamed_Driver_Arthurliberman_Alsysiosys_Alsysio_7196 {
 	meta:
-		description = "Detects renamed vulnerable driver mentioned in risksDrivers project using VersionInfo values from the PE header - ALSysIO64.sys"
+		description = "Detects renamed vulnerable driver mentioned in cvelist project using VersionInfo values from the PE header - ALSysIO64.sys"
 		author = "Florian Roth"
-		reference = "https://github.com/boss-net/risksDrivers"
+		reference = "https://github.com/cvelist/cvelist"
 		hash = "7196187fb1ef8d108b380d37b2af8efdeb3ca1f6eefd37b5dc114c609147216d"
 		date = "2023-06-14"
 		score = 70
@@ -495,9 +495,9 @@ rule PUA_VULN_Renamed_Driver_Arthurliberman_Alsysiosys_Alsysio_7196 {
 
 rule PUA_VULN_Renamed_Driver_Gigabytetechnologycoltd_Gdrvsys_Gigabytesoftwaredriver_133E {
 	meta:
-		description = "Detects renamed vulnerable driver mentioned in risksDrivers project using VersionInfo values from the PE header - gdrv.sys"
+		description = "Detects renamed vulnerable driver mentioned in cvelist project using VersionInfo values from the PE header - gdrv.sys"
 		author = "Florian Roth"
-		reference = "https://github.com/boss-net/risksDrivers"
+		reference = "https://github.com/cvelist/cvelist"
 		hash = "133e542842656197c5d22429bd56d57aa33c9522897fdf29853a6d321033c743"
 		date = "2023-06-14"
 		score = 70
@@ -517,9 +517,9 @@ rule PUA_VULN_Renamed_Driver_Gigabytetechnologycoltd_Gdrvsys_Gigabytesoftwaredri
 
 rule PUA_VULN_Renamed_Driver_Cpuid_Cpuzsys_Cpuidservice_0D37 {
 	meta:
-		description = "Detects renamed vulnerable driver mentioned in risksDrivers project using VersionInfo values from the PE header - cpuz.sys"
+		description = "Detects renamed vulnerable driver mentioned in cvelist project using VersionInfo values from the PE header - cpuz.sys"
 		author = "Florian Roth"
-		reference = "https://github.com/boss-net/risksDrivers"
+		reference = "https://github.com/cvelist/cvelist"
 		hash = "0d3790af5f8e5c945410929e31d06144a471ac82f828afe89a4758a5bbeb7f9f"
 		hash = "523d1d43e896077f32cd9acaa8e85b513bfb7b013a625e56f0d4e9675d9822ba"
 		hash = "df0dcfb3971829af79629efd036b8e1c6e2127481b3644ccc6e2ddd387489a15"
@@ -550,9 +550,9 @@ rule PUA_VULN_Renamed_Driver_Cpuid_Cpuzsys_Cpuidservice_0D37 {
 
 rule PUA_VULN_Renamed_Driver_Asustek_Driversys_Ectool_927C {
 	meta:
-		description = "Detects renamed vulnerable driver mentioned in risksDrivers project using VersionInfo values from the PE header - driver7-x86-withoutdbg.sys"
+		description = "Detects renamed vulnerable driver mentioned in cvelist project using VersionInfo values from the PE header - driver7-x86-withoutdbg.sys"
 		author = "Florian Roth"
-		reference = "https://github.com/boss-net/risksDrivers"
+		reference = "https://github.com/cvelist/cvelist"
 		hash = "927c2a580d51a598177fa54c65e9d2610f5f212f1b6cb2fbf2740b64368f010a"
 		hash = "42851a01469ba97cdc38939b10cf9ea13237aa1f6c37b1ac84904c5a12a81fa0"
 		hash = "771a8d05f1af6214e0ef0886662be500ee910ab99f0154227067fddcfe08a3dd"
@@ -574,9 +574,9 @@ rule PUA_VULN_Renamed_Driver_Asustek_Driversys_Ectool_927C {
 
 rule PUA_VULN_Renamed_Driver_Msi_Ntiolibsys_Ntiolib_CF4B {
 	meta:
-		description = "Detects renamed vulnerable driver mentioned in risksDrivers project using VersionInfo values from the PE header - NTIOLib.sys"
+		description = "Detects renamed vulnerable driver mentioned in cvelist project using VersionInfo values from the PE header - NTIOLib.sys"
 		author = "Florian Roth"
-		reference = "https://github.com/boss-net/risksDrivers"
+		reference = "https://github.com/cvelist/cvelist"
 		hash = "cf4b5fa853ce809f1924df3a3ae3c4e191878c4ea5248d8785dc7e51807a512b"
 		date = "2023-06-14"
 		score = 70
@@ -596,9 +596,9 @@ rule PUA_VULN_Renamed_Driver_Msi_Ntiolibsys_Ntiolib_CF4B {
 
 rule PUA_VULN_Renamed_Driver_Trendmicroinc_Tmcommsys_Trendmicroeyes_D783 {
 	meta:
-		description = "Detects renamed vulnerable driver mentioned in risksDrivers project using VersionInfo values from the PE header - TmComm.sys"
+		description = "Detects renamed vulnerable driver mentioned in cvelist project using VersionInfo values from the PE header - TmComm.sys"
 		author = "Florian Roth"
-		reference = "https://github.com/boss-net/risksDrivers"
+		reference = "https://github.com/cvelist/cvelist"
 		hash = "d783ace822f8fe4e25d5387e5dd249cb72e62f62079023216dc436f1853a150f"
 		date = "2023-06-14"
 		score = 70
@@ -618,9 +618,9 @@ rule PUA_VULN_Renamed_Driver_Trendmicroinc_Tmcommsys_Trendmicroeyes_D783 {
 
 rule PUA_VULN_Renamed_Driver_Avastsoftware_Aswarpot_Avastantivirus_4B52 {
 	meta:
-		description = "Detects renamed vulnerable driver mentioned in risksDrivers project using VersionInfo values from the PE header - aswArPot.sys"
+		description = "Detects renamed vulnerable driver mentioned in cvelist project using VersionInfo values from the PE header - aswArPot.sys"
 		author = "Florian Roth"
-		reference = "https://github.com/boss-net/risksDrivers"
+		reference = "https://github.com/cvelist/cvelist"
 		hash = "4b5229b3250c8c08b98cb710d6c056144271de099a57ae09f5d2097fc41bd4f1"
 		date = "2023-06-14"
 		score = 70
@@ -640,9 +640,9 @@ rule PUA_VULN_Renamed_Driver_Avastsoftware_Aswarpot_Avastantivirus_4B52 {
 
 rule PUA_VULN_Renamed_Driver_Biostargroup_Iodriver_Biostariodriverfle_42E1 {
 	meta:
-		description = "Detects renamed vulnerable driver mentioned in risksDrivers project using VersionInfo values from the PE header - BS_I2cIo.sys"
+		description = "Detects renamed vulnerable driver mentioned in cvelist project using VersionInfo values from the PE header - BS_I2cIo.sys"
 		author = "Florian Roth"
-		reference = "https://github.com/boss-net/risksDrivers"
+		reference = "https://github.com/cvelist/cvelist"
 		hash = "42e170a7ab1d2c160d60abfc906872f9cfd0c2ee169ed76f6acb3f83b3eeefdb"
 		hash = "f929bead59e9424ab90427b379dcdd63fbfe0c4fb5e1792e3a1685541cd5ec65"
 		hash = "55fee54c0d0d873724864dc0b2a10b38b7f40300ee9cae4d9baaf8a202c4049a"
@@ -664,9 +664,9 @@ rule PUA_VULN_Renamed_Driver_Biostargroup_Iodriver_Biostariodriverfle_42E1 {
 
 rule PUA_VULN_Renamed_Driver_Mitactechnologycorporation_Mtcbsvsys_Mitacsystemserviceprovider_C9CF {
 	meta:
-		description = "Detects renamed vulnerable driver mentioned in risksDrivers project using VersionInfo values from the PE header - mtcBSv64.sys"
+		description = "Detects renamed vulnerable driver mentioned in cvelist project using VersionInfo values from the PE header - mtcBSv64.sys"
 		author = "Florian Roth"
-		reference = "https://github.com/boss-net/risksDrivers"
+		reference = "https://github.com/cvelist/cvelist"
 		hash = "c9cf1d627078f63a36bbde364cd0d5f2be1714124d186c06db5bcdf549a109f8"
 		date = "2023-06-14"
 		score = 70
@@ -686,9 +686,9 @@ rule PUA_VULN_Renamed_Driver_Mitactechnologycorporation_Mtcbsvsys_Mitacsystemser
 
 rule PUA_VULN_Renamed_Driver_Intelcorporation_Iqvwsys_Intelriqvwsys_5F65 {
 	meta:
-		description = "Detects renamed vulnerable driver mentioned in risksDrivers project using VersionInfo values from the PE header - iQVW64.SYS"
+		description = "Detects renamed vulnerable driver mentioned in cvelist project using VersionInfo values from the PE header - iQVW64.SYS"
 		author = "Florian Roth"
-		reference = "https://github.com/boss-net/risksDrivers"
+		reference = "https://github.com/cvelist/cvelist"
 		hash = "5f6547e9823f94c5b94af1fb69a967c4902f72b6e0c783804835e6ce27f887b0"
 		date = "2023-06-14"
 		score = 70
@@ -708,9 +708,9 @@ rule PUA_VULN_Renamed_Driver_Intelcorporation_Iqvwsys_Intelriqvwsys_5F65 {
 
 rule PUA_VULN_Renamed_Driver_Tgsoftsas_Viragtsys_Viritagentsystem_58A7 {
 	meta:
-		description = "Detects renamed vulnerable driver mentioned in risksDrivers project using VersionInfo values from the PE header - viraglt64.sys"
+		description = "Detects renamed vulnerable driver mentioned in cvelist project using VersionInfo values from the PE header - viraglt64.sys"
 		author = "Florian Roth"
-		reference = "https://github.com/boss-net/risksDrivers"
+		reference = "https://github.com/cvelist/cvelist"
 		hash = "58a74dceb2022cd8a358b92acd1b48a5e01c524c3b0195d7033e4bd55eff4495"
 		date = "2023-06-14"
 		score = 70
@@ -730,9 +730,9 @@ rule PUA_VULN_Renamed_Driver_Tgsoftsas_Viragtsys_Viritagentsystem_58A7 {
 
 rule PUA_VULN_Renamed_Driver_Panyazilimbilisimteknolojileriticltdsti_Panmonfltxsys_Pancafemanager_0650 {
 	meta:
-		description = "Detects renamed vulnerable driver mentioned in risksDrivers project using VersionInfo values from the PE header - PanMonFltX64.sys"
+		description = "Detects renamed vulnerable driver mentioned in cvelist project using VersionInfo values from the PE header - PanMonFltX64.sys"
 		author = "Florian Roth"
-		reference = "https://github.com/boss-net/risksDrivers"
+		reference = "https://github.com/cvelist/cvelist"
 		hash = "06508aacb4ed0a1398a2b0da5fa2dbf7da435b56da76fd83c759a50a51c75caf"
 		date = "2023-06-14"
 		score = 70
@@ -752,9 +752,9 @@ rule PUA_VULN_Renamed_Driver_Panyazilimbilisimteknolojileriticltdsti_Panmonfltxs
 
 rule PUA_VULN_Renamed_Driver_Avastsoftware_Aswarpotsys_Avastantivirus_0F17 {
 	meta:
-		description = "Detects renamed vulnerable driver mentioned in risksDrivers project using VersionInfo values from the PE header - aswArPot.sys, avgArPot.sys"
+		description = "Detects renamed vulnerable driver mentioned in cvelist project using VersionInfo values from the PE header - aswArPot.sys, avgArPot.sys"
 		author = "Florian Roth"
-		reference = "https://github.com/boss-net/risksDrivers"
+		reference = "https://github.com/cvelist/cvelist"
 		hash = "0f17e5cfc5bdd74aff91bfb1a836071345ba2b5d1b47b0d5bf8e7e0d4d5e2dbf"
 		date = "2023-06-14"
 		score = 70
@@ -774,9 +774,9 @@ rule PUA_VULN_Renamed_Driver_Avastsoftware_Aswarpotsys_Avastantivirus_0F17 {
 
 rule PUA_VULN_Renamed_Driver_Novellinc_Novellxtier_6C71 {
 	meta:
-		description = "Detects renamed vulnerable driver mentioned in risksDrivers project using VersionInfo values from the PE header - ncpl.sys"
+		description = "Detects renamed vulnerable driver mentioned in cvelist project using VersionInfo values from the PE header - ncpl.sys"
 		author = "Florian Roth"
-		reference = "https://github.com/boss-net/risksDrivers"
+		reference = "https://github.com/cvelist/cvelist"
 		hash = "6c7120e40fc850e4715058b233f5ad4527d1084a909114fd6a36b7b7573c4a44"
 		hash = "3a65d14fd3b1b5981084cdbd293dc6f4558911ea18dd80177d1e5b54d85bcaa0"
 		date = "2023-06-14"
@@ -796,9 +796,9 @@ rule PUA_VULN_Renamed_Driver_Novellinc_Novellxtier_6C71 {
 
 rule PUA_VULN_Renamed_Driver_Bsmisys_5962 {
 	meta:
-		description = "Detects renamed vulnerable driver mentioned in risksDrivers project using VersionInfo values from the PE header - BSMIXP64.sys"
+		description = "Detects renamed vulnerable driver mentioned in cvelist project using VersionInfo values from the PE header - BSMIXP64.sys"
 		author = "Florian Roth"
-		reference = "https://github.com/boss-net/risksDrivers"
+		reference = "https://github.com/cvelist/cvelist"
 		hash = "59626cac380d8fe0b80a6d4c4406d62ba0683a2f0f68d50ad506ca1b1cf25347"
 		hash = "552f70374715e70c4ade591d65177be2539ec60f751223680dfaccb9e0be0ed9"
 		date = "2023-06-14"
@@ -817,9 +817,9 @@ rule PUA_VULN_Renamed_Driver_Bsmisys_5962 {
 
 rule PUA_VULN_Renamed_Driver_Msi_Ntiolibsys_Ntiolib_99F4 {
 	meta:
-		description = "Detects renamed vulnerable driver mentioned in risksDrivers project using VersionInfo values from the PE header - NTIOLib.sys"
+		description = "Detects renamed vulnerable driver mentioned in cvelist project using VersionInfo values from the PE header - NTIOLib.sys"
 		author = "Florian Roth"
-		reference = "https://github.com/boss-net/risksDrivers"
+		reference = "https://github.com/cvelist/cvelist"
 		hash = "99f4994a0e5bd1bf6e3f637d3225c69ff4cd620557e23637533e7f18d7d6cba1"
 		hash = "56a3c9ac137d862a85b4004f043d46542a1b61c6acb438098a9640469e2d80e7"
 		hash = "c2a4ddcc9c3b339d752c48925d62fc4cc5adbf6fae8fedef74cdd47e88da01f8"
@@ -869,9 +869,9 @@ rule PUA_VULN_Renamed_Driver_Msi_Ntiolibsys_Ntiolib_99F4 {
 
 rule PUA_VULN_Renamed_Driver_Cpuid_Cpuzsys_Cpuidservice_26E3 {
 	meta:
-		description = "Detects renamed vulnerable driver mentioned in risksDrivers project using VersionInfo values from the PE header - cpuz.sys"
+		description = "Detects renamed vulnerable driver mentioned in cvelist project using VersionInfo values from the PE header - cpuz.sys"
 		author = "Florian Roth"
-		reference = "https://github.com/boss-net/risksDrivers"
+		reference = "https://github.com/cvelist/cvelist"
 		hash = "26e3bfef255efd052a84c3c43994c73222b14c95db9a4b1fc2e98f1a5cb26e43"
 		hash = "3e07bb866d329a2f9aaa4802bad04fdac9163de9bf9cfa1d035f5ca610b4b9bf"
 		hash = "c50f8ab8538c557963252b702c1bd3cee4604b5fc2497705d2a6a3fd87e3cc26"
@@ -893,9 +893,9 @@ rule PUA_VULN_Renamed_Driver_Cpuid_Cpuzsys_Cpuidservice_26E3 {
 
 rule PUA_VULN_Renamed_Driver_Asustekcomputerinc_Bsdefsys_Supportsstsfssteeatftatcamfntamfnbvctvcbmftwc_5F5E {
 	meta:
-		description = "Detects renamed vulnerable driver mentioned in risksDrivers project using VersionInfo values from the PE header - Bs_Def.sys"
+		description = "Detects renamed vulnerable driver mentioned in cvelist project using VersionInfo values from the PE header - Bs_Def.sys"
 		author = "Florian Roth"
-		reference = "https://github.com/boss-net/risksDrivers"
+		reference = "https://github.com/cvelist/cvelist"
 		hash = "5f5e5f1c93d961985624768b7c676d488c7c7c1d4c043f6fc1ea1904fefb75be"
 		hash = "3326e2d32bbabd69feb6024809afc56c7e39241ebe70a53728c77e80995422a5"
 		hash = "0040153302b88bee27eb4f1eca6855039e1a057370f5e8c615724fa5215bada3"
@@ -918,9 +918,9 @@ rule PUA_VULN_Renamed_Driver_Asustekcomputerinc_Bsdefsys_Supportsstsfssteeatftat
 
 rule PUA_VULN_Renamed_Driver_Panyazilimbilisimteknolojileriticltdsti_Panioxsys_Paniolibrary_6B83 {
 	meta:
-		description = "Detects renamed vulnerable driver mentioned in risksDrivers project using VersionInfo values from the PE header - PanIOx64.sys"
+		description = "Detects renamed vulnerable driver mentioned in cvelist project using VersionInfo values from the PE header - PanIOx64.sys"
 		author = "Florian Roth"
-		reference = "https://github.com/boss-net/risksDrivers"
+		reference = "https://github.com/cvelist/cvelist"
 		hash = "6b830ea0db6546a044c9900d3f335e7820c2a80e147b0751641899d1a5aa8f74"
 		date = "2023-06-14"
 		score = 70
@@ -940,9 +940,9 @@ rule PUA_VULN_Renamed_Driver_Panyazilimbilisimteknolojileriticltdsti_Panioxsys_P
 
 rule PUA_VULN_Renamed_Driver_Cpuid_Cpuzsys_Cpuidservice_2A6D {
 	meta:
-		description = "Detects renamed vulnerable driver mentioned in risksDrivers project using VersionInfo values from the PE header - cpuz.sys"
+		description = "Detects renamed vulnerable driver mentioned in cvelist project using VersionInfo values from the PE header - cpuz.sys"
 		author = "Florian Roth"
-		reference = "https://github.com/boss-net/risksDrivers"
+		reference = "https://github.com/cvelist/cvelist"
 		hash = "2a6db9facf9e13d35c37dd468be04bae5f70c6127a9aee76daebddbdec95d486"
 		hash = "1e16a01ef44e4c56e87abfbe03b2989b0391b172c3ec162783ad640be65ab961"
 		hash = "aebcbfca180e372a048b682a4859fd520c98b5b63f6e3a627c626cb35adc0399"
@@ -964,9 +964,9 @@ rule PUA_VULN_Renamed_Driver_Cpuid_Cpuzsys_Cpuidservice_2A6D {
 
 rule PUA_VULN_Renamed_Driver_Elaboratebytesag_Elbycdio_Cdrtools_82FB {
 	meta:
-		description = "Detects renamed vulnerable driver mentioned in risksDrivers project using VersionInfo values from the PE header - ElbyCDIO.sys"
+		description = "Detects renamed vulnerable driver mentioned in cvelist project using VersionInfo values from the PE header - ElbyCDIO.sys"
 		author = "Florian Roth"
-		reference = "https://github.com/boss-net/risksDrivers"
+		reference = "https://github.com/cvelist/cvelist"
 		hash = "82fbcb371d53b8a76a25fbbafaae31147c0d1f6b9f26b3ea45262c2267386989"
 		date = "2023-06-14"
 		score = 70
@@ -986,9 +986,9 @@ rule PUA_VULN_Renamed_Driver_Elaboratebytesag_Elbycdio_Cdrtools_82FB {
 
 rule PUA_VULN_Renamed_Driver_Entechtaiwan_Seasys_Softenginex_6CB5 {
 	meta:
-		description = "Detects renamed vulnerable driver mentioned in risksDrivers project using VersionInfo values from the PE header - Se64a.sys"
+		description = "Detects renamed vulnerable driver mentioned in cvelist project using VersionInfo values from the PE header - Se64a.sys"
 		author = "Florian Roth"
-		reference = "https://github.com/boss-net/risksDrivers"
+		reference = "https://github.com/cvelist/cvelist"
 		hash = "6cb51ae871fbd5d07c5aad6ff8eea43d34063089528603ca9ceb8b4f52f68ddc"
 		date = "2023-06-14"
 		score = 70
@@ -1008,9 +1008,9 @@ rule PUA_VULN_Renamed_Driver_Entechtaiwan_Seasys_Softenginex_6CB5 {
 
 rule PUA_VULN_Renamed_Driver_Avgtechnologiesczsro_Aswarpot_Avginternetsecuritysystem_0B54 {
 	meta:
-		description = "Detects renamed vulnerable driver mentioned in risksDrivers project using VersionInfo values from the PE header - aswArPot.sys, avgArPot.sys"
+		description = "Detects renamed vulnerable driver mentioned in cvelist project using VersionInfo values from the PE header - aswArPot.sys, avgArPot.sys"
 		author = "Florian Roth"
-		reference = "https://github.com/boss-net/risksDrivers"
+		reference = "https://github.com/cvelist/cvelist"
 		hash = "0b542e47248611a1895018ec4f4033ea53464f259c74eb014d018b19ad818917"
 		date = "2023-06-14"
 		score = 70
@@ -1030,9 +1030,9 @@ rule PUA_VULN_Renamed_Driver_Avgtechnologiesczsro_Aswarpot_Avginternetsecuritysy
 
 rule PUA_VULN_Renamed_Driver_Avastsoftware_Aswarpotsys_Avastantivirus_1273 {
 	meta:
-		description = "Detects renamed vulnerable driver mentioned in risksDrivers project using VersionInfo values from the PE header - aswArPot.sys, avgArPot.sys"
+		description = "Detects renamed vulnerable driver mentioned in cvelist project using VersionInfo values from the PE header - aswArPot.sys, avgArPot.sys"
 		author = "Florian Roth"
-		reference = "https://github.com/boss-net/risksDrivers"
+		reference = "https://github.com/cvelist/cvelist"
 		hash = "1273b74c3c1553eaa92e844fbd51f716356cc19cf77c2c780d4899ec7738fbd1"
 		date = "2023-06-14"
 		score = 70
@@ -1052,9 +1052,9 @@ rule PUA_VULN_Renamed_Driver_Avastsoftware_Aswarpotsys_Avastantivirus_1273 {
 
 rule PUA_VULN_Renamed_Driver_Trendmicroinc_Tmcommsys_Trendmicroeyes_3854 {
 	meta:
-		description = "Detects renamed vulnerable driver mentioned in risksDrivers project using VersionInfo values from the PE header - TmComm.sys"
+		description = "Detects renamed vulnerable driver mentioned in cvelist project using VersionInfo values from the PE header - TmComm.sys"
 		author = "Florian Roth"
-		reference = "https://github.com/boss-net/risksDrivers"
+		reference = "https://github.com/cvelist/cvelist"
 		hash = "385485e643aa611e97ceae6590c6a8c47155886123dbb9de1e704d0d1624d039"
 		hash = "b773511fdb2e370dec042530910a905472fcc2558eb108b246fd3200171b04d3"
 		date = "2023-06-14"
@@ -1075,9 +1075,9 @@ rule PUA_VULN_Renamed_Driver_Trendmicroinc_Tmcommsys_Trendmicroeyes_3854 {
 
 rule PUA_VULN_Renamed_Driver_Zemanaltd_Zam_8FE9 {
 	meta:
-		description = "Detects renamed vulnerable driver mentioned in risksDrivers project using VersionInfo values from the PE header - zam64.sys"
+		description = "Detects renamed vulnerable driver mentioned in cvelist project using VersionInfo values from the PE header - zam64.sys"
 		author = "Florian Roth"
-		reference = "https://github.com/boss-net/risksDrivers"
+		reference = "https://github.com/cvelist/cvelist"
 		hash = "8fe9828bea83adc8b1429394db7a556a17f79846ad0bfb7f242084a5c96edf2a"
 		date = "2023-06-14"
 		score = 70
@@ -1094,9 +1094,9 @@ rule PUA_VULN_Renamed_Driver_Zemanaltd_Zam_8FE9 {
 
 rule PUA_VULN_Renamed_Driver_Windowsrcodenamelonghornddkprovider_Cpuzsys_Windowsrcodenamelonghornddkdriver_4932 {
 	meta:
-		description = "Detects renamed vulnerable driver mentioned in risksDrivers project using VersionInfo values from the PE header - cpuz.sys"
+		description = "Detects renamed vulnerable driver mentioned in cvelist project using VersionInfo values from the PE header - cpuz.sys"
 		author = "Florian Roth"
-		reference = "https://github.com/boss-net/risksDrivers"
+		reference = "https://github.com/cvelist/cvelist"
 		hash = "49329fa09f584d1960b09c1b15df18c0bc1c4fdb90bf48b6b5703e872040b668"
 		hash = "2ef7df384e93951893b65500dac6ee09da6b8fe9128326caad41b8be4da49a1e"
 		hash = "dbb457ae1bd07a945a1466ce4a206c625e590aee3922fa7d86fbe956beccfc98"
@@ -1119,9 +1119,9 @@ rule PUA_VULN_Renamed_Driver_Windowsrcodenamelonghornddkprovider_Cpuzsys_Windows
 
 rule PUA_VULN_Renamed_Driver_Msi_Ntiolibsys_Ntiolib_3D9E {
 	meta:
-		description = "Detects renamed vulnerable driver mentioned in risksDrivers project using VersionInfo values from the PE header - NTIOLib.sys"
+		description = "Detects renamed vulnerable driver mentioned in cvelist project using VersionInfo values from the PE header - NTIOLib.sys"
 		author = "Florian Roth"
-		reference = "https://github.com/boss-net/risksDrivers"
+		reference = "https://github.com/cvelist/cvelist"
 		hash = "3d9e83b189fcf5c3541c62d1f54a0da0a4e5b62c3243d2989afc46644056c8e3"
 		date = "2023-06-14"
 		score = 70
@@ -1141,9 +1141,9 @@ rule PUA_VULN_Renamed_Driver_Msi_Ntiolibsys_Ntiolib_3D9E {
 
 rule PUA_VULN_Renamed_Driver_Msi_Ntiolibsys_Ntiolib_2BBE {
 	meta:
-		description = "Detects renamed vulnerable driver mentioned in risksDrivers project using VersionInfo values from the PE header - NTIOLib.sys"
+		description = "Detects renamed vulnerable driver mentioned in cvelist project using VersionInfo values from the PE header - NTIOLib.sys"
 		author = "Florian Roth"
-		reference = "https://github.com/boss-net/risksDrivers"
+		reference = "https://github.com/cvelist/cvelist"
 		hash = "2bbe65cbec3bb069e92233924f7ee1f95ffa16173fceb932c34f68d862781250"
 		hash = "e68d453d333854787f8470c8baef3e0d082f26df5aa19c0493898bcf3401e39a"
 		date = "2023-06-14"
@@ -1164,9 +1164,9 @@ rule PUA_VULN_Renamed_Driver_Msi_Ntiolibsys_Ntiolib_2BBE {
 
 rule PUA_VULN_Renamed_Driver_Gigabytetechnologycoltd_Gdrvsys_Gigabytesoftwaredriver_092D {
 	meta:
-		description = "Detects renamed vulnerable driver mentioned in risksDrivers project using VersionInfo values from the PE header - gdrv.sys"
+		description = "Detects renamed vulnerable driver mentioned in cvelist project using VersionInfo values from the PE header - gdrv.sys"
 		author = "Florian Roth"
-		reference = "https://github.com/boss-net/risksDrivers"
+		reference = "https://github.com/cvelist/cvelist"
 		hash = "092d04284fdeb6762e65e6ac5b813920d6c69a5e99d110769c5c1a78e11c5ba0"
 		hash = "0ce40a2cdd3f45c7632b858e8089ddfdd12d9acb286f2015a4b1b0c0346a572c"
 		date = "2023-06-14"
@@ -1187,9 +1187,9 @@ rule PUA_VULN_Renamed_Driver_Gigabytetechnologycoltd_Gdrvsys_Gigabytesoftwaredri
 
 rule PUA_VULN_Renamed_Driver_Trendmicroinc_Tmcommsys_Trendmicroeyes_62F5 {
 	meta:
-		description = "Detects renamed vulnerable driver mentioned in risksDrivers project using VersionInfo values from the PE header - TmComm.sys"
+		description = "Detects renamed vulnerable driver mentioned in cvelist project using VersionInfo values from the PE header - TmComm.sys"
 		author = "Florian Roth"
-		reference = "https://github.com/boss-net/risksDrivers"
+		reference = "https://github.com/cvelist/cvelist"
 		hash = "62f5e13b2edc00128716cb93e6a9eddffea67ce83d2bb426f18f5be08ead89e0"
 		hash = "ee3ff12943ced401e2b6df9e66e8a0be8e449fa9326cab241f471b2d8ffefdd7"
 		date = "2023-06-14"
@@ -1210,9 +1210,9 @@ rule PUA_VULN_Renamed_Driver_Trendmicroinc_Tmcommsys_Trendmicroeyes_62F5 {
 
 rule PUA_VULN_Renamed_Driver_Yyinc_Dianhu_80CB {
 	meta:
-		description = "Detects renamed vulnerable driver mentioned in risksDrivers project using VersionInfo values from the PE header - Dh_Kernel_10.sys"
+		description = "Detects renamed vulnerable driver mentioned in cvelist project using VersionInfo values from the PE header - Dh_Kernel_10.sys"
 		author = "Florian Roth"
-		reference = "https://github.com/boss-net/risksDrivers"
+		reference = "https://github.com/cvelist/cvelist"
 		hash = "80cbba9f404df3e642f22c476664d63d7c229d45d34f5cd0e19c65eb41becec3"
 		hash = "bb50818a07b0eb1bd317467139b7eb4bad6cd89053fecdabfeae111689825955"
 		date = "2023-06-14"
@@ -1231,9 +1231,9 @@ rule PUA_VULN_Renamed_Driver_Yyinc_Dianhu_80CB {
 
 rule PUA_VULN_Renamed_Driver_Elaboratebytesag_Elbycdio_Cdrtools_8F68 {
 	meta:
-		description = "Detects renamed vulnerable driver mentioned in risksDrivers project using VersionInfo values from the PE header - ElbyCDIO.sys"
+		description = "Detects renamed vulnerable driver mentioned in cvelist project using VersionInfo values from the PE header - ElbyCDIO.sys"
 		author = "Florian Roth"
-		reference = "https://github.com/boss-net/risksDrivers"
+		reference = "https://github.com/cvelist/cvelist"
 		hash = "8f68ca89910ebe9da3d02ec82d935de1814d79c44f36cd30ea02fa49ae488f00"
 		hash = "c8eaa5e6d3230b93c126d2d58e32409e4aeeb23ccf0dd047a17f1ef552f92fe9"
 		date = "2023-06-14"
@@ -1254,9 +1254,9 @@ rule PUA_VULN_Renamed_Driver_Elaboratebytesag_Elbycdio_Cdrtools_8F68 {
 
 rule PUA_VULN_Renamed_Driver_Avastsoftware_Aswarpotsys_Avastantivirus_A5A5 {
 	meta:
-		description = "Detects renamed vulnerable driver mentioned in risksDrivers project using VersionInfo values from the PE header - aswArPot.sys, avgArPot.sys"
+		description = "Detects renamed vulnerable driver mentioned in cvelist project using VersionInfo values from the PE header - aswArPot.sys, avgArPot.sys"
 		author = "Florian Roth"
-		reference = "https://github.com/boss-net/risksDrivers"
+		reference = "https://github.com/cvelist/cvelist"
 		hash = "a5a50449e2cc4d0dbc80496f757935ae38bf8a1bebdd6555a3495d8c219df2ad"
 		date = "2023-06-14"
 		score = 70
@@ -1276,9 +1276,9 @@ rule PUA_VULN_Renamed_Driver_Avastsoftware_Aswarpotsys_Avastantivirus_A5A5 {
 
 rule PUA_VULN_Renamed_Driver_Msi_Ntiolibsys_Ntiolib_591B {
 	meta:
-		description = "Detects renamed vulnerable driver mentioned in risksDrivers project using VersionInfo values from the PE header - NTIOLib.sys"
+		description = "Detects renamed vulnerable driver mentioned in cvelist project using VersionInfo values from the PE header - NTIOLib.sys"
 		author = "Florian Roth"
-		reference = "https://github.com/boss-net/risksDrivers"
+		reference = "https://github.com/cvelist/cvelist"
 		hash = "591bd5e92dfa0117b3daa29750e73e2db25baa717c31217539d30ffb1f7f3a52"
 		date = "2023-06-14"
 		score = 70
@@ -1298,9 +1298,9 @@ rule PUA_VULN_Renamed_Driver_Msi_Ntiolibsys_Ntiolib_591B {
 
 rule PUA_VULN_Renamed_Driver_Openlibsysorg_Winringsys_Winring_47EA {
 	meta:
-		description = "Detects renamed vulnerable driver mentioned in risksDrivers project using VersionInfo values from the PE header - WinRing0.sys"
+		description = "Detects renamed vulnerable driver mentioned in cvelist project using VersionInfo values from the PE header - WinRing0.sys"
 		author = "Florian Roth"
-		reference = "https://github.com/boss-net/risksDrivers"
+		reference = "https://github.com/cvelist/cvelist"
 		hash = "47eaebc920ccf99e09fc9924feb6b19b8a28589f52783327067c9b09754b5e84"
 		hash = "3ec5ad51e6879464dfbccb9f4ed76c6325056a42548d5994ba869da9c4c039a8"
 		date = "2023-06-14"
@@ -1321,9 +1321,9 @@ rule PUA_VULN_Renamed_Driver_Openlibsysorg_Winringsys_Winring_47EA {
 
 rule PUA_VULN_Renamed_Driver_Insydesoftwarecorp_Segwindrvxsys_Segwindowsdriverx_6532 {
 	meta:
-		description = "Detects renamed vulnerable driver mentioned in risksDrivers project using VersionInfo values from the PE header - segwindrvx64.sys"
+		description = "Detects renamed vulnerable driver mentioned in cvelist project using VersionInfo values from the PE header - segwindrvx64.sys"
 		author = "Florian Roth"
-		reference = "https://github.com/boss-net/risksDrivers"
+		reference = "https://github.com/cvelist/cvelist"
 		hash = "65329dad28e92f4bcc64de15c552b6ef424494028b18875b7dba840053bc0cdd"
 		date = "2023-06-14"
 		score = 70
@@ -1343,9 +1343,9 @@ rule PUA_VULN_Renamed_Driver_Insydesoftwarecorp_Segwindrvxsys_Segwindowsdriverx_
 
 rule PUA_VULN_Renamed_Driver_Advancedmicrodevices_Amdryzenmasterdriversys_Amdryzenmasterservicedriver_909D {
 	meta:
-		description = "Detects renamed vulnerable driver mentioned in risksDrivers project using VersionInfo values from the PE header - AMDRyzenMasterDriver.sys"
+		description = "Detects renamed vulnerable driver mentioned in cvelist project using VersionInfo values from the PE header - AMDRyzenMasterDriver.sys"
 		author = "Florian Roth"
-		reference = "https://github.com/boss-net/risksDrivers"
+		reference = "https://github.com/cvelist/cvelist"
 		hash = "909de5f21837ea2b13fdc4e5763589e6bdedb903f7c04e1d0b08776639774880"
 		date = "2023-06-14"
 		score = 70
@@ -1365,9 +1365,9 @@ rule PUA_VULN_Renamed_Driver_Advancedmicrodevices_Amdryzenmasterdriversys_Amdryz
 
 rule PUA_VULN_Renamed_Driver_Atitechnologiesinc_Atillksys_Atidiagnostics_AD40 {
 	meta:
-		description = "Detects renamed vulnerable driver mentioned in risksDrivers project using VersionInfo values from the PE header - atillk64.sys"
+		description = "Detects renamed vulnerable driver mentioned in cvelist project using VersionInfo values from the PE header - atillk64.sys"
 		author = "Florian Roth"
-		reference = "https://github.com/boss-net/risksDrivers"
+		reference = "https://github.com/cvelist/cvelist"
 		hash = "ad40e6d0f77c0e579fb87c5106bf6de3d1a9f30ee2fbf8c9c011f377fa05f173"
 		hash = "38bb9751a3a1f072d518afe6921a66ee6d5cf6d25bc50af49e1925f20d75d4d7"
 		hash = "5c04c274a708c9a7d993e33be3ea9e6119dc29527a767410dbaf93996f87369a"
@@ -1389,9 +1389,9 @@ rule PUA_VULN_Renamed_Driver_Atitechnologiesinc_Atillksys_Atidiagnostics_AD40 {
 
 rule PUA_VULN_Renamed_Driver_Avgtechnologiesczsro_Aswarpot_Avginternetsecuritysystem_0CD4 {
 	meta:
-		description = "Detects renamed vulnerable driver mentioned in risksDrivers project using VersionInfo values from the PE header - aswArPot.sys, avgArPot.sys"
+		description = "Detects renamed vulnerable driver mentioned in cvelist project using VersionInfo values from the PE header - aswArPot.sys, avgArPot.sys"
 		author = "Florian Roth"
-		reference = "https://github.com/boss-net/risksDrivers"
+		reference = "https://github.com/cvelist/cvelist"
 		hash = "0cd4ca335155062182608cad9ef5c8351a715bce92049719dd09c76422cd7b0c"
 		date = "2023-06-14"
 		score = 70
@@ -1411,9 +1411,9 @@ rule PUA_VULN_Renamed_Driver_Avgtechnologiesczsro_Aswarpot_Avginternetsecuritysy
 
 rule PUA_VULN_Renamed_Driver_Novellinc_Novellxtier_E16D {
 	meta:
-		description = "Detects renamed vulnerable driver mentioned in risksDrivers project using VersionInfo values from the PE header - libnicm.sys"
+		description = "Detects renamed vulnerable driver mentioned in cvelist project using VersionInfo values from the PE header - libnicm.sys"
 		author = "Florian Roth"
-		reference = "https://github.com/boss-net/risksDrivers"
+		reference = "https://github.com/cvelist/cvelist"
 		hash = "e16dc51c51b2df88c474feb52ce884d152b3511094306a289623de69dedfdf48"
 		hash = "e6056443537d4d2314dabca1b9168f1eaaf17a14eb41f6f5741b6b82b3119790"
 		hash = "ab0925398f3fa69a67eacee2bbb7b34ac395bb309df7fc7a9a9b8103ef41ed7a"
@@ -1435,9 +1435,9 @@ rule PUA_VULN_Renamed_Driver_Novellinc_Novellxtier_E16D {
 
 rule PUA_VULN_Renamed_Driver_Trendmicroinc_Tmcommsys_Trendmicroaegis_3FA6 {
 	meta:
-		description = "Detects renamed vulnerable driver mentioned in risksDrivers project using VersionInfo values from the PE header - TmComm.sys"
+		description = "Detects renamed vulnerable driver mentioned in cvelist project using VersionInfo values from the PE header - TmComm.sys"
 		author = "Florian Roth"
-		reference = "https://github.com/boss-net/risksDrivers"
+		reference = "https://github.com/cvelist/cvelist"
 		hash = "3fa6379951f08ed3cb87eeba9cf0c5f5e1d0317dcfcf003b810df9d795eeb73e"
 		date = "2023-06-14"
 		score = 70
@@ -1457,9 +1457,9 @@ rule PUA_VULN_Renamed_Driver_Trendmicroinc_Tmcommsys_Trendmicroaegis_3FA6 {
 
 rule PUA_VULN_Renamed_Driver_Trendmicroinc_Tmcommsys_Trendmicroeyes_3E1D {
 	meta:
-		description = "Detects renamed vulnerable driver mentioned in risksDrivers project using VersionInfo values from the PE header - TmComm.sys"
+		description = "Detects renamed vulnerable driver mentioned in cvelist project using VersionInfo values from the PE header - TmComm.sys"
 		author = "Florian Roth"
-		reference = "https://github.com/boss-net/risksDrivers"
+		reference = "https://github.com/cvelist/cvelist"
 		hash = "3e1d47a497babbfd1c83905777b517ec87c65742bee7eb57a2273eca825d2272"
 		date = "2023-06-14"
 		score = 70
@@ -1479,9 +1479,9 @@ rule PUA_VULN_Renamed_Driver_Trendmicroinc_Tmcommsys_Trendmicroeyes_3E1D {
 
 rule PUA_VULN_Renamed_Driver_Avgtechnologiesczsro_Aswarpotsys_Avginternetsecuritysystem_6FB5 {
 	meta:
-		description = "Detects renamed vulnerable driver mentioned in risksDrivers project using VersionInfo values from the PE header - aswArPot.sys, avgArPot.sys"
+		description = "Detects renamed vulnerable driver mentioned in cvelist project using VersionInfo values from the PE header - aswArPot.sys, avgArPot.sys"
 		author = "Florian Roth"
-		reference = "https://github.com/boss-net/risksDrivers"
+		reference = "https://github.com/cvelist/cvelist"
 		hash = "6fb5bc9c51f6872de116c7db8a2134461743908efc306373f6de59a0646c4f5d"
 		date = "2023-06-14"
 		score = 70
@@ -1501,9 +1501,9 @@ rule PUA_VULN_Renamed_Driver_Avgtechnologiesczsro_Aswarpotsys_Avginternetsecurit
 
 rule PUA_VULN_Renamed_Driver_Asrockincorporation_Asrdrvsys_Asrockiodriver_3943 {
 	meta:
-		description = "Detects renamed vulnerable driver mentioned in risksDrivers project using VersionInfo values from the PE header - AsrDrv106.sys"
+		description = "Detects renamed vulnerable driver mentioned in cvelist project using VersionInfo values from the PE header - AsrDrv106.sys"
 		author = "Florian Roth"
-		reference = "https://github.com/boss-net/risksDrivers"
+		reference = "https://github.com/cvelist/cvelist"
 		hash = "3943a796cc7c5352aa57ccf544295bfd6fb69aae147bc8235a00202dc6ed6838"
 		hash = "950a4c0c772021cee26011a92194f0e58d61588f77f2873aa0599dff52a160c9"
 		hash = "2003b478b9fd1b3d76ec5bf4172c2e8915babbbee7ad1783794acbf8d4c2519d"
@@ -1529,9 +1529,9 @@ rule PUA_VULN_Renamed_Driver_Asrockincorporation_Asrdrvsys_Asrockiodriver_3943 {
 
 rule PUA_VULN_Renamed_Driver_Hpdevelopmentcompany_Etdsuppsys_Hpetdidriverdll_F744 {
 	meta:
-		description = "Detects renamed vulnerable driver mentioned in risksDrivers project using VersionInfo values from the PE header - etdsupp.sys"
+		description = "Detects renamed vulnerable driver mentioned in cvelist project using VersionInfo values from the PE header - etdsupp.sys"
 		author = "Florian Roth"
-		reference = "https://github.com/boss-net/risksDrivers"
+		reference = "https://github.com/cvelist/cvelist"
 		hash = "f744abb99c97d98e4cd08072a897107829d6d8481aee96c22443f626d00f4145"
 		date = "2023-06-14"
 		score = 70
@@ -1551,9 +1551,9 @@ rule PUA_VULN_Renamed_Driver_Hpdevelopmentcompany_Etdsuppsys_Hpetdidriverdll_F74
 
 rule PUA_VULN_Renamed_Driver_Intelcorporation_Iqvwsys_Intelriqvwsys_1F81 {
 	meta:
-		description = "Detects renamed vulnerable driver mentioned in risksDrivers project using VersionInfo values from the PE header - iQVW64.SYS"
+		description = "Detects renamed vulnerable driver mentioned in cvelist project using VersionInfo values from the PE header - iQVW64.SYS"
 		author = "Florian Roth"
-		reference = "https://github.com/boss-net/risksDrivers"
+		reference = "https://github.com/cvelist/cvelist"
 		hash = "1f8168036d636aad1680dd0f577ef9532dbb2dad3591d63e752b0ba3ee6fd501"
 		date = "2023-06-14"
 		score = 70
@@ -1573,9 +1573,9 @@ rule PUA_VULN_Renamed_Driver_Intelcorporation_Iqvwsys_Intelriqvwsys_1F81 {
 
 rule PUA_VULN_Renamed_Driver_Phoenixtechnologies_Agentsys_Driveragent_4045 {
 	meta:
-		description = "Detects renamed vulnerable driver mentioned in risksDrivers project using VersionInfo values from the PE header - Agent64.sys"
+		description = "Detects renamed vulnerable driver mentioned in cvelist project using VersionInfo values from the PE header - Agent64.sys"
 		author = "Florian Roth"
-		reference = "https://github.com/boss-net/risksDrivers"
+		reference = "https://github.com/cvelist/cvelist"
 		hash = "4045ae77859b1dbf13972451972eaaf6f3c97bea423e9e78f1c2f14330cd47ca"
 		hash = "8cb62c5d41148de416014f80bd1fd033fd4d2bd504cb05b90eeb6992a382d58f"
 		hash = "6948480954137987a0be626c24cf594390960242cd75f094cd6aaa5c2e7a54fa"
@@ -1599,9 +1599,9 @@ rule PUA_VULN_Renamed_Driver_Phoenixtechnologies_Agentsys_Driveragent_4045 {
 
 rule PUA_VULN_Renamed_Driver_Tgsoftsas_Viragtsys_Viritagentsystem_D0E2 {
 	meta:
-		description = "Detects renamed vulnerable driver mentioned in risksDrivers project using VersionInfo values from the PE header - viragt64.sys"
+		description = "Detects renamed vulnerable driver mentioned in cvelist project using VersionInfo values from the PE header - viragt64.sys"
 		author = "Florian Roth"
-		reference = "https://github.com/boss-net/risksDrivers"
+		reference = "https://github.com/cvelist/cvelist"
 		hash = "d0e25b879d830e4f867b09d6540a664b6f88bad353cd14494c33b31a8091f605"
 		date = "2023-06-14"
 		score = 70
@@ -1621,9 +1621,9 @@ rule PUA_VULN_Renamed_Driver_Tgsoftsas_Viragtsys_Viritagentsystem_D0E2 {
 
 rule PUA_VULN_Renamed_Driver_Novellinc_Novellxtier_904E {
 	meta:
-		description = "Detects renamed vulnerable driver mentioned in risksDrivers project using VersionInfo values from the PE header - NICM.SYS"
+		description = "Detects renamed vulnerable driver mentioned in cvelist project using VersionInfo values from the PE header - NICM.SYS"
 		author = "Florian Roth"
-		reference = "https://github.com/boss-net/risksDrivers"
+		reference = "https://github.com/cvelist/cvelist"
 		hash = "904e0f7d485a98e8497d5ec6dd6e6e1cf0b8d8e067fb64a9e09790af3c8c9d5a"
 		hash = "cf3180f5308af002ac5d6fd5b75d1340878c375f0aebc3157e3bcad6322b7190"
 		date = "2023-06-14"
@@ -1643,9 +1643,9 @@ rule PUA_VULN_Renamed_Driver_Novellinc_Novellxtier_904E {
 
 rule PUA_VULN_Renamed_Driver_Openlibsysorg_Openlibsyssys_Openlibsys_F060 {
 	meta:
-		description = "Detects renamed vulnerable driver mentioned in risksDrivers project using VersionInfo values from the PE header - OpenLibSys.sys"
+		description = "Detects renamed vulnerable driver mentioned in cvelist project using VersionInfo values from the PE header - OpenLibSys.sys"
 		author = "Florian Roth"
-		reference = "https://github.com/boss-net/risksDrivers"
+		reference = "https://github.com/cvelist/cvelist"
 		hash = "f0605dda1def240dc7e14efa73927d6c6d89988c01ea8647b671667b2b167008"
 		date = "2023-06-14"
 		score = 70
@@ -1665,9 +1665,9 @@ rule PUA_VULN_Renamed_Driver_Openlibsysorg_Openlibsyssys_Openlibsys_F060 {
 
 rule PUA_VULN_Renamed_Driver_Rweverything_Rwdrvsys_Rweverythingreadwritedriver_2A65 {
 	meta:
-		description = "Detects renamed vulnerable driver mentioned in risksDrivers project using VersionInfo values from the PE header - AsrIbDrv.sys"
+		description = "Detects renamed vulnerable driver mentioned in cvelist project using VersionInfo values from the PE header - AsrIbDrv.sys"
 		author = "Florian Roth"
-		reference = "https://github.com/boss-net/risksDrivers"
+		reference = "https://github.com/cvelist/cvelist"
 		hash = "2a652de6b680d5ad92376ad323021850dab2c653abf06edf26120f7714b8e08a"
 		hash = "3384f4a892f7aa72c43280ff682d85c8e3936f37a68d978d307a9461149192de"
 		hash = "2470fd1b733314c9b0afa19fd39c5d19aa1b36db598b5ebbe93445caa545da5f"
@@ -1692,9 +1692,9 @@ rule PUA_VULN_Renamed_Driver_Rweverything_Rwdrvsys_Rweverythingreadwritedriver_2
 
 rule PUA_VULN_Renamed_Driver_Trendmicroinc_Tmcommsys_Trendmicroeyes_5027 {
 	meta:
-		description = "Detects renamed vulnerable driver mentioned in risksDrivers project using VersionInfo values from the PE header - TmComm.sys"
+		description = "Detects renamed vulnerable driver mentioned in cvelist project using VersionInfo values from the PE header - TmComm.sys"
 		author = "Florian Roth"
-		reference = "https://github.com/boss-net/risksDrivers"
+		reference = "https://github.com/cvelist/cvelist"
 		hash = "5027fce41ed60906a0e76b97c95c2a5a83d57a2d1cd42de232a21f26c0d58e48"
 		date = "2023-06-14"
 		score = 70
@@ -1714,9 +1714,9 @@ rule PUA_VULN_Renamed_Driver_Trendmicroinc_Tmcommsys_Trendmicroeyes_5027 {
 
 rule PUA_VULN_Renamed_Driver_Avgtechnologiesczsro_Aswarpot_Avginternetsecuritysystem_19D0 {
 	meta:
-		description = "Detects renamed vulnerable driver mentioned in risksDrivers project using VersionInfo values from the PE header - aswArPot.sys, avgArPot.sys"
+		description = "Detects renamed vulnerable driver mentioned in cvelist project using VersionInfo values from the PE header - aswArPot.sys, avgArPot.sys"
 		author = "Florian Roth"
-		reference = "https://github.com/boss-net/risksDrivers"
+		reference = "https://github.com/cvelist/cvelist"
 		hash = "19d0fc91b70d7a719f7a28b4ad929f114bf1de94a4c7cba5ad821285a4485da0"
 		date = "2023-06-14"
 		score = 70
@@ -1736,9 +1736,9 @@ rule PUA_VULN_Renamed_Driver_Avgtechnologiesczsro_Aswarpot_Avginternetsecuritysy
 
 rule PUA_VULN_Renamed_Driver_Advancedmicrodevices_Amdryzenmasterdriversys_Amdryzenmasterservicedriver_7795 {
 	meta:
-		description = "Detects renamed vulnerable driver mentioned in risksDrivers project using VersionInfo values from the PE header - AMDRyzenMasterDriver.sys"
+		description = "Detects renamed vulnerable driver mentioned in cvelist project using VersionInfo values from the PE header - AMDRyzenMasterDriver.sys"
 		author = "Florian Roth"
-		reference = "https://github.com/boss-net/risksDrivers"
+		reference = "https://github.com/cvelist/cvelist"
 		hash = "77955af8a8bcea8998f4046c2f8534f6fb1959c71de049ca2f4298ba47d8f23a"
 		date = "2023-06-14"
 		score = 70
@@ -1758,9 +1758,9 @@ rule PUA_VULN_Renamed_Driver_Advancedmicrodevices_Amdryzenmasterdriversys_Amdryz
 
 rule PUA_VULN_Renamed_Driver_Advancedmicrodevices_Amdryzenmasterdriversys_Amdryzenmasterservicedriver_9B1A {
 	meta:
-		description = "Detects renamed vulnerable driver mentioned in risksDrivers project using VersionInfo values from the PE header - AMDRyzenMasterDriver.sys"
+		description = "Detects renamed vulnerable driver mentioned in cvelist project using VersionInfo values from the PE header - AMDRyzenMasterDriver.sys"
 		author = "Florian Roth"
-		reference = "https://github.com/boss-net/risksDrivers"
+		reference = "https://github.com/cvelist/cvelist"
 		hash = "9b1ac756e35f795dd91adbc841e78db23cb7165280f8d4a01df663128b66d194"
 		date = "2023-06-14"
 		score = 70
@@ -1780,9 +1780,9 @@ rule PUA_VULN_Renamed_Driver_Advancedmicrodevices_Amdryzenmasterdriversys_Amdryz
 
 rule PUA_VULN_Renamed_Driver_Panyazilimbilisimteknolojileriticltdsti_Panmonfltsys_Pancafemanager_7E01 {
 	meta:
-		description = "Detects renamed vulnerable driver mentioned in risksDrivers project using VersionInfo values from the PE header - PanMonFlt.sys"
+		description = "Detects renamed vulnerable driver mentioned in cvelist project using VersionInfo values from the PE header - PanMonFlt.sys"
 		author = "Florian Roth"
-		reference = "https://github.com/boss-net/risksDrivers"
+		reference = "https://github.com/cvelist/cvelist"
 		hash = "7e0124fcc7c95fdc34408cf154cb41e654dade8b898c71ad587b2090b1da30d7"
 		date = "2023-06-14"
 		score = 70
@@ -1802,9 +1802,9 @@ rule PUA_VULN_Renamed_Driver_Panyazilimbilisimteknolojileriticltdsti_Panmonfltsy
 
 rule PUA_VULN_Renamed_Driver_Lenovogrouplimitedr_Lenovodiagnosticsdriversys_Lenovodiagnostics_F05B {
 	meta:
-		description = "Detects renamed vulnerable driver mentioned in risksDrivers project using VersionInfo values from the PE header - LenovoDiagnosticsDriver.sys"
+		description = "Detects renamed vulnerable driver mentioned in cvelist project using VersionInfo values from the PE header - LenovoDiagnosticsDriver.sys"
 		author = "Florian Roth"
-		reference = "https://github.com/boss-net/risksDrivers"
+		reference = "https://github.com/cvelist/cvelist"
 		hash = "f05b1ee9e2f6ab704b8919d5071becbce6f9d0f9d0ba32a460c41d5272134abe"
 		date = "2023-06-14"
 		score = 70
@@ -1824,9 +1824,9 @@ rule PUA_VULN_Renamed_Driver_Lenovogrouplimitedr_Lenovodiagnosticsdriversys_Leno
 
 rule PUA_VULN_Renamed_Driver_Dell_Dbutil_71FE {
 	meta:
-		description = "Detects renamed vulnerable driver mentioned in risksDrivers project using VersionInfo values from the PE header - DBUtilDrv2.sys"
+		description = "Detects renamed vulnerable driver mentioned in cvelist project using VersionInfo values from the PE header - DBUtilDrv2.sys"
 		author = "Florian Roth"
-		reference = "https://github.com/boss-net/risksDrivers"
+		reference = "https://github.com/cvelist/cvelist"
 		hash = "71fe5af0f1564dc187eea8d59c0fbc897712afa07d18316d2080330ba17cf009"
 		date = "2023-06-14"
 		score = 70
@@ -1843,9 +1843,9 @@ rule PUA_VULN_Renamed_Driver_Dell_Dbutil_71FE {
 
 rule PUA_VULN_Renamed_Driver_Atszio_Atsziodriver_673B {
 	meta:
-		description = "Detects renamed vulnerable driver mentioned in risksDrivers project using VersionInfo values from the PE header - ATSZIO.sys"
+		description = "Detects renamed vulnerable driver mentioned in cvelist project using VersionInfo values from the PE header - ATSZIO.sys"
 		author = "Florian Roth"
-		reference = "https://github.com/boss-net/risksDrivers"
+		reference = "https://github.com/cvelist/cvelist"
 		hash = "673bcec3d53fab5efd6e3bac25ac9d6cc51f6bbdf8336e38aade2713dc1ae11b"
 		hash = "31d8fc6f5fb837d5eb29db828d13ba8ee11867d86a90b2c2483a578e1d0ec43a"
 		date = "2023-06-14"
@@ -1865,9 +1865,9 @@ rule PUA_VULN_Renamed_Driver_Atszio_Atsziodriver_673B {
 
 rule PUA_VULN_Renamed_Driver_Asus_Asmmapsys_Atkgenericfunctionservice_025E {
 	meta:
-		description = "Detects renamed vulnerable driver mentioned in risksDrivers project using VersionInfo values from the PE header - asmmap64.sys"
+		description = "Detects renamed vulnerable driver mentioned in cvelist project using VersionInfo values from the PE header - asmmap64.sys"
 		author = "Florian Roth"
-		reference = "https://github.com/boss-net/risksDrivers"
+		reference = "https://github.com/cvelist/cvelist"
 		hash = "025e7be9fcefd6a83f4471bba0c11f1c11bd5047047d26626da24ee9a419cdc4"
 		date = "2023-06-14"
 		score = 70
@@ -1887,9 +1887,9 @@ rule PUA_VULN_Renamed_Driver_Asus_Asmmapsys_Atkgenericfunctionservice_025E {
 
 rule PUA_VULN_Renamed_Driver_Novellinc_Novellxtier_FB81 {
 	meta:
-		description = "Detects renamed vulnerable driver mentioned in risksDrivers project using VersionInfo values from the PE header - nscm.sys"
+		description = "Detects renamed vulnerable driver mentioned in cvelist project using VersionInfo values from the PE header - nscm.sys"
 		author = "Florian Roth"
-		reference = "https://github.com/boss-net/risksDrivers"
+		reference = "https://github.com/cvelist/cvelist"
 		hash = "fb81b5f8bf69637dbdf050181499088a67d24577587bc520de94b5ee8996240f"
 		hash = "76660e91f1ff3cb89630df5af4fe09de6098d09baa66b1a130c89c3c5edd5b22"
 		hash = "2e665962c827ce0adbd29fe6bcf09bbb1d7a7022075d162ff9b65d0af9794ac0"
@@ -1910,9 +1910,9 @@ rule PUA_VULN_Renamed_Driver_Novellinc_Novellxtier_FB81 {
 
 rule PUA_VULN_Renamed_Driver_Realtek_Rtkiosys_Realtekiodriver_7133 {
 	meta:
-		description = "Detects renamed vulnerable driver mentioned in risksDrivers project using VersionInfo values from the PE header - rtkio64.sys"
+		description = "Detects renamed vulnerable driver mentioned in cvelist project using VersionInfo values from the PE header - rtkio64.sys"
 		author = "Florian Roth"
-		reference = "https://github.com/boss-net/risksDrivers"
+		reference = "https://github.com/cvelist/cvelist"
 		hash = "7133a461aeb03b4d69d43f3d26cd1a9e3ee01694e97a0645a3d8aa1a44c39129"
 		date = "2023-06-14"
 		score = 70
@@ -1932,9 +1932,9 @@ rule PUA_VULN_Renamed_Driver_Realtek_Rtkiosys_Realtekiodriver_7133 {
 
 rule PUA_VULN_Renamed_Driver_Lgelectronicsinc_Lhasys_Microsoftwindowsoperatingsystem_23BA {
 	meta:
-		description = "Detects renamed vulnerable driver mentioned in risksDrivers project using VersionInfo values from the PE header - LHA.sys"
+		description = "Detects renamed vulnerable driver mentioned in cvelist project using VersionInfo values from the PE header - LHA.sys"
 		author = "Florian Roth"
-		reference = "https://github.com/boss-net/risksDrivers"
+		reference = "https://github.com/cvelist/cvelist"
 		hash = "23ba19352b1e71a965260bf4d5120f0200709ee8657ed381043bec9a938a1ade"
 		hash = "e75714f8e0ff45605f6fc7689a1a89c7dcd34aab66c6131c63fefaca584539cf"
 		date = "2023-06-14"
@@ -1955,9 +1955,9 @@ rule PUA_VULN_Renamed_Driver_Lgelectronicsinc_Lhasys_Microsoftwindowsoperatingsy
 
 rule PUA_VULN_Renamed_Driver_Logmeininc_Lmiinfosys_Logmein_453B {
 	meta:
-		description = "Detects renamed vulnerable driver mentioned in risksDrivers project using VersionInfo values from the PE header - LMIinfo.sys"
+		description = "Detects renamed vulnerable driver mentioned in cvelist project using VersionInfo values from the PE header - LMIinfo.sys"
 		author = "Florian Roth"
-		reference = "https://github.com/boss-net/risksDrivers"
+		reference = "https://github.com/cvelist/cvelist"
 		hash = "453be8f63cc6b116e2049659e081d896491cf1a426e3d5f029f98146a3f44233"
 		date = "2023-06-14"
 		score = 70
@@ -1977,9 +1977,9 @@ rule PUA_VULN_Renamed_Driver_Logmeininc_Lmiinfosys_Logmein_453B {
 
 rule PUA_VULN_Renamed_Driver_Insydesoftwarecorp_Segwindrvxsys_Segwindowsdriverx_C628 {
 	meta:
-		description = "Detects renamed vulnerable driver mentioned in risksDrivers project using VersionInfo values from the PE header - segwindrvx64.sys"
+		description = "Detects renamed vulnerable driver mentioned in cvelist project using VersionInfo values from the PE header - segwindrvx64.sys"
 		author = "Florian Roth"
-		reference = "https://github.com/boss-net/risksDrivers"
+		reference = "https://github.com/cvelist/cvelist"
 		hash = "c628cda1ef43defc00af45b79949675a8422490d32b080b3a8bb9434242bdbf2"
 		date = "2023-06-14"
 		score = 70
@@ -1999,9 +1999,9 @@ rule PUA_VULN_Renamed_Driver_Insydesoftwarecorp_Segwindrvxsys_Segwindowsdriverx_
 
 rule PUA_VULN_Renamed_Driver_Elaboratebytesag_Elbycdio_Cdrtools_2FBB {
 	meta:
-		description = "Detects renamed vulnerable driver mentioned in risksDrivers project using VersionInfo values from the PE header - ElbyCDIO.sys"
+		description = "Detects renamed vulnerable driver mentioned in cvelist project using VersionInfo values from the PE header - ElbyCDIO.sys"
 		author = "Florian Roth"
-		reference = "https://github.com/boss-net/risksDrivers"
+		reference = "https://github.com/cvelist/cvelist"
 		hash = "2fbbc276737047cb9b3ba5396756d28c1737342d89dce1b64c23a9c4513ae445"
 		date = "2023-06-14"
 		score = 70
@@ -2021,9 +2021,9 @@ rule PUA_VULN_Renamed_Driver_Elaboratebytesag_Elbycdio_Cdrtools_2FBB {
 
 rule PUA_VULN_Renamed_Driver_Sysinternalswwwsysinternalscom_Procexpsys_Processexplorer_BCED {
 	meta:
-		description = "Detects renamed vulnerable driver mentioned in risksDrivers project using VersionInfo values from the PE header - procexp.Sys"
+		description = "Detects renamed vulnerable driver mentioned in cvelist project using VersionInfo values from the PE header - procexp.Sys"
 		author = "Florian Roth"
-		reference = "https://github.com/boss-net/risksDrivers"
+		reference = "https://github.com/cvelist/cvelist"
 		hash = "bced04bdefad6a08c763265d6993f07aa2feb57d33ed057f162a947cf0e6668f"
 		date = "2023-06-14"
 		score = 70
@@ -2043,9 +2043,9 @@ rule PUA_VULN_Renamed_Driver_Sysinternalswwwsysinternalscom_Procexpsys_Processex
 
 rule PUA_VULN_Renamed_Driver_Realtek_Rtkiowxsys_Realtekiodriver_082C {
 	meta:
-		description = "Detects renamed vulnerable driver mentioned in risksDrivers project using VersionInfo values from the PE header - rtkiow8x64.sys"
+		description = "Detects renamed vulnerable driver mentioned in cvelist project using VersionInfo values from the PE header - rtkiow8x64.sys"
 		author = "Florian Roth"
-		reference = "https://github.com/boss-net/risksDrivers"
+		reference = "https://github.com/cvelist/cvelist"
 		hash = "082c39fe2e3217004206535e271ebd45c11eb072efde4cc9885b25ba5c39f91d"
 		date = "2023-06-14"
 		score = 70
@@ -2065,9 +2065,9 @@ rule PUA_VULN_Renamed_Driver_Realtek_Rtkiowxsys_Realtekiodriver_082C {
 
 rule PUA_VULN_Renamed_Driver_Intelcorporation_Iqvwsys_Intelriqvwsys_D1F4 {
 	meta:
-		description = "Detects renamed vulnerable driver mentioned in risksDrivers project using VersionInfo values from the PE header - iQVW64.SYS"
+		description = "Detects renamed vulnerable driver mentioned in cvelist project using VersionInfo values from the PE header - iQVW64.SYS"
 		author = "Florian Roth"
-		reference = "https://github.com/boss-net/risksDrivers"
+		reference = "https://github.com/cvelist/cvelist"
 		hash = "d1f4949f76d8ac9f2fa844d16b1b45fb1375d149d46e414e4a4c9424dc66c91f"
 		date = "2023-06-14"
 		score = 70
@@ -2087,9 +2087,9 @@ rule PUA_VULN_Renamed_Driver_Intelcorporation_Iqvwsys_Intelriqvwsys_D1F4 {
 
 rule PUA_VULN_Renamed_Driver_Intelcorporation_Iqvwsys_Intelriqvwsys_7CB4 {
 	meta:
-		description = "Detects renamed vulnerable driver mentioned in risksDrivers project using VersionInfo values from the PE header - iQVW64.SYS"
+		description = "Detects renamed vulnerable driver mentioned in cvelist project using VersionInfo values from the PE header - iQVW64.SYS"
 		author = "Florian Roth"
-		reference = "https://github.com/boss-net/risksDrivers"
+		reference = "https://github.com/cvelist/cvelist"
 		hash = "7cb497abc44aad09a38160d6a071db499e05ff5871802ccc45d565d242026ee7"
 		date = "2023-06-14"
 		score = 70
@@ -2109,9 +2109,9 @@ rule PUA_VULN_Renamed_Driver_Intelcorporation_Iqvwsys_Intelriqvwsys_7CB4 {
 
 rule PUA_VULN_Renamed_Driver_Safenetinc_Hostnt_Hostnt_07B6 {
 	meta:
-		description = "Detects renamed vulnerable driver mentioned in risksDrivers project using VersionInfo values from the PE header - HOSTNT.sys"
+		description = "Detects renamed vulnerable driver mentioned in cvelist project using VersionInfo values from the PE header - HOSTNT.sys"
 		author = "Florian Roth"
-		reference = "https://github.com/boss-net/risksDrivers"
+		reference = "https://github.com/cvelist/cvelist"
 		hash = "07b6d69bafcfd767f1b63a490a8843c3bb1f8e1bbea56176109b5743c8f7d357"
 		date = "2023-06-14"
 		score = 70
@@ -2131,9 +2131,9 @@ rule PUA_VULN_Renamed_Driver_Safenetinc_Hostnt_Hostnt_07B6 {
 
 rule PUA_VULN_Renamed_Driver_Rivetnetworksllc_Kfecodrvsys_Killertrafficcontrol_9A91 {
 	meta:
-		description = "Detects renamed vulnerable driver mentioned in risksDrivers project using VersionInfo values from the PE header - KfeCo11X64.sys"
+		description = "Detects renamed vulnerable driver mentioned in cvelist project using VersionInfo values from the PE header - KfeCo11X64.sys"
 		author = "Florian Roth"
-		reference = "https://github.com/boss-net/risksDrivers"
+		reference = "https://github.com/cvelist/cvelist"
 		hash = "9a91d6e83b8fdec536580f6617f10dfc64eedf14ead29a6a644eb154426622ba"
 		date = "2023-06-14"
 		score = 70
@@ -2153,9 +2153,9 @@ rule PUA_VULN_Renamed_Driver_Rivetnetworksllc_Kfecodrvsys_Killertrafficcontrol_9
 
 rule PUA_VULN_Renamed_Driver_Zemanaltd_Zam_7CB5 {
 	meta:
-		description = "Detects renamed vulnerable driver mentioned in risksDrivers project using VersionInfo values from the PE header - zam64.sys"
+		description = "Detects renamed vulnerable driver mentioned in cvelist project using VersionInfo values from the PE header - zam64.sys"
 		author = "Florian Roth"
-		reference = "https://github.com/boss-net/risksDrivers"
+		reference = "https://github.com/cvelist/cvelist"
 		hash = "7cb594af6a3655daebc9fad9c8abf2417b00ba31dcd118707824e5316fc0cc21"
 		date = "2023-06-14"
 		score = 70
@@ -2173,9 +2173,9 @@ rule PUA_VULN_Renamed_Driver_Zemanaltd_Zam_7CB5 {
 
 rule PUA_VULN_Renamed_Driver_Asrockincorporation_Asrautochkupddrvsys_Asrautochkupddrvdriver_2AA1 {
 	meta:
-		description = "Detects renamed vulnerable driver mentioned in risksDrivers project using VersionInfo values from the PE header - AsrAutoChkUpdDrv.sys"
+		description = "Detects renamed vulnerable driver mentioned in cvelist project using VersionInfo values from the PE header - AsrAutoChkUpdDrv.sys"
 		author = "Florian Roth"
-		reference = "https://github.com/boss-net/risksDrivers"
+		reference = "https://github.com/cvelist/cvelist"
 		hash = "2aa1b08f47fbb1e2bd2e4a492f5d616968e703e1359a921f62b38b8e4662f0c4"
 		date = "2023-06-14"
 		score = 70
@@ -2195,9 +2195,9 @@ rule PUA_VULN_Renamed_Driver_Asrockincorporation_Asrautochkupddrvsys_Asrautochku
 
 rule PUA_VULN_Renamed_Driver_Trendmicroinc_Tmcommsys_Trendmicroeyes_97B3 {
 	meta:
-		description = "Detects renamed vulnerable driver mentioned in risksDrivers project using VersionInfo values from the PE header - TmComm.sys"
+		description = "Detects renamed vulnerable driver mentioned in cvelist project using VersionInfo values from the PE header - TmComm.sys"
 		author = "Florian Roth"
-		reference = "https://github.com/boss-net/risksDrivers"
+		reference = "https://github.com/cvelist/cvelist"
 		hash = "97b32ddf83f75637e3ba934df117081dd6a1c57d47a4c9700d35e736da11d5bd"
 		hash = "89108a15f009b285db4ef94250b889d5b11b96b4aa7b190784a6d1396e893e10"
 		date = "2023-06-14"
@@ -2218,9 +2218,9 @@ rule PUA_VULN_Renamed_Driver_Trendmicroinc_Tmcommsys_Trendmicroeyes_97B3 {
 
 rule PUA_VULN_Renamed_Driver_Novellinc_Novellxtier_2899 {
 	meta:
-		description = "Detects renamed vulnerable driver mentioned in risksDrivers project using VersionInfo values from the PE header - nscm.sys"
+		description = "Detects renamed vulnerable driver mentioned in cvelist project using VersionInfo values from the PE header - nscm.sys"
 		author = "Florian Roth"
-		reference = "https://github.com/boss-net/risksDrivers"
+		reference = "https://github.com/cvelist/cvelist"
 		hash = "28999af32b55ddb7dcfc26376a244aa2fe297233ce7abe4919a1aef2f7e2cee7"
 		hash = "ce23c2dae4cca4771ea50ec737093dfafac06c64db0f924a1ccbbf687e33f5a2"
 		date = "2023-06-14"
@@ -2240,9 +2240,9 @@ rule PUA_VULN_Renamed_Driver_Novellinc_Novellxtier_2899 {
 
 rule PUA_VULN_Renamed_Driver_Trendmicroinc_Tmcommsys_Trendmicroeyes_818E {
 	meta:
-		description = "Detects renamed vulnerable driver mentioned in risksDrivers project using VersionInfo values from the PE header - TmComm.sys"
+		description = "Detects renamed vulnerable driver mentioned in cvelist project using VersionInfo values from the PE header - TmComm.sys"
 		author = "Florian Roth"
-		reference = "https://github.com/boss-net/risksDrivers"
+		reference = "https://github.com/cvelist/cvelist"
 		hash = "818e396595d08d724666803cd29dac566dc7db23bf50e9919d04b33afa988c01"
 		date = "2023-06-14"
 		score = 70
@@ -2262,9 +2262,9 @@ rule PUA_VULN_Renamed_Driver_Trendmicroinc_Tmcommsys_Trendmicroeyes_818E {
 
 rule PUA_VULN_Renamed_Driver_Trendmicroinc_Tmcommsys_Trendmicroeyes_6FFD {
 	meta:
-		description = "Detects renamed vulnerable driver mentioned in risksDrivers project using VersionInfo values from the PE header - TmComm.sys"
+		description = "Detects renamed vulnerable driver mentioned in cvelist project using VersionInfo values from the PE header - TmComm.sys"
 		author = "Florian Roth"
-		reference = "https://github.com/boss-net/risksDrivers"
+		reference = "https://github.com/cvelist/cvelist"
 		hash = "6ffdde6bc6784c13c601442e47157062941c47015891e7139c2aaba676ab59cc"
 		date = "2023-06-14"
 		score = 70
@@ -2284,9 +2284,9 @@ rule PUA_VULN_Renamed_Driver_Trendmicroinc_Tmcommsys_Trendmicroeyes_6FFD {
 
 rule PUA_VULN_Renamed_Driver_Cpuid_Cpuzsys_Cpuidservice_7710 {
 	meta:
-		description = "Detects renamed vulnerable driver mentioned in risksDrivers project using VersionInfo values from the PE header - cpuz.sys"
+		description = "Detects renamed vulnerable driver mentioned in cvelist project using VersionInfo values from the PE header - cpuz.sys"
 		author = "Florian Roth"
-		reference = "https://github.com/boss-net/risksDrivers"
+		reference = "https://github.com/cvelist/cvelist"
 		hash = "771015b2620942919bb2e0683476635b7a09db55216d6fbf03534cb18513b20c"
 		hash = "8d57e416ea4bb855b78a2ff3c80de1dfbb5dc5ee9bfbdddb23e46bd8619287e2"
 		hash = "900dd68ccc72d73774a347b3290c4b6153ae496a81de722ebb043e2e99496f88"
@@ -2309,9 +2309,9 @@ rule PUA_VULN_Renamed_Driver_Cpuid_Cpuzsys_Cpuidservice_7710 {
 
 rule PUA_VULN_Renamed_Driver_Windowsrserverddkprovider_Speedfansys_Windowsrserverddkdriver_22BE {
 	meta:
-		description = "Detects renamed vulnerable driver mentioned in risksDrivers project using VersionInfo values from the PE header - speedfan.sys"
+		description = "Detects renamed vulnerable driver mentioned in cvelist project using VersionInfo values from the PE header - speedfan.sys"
 		author = "Florian Roth"
-		reference = "https://github.com/boss-net/risksDrivers"
+		reference = "https://github.com/cvelist/cvelist"
 		hash = "22be050955347661685a4343c51f11c7811674e030386d2264cd12ecbf544b7c"
 		date = "2023-06-14"
 		score = 70
@@ -2331,9 +2331,9 @@ rule PUA_VULN_Renamed_Driver_Windowsrserverddkprovider_Speedfansys_Windowsrserve
 
 rule PUA_VULN_Renamed_Driver_Openlibsysorg_Openlibsyssys_Openlibsys_9131 {
 	meta:
-		description = "Detects renamed vulnerable driver mentioned in risksDrivers project using VersionInfo values from the PE header - OpenLibSys.sys"
+		description = "Detects renamed vulnerable driver mentioned in cvelist project using VersionInfo values from the PE header - OpenLibSys.sys"
 		author = "Florian Roth"
-		reference = "https://github.com/boss-net/risksDrivers"
+		reference = "https://github.com/cvelist/cvelist"
 		hash = "91314768da140999e682d2a290d48b78bb25a35525ea12c1b1f9634d14602b2c"
 		date = "2023-06-14"
 		score = 70
@@ -2353,9 +2353,9 @@ rule PUA_VULN_Renamed_Driver_Openlibsysorg_Openlibsyssys_Openlibsys_9131 {
 
 rule PUA_VULN_Renamed_Driver_Tgsoftsas_Viragtsys_Viritagentsystem_E4EC {
 	meta:
-		description = "Detects renamed vulnerable driver mentioned in risksDrivers project using VersionInfo values from the PE header - viragt64.sys"
+		description = "Detects renamed vulnerable driver mentioned in cvelist project using VersionInfo values from the PE header - viragt64.sys"
 		author = "Florian Roth"
-		reference = "https://github.com/boss-net/risksDrivers"
+		reference = "https://github.com/cvelist/cvelist"
 		hash = "e4eca7db365929ff7c5c785e2eab04ef8ec67ea9edcf7392f2b74eccd9449148"
 		date = "2023-06-14"
 		score = 70
@@ -2375,9 +2375,9 @@ rule PUA_VULN_Renamed_Driver_Tgsoftsas_Viragtsys_Viritagentsystem_E4EC {
 
 rule PUA_VULN_Renamed_Driver_Asustekcomputerinc_Atsziosys_Atsziodriver_FB6B {
 	meta:
-		description = "Detects renamed vulnerable driver mentioned in risksDrivers project using VersionInfo values from the PE header - ATSZIO.sys"
+		description = "Detects renamed vulnerable driver mentioned in cvelist project using VersionInfo values from the PE header - ATSZIO.sys"
 		author = "Florian Roth"
-		reference = "https://github.com/boss-net/risksDrivers"
+		reference = "https://github.com/cvelist/cvelist"
 		hash = "fb6b0d304433bf88cc7d57728683dbb4b9833459dc33528918ead09b3907ff22"
 		date = "2023-06-14"
 		score = 70
@@ -2397,9 +2397,9 @@ rule PUA_VULN_Renamed_Driver_Asustekcomputerinc_Atsziosys_Atsziodriver_FB6B {
 
 rule PUA_VULN_Renamed_Driver_Sysinternalswwwsysinternalscom_Procexpsys_Processexplorer_075D {
 	meta:
-		description = "Detects renamed vulnerable driver mentioned in risksDrivers project using VersionInfo values from the PE header - procexp.Sys"
+		description = "Detects renamed vulnerable driver mentioned in cvelist project using VersionInfo values from the PE header - procexp.Sys"
 		author = "Florian Roth"
-		reference = "https://github.com/boss-net/risksDrivers"
+		reference = "https://github.com/cvelist/cvelist"
 		hash = "075de997497262a9d105afeadaaefc6348b25ce0e0126505c24aa9396c251e85"
 		hash = "cdfbe62ef515546f1728189260d0bdf77167063b6dbb77f1db6ed8b61145a2bc"
 		date = "2023-06-14"
@@ -2420,9 +2420,9 @@ rule PUA_VULN_Renamed_Driver_Sysinternalswwwsysinternalscom_Procexpsys_Processex
 
 rule PUA_VULN_Renamed_Driver_Micsystechnologycoltd_Msiosys_Msiodriverversion_X_AE42 {
 	meta:
-		description = "Detects renamed vulnerable driver mentioned in risksDrivers project using VersionInfo values from the PE header - MsIo64.sys"
+		description = "Detects renamed vulnerable driver mentioned in cvelist project using VersionInfo values from the PE header - MsIo64.sys"
 		author = "Florian Roth"
-		reference = "https://github.com/boss-net/risksDrivers"
+		reference = "https://github.com/cvelist/cvelist"
 		hash = "ae42afa9be9aa6f6a5ae09fa9c05cd2dfb7861dc72d4fd8e0130e5843756c471"
 		hash = "d636c011b8b2896572f5de260eb997182cc6955449b044a739bd19cbe6fdabd2"
 		hash = "0f035948848432bc243704041739e49b528f35c82a5be922d9e3b8a4c44398ff"
@@ -2444,9 +2444,9 @@ rule PUA_VULN_Renamed_Driver_Micsystechnologycoltd_Msiosys_Msiodriverversion_X_A
 
 rule PUA_VULN_Renamed_Driver_Vektortsecurityservice_Vboxdrv_Antidetectpublic_3724 {
 	meta:
-		description = "Detects renamed vulnerable driver mentioned in risksDrivers project using VersionInfo values from the PE header - VBoxDrv.sys"
+		description = "Detects renamed vulnerable driver mentioned in cvelist project using VersionInfo values from the PE header - VBoxDrv.sys"
 		author = "Florian Roth"
-		reference = "https://github.com/boss-net/risksDrivers"
+		reference = "https://github.com/cvelist/cvelist"
 		hash = "3724b39e97936bb20ada51c6119aded04530ed86f6b8d6b45fbfb2f3b9a4114b"
 		date = "2023-06-14"
 		score = 70
@@ -2466,9 +2466,9 @@ rule PUA_VULN_Renamed_Driver_Vektortsecurityservice_Vboxdrv_Antidetectpublic_372
 
 rule PUA_VULN_Renamed_Driver_Elaboratebytesag_Elbycdio_Cdrtools_2380 {
 	meta:
-		description = "Detects renamed vulnerable driver mentioned in risksDrivers project using VersionInfo values from the PE header - ElbyCDIO.sys"
+		description = "Detects renamed vulnerable driver mentioned in cvelist project using VersionInfo values from the PE header - ElbyCDIO.sys"
 		author = "Florian Roth"
-		reference = "https://github.com/boss-net/risksDrivers"
+		reference = "https://github.com/cvelist/cvelist"
 		hash = "238046cfe126a1f8ab96d8b62f6aa5ec97bab830e2bae5b1b6ab2d31894c79e4"
 		date = "2023-06-14"
 		score = 70
@@ -2488,9 +2488,9 @@ rule PUA_VULN_Renamed_Driver_Elaboratebytesag_Elbycdio_Cdrtools_2380 {
 
 rule PUA_VULN_Renamed_Driver_Msi_Ntiolibxsys_Ntiolibx_1E8B {
 	meta:
-		description = "Detects renamed vulnerable driver mentioned in risksDrivers project using VersionInfo values from the PE header - NTIOLib.sys"
+		description = "Detects renamed vulnerable driver mentioned in cvelist project using VersionInfo values from the PE header - NTIOLib.sys"
 		author = "Florian Roth"
-		reference = "https://github.com/boss-net/risksDrivers"
+		reference = "https://github.com/cvelist/cvelist"
 		hash = "1e8b0c1966e566a523d652e00f7727d8b0663f1dfdce3b9a09b9adfaef48d8ee"
 		hash = "5d530e111400785d183057113d70623e17af32931668ab7c7fc826f0fd4f91a3"
 		date = "2023-06-14"
@@ -2511,9 +2511,9 @@ rule PUA_VULN_Renamed_Driver_Msi_Ntiolibxsys_Ntiolibx_1E8B {
 
 rule PUA_VULN_Renamed_Driver_Sysinternalswwwsysinternalscom_Procexpsys_Processexplorer_6BFC {
 	meta:
-		description = "Detects renamed vulnerable driver mentioned in risksDrivers project using VersionInfo values from the PE header - procexp.Sys"
+		description = "Detects renamed vulnerable driver mentioned in cvelist project using VersionInfo values from the PE header - procexp.Sys"
 		author = "Florian Roth"
-		reference = "https://github.com/boss-net/risksDrivers"
+		reference = "https://github.com/cvelist/cvelist"
 		hash = "6bfc0f425de9f4e7480aa2d1f2e08892d0553ed0df1c31e9bf3d8d702f38fa2e"
 		hash = "3c7e5b25a33a7805c999d318a9523fcae46695a89f55bbdb8bb9087360323dfc"
 		hash = "46621554728bc55438c7c241137af401250f062edef6e7efecf1a6f0f6d0c1f7"
@@ -2535,9 +2535,9 @@ rule PUA_VULN_Renamed_Driver_Sysinternalswwwsysinternalscom_Procexpsys_Processex
 
 rule PUA_VULN_Renamed_Driver_Sysinternalswwwsysinternalscom_Procexpsys_Processexplorer_7A48 {
 	meta:
-		description = "Detects renamed vulnerable driver mentioned in risksDrivers project using VersionInfo values from the PE header - procexp.Sys"
+		description = "Detects renamed vulnerable driver mentioned in cvelist project using VersionInfo values from the PE header - procexp.Sys"
 		author = "Florian Roth"
-		reference = "https://github.com/boss-net/risksDrivers"
+		reference = "https://github.com/cvelist/cvelist"
 		hash = "7a48f92a9c2d95a72e18055cac28c1e7e6cad5f47aa735cbea5c3b82813ccfaf"
 		date = "2023-06-14"
 		score = 70
@@ -2557,9 +2557,9 @@ rule PUA_VULN_Renamed_Driver_Sysinternalswwwsysinternalscom_Procexpsys_Processex
 
 rule PUA_VULN_Renamed_Driver_Zemanaltd_Zam_45F4 {
 	meta:
-		description = "Detects renamed vulnerable driver mentioned in risksDrivers project using VersionInfo values from the PE header - zam64.sys"
+		description = "Detects renamed vulnerable driver mentioned in cvelist project using VersionInfo values from the PE header - zam64.sys"
 		author = "Florian Roth"
-		reference = "https://github.com/boss-net/risksDrivers"
+		reference = "https://github.com/cvelist/cvelist"
 		hash = "45f42c5d874369d6be270ea27a5511efcca512aeac7977f83a51b7c4dee6b5ef"
 		date = "2023-06-14"
 		score = 70
@@ -2576,9 +2576,9 @@ rule PUA_VULN_Renamed_Driver_Zemanaltd_Zam_45F4 {
 
 rule PUA_VULN_Renamed_Driver_Intelcorporation_Iqvwsys_Intelriqvwsys_4D05 {
 	meta:
-		description = "Detects renamed vulnerable driver mentioned in risksDrivers project using VersionInfo values from the PE header - iQVW64.SYS"
+		description = "Detects renamed vulnerable driver mentioned in cvelist project using VersionInfo values from the PE header - iQVW64.SYS"
 		author = "Florian Roth"
-		reference = "https://github.com/boss-net/risksDrivers"
+		reference = "https://github.com/cvelist/cvelist"
 		hash = "4d0580c20c1ba74cf90d44c82d040f0039542eea96e4bbff3996e6760f457cee"
 		hash = "77c5e95b872b1d815d6d3ed28b399ca39f3427eeb0143f49982120ff732285a9"
 		hash = "cff9aa9046bdfd781d34f607d901a431a51bb7e5f48f4f681cc743b2cdedc98c"
@@ -2605,9 +2605,9 @@ rule PUA_VULN_Renamed_Driver_Intelcorporation_Iqvwsys_Intelriqvwsys_4D05 {
 
 rule PUA_VULN_Renamed_Driver_Avastsoftware_Aswarpotsys_Avastantivirus_86A1 {
 	meta:
-		description = "Detects renamed vulnerable driver mentioned in risksDrivers project using VersionInfo values from the PE header - aswArPot.sys, avgArPot.sys"
+		description = "Detects renamed vulnerable driver mentioned in cvelist project using VersionInfo values from the PE header - aswArPot.sys, avgArPot.sys"
 		author = "Florian Roth"
-		reference = "https://github.com/boss-net/risksDrivers"
+		reference = "https://github.com/cvelist/cvelist"
 		hash = "86a1b1bacc0c51332c9979e6aad84b5fba335df6b9a096ccb7681ab0779a8882"
 		date = "2023-06-14"
 		score = 70
@@ -2627,9 +2627,9 @@ rule PUA_VULN_Renamed_Driver_Avastsoftware_Aswarpotsys_Avastantivirus_86A1 {
 
 rule PUA_VULN_Renamed_Driver_Trendmicroinc_Tmcommsys_Aegis_61BE {
 	meta:
-		description = "Detects renamed vulnerable driver mentioned in risksDrivers project using VersionInfo values from the PE header - TmComm.sys"
+		description = "Detects renamed vulnerable driver mentioned in cvelist project using VersionInfo values from the PE header - TmComm.sys"
 		author = "Florian Roth"
-		reference = "https://github.com/boss-net/risksDrivers"
+		reference = "https://github.com/cvelist/cvelist"
 		hash = "61befeef14783eb0fed679fca179d2f5c33eb2dcbd40980669ca2ebeb3bf11cf"
 		date = "2023-06-14"
 		score = 70
@@ -2649,9 +2649,9 @@ rule PUA_VULN_Renamed_Driver_Trendmicroinc_Tmcommsys_Aegis_61BE {
 
 rule PUA_VULN_Renamed_Driver_Avastsoftware_Aswarpotsys_Avastantivirus_BE8D {
 	meta:
-		description = "Detects renamed vulnerable driver mentioned in risksDrivers project using VersionInfo values from the PE header - aswArPot.sys, avgArPot.sys"
+		description = "Detects renamed vulnerable driver mentioned in cvelist project using VersionInfo values from the PE header - aswArPot.sys, avgArPot.sys"
 		author = "Florian Roth"
-		reference = "https://github.com/boss-net/risksDrivers"
+		reference = "https://github.com/cvelist/cvelist"
 		hash = "be8dd2d39a527649e34dc77ef8bc07193a4234b38597b8f51e519dadc5479ec2"
 		date = "2023-06-14"
 		score = 70
@@ -2671,9 +2671,9 @@ rule PUA_VULN_Renamed_Driver_Avastsoftware_Aswarpotsys_Avastantivirus_BE8D {
 
 rule PUA_VULN_Renamed_Driver_Msi_Ntiolibsys_Ntiolib_3070 {
 	meta:
-		description = "Detects renamed vulnerable driver mentioned in risksDrivers project using VersionInfo values from the PE header - NTIOLib.sys"
+		description = "Detects renamed vulnerable driver mentioned in cvelist project using VersionInfo values from the PE header - NTIOLib.sys"
 		author = "Florian Roth"
-		reference = "https://github.com/boss-net/risksDrivers"
+		reference = "https://github.com/cvelist/cvelist"
 		hash = "30706f110725199e338e9cc1c940d9a644d19a14f0eb8847712cba4cacda67ab"
 		date = "2023-06-14"
 		score = 70
@@ -2693,9 +2693,9 @@ rule PUA_VULN_Renamed_Driver_Msi_Ntiolibsys_Ntiolib_3070 {
 
 rule PUA_VULN_Renamed_Driver_Msi_Ntiolibsys_Ntiolib_CC58 {
 	meta:
-		description = "Detects renamed vulnerable driver mentioned in risksDrivers project using VersionInfo values from the PE header - NTIOLib.sys"
+		description = "Detects renamed vulnerable driver mentioned in cvelist project using VersionInfo values from the PE header - NTIOLib.sys"
 		author = "Florian Roth"
-		reference = "https://github.com/boss-net/risksDrivers"
+		reference = "https://github.com/cvelist/cvelist"
 		hash = "cc586254e9e89e88334adee44e332166119307e79c2f18f6c2ab90ce8ba7fc9b"
 		date = "2023-06-14"
 		score = 70
@@ -2715,9 +2715,9 @@ rule PUA_VULN_Renamed_Driver_Msi_Ntiolibsys_Ntiolib_CC58 {
 
 rule PUA_VULN_Renamed_Driver_Windowsrcodenamelonghornddkprovider_Rtkiosys_Windowsrcodenamelonghornddkdriver_916C {
 	meta:
-		description = "Detects renamed vulnerable driver mentioned in risksDrivers project using VersionInfo values from the PE header - rtkio64.sys"
+		description = "Detects renamed vulnerable driver mentioned in cvelist project using VersionInfo values from the PE header - rtkio64.sys"
 		author = "Florian Roth"
-		reference = "https://github.com/boss-net/risksDrivers"
+		reference = "https://github.com/cvelist/cvelist"
 		hash = "916c535957a3b8cbf3336b63b2260ea4055163a9e6b214f2a7005d6d36a4a677"
 		hash = "caa85c44eb511377ea7426ff10df00a701c07ffb384eef8287636a4bca0b53ab"
 		hash = "478917514be37b32d5ccf76e4009f6f952f39f5553953544f1b0688befd95e82"
@@ -2739,9 +2739,9 @@ rule PUA_VULN_Renamed_Driver_Windowsrcodenamelonghornddkprovider_Rtkiosys_Window
 
 rule PUA_VULN_Renamed_Driver_Trendmicroinc_Tmcommsys_Trendmicroeyes_E4D9 {
 	meta:
-		description = "Detects renamed vulnerable driver mentioned in risksDrivers project using VersionInfo values from the PE header - TmComm.sys"
+		description = "Detects renamed vulnerable driver mentioned in cvelist project using VersionInfo values from the PE header - TmComm.sys"
 		author = "Florian Roth"
-		reference = "https://github.com/boss-net/risksDrivers"
+		reference = "https://github.com/cvelist/cvelist"
 		hash = "e4d9f037411284e996a002b15b49bc227d085ee869ae1cd91ba54ff7c244f036"
 		date = "2023-06-14"
 		score = 70
@@ -2761,9 +2761,9 @@ rule PUA_VULN_Renamed_Driver_Trendmicroinc_Tmcommsys_Trendmicroeyes_E4D9 {
 
 rule PUA_VULN_Renamed_Driver_Windowsrwinddkprovider_Cupfixerxsys_Windowsrwinddkdriver_8C74 {
 	meta:
-		description = "Detects renamed vulnerable driver mentioned in risksDrivers project using VersionInfo values from the PE header - CupFixerx64.sys"
+		description = "Detects renamed vulnerable driver mentioned in cvelist project using VersionInfo values from the PE header - CupFixerx64.sys"
 		author = "Florian Roth"
-		reference = "https://github.com/boss-net/risksDrivers"
+		reference = "https://github.com/cvelist/cvelist"
 		hash = "8c748ae5dcc10614cc134064c99367d28f3131d1f1dda0c9c29e99279dc1bdd9"
 		date = "2023-06-14"
 		score = 70
@@ -2783,9 +2783,9 @@ rule PUA_VULN_Renamed_Driver_Windowsrwinddkprovider_Cupfixerxsys_Windowsrwinddkd
 
 rule PUA_VULN_Renamed_Driver_Asustekcomputerinc_Eiosys_Asusvgakernelmodedriver_B175 {
 	meta:
-		description = "Detects renamed vulnerable driver mentioned in risksDrivers project using VersionInfo values from the PE header - EIO.sys"
+		description = "Detects renamed vulnerable driver mentioned in cvelist project using VersionInfo values from the PE header - EIO.sys"
 		author = "Florian Roth"
-		reference = "https://github.com/boss-net/risksDrivers"
+		reference = "https://github.com/cvelist/cvelist"
 		hash = "b17507a3246020fa0052a172485d7b3567e0161747927f2edf27c40e310852e0"
 		date = "2023-06-14"
 		score = 70
@@ -2805,9 +2805,9 @@ rule PUA_VULN_Renamed_Driver_Asustekcomputerinc_Eiosys_Asusvgakernelmodedriver_B
 
 rule PUA_VULN_Renamed_Driver_Trendmicroinc_Tmcommsys_Trendmicroeyes_2AFD {
 	meta:
-		description = "Detects renamed vulnerable driver mentioned in risksDrivers project using VersionInfo values from the PE header - TmComm.sys"
+		description = "Detects renamed vulnerable driver mentioned in cvelist project using VersionInfo values from the PE header - TmComm.sys"
 		author = "Florian Roth"
-		reference = "https://github.com/boss-net/risksDrivers"
+		reference = "https://github.com/cvelist/cvelist"
 		hash = "2afdb3278a7b57466a103024aef9ff7f41c73a19bab843a8ebf3d3c4d4e82b30"
 		date = "2023-06-14"
 		score = 70
@@ -2827,9 +2827,9 @@ rule PUA_VULN_Renamed_Driver_Trendmicroinc_Tmcommsys_Trendmicroeyes_2AFD {
 
 rule PUA_VULN_Renamed_Driver_Asustekcomputerinc_Iomapsys_Asuskernelmodedriverfornt_EA85 {
 	meta:
-		description = "Detects renamed vulnerable driver mentioned in risksDrivers project using VersionInfo values from the PE header - IOMap64.sys"
+		description = "Detects renamed vulnerable driver mentioned in cvelist project using VersionInfo values from the PE header - IOMap64.sys"
 		author = "Florian Roth"
-		reference = "https://github.com/boss-net/risksDrivers"
+		reference = "https://github.com/cvelist/cvelist"
 		hash = "ea85bbe63d6f66f7efee7007e770af820d57f914c7f179c5fee3ef2845f19c41"
 		date = "2023-06-14"
 		score = 70
@@ -2849,9 +2849,9 @@ rule PUA_VULN_Renamed_Driver_Asustekcomputerinc_Iomapsys_Asuskernelmodedriverfor
 
 rule PUA_VULN_Renamed_Driver_Tgsoftsas_Viragtsys_Viritagentsystem_E05E {
 	meta:
-		description = "Detects renamed vulnerable driver mentioned in risksDrivers project using VersionInfo values from the PE header - viragt.sys"
+		description = "Detects renamed vulnerable driver mentioned in cvelist project using VersionInfo values from the PE header - viragt.sys"
 		author = "Florian Roth"
-		reference = "https://github.com/boss-net/risksDrivers"
+		reference = "https://github.com/cvelist/cvelist"
 		hash = "e05eeb2b8c18ad2cb2d1038c043d770a0d51b96b748bc34be3e7fc6f3790ce53"
 		date = "2023-06-14"
 		score = 70
@@ -2871,9 +2871,9 @@ rule PUA_VULN_Renamed_Driver_Tgsoftsas_Viragtsys_Viritagentsystem_E05E {
 
 rule PUA_VULN_Renamed_Driver_Avgtechnologiesczsro_Aswarpotsys_Avginternetsecuritysystem_E452 {
 	meta:
-		description = "Detects renamed vulnerable driver mentioned in risksDrivers project using VersionInfo values from the PE header - aswArPot.sys, avgArPot.sys"
+		description = "Detects renamed vulnerable driver mentioned in cvelist project using VersionInfo values from the PE header - aswArPot.sys, avgArPot.sys"
 		author = "Florian Roth"
-		reference = "https://github.com/boss-net/risksDrivers"
+		reference = "https://github.com/cvelist/cvelist"
 		hash = "e4522e2cfa0b1f5d258a3cf85b87681d6969e0572f668024c465d635c236b5d9"
 		date = "2023-06-14"
 		score = 70
@@ -2893,9 +2893,9 @@ rule PUA_VULN_Renamed_Driver_Avgtechnologiesczsro_Aswarpotsys_Avginternetsecurit
 
 rule PUA_VULN_Renamed_Driver_Marvintestsolutionsinc_Hwsys_Hw_5596 {
 	meta:
-		description = "Detects renamed vulnerable driver mentioned in risksDrivers project using VersionInfo values from the PE header - hw.sys"
+		description = "Detects renamed vulnerable driver mentioned in cvelist project using VersionInfo values from the PE header - hw.sys"
 		author = "Florian Roth"
-		reference = "https://github.com/boss-net/risksDrivers"
+		reference = "https://github.com/cvelist/cvelist"
 		hash = "55963284bbd5a3297f39f12f0d8a01ed99fe59d008561e3537bcd4db4b4268fa"
 		hash = "4880f40f2e557cff38100620b9aa1a3a753cb693af16cd3d95841583edcb57a8"
 		date = "2023-06-14"
@@ -2916,9 +2916,9 @@ rule PUA_VULN_Renamed_Driver_Marvintestsolutionsinc_Hwsys_Hw_5596 {
 
 rule PUA_VULN_Renamed_Driver_Mydriverscom_Hwm_Drivergenius_08EB {
 	meta:
-		description = "Detects renamed vulnerable driver mentioned in risksDrivers project using VersionInfo values from the PE header - mydrivers.sys"
+		description = "Detects renamed vulnerable driver mentioned in cvelist project using VersionInfo values from the PE header - mydrivers.sys"
 		author = "Florian Roth"
-		reference = "https://github.com/boss-net/risksDrivers"
+		reference = "https://github.com/cvelist/cvelist"
 		hash = "08eb2d2aa25c5f0af4e72a7e0126735536f6c2c05e9c7437282171afe5e322c6"
 		date = "2023-06-14"
 		score = 70
@@ -2938,9 +2938,9 @@ rule PUA_VULN_Renamed_Driver_Mydriverscom_Hwm_Drivergenius_08EB {
 
 rule PUA_VULN_Renamed_Driver_Sisoftware_Sandra_Sisoftwaresandra_3E27 {
 	meta:
-		description = "Detects renamed vulnerable driver mentioned in risksDrivers project using VersionInfo values from the PE header - SANDRA"
+		description = "Detects renamed vulnerable driver mentioned in cvelist project using VersionInfo values from the PE header - SANDRA"
 		author = "Florian Roth"
-		reference = "https://github.com/boss-net/risksDrivers"
+		reference = "https://github.com/cvelist/cvelist"
 		hash = "3e274df646f191d2705c0beaa35eeea84808593c3b333809f13632782e27ad75"
 		date = "2023-06-14"
 		score = 70
@@ -2960,9 +2960,9 @@ rule PUA_VULN_Renamed_Driver_Sisoftware_Sandra_Sisoftwaresandra_3E27 {
 
 rule PUA_VULN_Renamed_Driver_Powertool_Kevpsys_Powertool_8E63 {
 	meta:
-		description = "Detects renamed vulnerable driver mentioned in risksDrivers project using VersionInfo values from the PE header - kEvP64.sys"
+		description = "Detects renamed vulnerable driver mentioned in cvelist project using VersionInfo values from the PE header - kEvP64.sys"
 		author = "Florian Roth"
-		reference = "https://github.com/boss-net/risksDrivers"
+		reference = "https://github.com/cvelist/cvelist"
 		hash = "8e6363a6393eb4234667c6f614b2072e33512866b3204f8395bbe01530d63f2f"
 		hash = "09b0e07af8b17db1d896b78da4dd3f55db76738ee1f4ced083a97d737334a184"
 		hash = "1aaa9aef39cb3c0a854ecb4ca7d3b213458f302025e0ec5bfbdef973cca9111c"
@@ -2984,9 +2984,9 @@ rule PUA_VULN_Renamed_Driver_Powertool_Kevpsys_Powertool_8E63 {
 
 rule PUA_VULN_Renamed_Driver_Avastsoftware_Aswarpot_Avastantivirus_3B6E {
 	meta:
-		description = "Detects renamed vulnerable driver mentioned in risksDrivers project using VersionInfo values from the PE header - aswArPot.sys, avgArPot.sys"
+		description = "Detects renamed vulnerable driver mentioned in cvelist project using VersionInfo values from the PE header - aswArPot.sys, avgArPot.sys"
 		author = "Florian Roth"
-		reference = "https://github.com/boss-net/risksDrivers"
+		reference = "https://github.com/cvelist/cvelist"
 		hash = "3b6e85c8fed9e39b21b2eab0b69bc464272b2c92961510c36e2e2df7aa39861b"
 		date = "2023-06-14"
 		score = 70
@@ -3006,9 +3006,9 @@ rule PUA_VULN_Renamed_Driver_Avastsoftware_Aswarpot_Avastantivirus_3B6E {
 
 rule PUA_VULN_Renamed_Driver_Trendmicroinc_Tmcommsys_Trendmicroeyes_7C73 {
 	meta:
-		description = "Detects renamed vulnerable driver mentioned in risksDrivers project using VersionInfo values from the PE header - TmComm.sys"
+		description = "Detects renamed vulnerable driver mentioned in cvelist project using VersionInfo values from the PE header - TmComm.sys"
 		author = "Florian Roth"
-		reference = "https://github.com/boss-net/risksDrivers"
+		reference = "https://github.com/cvelist/cvelist"
 		hash = "7c731c0ea7f28671ab7787800db69739ea5cd6be16ea21045b4580cf95cbf73b"
 		hash = "fca10cde7d331b7f614118682d834d46125a65888e97bd9fda2df3f15797166c"
 		date = "2023-06-14"
@@ -3029,9 +3029,9 @@ rule PUA_VULN_Renamed_Driver_Trendmicroinc_Tmcommsys_Trendmicroeyes_7C73 {
 
 rule PUA_VULN_Renamed_Driver_Avastsoftware_Aswarpotsys_Avastantivirus_1A42 {
 	meta:
-		description = "Detects renamed vulnerable driver mentioned in risksDrivers project using VersionInfo values from the PE header - aswArPot.sys, avgArPot.sys"
+		description = "Detects renamed vulnerable driver mentioned in cvelist project using VersionInfo values from the PE header - aswArPot.sys, avgArPot.sys"
 		author = "Florian Roth"
-		reference = "https://github.com/boss-net/risksDrivers"
+		reference = "https://github.com/cvelist/cvelist"
 		hash = "1a42ebde59e8f63804eaa404f79ee93a16bb33d27fb158c6bfbe6143226899a0"
 		date = "2023-06-14"
 		score = 70
@@ -3051,9 +3051,9 @@ rule PUA_VULN_Renamed_Driver_Avastsoftware_Aswarpotsys_Avastantivirus_1A42 {
 
 rule PUA_VULN_Renamed_Driver_Trendmicroinc_Tmcommsys_Trendmicroeyes_EC5F {
 	meta:
-		description = "Detects renamed vulnerable driver mentioned in risksDrivers project using VersionInfo values from the PE header - TmComm.sys"
+		description = "Detects renamed vulnerable driver mentioned in cvelist project using VersionInfo values from the PE header - TmComm.sys"
 		author = "Florian Roth"
-		reference = "https://github.com/boss-net/risksDrivers"
+		reference = "https://github.com/cvelist/cvelist"
 		hash = "ec5fac0b6bb267a2bd10fc80c8cca6718439d56e82e053d3ff799ce5f3475db5"
 		date = "2023-06-14"
 		score = 70
@@ -3073,9 +3073,9 @@ rule PUA_VULN_Renamed_Driver_Trendmicroinc_Tmcommsys_Trendmicroeyes_EC5F {
 
 rule PUA_VULN_Renamed_Driver_Avgtechnologiesczsro_Aswarpot_Avginternetsecuritysystem_34E0 {
 	meta:
-		description = "Detects renamed vulnerable driver mentioned in risksDrivers project using VersionInfo values from the PE header - aswArPot.sys, avgArPot.sys"
+		description = "Detects renamed vulnerable driver mentioned in cvelist project using VersionInfo values from the PE header - aswArPot.sys, avgArPot.sys"
 		author = "Florian Roth"
-		reference = "https://github.com/boss-net/risksDrivers"
+		reference = "https://github.com/cvelist/cvelist"
 		hash = "34e0364a4952d914f23f271d36e11161fb6bb7b64aea22ff965a967825a4a4bf"
 		date = "2023-06-14"
 		score = 70
@@ -3095,9 +3095,9 @@ rule PUA_VULN_Renamed_Driver_Avgtechnologiesczsro_Aswarpot_Avginternetsecuritysy
 
 rule PUA_VULN_Renamed_Driver_Msi_Ntiolibsys_Ntiolib_D0BD {
 	meta:
-		description = "Detects renamed vulnerable driver mentioned in risksDrivers project using VersionInfo values from the PE header - NTIOLib.sys"
+		description = "Detects renamed vulnerable driver mentioned in cvelist project using VersionInfo values from the PE header - NTIOLib.sys"
 		author = "Florian Roth"
-		reference = "https://github.com/boss-net/risksDrivers"
+		reference = "https://github.com/cvelist/cvelist"
 		hash = "d0bd1ae72aeb5f3eabf1531a635f990e5eaae7fdd560342f915f723766c80889"
 		date = "2023-06-14"
 		score = 70
@@ -3117,9 +3117,9 @@ rule PUA_VULN_Renamed_Driver_Msi_Ntiolibsys_Ntiolib_D0BD {
 
 rule PUA_VULN_Renamed_Driver_Zemanaltd_Zam_3C18 {
 	meta:
-		description = "Detects renamed vulnerable driver mentioned in risksDrivers project using VersionInfo values from the PE header - zam64.sys"
+		description = "Detects renamed vulnerable driver mentioned in cvelist project using VersionInfo values from the PE header - zam64.sys"
 		author = "Florian Roth"
-		reference = "https://github.com/boss-net/risksDrivers"
+		reference = "https://github.com/cvelist/cvelist"
 		hash = "3c18ae965fba56d09a65770b4d8da54ccd7801f979d3ebd283397bc99646004b"
 		date = "2023-06-14"
 		score = 70
@@ -3136,9 +3136,9 @@ rule PUA_VULN_Renamed_Driver_Zemanaltd_Zam_3C18 {
 
 rule PUA_VULN_Renamed_Driver_Tgsoftsas_Viragtsys_Viritagentsystem_2B4C {
 	meta:
-		description = "Detects renamed vulnerable driver mentioned in risksDrivers project using VersionInfo values from the PE header - viragt64.sys"
+		description = "Detects renamed vulnerable driver mentioned in cvelist project using VersionInfo values from the PE header - viragt64.sys"
 		author = "Florian Roth"
-		reference = "https://github.com/boss-net/risksDrivers"
+		reference = "https://github.com/cvelist/cvelist"
 		hash = "2b4c7d3820fe08400a7791e2556132b902a9bbadc1942de57077ecb9d21bf47a"
 		date = "2023-06-14"
 		score = 70
@@ -3158,9 +3158,9 @@ rule PUA_VULN_Renamed_Driver_Tgsoftsas_Viragtsys_Viritagentsystem_2B4C {
 
 rule PUA_VULN_Renamed_Driver_Dtresearchinc_Iomemsys_Iomemsys_3D23 {
 	meta:
-		description = "Detects renamed vulnerable driver mentioned in risksDrivers project using VersionInfo values from the PE header - iomem64.sys"
+		description = "Detects renamed vulnerable driver mentioned in cvelist project using VersionInfo values from the PE header - iomem64.sys"
 		author = "Florian Roth"
-		reference = "https://github.com/boss-net/risksDrivers"
+		reference = "https://github.com/cvelist/cvelist"
 		hash = "3d23bdbaf9905259d858df5bf991eb23d2dc9f4ecda7f9f77839691acef1b8c4"
 		date = "2023-06-14"
 		score = 70
@@ -3180,9 +3180,9 @@ rule PUA_VULN_Renamed_Driver_Dtresearchinc_Iomemsys_Iomemsys_3D23 {
 
 rule PUA_VULN_Renamed_Driver_Sisoftware_Sandra_Sisoftwaresandra_496F {
 	meta:
-		description = "Detects renamed vulnerable driver mentioned in risksDrivers project using VersionInfo values from the PE header - SANDRA"
+		description = "Detects renamed vulnerable driver mentioned in cvelist project using VersionInfo values from the PE header - SANDRA"
 		author = "Florian Roth"
-		reference = "https://github.com/boss-net/risksDrivers"
+		reference = "https://github.com/cvelist/cvelist"
 		hash = "496f4a4021226fb0f1b5f71a7634c84114c29faa308746a12c2414adb6b2a40b"
 		date = "2023-06-14"
 		score = 70
@@ -3202,9 +3202,9 @@ rule PUA_VULN_Renamed_Driver_Sisoftware_Sandra_Sisoftwaresandra_496F {
 
 rule PUA_VULN_Renamed_Driver_Sysinternalswwwsysinternalscom_Procexpsys_Processexplorer_1B00 {
 	meta:
-		description = "Detects renamed vulnerable driver mentioned in risksDrivers project using VersionInfo values from the PE header - procexp.Sys"
+		description = "Detects renamed vulnerable driver mentioned in cvelist project using VersionInfo values from the PE header - procexp.Sys"
 		author = "Florian Roth"
-		reference = "https://github.com/boss-net/risksDrivers"
+		reference = "https://github.com/cvelist/cvelist"
 		hash = "1b00d6e5d40b1b84ca63da0e99246574cdd2a533122bc83746f06c0d66e63a6e"
 		hash = "51e91dd108d974ae809e5fc23f6fbd16e13f672f86aa594dae4a5c4bc629b0b5"
 		date = "2023-06-14"
@@ -3225,9 +3225,9 @@ rule PUA_VULN_Renamed_Driver_Sysinternalswwwsysinternalscom_Procexpsys_Processex
 
 rule PUA_VULN_Renamed_Driver_Multitheftauto_Mtasanandreas_9F4C {
 	meta:
-		description = "Detects renamed vulnerable driver mentioned in risksDrivers project using VersionInfo values from the PE header - FairplayKD.sys"
+		description = "Detects renamed vulnerable driver mentioned in cvelist project using VersionInfo values from the PE header - FairplayKD.sys"
 		author = "Florian Roth"
-		reference = "https://github.com/boss-net/risksDrivers"
+		reference = "https://github.com/cvelist/cvelist"
 		hash = "9f4ce6ab5e8d44f355426d9a6ab79833709f39b300733b5b251a0766e895e0e5"
 		date = "2023-06-14"
 		score = 70
@@ -3245,9 +3245,9 @@ rule PUA_VULN_Renamed_Driver_Multitheftauto_Mtasanandreas_9F4C {
 
 rule PUA_VULN_Renamed_Driver_Avastsoftware_Aswarpotsys_Avastantivirus_2732 {
 	meta:
-		description = "Detects renamed vulnerable driver mentioned in risksDrivers project using VersionInfo values from the PE header - aswArPot.sys, avgArPot.sys"
+		description = "Detects renamed vulnerable driver mentioned in cvelist project using VersionInfo values from the PE header - aswArPot.sys, avgArPot.sys"
 		author = "Florian Roth"
-		reference = "https://github.com/boss-net/risksDrivers"
+		reference = "https://github.com/cvelist/cvelist"
 		hash = "2732050a7d836ae0bdc5c0aea4cdf8ce205618c3e7f613b8139c176e86476d0c"
 		date = "2023-06-14"
 		score = 70
@@ -3267,9 +3267,9 @@ rule PUA_VULN_Renamed_Driver_Avastsoftware_Aswarpotsys_Avastantivirus_2732 {
 
 rule PUA_VULN_Renamed_Driver_Tgsoftsas_Viragtsys_Viritagentsystem_EF6D {
 	meta:
-		description = "Detects renamed vulnerable driver mentioned in risksDrivers project using VersionInfo values from the PE header - viragt64.sys"
+		description = "Detects renamed vulnerable driver mentioned in cvelist project using VersionInfo values from the PE header - viragt64.sys"
 		author = "Florian Roth"
-		reference = "https://github.com/boss-net/risksDrivers"
+		reference = "https://github.com/cvelist/cvelist"
 		hash = "ef6d3c00f9d0aa31a218094480299ef73fc85146adf62fd0c2f4f88972c5c850"
 		date = "2023-06-14"
 		score = 70
@@ -3289,9 +3289,9 @@ rule PUA_VULN_Renamed_Driver_Tgsoftsas_Viragtsys_Viritagentsystem_EF6D {
 
 rule PUA_VULN_Renamed_Driver_Microfocus_Microfocusxtier_95D5 {
 	meta:
-		description = "Detects renamed vulnerable driver mentioned in risksDrivers project using VersionInfo values from the PE header - libnicm.sys"
+		description = "Detects renamed vulnerable driver mentioned in cvelist project using VersionInfo values from the PE header - libnicm.sys"
 		author = "Florian Roth"
-		reference = "https://github.com/boss-net/risksDrivers"
+		reference = "https://github.com/cvelist/cvelist"
 		hash = "95d50c69cdbf10c9c9d61e64fe864ac91e6f6caa637d128eb20e1d3510e776d3"
 		date = "2023-06-14"
 		score = 70
@@ -3310,9 +3310,9 @@ rule PUA_VULN_Renamed_Driver_Microfocus_Microfocusxtier_95D5 {
 
 rule PUA_VULN_Renamed_Driver_Trendmicroinc_Tmcommsys_Trendmicroeyes_E3EF {
 	meta:
-		description = "Detects renamed vulnerable driver mentioned in risksDrivers project using VersionInfo values from the PE header - TmComm.sys"
+		description = "Detects renamed vulnerable driver mentioned in cvelist project using VersionInfo values from the PE header - TmComm.sys"
 		author = "Florian Roth"
-		reference = "https://github.com/boss-net/risksDrivers"
+		reference = "https://github.com/cvelist/cvelist"
 		hash = "e3eff841ea0f2786e5e0fed2744c0829719ad711fc9258eeaf81ed65a52a8918"
 		date = "2023-06-14"
 		score = 70
@@ -3332,9 +3332,9 @@ rule PUA_VULN_Renamed_Driver_Trendmicroinc_Tmcommsys_Trendmicroeyes_E3EF {
 
 rule PUA_VULN_Renamed_Driver_Arthurliberman_Alsysiosys_Alsysio_7F37 {
 	meta:
-		description = "Detects renamed vulnerable driver mentioned in risksDrivers project using VersionInfo values from the PE header - ALSysIO64.sys"
+		description = "Detects renamed vulnerable driver mentioned in cvelist project using VersionInfo values from the PE header - ALSysIO64.sys"
 		author = "Florian Roth"
-		reference = "https://github.com/boss-net/risksDrivers"
+		reference = "https://github.com/cvelist/cvelist"
 		hash = "7f375639a0df7fe51e5518cf87c3f513c55bc117db47d28da8c615642eb18bfa"
 		date = "2023-06-14"
 		score = 70
@@ -3354,9 +3354,9 @@ rule PUA_VULN_Renamed_Driver_Arthurliberman_Alsysiosys_Alsysio_7F37 {
 
 rule PUA_VULN_Renamed_Driver_Panyazilimbilisimteknolojileriticltdsti_Paniosys_Paniolibrary_F596 {
 	meta:
-		description = "Detects renamed vulnerable driver mentioned in risksDrivers project using VersionInfo values from the PE header - PanIO.sys"
+		description = "Detects renamed vulnerable driver mentioned in cvelist project using VersionInfo values from the PE header - PanIO.sys"
 		author = "Florian Roth"
-		reference = "https://github.com/boss-net/risksDrivers"
+		reference = "https://github.com/cvelist/cvelist"
 		hash = "f596e64f4c5d7c37a00493728d8756b243cfdc11e3372d6d6dfeffc13c9ab960"
 		date = "2023-06-14"
 		score = 70
@@ -3376,9 +3376,9 @@ rule PUA_VULN_Renamed_Driver_Panyazilimbilisimteknolojileriticltdsti_Paniosys_Pa
 
 rule PUA_VULN_Renamed_Driver_Avastsoftware_Aswarpot_Avastantivirus_1768 {
 	meta:
-		description = "Detects renamed vulnerable driver mentioned in risksDrivers project using VersionInfo values from the PE header - aswArPot.sys, avgArPot.sys"
+		description = "Detects renamed vulnerable driver mentioned in cvelist project using VersionInfo values from the PE header - aswArPot.sys, avgArPot.sys"
 		author = "Florian Roth"
-		reference = "https://github.com/boss-net/risksDrivers"
+		reference = "https://github.com/cvelist/cvelist"
 		hash = "17687cba00ec2c9036dd3cb5430aa1f4851e64990dafb4c8f06d88de5283d6ca"
 		date = "2023-06-14"
 		score = 70
@@ -3398,9 +3398,9 @@ rule PUA_VULN_Renamed_Driver_Avastsoftware_Aswarpot_Avastantivirus_1768 {
 
 rule PUA_VULN_Renamed_Driver_Avgtechnologiesczsro_Aswarpotsys_Avginternetsecuritysystem_9A54 {
 	meta:
-		description = "Detects renamed vulnerable driver mentioned in risksDrivers project using VersionInfo values from the PE header - aswArPot.sys, avgArPot.sys"
+		description = "Detects renamed vulnerable driver mentioned in cvelist project using VersionInfo values from the PE header - aswArPot.sys, avgArPot.sys"
 		author = "Florian Roth"
-		reference = "https://github.com/boss-net/risksDrivers"
+		reference = "https://github.com/cvelist/cvelist"
 		hash = "9a54ef5cfbe6db599322967ee2c84db7daabcb468be10a3ccfcaa0f64d9173c7"
 		date = "2023-06-14"
 		score = 70
@@ -3420,9 +3420,9 @@ rule PUA_VULN_Renamed_Driver_Avgtechnologiesczsro_Aswarpotsys_Avginternetsecurit
 
 rule PUA_VULN_Renamed_Driver_Oti_Otipcibussys_Kernelmodedrivertoaccessphysicalmemoryandports_4E3E {
 	meta:
-		description = "Detects renamed vulnerable driver mentioned in risksDrivers project using VersionInfo values from the PE header - otipcibus.sys"
+		description = "Detects renamed vulnerable driver mentioned in cvelist project using VersionInfo values from the PE header - otipcibus.sys"
 		author = "Florian Roth"
-		reference = "https://github.com/boss-net/risksDrivers"
+		reference = "https://github.com/cvelist/cvelist"
 		hash = "4e3eb5b9bce2fd9f6878ae36288211f0997f6149aa8c290ed91228ba4cdfae80"
 		date = "2023-06-14"
 		score = 70
@@ -3441,9 +3441,9 @@ rule PUA_VULN_Renamed_Driver_Oti_Otipcibussys_Kernelmodedrivertoaccessphysicalme
 
 rule PUA_VULN_Renamed_Driver_Avastsoftware_Aswarpotsys_Avastantivirus_DCB8 {
 	meta:
-		description = "Detects renamed vulnerable driver mentioned in risksDrivers project using VersionInfo values from the PE header - aswArPot.sys, avgArPot.sys"
+		description = "Detects renamed vulnerable driver mentioned in cvelist project using VersionInfo values from the PE header - aswArPot.sys, avgArPot.sys"
 		author = "Florian Roth"
-		reference = "https://github.com/boss-net/risksDrivers"
+		reference = "https://github.com/cvelist/cvelist"
 		hash = "dcb815eb8e9016608d0d917101b6af8c84b96fb709dc0344bceed02cbc4ed258"
 		date = "2023-06-14"
 		score = 70
@@ -3463,9 +3463,9 @@ rule PUA_VULN_Renamed_Driver_Avastsoftware_Aswarpotsys_Avastantivirus_DCB8 {
 
 rule PUA_VULN_Renamed_Driver_Micsystechnologycoltd_Msiosys_Msiodriverversion_X_CFCF {
 	meta:
-		description = "Detects renamed vulnerable driver mentioned in risksDrivers project using VersionInfo values from the PE header - MsIo64.sys"
+		description = "Detects renamed vulnerable driver mentioned in cvelist project using VersionInfo values from the PE header - MsIo64.sys"
 		author = "Florian Roth"
-		reference = "https://github.com/boss-net/risksDrivers"
+		reference = "https://github.com/cvelist/cvelist"
 		hash = "cfcf32f5662791f1f22a77acb6dddfbc970fe6e99506969b3ea67c03f67687ab"
 		date = "2023-06-14"
 		score = 70
@@ -3485,9 +3485,9 @@ rule PUA_VULN_Renamed_Driver_Micsystechnologycoltd_Msiosys_Msiodriverversion_X_C
 
 rule PUA_VULN_Renamed_Driver_Dtresearchinc_Iomemsys_Iomemsys_DD4A {
 	meta:
-		description = "Detects renamed vulnerable driver mentioned in risksDrivers project using VersionInfo values from the PE header - iomem64.sys"
+		description = "Detects renamed vulnerable driver mentioned in cvelist project using VersionInfo values from the PE header - iomem64.sys"
 		author = "Florian Roth"
-		reference = "https://github.com/boss-net/risksDrivers"
+		reference = "https://github.com/cvelist/cvelist"
 		hash = "dd4a1253d47de14ef83f1bc8b40816a86ccf90d1e624c5adf9203ae9d51d4097"
 		date = "2023-06-14"
 		score = 70
@@ -3507,9 +3507,9 @@ rule PUA_VULN_Renamed_Driver_Dtresearchinc_Iomemsys_Iomemsys_DD4A {
 
 rule PUA_VULN_Renamed_Driver_Pchuntersys_Pchunter_1B7F {
 	meta:
-		description = "Detects renamed vulnerable driver mentioned in risksDrivers project using VersionInfo values from the PE header - PCHunter.sys"
+		description = "Detects renamed vulnerable driver mentioned in cvelist project using VersionInfo values from the PE header - PCHunter.sys"
 		author = "Florian Roth"
-		reference = "https://github.com/boss-net/risksDrivers"
+		reference = "https://github.com/cvelist/cvelist"
 		hash = "1b7fb154a7b7903a3c81f12f4b094f24a3c60a6a8cffca894c67c264ab7545fa"
 		date = "2023-06-14"
 		score = 70
@@ -3529,9 +3529,9 @@ rule PUA_VULN_Renamed_Driver_Pchuntersys_Pchunter_1B7F {
 
 rule PUA_VULN_Renamed_Driver_Avastsoftware_Aswarpotsys_Avastantivirus_6500 {
 	meta:
-		description = "Detects renamed vulnerable driver mentioned in risksDrivers project using VersionInfo values from the PE header - aswArPot.sys, avgArPot.sys"
+		description = "Detects renamed vulnerable driver mentioned in cvelist project using VersionInfo values from the PE header - aswArPot.sys, avgArPot.sys"
 		author = "Florian Roth"
-		reference = "https://github.com/boss-net/risksDrivers"
+		reference = "https://github.com/cvelist/cvelist"
 		hash = "65008817eb97635826a8708a6411d7b50f762bab81304e457119d669382944c3"
 		date = "2023-06-14"
 		score = 70
@@ -3551,9 +3551,9 @@ rule PUA_VULN_Renamed_Driver_Avastsoftware_Aswarpotsys_Avastantivirus_6500 {
 
 rule PUA_VULN_Renamed_Driver_Novellinc_Novellxtier_8E88 {
 	meta:
-		description = "Detects renamed vulnerable driver mentioned in risksDrivers project using VersionInfo values from the PE header - nscm.sys"
+		description = "Detects renamed vulnerable driver mentioned in cvelist project using VersionInfo values from the PE header - nscm.sys"
 		author = "Florian Roth"
-		reference = "https://github.com/boss-net/risksDrivers"
+		reference = "https://github.com/cvelist/cvelist"
 		hash = "8e88cb80328c3dbaa2752591692e74a2fae7e146d7d8aabc9b9ac9a6fe561e6c"
 		date = "2023-06-14"
 		score = 70
@@ -3572,9 +3572,9 @@ rule PUA_VULN_Renamed_Driver_Novellinc_Novellxtier_8E88 {
 
 rule PUA_VULN_Renamed_Driver_Zemanaltd_Zam_E428 {
 	meta:
-		description = "Detects renamed vulnerable driver mentioned in risksDrivers project using VersionInfo values from the PE header - zam64.sys"
+		description = "Detects renamed vulnerable driver mentioned in cvelist project using VersionInfo values from the PE header - zam64.sys"
 		author = "Florian Roth"
-		reference = "https://github.com/boss-net/risksDrivers"
+		reference = "https://github.com/cvelist/cvelist"
 		hash = "e428ddf9afc9b2d11e2271f0a67a2d6638b860c2c12d4b8cc63d33f3349ee93f"
 		date = "2023-06-14"
 		score = 70
@@ -3591,9 +3591,9 @@ rule PUA_VULN_Renamed_Driver_Zemanaltd_Zam_E428 {
 
 rule PUA_VULN_Renamed_Driver_Trendmicroinc_Tmcommsys_Trendmicroeyes_0909 {
 	meta:
-		description = "Detects renamed vulnerable driver mentioned in risksDrivers project using VersionInfo values from the PE header - TmComm.sys"
+		description = "Detects renamed vulnerable driver mentioned in cvelist project using VersionInfo values from the PE header - TmComm.sys"
 		author = "Florian Roth"
-		reference = "https://github.com/boss-net/risksDrivers"
+		reference = "https://github.com/cvelist/cvelist"
 		hash = "0909005d625866ef8ccd8ae8af5745a469f4f70561b644d6e38b80bccb53eb06"
 		date = "2023-06-14"
 		score = 70
@@ -3613,9 +3613,9 @@ rule PUA_VULN_Renamed_Driver_Trendmicroinc_Tmcommsys_Trendmicroeyes_0909 {
 
 rule PUA_VULN_Renamed_Driver_Huawei_Hwosec_Huaweimatebook_B179 {
 	meta:
-		description = "Detects renamed vulnerable driver mentioned in risksDrivers project using VersionInfo values from the PE header - HwOs2Ec7x64.sys"
+		description = "Detects renamed vulnerable driver mentioned in cvelist project using VersionInfo values from the PE header - HwOs2Ec7x64.sys"
 		author = "Florian Roth"
-		reference = "https://github.com/boss-net/risksDrivers"
+		reference = "https://github.com/cvelist/cvelist"
 		hash = "b179e1ab6dc0b1aee783adbcad4ad6bb75a8a64cb798f30c0dd2ee8aaf43e6de"
 		hash = "bb1135b51acca8348d285dc5461d10e8f57260e7d0c8cc4a092734d53fc40cbc"
 		date = "2023-06-14"
@@ -3636,9 +3636,9 @@ rule PUA_VULN_Renamed_Driver_Huawei_Hwosec_Huaweimatebook_B179 {
 
 rule PUA_VULN_Renamed_Driver_Hpinc_Hpportioxsys_Hpportio_A468 {
 	meta:
-		description = "Detects renamed vulnerable driver mentioned in risksDrivers project using VersionInfo values from the PE header - HpPortIox64.sys"
+		description = "Detects renamed vulnerable driver mentioned in cvelist project using VersionInfo values from the PE header - HpPortIox64.sys"
 		author = "Florian Roth"
-		reference = "https://github.com/boss-net/risksDrivers"
+		reference = "https://github.com/cvelist/cvelist"
 		hash = "a4680fabf606d6580893434e81c130ff7ec9467a15e6534692443465f264d3c9"
 		date = "2023-06-14"
 		score = 70
@@ -3657,9 +3657,9 @@ rule PUA_VULN_Renamed_Driver_Hpinc_Hpportioxsys_Hpportio_A468 {
 
 rule PUA_VULN_Renamed_Driver_Zemanaltd_Zam_7661 {
 	meta:
-		description = "Detects renamed vulnerable driver mentioned in risksDrivers project using VersionInfo values from the PE header - zam64.sys"
+		description = "Detects renamed vulnerable driver mentioned in cvelist project using VersionInfo values from the PE header - zam64.sys"
 		author = "Florian Roth"
-		reference = "https://github.com/boss-net/risksDrivers"
+		reference = "https://github.com/cvelist/cvelist"
 		hash = "76614f2e372f33100a8d92bf372cdbc1e183930ca747eed0b0cf2501293b990a"
 		date = "2023-06-14"
 		score = 70
@@ -3676,9 +3676,9 @@ rule PUA_VULN_Renamed_Driver_Zemanaltd_Zam_7661 {
 
 rule PUA_VULN_Renamed_Driver_Gigabytetechnologycoltd_Gdrvsys_Gigabytesoftwaredriver_8B92 {
 	meta:
-		description = "Detects renamed vulnerable driver mentioned in risksDrivers project using VersionInfo values from the PE header - gdrv.sys"
+		description = "Detects renamed vulnerable driver mentioned in cvelist project using VersionInfo values from the PE header - gdrv.sys"
 		author = "Florian Roth"
-		reference = "https://github.com/boss-net/risksDrivers"
+		reference = "https://github.com/cvelist/cvelist"
 		hash = "8b92cdb91a2e2fab3881d54f5862e723826b759749f837a11c9e9d85d52095a2"
 		date = "2023-06-14"
 		score = 70
@@ -3698,9 +3698,9 @@ rule PUA_VULN_Renamed_Driver_Gigabytetechnologycoltd_Gdrvsys_Gigabytesoftwaredri
 
 rule PUA_VULN_Renamed_Driver_Sisoftware_Sandra_Sisoftwaresandra_881B {
 	meta:
-		description = "Detects renamed vulnerable driver mentioned in risksDrivers project using VersionInfo values from the PE header - SANDRA"
+		description = "Detects renamed vulnerable driver mentioned in cvelist project using VersionInfo values from the PE header - SANDRA"
 		author = "Florian Roth"
-		reference = "https://github.com/boss-net/risksDrivers"
+		reference = "https://github.com/cvelist/cvelist"
 		hash = "881bca6dc2dafe1ae18aeb59216af939a3ac37248c13ed42ad0e1048a3855461"
 		date = "2023-06-14"
 		score = 70
@@ -3720,9 +3720,9 @@ rule PUA_VULN_Renamed_Driver_Sisoftware_Sandra_Sisoftwaresandra_881B {
 
 rule PUA_VULN_Renamed_Driver_Trendmicroinc_Tmcommsys_Trendmicroeyes_5192 {
 	meta:
-		description = "Detects renamed vulnerable driver mentioned in risksDrivers project using VersionInfo values from the PE header - TmComm.sys"
+		description = "Detects renamed vulnerable driver mentioned in cvelist project using VersionInfo values from the PE header - TmComm.sys"
 		author = "Florian Roth"
-		reference = "https://github.com/boss-net/risksDrivers"
+		reference = "https://github.com/cvelist/cvelist"
 		hash = "5192ec4501d0fe0b1c8f7bf9b778f7524a7a70a26bbbb66e5dab8480f6fdbb8b"
 		date = "2023-06-14"
 		score = 70
@@ -3742,9 +3742,9 @@ rule PUA_VULN_Renamed_Driver_Trendmicroinc_Tmcommsys_Trendmicroeyes_5192 {
 
 rule PUA_VULN_Renamed_Driver_Trendmicroinc_Tmcommsys_Trendmicroeyes_80A5 {
 	meta:
-		description = "Detects renamed vulnerable driver mentioned in risksDrivers project using VersionInfo values from the PE header - TmComm.sys"
+		description = "Detects renamed vulnerable driver mentioned in cvelist project using VersionInfo values from the PE header - TmComm.sys"
 		author = "Florian Roth"
-		reference = "https://github.com/boss-net/risksDrivers"
+		reference = "https://github.com/cvelist/cvelist"
 		hash = "80a59ca71fc20961ccafc0686051e86ae4afbbd4578cb26ad4570b9207651085"
 		date = "2023-06-14"
 		score = 70
@@ -3764,9 +3764,9 @@ rule PUA_VULN_Renamed_Driver_Trendmicroinc_Tmcommsys_Trendmicroeyes_80A5 {
 
 rule PUA_VULN_Renamed_Driver_Microfocus_Microfocusxtier_5351 {
 	meta:
-		description = "Detects renamed vulnerable driver mentioned in risksDrivers project using VersionInfo values from the PE header - nscm.sys"
+		description = "Detects renamed vulnerable driver mentioned in cvelist project using VersionInfo values from the PE header - nscm.sys"
 		author = "Florian Roth"
-		reference = "https://github.com/boss-net/risksDrivers"
+		reference = "https://github.com/cvelist/cvelist"
 		hash = "5351c81b4ec5a0d79c39d24bac7600d10eac30c13546fde43d23636b3f421e7c"
 		date = "2023-06-14"
 		score = 70
@@ -3785,9 +3785,9 @@ rule PUA_VULN_Renamed_Driver_Microfocus_Microfocusxtier_5351 {
 
 rule PUA_VULN_Renamed_Driver_Sunmicrosystemsinc_Vboxdrvsys_Sunvirtualbox_R_7882 {
 	meta:
-		description = "Detects renamed vulnerable driver mentioned in risksDrivers project using VersionInfo values from the PE header - vboxdrv.sys"
+		description = "Detects renamed vulnerable driver mentioned in cvelist project using VersionInfo values from the PE header - vboxdrv.sys"
 		author = "Florian Roth"
-		reference = "https://github.com/boss-net/risksDrivers"
+		reference = "https://github.com/cvelist/cvelist"
 		hash = "78827fa00ea48d96ac9af8d1c1e317d02ce11793e7f7f6e4c7aac7b5d7dd490f"
 		hash = "c26b51b4c37330800cff8519252e110116c3aaade94ceb9894ec5bfb1b8f9924"
 		date = "2023-06-14"
@@ -3808,9 +3808,9 @@ rule PUA_VULN_Renamed_Driver_Sunmicrosystemsinc_Vboxdrvsys_Sunvirtualbox_R_7882 
 
 rule PUA_VULN_Renamed_Driver_Corsairmemoryinc_Corsairllaccess_Corsairllaccess_5FAD {
 	meta:
-		description = "Detects renamed vulnerable driver mentioned in risksDrivers project using VersionInfo values from the PE header - CorsairLLAccess64.sys"
+		description = "Detects renamed vulnerable driver mentioned in cvelist project using VersionInfo values from the PE header - CorsairLLAccess64.sys"
 		author = "Florian Roth"
-		reference = "https://github.com/boss-net/risksDrivers"
+		reference = "https://github.com/cvelist/cvelist"
 		hash = "5fad3775feb8b6f6dcbd1642ae6b6a565ff7b64eadfc9bf9777918b51696ab36"
 		hash = "29a90ae1dcee66335ece4287a06482716530509912be863c85a2a03a6450a5b6"
 		date = "2023-06-14"
@@ -3831,9 +3831,9 @@ rule PUA_VULN_Renamed_Driver_Corsairmemoryinc_Corsairllaccess_Corsairllaccess_5F
 
 rule PUA_VULN_Renamed_Driver_Cpuid_Cpuzsys_Cpuidservice_A072 {
 	meta:
-		description = "Detects renamed vulnerable driver mentioned in risksDrivers project using VersionInfo values from the PE header - cpuz.sys"
+		description = "Detects renamed vulnerable driver mentioned in cvelist project using VersionInfo values from the PE header - cpuz.sys"
 		author = "Florian Roth"
-		reference = "https://github.com/boss-net/risksDrivers"
+		reference = "https://github.com/cvelist/cvelist"
 		hash = "a072197177aad26c31960694e38e2cae85afbab070929e67e331b99d3a418cf4"
 		hash = "e0b5a5f8333fc1213791af5c5814d7a99615b3951361ca75f8aa5022c9cfbc2b"
 		hash = "ded2927f9a4e64eefd09d0caba78e94f309e3a6292841ae81d5528cab109f95d"
@@ -3855,9 +3855,9 @@ rule PUA_VULN_Renamed_Driver_Cpuid_Cpuzsys_Cpuidservice_A072 {
 
 rule PUA_VULN_Renamed_Driver_Tgsoftsas_Viragtsys_Viritagentsystem_2A62 {
 	meta:
-		description = "Detects renamed vulnerable driver mentioned in risksDrivers project using VersionInfo values from the PE header - viragt64.sys"
+		description = "Detects renamed vulnerable driver mentioned in cvelist project using VersionInfo values from the PE header - viragt64.sys"
 		author = "Florian Roth"
-		reference = "https://github.com/boss-net/risksDrivers"
+		reference = "https://github.com/cvelist/cvelist"
 		hash = "2a6212f3b68a6f263e96420b3607b31cfdfe51afff516f3c87d27bf8a89721e8"
 		date = "2023-06-14"
 		score = 70
@@ -3877,9 +3877,9 @@ rule PUA_VULN_Renamed_Driver_Tgsoftsas_Viragtsys_Viritagentsystem_2A62 {
 
 rule PUA_VULN_Renamed_Driver_Avastsoftware_Aswarpotsys_Avastantivirus_AAA3 {
 	meta:
-		description = "Detects renamed vulnerable driver mentioned in risksDrivers project using VersionInfo values from the PE header - aswArPot.sys, avgArPot.sys"
+		description = "Detects renamed vulnerable driver mentioned in cvelist project using VersionInfo values from the PE header - aswArPot.sys, avgArPot.sys"
 		author = "Florian Roth"
-		reference = "https://github.com/boss-net/risksDrivers"
+		reference = "https://github.com/cvelist/cvelist"
 		hash = "aaa3459bcac25423f78ed72dbae4d7ef19e7c5c65770cbe5210b14e33cd1816c"
 		date = "2023-06-14"
 		score = 70
@@ -3899,9 +3899,9 @@ rule PUA_VULN_Renamed_Driver_Avastsoftware_Aswarpotsys_Avastantivirus_AAA3 {
 
 rule PUA_VULN_Renamed_Driver_Avastsoftware_Aswvmmsys_Avastantivirus_3650 {
 	meta:
-		description = "Detects renamed vulnerable driver mentioned in risksDrivers project using VersionInfo values from the PE header - aswVmm.sys"
+		description = "Detects renamed vulnerable driver mentioned in cvelist project using VersionInfo values from the PE header - aswVmm.sys"
 		author = "Florian Roth"
-		reference = "https://github.com/boss-net/risksDrivers"
+		reference = "https://github.com/cvelist/cvelist"
 		hash = "36505921af5a09175395ebaea29c72b2a69a3a9204384a767a5be8a721f31b10"
 		date = "2023-06-14"
 		score = 70
@@ -3921,9 +3921,9 @@ rule PUA_VULN_Renamed_Driver_Avastsoftware_Aswvmmsys_Avastantivirus_3650 {
 
 rule PUA_VULN_Renamed_Driver_Windowsrserverddkprovider_Gdrvsys_Windowsrserverddkdriver_31F4 {
 	meta:
-		description = "Detects renamed vulnerable driver mentioned in risksDrivers project using VersionInfo values from the PE header - gdrv.sys"
+		description = "Detects renamed vulnerable driver mentioned in cvelist project using VersionInfo values from the PE header - gdrv.sys"
 		author = "Florian Roth"
-		reference = "https://github.com/boss-net/risksDrivers"
+		reference = "https://github.com/cvelist/cvelist"
 		hash = "31f4cfb4c71da44120752721103a16512444c13c2ac2d857a7e6f13cb679b427"
 		hash = "6f1fc8287dd8d724972d7a165683f2b2ad6837e16f09fe292714e8e38ecd1e38"
 		hash = "17927b93b2d6ab4271c158f039cae2d60591d6a14458f5a5690aec86f5d54229"
@@ -3945,9 +3945,9 @@ rule PUA_VULN_Renamed_Driver_Windowsrserverddkprovider_Gdrvsys_Windowsrserverddk
 
 rule PUA_VULN_Renamed_Driver_Gigabytetechnologycoltd_Gdrvsys_Gdrv_FF67 {
 	meta:
-		description = "Detects renamed vulnerable driver mentioned in risksDrivers project using VersionInfo values from the PE header - gdrv.sys"
+		description = "Detects renamed vulnerable driver mentioned in cvelist project using VersionInfo values from the PE header - gdrv.sys"
 		author = "Florian Roth"
-		reference = "https://github.com/boss-net/risksDrivers"
+		reference = "https://github.com/cvelist/cvelist"
 		hash = "ff6729518a380bf57f1bc6f1ec0aa7f3012e1618b8d9b0f31a61d299ee2b4339"
 		date = "2023-06-14"
 		score = 70
@@ -3967,9 +3967,9 @@ rule PUA_VULN_Renamed_Driver_Gigabytetechnologycoltd_Gdrvsys_Gdrv_FF67 {
 
 rule PUA_VULN_Renamed_Driver_Asustekcomputerinc_Eiosys_Asusvgakernelmodedriver_CF69 {
 	meta:
-		description = "Detects renamed vulnerable driver mentioned in risksDrivers project using VersionInfo values from the PE header - EIO.sys"
+		description = "Detects renamed vulnerable driver mentioned in cvelist project using VersionInfo values from the PE header - EIO.sys"
 		author = "Florian Roth"
-		reference = "https://github.com/boss-net/risksDrivers"
+		reference = "https://github.com/cvelist/cvelist"
 		hash = "cf69704755ec2643dfd245ae1d4e15d77f306aeb1a576ffa159453de1a7345cb"
 		date = "2023-06-14"
 		score = 70
@@ -3989,9 +3989,9 @@ rule PUA_VULN_Renamed_Driver_Asustekcomputerinc_Eiosys_Asusvgakernelmodedriver_C
 
 rule PUA_VULN_Renamed_Driver_Sysinternalswwwsysinternalscom_Procexpsys_Processexplorer_4408 {
 	meta:
-		description = "Detects renamed vulnerable driver mentioned in risksDrivers project using VersionInfo values from the PE header - procexp.Sys"
+		description = "Detects renamed vulnerable driver mentioned in cvelist project using VersionInfo values from the PE header - procexp.Sys"
 		author = "Florian Roth"
-		reference = "https://github.com/boss-net/risksDrivers"
+		reference = "https://github.com/cvelist/cvelist"
 		hash = "440883cd9d6a76db5e53517d0ec7fe13d5a50d2f6a7f91ecfc863bc3490e4f5c"
 		date = "2023-06-14"
 		score = 70
@@ -4011,9 +4011,9 @@ rule PUA_VULN_Renamed_Driver_Sysinternalswwwsysinternalscom_Procexpsys_Processex
 
 rule PUA_VULN_Renamed_Driver_Rivetnetworksllc_Kfecodrvsys_Killertrafficcontrol_B583 {
 	meta:
-		description = "Detects renamed vulnerable driver mentioned in risksDrivers project using VersionInfo values from the PE header - KfeCo10X64.sys"
+		description = "Detects renamed vulnerable driver mentioned in cvelist project using VersionInfo values from the PE header - KfeCo10X64.sys"
 		author = "Florian Roth"
-		reference = "https://github.com/boss-net/risksDrivers"
+		reference = "https://github.com/cvelist/cvelist"
 		hash = "b583414fcee280128788f7b39451c511376fe821f455d4f3702795e96d560704"
 		date = "2023-06-14"
 		score = 70
@@ -4033,9 +4033,9 @@ rule PUA_VULN_Renamed_Driver_Rivetnetworksllc_Kfecodrvsys_Killertrafficcontrol_B
 
 rule PUA_VULN_Renamed_Driver_Trendmicroinc_Tmcommsys_Trendmicroaegis_ED2F {
 	meta:
-		description = "Detects renamed vulnerable driver mentioned in risksDrivers project using VersionInfo values from the PE header - TmComm.sys"
+		description = "Detects renamed vulnerable driver mentioned in cvelist project using VersionInfo values from the PE header - TmComm.sys"
 		author = "Florian Roth"
-		reference = "https://github.com/boss-net/risksDrivers"
+		reference = "https://github.com/cvelist/cvelist"
 		hash = "ed2f33452ec32830ffef2d5dc832985db9600c306ed890c47f3f33ccbb335c39"
 		date = "2023-06-14"
 		score = 70
@@ -4055,9 +4055,9 @@ rule PUA_VULN_Renamed_Driver_Trendmicroinc_Tmcommsys_Trendmicroaegis_ED2F {
 
 rule PUA_VULN_Renamed_Driver_Msi_Ntiolibxsys_Ntiolib_09BE {
 	meta:
-		description = "Detects renamed vulnerable driver mentioned in risksDrivers project using VersionInfo values from the PE header - NTIOLib.sys"
+		description = "Detects renamed vulnerable driver mentioned in cvelist project using VersionInfo values from the PE header - NTIOLib.sys"
 		author = "Florian Roth"
-		reference = "https://github.com/boss-net/risksDrivers"
+		reference = "https://github.com/cvelist/cvelist"
 		hash = "09bedbf7a41e0f8dabe4f41d331db58373ce15b2e9204540873a1884f38bdde1"
 		date = "2023-06-14"
 		score = 70
@@ -4077,9 +4077,9 @@ rule PUA_VULN_Renamed_Driver_Msi_Ntiolibxsys_Ntiolib_09BE {
 
 rule PUA_VULN_Renamed_Driver_Trendmicroinc_Tmcommsys_Aegis_A802 {
 	meta:
-		description = "Detects renamed vulnerable driver mentioned in risksDrivers project using VersionInfo values from the PE header - TmComm.sys"
+		description = "Detects renamed vulnerable driver mentioned in cvelist project using VersionInfo values from the PE header - TmComm.sys"
 		author = "Florian Roth"
-		reference = "https://github.com/boss-net/risksDrivers"
+		reference = "https://github.com/cvelist/cvelist"
 		hash = "a8027daa6facf1ff81405daf6763249e9acf232a1a191b6bf106711630e6188e"
 		date = "2023-06-14"
 		score = 70
@@ -4099,9 +4099,9 @@ rule PUA_VULN_Renamed_Driver_Trendmicroinc_Tmcommsys_Aegis_A802 {
 
 rule PUA_VULN_Renamed_Driver_Avgtechnologiesczsro_Aswarpotsys_Avginternetsecuritysystem_0F01 {
 	meta:
-		description = "Detects renamed vulnerable driver mentioned in risksDrivers project using VersionInfo values from the PE header - aswArPot.sys, avgArPot.sys"
+		description = "Detects renamed vulnerable driver mentioned in cvelist project using VersionInfo values from the PE header - aswArPot.sys, avgArPot.sys"
 		author = "Florian Roth"
-		reference = "https://github.com/boss-net/risksDrivers"
+		reference = "https://github.com/cvelist/cvelist"
 		hash = "0f016c80c4938fbcd47a47409969b3925f54292eba2ce01a8e45222ce8615eb8"
 		date = "2023-06-14"
 		score = 70
@@ -4121,9 +4121,9 @@ rule PUA_VULN_Renamed_Driver_Avgtechnologiesczsro_Aswarpotsys_Avginternetsecurit
 
 rule PUA_VULN_Renamed_Driver_Sunmicrosystemsinc_Vboxdrvsys_Sunvirtualbox_R_7539 {
 	meta:
-		description = "Detects renamed vulnerable driver mentioned in risksDrivers project using VersionInfo values from the PE header - VBoxDrv.sys"
+		description = "Detects renamed vulnerable driver mentioned in cvelist project using VersionInfo values from the PE header - VBoxDrv.sys"
 		author = "Florian Roth"
-		reference = "https://github.com/boss-net/risksDrivers"
+		reference = "https://github.com/cvelist/cvelist"
 		hash = "7539157df91923d4575f7f57c8eb8b0fd87f064c919c1db85e73eebb2910b60c"
 		date = "2023-06-14"
 		score = 70
@@ -4143,9 +4143,9 @@ rule PUA_VULN_Renamed_Driver_Sunmicrosystemsinc_Vboxdrvsys_Sunvirtualbox_R_7539 
 
 rule PUA_VULN_Renamed_Driver_Trendmicroinc_Tmcommsys_Trendmicroeyes_478D {
 	meta:
-		description = "Detects renamed vulnerable driver mentioned in risksDrivers project using VersionInfo values from the PE header - TmComm.sys"
+		description = "Detects renamed vulnerable driver mentioned in cvelist project using VersionInfo values from the PE header - TmComm.sys"
 		author = "Florian Roth"
-		reference = "https://github.com/boss-net/risksDrivers"
+		reference = "https://github.com/cvelist/cvelist"
 		hash = "478d855b648ef4501d3b08b3b10e94076ac67546b0ce86b454324f1bf9a78aa0"
 		date = "2023-06-14"
 		score = 70
@@ -4165,9 +4165,9 @@ rule PUA_VULN_Renamed_Driver_Trendmicroinc_Tmcommsys_Trendmicroeyes_478D {
 
 rule PUA_VULN_Renamed_Driver_Trendmicroinc_Tmcommsys_Activeclean_A903 {
 	meta:
-		description = "Detects renamed vulnerable driver mentioned in risksDrivers project using VersionInfo values from the PE header - TmComm.sys"
+		description = "Detects renamed vulnerable driver mentioned in cvelist project using VersionInfo values from the PE header - TmComm.sys"
 		author = "Florian Roth"
-		reference = "https://github.com/boss-net/risksDrivers"
+		reference = "https://github.com/cvelist/cvelist"
 		hash = "a903f329b70f0078197cb7683aae1bb432eaf58572fe572f7cb4bc2080042d7e"
 		date = "2023-06-14"
 		score = 70
@@ -4187,9 +4187,9 @@ rule PUA_VULN_Renamed_Driver_Trendmicroinc_Tmcommsys_Activeclean_A903 {
 
 rule PUA_VULN_Renamed_Driver_Sysinternalswwwsysinternalscom_Procexpsys_Processexplorer_3FF3 {
 	meta:
-		description = "Detects renamed vulnerable driver mentioned in risksDrivers project using VersionInfo values from the PE header - procexp.Sys"
+		description = "Detects renamed vulnerable driver mentioned in cvelist project using VersionInfo values from the PE header - procexp.Sys"
 		author = "Florian Roth"
-		reference = "https://github.com/boss-net/risksDrivers"
+		reference = "https://github.com/cvelist/cvelist"
 		hash = "3ff39728f1c11d1108f65ec5eb3d722fd1a1279c530d79712e0d32b34880baaa"
 		hash = "86721ee8161096348ed3dbe1ccbf933ae004c315b1691745a8af4a0df9fed675"
 		date = "2023-06-14"
@@ -4210,9 +4210,9 @@ rule PUA_VULN_Renamed_Driver_Sysinternalswwwsysinternalscom_Procexpsys_Processex
 
 rule PUA_VULN_Renamed_Driver_Sysinternalswwwsysinternalscom_Procexpsys_Processexplorer_BDBC {
 	meta:
-		description = "Detects renamed vulnerable driver mentioned in risksDrivers project using VersionInfo values from the PE header - procexp.Sys"
+		description = "Detects renamed vulnerable driver mentioned in cvelist project using VersionInfo values from the PE header - procexp.Sys"
 		author = "Florian Roth"
-		reference = "https://github.com/boss-net/risksDrivers"
+		reference = "https://github.com/cvelist/cvelist"
 		hash = "bdbceca41e576841cad2f2b38ee6dbf92fd77fbbfdfe6ecf99f0623d44ef182c"
 		date = "2023-06-14"
 		score = 70
@@ -4232,9 +4232,9 @@ rule PUA_VULN_Renamed_Driver_Sysinternalswwwsysinternalscom_Procexpsys_Processex
 
 rule PUA_VULN_Renamed_Driver_Trendmicroinc_Tmcommsys_Trendmicroeyes_7837 {
 	meta:
-		description = "Detects renamed vulnerable driver mentioned in risksDrivers project using VersionInfo values from the PE header - TmComm.sys"
+		description = "Detects renamed vulnerable driver mentioned in cvelist project using VersionInfo values from the PE header - TmComm.sys"
 		author = "Florian Roth"
-		reference = "https://github.com/boss-net/risksDrivers"
+		reference = "https://github.com/cvelist/cvelist"
 		hash = "7837cb350338c4958968d06b105466da6518f5bb522a6e70e87c0cad85128408"
 		date = "2023-06-14"
 		score = 70
@@ -4254,9 +4254,9 @@ rule PUA_VULN_Renamed_Driver_Trendmicroinc_Tmcommsys_Trendmicroeyes_7837 {
 
 rule PUA_VULN_Renamed_Driver_Avgtechnologiesczsro_Aswarpotsys_Avginternetsecuritysystem_0B2A {
 	meta:
-		description = "Detects renamed vulnerable driver mentioned in risksDrivers project using VersionInfo values from the PE header - aswArPot.sys, avgArPot.sys"
+		description = "Detects renamed vulnerable driver mentioned in cvelist project using VersionInfo values from the PE header - aswArPot.sys, avgArPot.sys"
 		author = "Florian Roth"
-		reference = "https://github.com/boss-net/risksDrivers"
+		reference = "https://github.com/cvelist/cvelist"
 		hash = "0b2ad05939b0aabbdc011082fad7960baa0c459ec16a2b29f37c1fa31795a46d"
 		date = "2023-06-14"
 		score = 70
@@ -4276,9 +4276,9 @@ rule PUA_VULN_Renamed_Driver_Avgtechnologiesczsro_Aswarpotsys_Avginternetsecurit
 
 rule PUA_VULN_Renamed_Driver_Copyright_Advancedmalwareprotection_6F55 {
 	meta:
-		description = "Detects renamed vulnerable driver mentioned in risksDrivers project using VersionInfo values from the PE header - amsdk.sys"
+		description = "Detects renamed vulnerable driver mentioned in cvelist project using VersionInfo values from the PE header - amsdk.sys"
 		author = "Florian Roth"
-		reference = "https://github.com/boss-net/risksDrivers"
+		reference = "https://github.com/cvelist/cvelist"
 		hash = "6f55c148bb27c14408cf0f16f344abcd63539174ac855e510a42d78cfaec451c"
 		date = "2023-06-14"
 		score = 70
@@ -4297,9 +4297,9 @@ rule PUA_VULN_Renamed_Driver_Copyright_Advancedmalwareprotection_6F55 {
 
 rule PUA_VULN_Renamed_Driver_Elaboratebytesag_Elbycdio_Cdrtools_EEA5 {
 	meta:
-		description = "Detects renamed vulnerable driver mentioned in risksDrivers project using VersionInfo values from the PE header - elbycdio.sys"
+		description = "Detects renamed vulnerable driver mentioned in cvelist project using VersionInfo values from the PE header - elbycdio.sys"
 		author = "Florian Roth"
-		reference = "https://github.com/boss-net/risksDrivers"
+		reference = "https://github.com/cvelist/cvelist"
 		hash = "eea53103e7a5a55dc1df79797395a2a3e96123ebd71cdd2db4b1be80e7b3f02b"
 		date = "2023-06-14"
 		score = 70
@@ -4319,9 +4319,9 @@ rule PUA_VULN_Renamed_Driver_Elaboratebytesag_Elbycdio_Cdrtools_EEA5 {
 
 rule PUA_VULN_Renamed_Driver_Intelcorporation_Iqvwsys_Intelriqvwsys_2D2C {
 	meta:
-		description = "Detects renamed vulnerable driver mentioned in risksDrivers project using VersionInfo values from the PE header - iQVW64.SYS"
+		description = "Detects renamed vulnerable driver mentioned in cvelist project using VersionInfo values from the PE header - iQVW64.SYS"
 		author = "Florian Roth"
-		reference = "https://github.com/boss-net/risksDrivers"
+		reference = "https://github.com/cvelist/cvelist"
 		hash = "2d2c7ee9547738a8a676ab785c151e8b48ed40fe7cf6174650814c7f5f58513b"
 		date = "2023-06-14"
 		score = 70
@@ -4341,9 +4341,9 @@ rule PUA_VULN_Renamed_Driver_Intelcorporation_Iqvwsys_Intelriqvwsys_2D2C {
 
 rule PUA_VULN_Renamed_Driver_Elaboratebytesag_Elbycdio_Cdrtools_5CFA {
 	meta:
-		description = "Detects renamed vulnerable driver mentioned in risksDrivers project using VersionInfo values from the PE header - ElbyCDIO.sys"
+		description = "Detects renamed vulnerable driver mentioned in cvelist project using VersionInfo values from the PE header - ElbyCDIO.sys"
 		author = "Florian Roth"
-		reference = "https://github.com/boss-net/risksDrivers"
+		reference = "https://github.com/cvelist/cvelist"
 		hash = "5cfad3d473961763306d72c12bd5ae14183a1a5778325c9acacca764b79ca185"
 		date = "2023-06-14"
 		score = 70
@@ -4363,9 +4363,9 @@ rule PUA_VULN_Renamed_Driver_Elaboratebytesag_Elbycdio_Cdrtools_5CFA {
 
 rule PUA_VULN_Renamed_Driver_Arthurliberman_Alsysiosys_Alsysio_119C {
 	meta:
-		description = "Detects renamed vulnerable driver mentioned in risksDrivers project using VersionInfo values from the PE header - ALSysIO64.sys"
+		description = "Detects renamed vulnerable driver mentioned in cvelist project using VersionInfo values from the PE header - ALSysIO64.sys"
 		author = "Florian Roth"
-		reference = "https://github.com/boss-net/risksDrivers"
+		reference = "https://github.com/cvelist/cvelist"
 		hash = "119c48b79735fda0ecd973d77d9bdc6b329960caed09b38ab454236ca039d280"
 		date = "2023-06-14"
 		score = 70
@@ -4385,9 +4385,9 @@ rule PUA_VULN_Renamed_Driver_Arthurliberman_Alsysiosys_Alsysio_119C {
 
 rule PUA_VULN_Renamed_Driver_Tgsoftsas_Viragtsys_Viritagentsystem_263E {
 	meta:
-		description = "Detects renamed vulnerable driver mentioned in risksDrivers project using VersionInfo values from the PE header - viragt64.sys"
+		description = "Detects renamed vulnerable driver mentioned in cvelist project using VersionInfo values from the PE header - viragt64.sys"
 		author = "Florian Roth"
-		reference = "https://github.com/boss-net/risksDrivers"
+		reference = "https://github.com/cvelist/cvelist"
 		hash = "263e8f1e20612849aea95272da85773f577fd962a7a6d525b53f43407aa7ad24"
 		date = "2023-06-14"
 		score = 70
@@ -4407,9 +4407,9 @@ rule PUA_VULN_Renamed_Driver_Tgsoftsas_Viragtsys_Viritagentsystem_263E {
 
 rule PUA_VULN_Renamed_Driver_Msi_Ntiolibsys_Ntiolib_E839 {
 	meta:
-		description = "Detects renamed vulnerable driver mentioned in risksDrivers project using VersionInfo values from the PE header - NTIOLib.sys"
+		description = "Detects renamed vulnerable driver mentioned in cvelist project using VersionInfo values from the PE header - NTIOLib.sys"
 		author = "Florian Roth"
-		reference = "https://github.com/boss-net/risksDrivers"
+		reference = "https://github.com/cvelist/cvelist"
 		hash = "e83908eba2501a00ef9e74e7d1c8b4ff1279f1cd6051707fd51824f87e4378fa"
 		date = "2023-06-14"
 		score = 70
@@ -4429,9 +4429,9 @@ rule PUA_VULN_Renamed_Driver_Msi_Ntiolibsys_Ntiolib_E839 {
 
 rule PUA_VULN_Renamed_Driver_Hilschergesellschaftfrsystemaoutomationmbh_Physmemsys_Physicalmemoryaccessdriver_C299 {
 	meta:
-		description = "Detects renamed vulnerable driver mentioned in risksDrivers project using VersionInfo values from the PE header - physmem.sys"
+		description = "Detects renamed vulnerable driver mentioned in cvelist project using VersionInfo values from the PE header - physmem.sys"
 		author = "Florian Roth"
-		reference = "https://github.com/boss-net/risksDrivers"
+		reference = "https://github.com/cvelist/cvelist"
 		hash = "c299063e3eae8ddc15839767e83b9808fd43418dc5a1af7e4f44b97ba53fbd3d"
 		date = "2023-06-14"
 		score = 70
@@ -4451,9 +4451,9 @@ rule PUA_VULN_Renamed_Driver_Hilschergesellschaftfrsystemaoutomationmbh_Physmems
 
 rule PUA_VULN_Renamed_Driver_Advancedmicrodevices_Amdryzenmasterdriversys_Amdryzenmasterservicedriver_AF10 {
 	meta:
-		description = "Detects renamed vulnerable driver mentioned in risksDrivers project using VersionInfo values from the PE header - AMDRyzenMasterDriver.sys"
+		description = "Detects renamed vulnerable driver mentioned in cvelist project using VersionInfo values from the PE header - AMDRyzenMasterDriver.sys"
 		author = "Florian Roth"
-		reference = "https://github.com/boss-net/risksDrivers"
+		reference = "https://github.com/cvelist/cvelist"
 		hash = "af1011c76a22af7be97a0b3e0ce11aca0509820c59fa7c8eeaaa1b2c0225f75a"
 		date = "2023-06-14"
 		score = 70
@@ -4473,9 +4473,9 @@ rule PUA_VULN_Renamed_Driver_Advancedmicrodevices_Amdryzenmasterdriversys_Amdryz
 
 rule PUA_VULN_Renamed_Driver_Elaboratebytesag_Elbycdio_Cdrtools_ADA4 {
 	meta:
-		description = "Detects renamed vulnerable driver mentioned in risksDrivers project using VersionInfo values from the PE header - ElbyCDIO.sys"
+		description = "Detects renamed vulnerable driver mentioned in cvelist project using VersionInfo values from the PE header - ElbyCDIO.sys"
 		author = "Florian Roth"
-		reference = "https://github.com/boss-net/risksDrivers"
+		reference = "https://github.com/cvelist/cvelist"
 		hash = "ada4e42bf5ef58ef1aad94435441003b1cc1fcaa5d38bfdbe1a3d736dc451d47"
 		date = "2023-06-14"
 		score = 70
@@ -4495,9 +4495,9 @@ rule PUA_VULN_Renamed_Driver_Elaboratebytesag_Elbycdio_Cdrtools_ADA4 {
 
 rule PUA_VULN_Renamed_Driver_Tgsoftsas_Viragtsys_Viritagentsystem_9B2F {
 	meta:
-		description = "Detects renamed vulnerable driver mentioned in risksDrivers project using VersionInfo values from the PE header - viragt64.sys"
+		description = "Detects renamed vulnerable driver mentioned in cvelist project using VersionInfo values from the PE header - viragt64.sys"
 		author = "Florian Roth"
-		reference = "https://github.com/boss-net/risksDrivers"
+		reference = "https://github.com/cvelist/cvelist"
 		hash = "9b2f051ac901ab47d0012a1002cb8b2db28c14e9480c0dd55e1ac11c81ba9285"
 		date = "2023-06-14"
 		score = 70
@@ -4517,9 +4517,9 @@ rule PUA_VULN_Renamed_Driver_Tgsoftsas_Viragtsys_Viritagentsystem_9B2F {
 
 rule PUA_VULN_Renamed_Driver_Cyreninc_Amp_Cyrenamp_CBB8 {
 	meta:
-		description = "Detects renamed vulnerable driver mentioned in risksDrivers project using VersionInfo values from the PE header - amp.sys"
+		description = "Detects renamed vulnerable driver mentioned in cvelist project using VersionInfo values from the PE header - amp.sys"
 		author = "Florian Roth"
-		reference = "https://github.com/boss-net/risksDrivers"
+		reference = "https://github.com/cvelist/cvelist"
 		hash = "cbb8239a765bf5b2c1b6a5c8832d2cab8fef5deacadfb65d8ed43ef56d291ab6"
 		date = "2023-06-14"
 		score = 70
@@ -4539,9 +4539,9 @@ rule PUA_VULN_Renamed_Driver_Cyreninc_Amp_Cyrenamp_CBB8 {
 
 rule PUA_VULN_Renamed_Driver_Supermicrocomputerinc_Superbmc_Superbmc_F843 {
 	meta:
-		description = "Detects renamed vulnerable driver mentioned in risksDrivers project using VersionInfo values from the PE header - superbmc.sys"
+		description = "Detects renamed vulnerable driver mentioned in cvelist project using VersionInfo values from the PE header - superbmc.sys"
 		author = "Florian Roth"
-		reference = "https://github.com/boss-net/risksDrivers"
+		reference = "https://github.com/cvelist/cvelist"
 		hash = "f8430bdc6fd01f42217d66d87a3ef6f66cb2700ebb39c4f25c8b851858cc4b35"
 		date = "2023-06-14"
 		score = 70
@@ -4561,9 +4561,9 @@ rule PUA_VULN_Renamed_Driver_Supermicrocomputerinc_Superbmc_Superbmc_F843 {
 
 rule PUA_VULN_Renamed_Driver_Avgtechnologiesczsro_Aswarpotsys_Avginternetsecuritysystem_1023 {
 	meta:
-		description = "Detects renamed vulnerable driver mentioned in risksDrivers project using VersionInfo values from the PE header - aswArPot.sys, avgArPot.sys"
+		description = "Detects renamed vulnerable driver mentioned in cvelist project using VersionInfo values from the PE header - aswArPot.sys, avgArPot.sys"
 		author = "Florian Roth"
-		reference = "https://github.com/boss-net/risksDrivers"
+		reference = "https://github.com/cvelist/cvelist"
 		hash = "1023dcd4c80db19e9f82f95b1c5e1ddb60db7ac034848dd5cc1c78104a6350f4"
 		date = "2023-06-14"
 		score = 70
@@ -4583,9 +4583,9 @@ rule PUA_VULN_Renamed_Driver_Avgtechnologiesczsro_Aswarpotsys_Avginternetsecurit
 
 rule PUA_VULN_Renamed_Driver_Intelcorporation_Iqvwsys_Intelriqvwsys_F877 {
 	meta:
-		description = "Detects renamed vulnerable driver mentioned in risksDrivers project using VersionInfo values from the PE header - iQVW64.SYS"
+		description = "Detects renamed vulnerable driver mentioned in cvelist project using VersionInfo values from the PE header - iQVW64.SYS"
 		author = "Florian Roth"
-		reference = "https://github.com/boss-net/risksDrivers"
+		reference = "https://github.com/cvelist/cvelist"
 		hash = "f877296e8506e6a1acbdacdc5085b18c6842320a2775a329d286bac796f08d54"
 		hash = "de3597ae7196ca8c0750dce296a8a4f58893774f764455a125464766fcc9b3b5"
 		date = "2023-06-14"
@@ -4606,9 +4606,9 @@ rule PUA_VULN_Renamed_Driver_Intelcorporation_Iqvwsys_Intelriqvwsys_F877 {
 
 rule PUA_VULN_Renamed_Driver_Almicosoftware_Sfdrvxsys_Speedfan_X_AD23 {
 	meta:
-		description = "Detects renamed vulnerable driver mentioned in risksDrivers project using VersionInfo values from the PE header - sfdrvx32.sys"
+		description = "Detects renamed vulnerable driver mentioned in cvelist project using VersionInfo values from the PE header - sfdrvx32.sys"
 		author = "Florian Roth"
-		reference = "https://github.com/boss-net/risksDrivers"
+		reference = "https://github.com/cvelist/cvelist"
 		hash = "ad23d77a38655acb71216824e363df8ac41a48a1a0080f35a0d23aa14b54460b"
 		date = "2023-06-14"
 		score = 70
@@ -4628,9 +4628,9 @@ rule PUA_VULN_Renamed_Driver_Almicosoftware_Sfdrvxsys_Speedfan_X_AD23 {
 
 rule PUA_VULN_Renamed_Driver_Asustekcomputerinc_Atsziosys_Atsziodriver_1A4F {
 	meta:
-		description = "Detects renamed vulnerable driver mentioned in risksDrivers project using VersionInfo values from the PE header - ATSZIO.sys"
+		description = "Detects renamed vulnerable driver mentioned in cvelist project using VersionInfo values from the PE header - ATSZIO.sys"
 		author = "Florian Roth"
-		reference = "https://github.com/boss-net/risksDrivers"
+		reference = "https://github.com/cvelist/cvelist"
 		hash = "1a4f7d7926efc3e3488758ce318246ea78a061bde759ec6c906ff005dd8213e5"
 		hash = "0da746e49fd662be910d0e366934a7e02898714eaaa577e261ab40eb44222b5c"
 		hash = "e32ab30d01dcff6418544d93f99ae812d2ce6396e809686620547bea05074f6f"
@@ -4654,9 +4654,9 @@ rule PUA_VULN_Renamed_Driver_Asustekcomputerinc_Atsziosys_Atsziodriver_1A4F {
 
 rule PUA_VULN_Renamed_Driver_Trendmicroinc_Tmcommsys_Trendmicroeyes_BCFC {
 	meta:
-		description = "Detects renamed vulnerable driver mentioned in risksDrivers project using VersionInfo values from the PE header - TmComm.sys"
+		description = "Detects renamed vulnerable driver mentioned in cvelist project using VersionInfo values from the PE header - TmComm.sys"
 		author = "Florian Roth"
-		reference = "https://github.com/boss-net/risksDrivers"
+		reference = "https://github.com/cvelist/cvelist"
 		hash = "bcfc2c9883e6c1b8429be44cc4db988a9eecb544988fbd756d18cfca6201876f"
 		date = "2023-06-14"
 		score = 70
@@ -4676,9 +4676,9 @@ rule PUA_VULN_Renamed_Driver_Trendmicroinc_Tmcommsys_Trendmicroeyes_BCFC {
 
 rule PUA_VULN_Renamed_Driver_Windowsrddkprovider_Gdrvsys_Windowsrddkdriver_F4FF {
 	meta:
-		description = "Detects renamed vulnerable driver mentioned in risksDrivers project using VersionInfo values from the PE header - gdrv.sys"
+		description = "Detects renamed vulnerable driver mentioned in cvelist project using VersionInfo values from the PE header - gdrv.sys"
 		author = "Florian Roth"
-		reference = "https://github.com/boss-net/risksDrivers"
+		reference = "https://github.com/cvelist/cvelist"
 		hash = "f4ff679066269392f6b7c3ba6257fc60dd609e4f9c491b00e1a16e4c405b0b9b"
 		hash = "cfc5c585dd4e592dd1a08887ded28b92d9a5820587b6f4f8fa4f56d60289259b"
 		date = "2023-06-14"
@@ -4699,9 +4699,9 @@ rule PUA_VULN_Renamed_Driver_Windowsrddkprovider_Gdrvsys_Windowsrddkdriver_F4FF 
 
 rule PUA_VULN_Renamed_Driver_Trendmicroinc_Tmcommsys_Trendmicroeyes_DBC6 {
 	meta:
-		description = "Detects renamed vulnerable driver mentioned in risksDrivers project using VersionInfo values from the PE header - TmComm.sys"
+		description = "Detects renamed vulnerable driver mentioned in cvelist project using VersionInfo values from the PE header - TmComm.sys"
 		author = "Florian Roth"
-		reference = "https://github.com/boss-net/risksDrivers"
+		reference = "https://github.com/cvelist/cvelist"
 		hash = "dbc604b4e01362a3e51357af4a87686834fe913852a4e0a8c0d4c1a0f7d076ed"
 		date = "2023-06-14"
 		score = 70
@@ -4721,9 +4721,9 @@ rule PUA_VULN_Renamed_Driver_Trendmicroinc_Tmcommsys_Trendmicroeyes_DBC6 {
 
 rule PUA_VULN_Renamed_Driver_Corsairmemoryinc_Corsairllaccess_Corsairllaccess_F15A {
 	meta:
-		description = "Detects renamed vulnerable driver mentioned in risksDrivers project using VersionInfo values from the PE header - CorsairLLAccess64.sys"
+		description = "Detects renamed vulnerable driver mentioned in cvelist project using VersionInfo values from the PE header - CorsairLLAccess64.sys"
 		author = "Florian Roth"
-		reference = "https://github.com/boss-net/risksDrivers"
+		reference = "https://github.com/cvelist/cvelist"
 		hash = "f15ae970e222ce06dbf3752b223270d0e726fb78ebec3598b4f8225b5a0880b1"
 		date = "2023-06-14"
 		score = 70
@@ -4743,9 +4743,9 @@ rule PUA_VULN_Renamed_Driver_Corsairmemoryinc_Corsairllaccess_Corsairllaccess_F1
 
 rule PUA_VULN_Renamed_Driver_Trendmicroinc_Tmcommsys_Trendmicroeyes_4E37 {
 	meta:
-		description = "Detects renamed vulnerable driver mentioned in risksDrivers project using VersionInfo values from the PE header - TmComm.sys"
+		description = "Detects renamed vulnerable driver mentioned in cvelist project using VersionInfo values from the PE header - TmComm.sys"
 		author = "Florian Roth"
-		reference = "https://github.com/boss-net/risksDrivers"
+		reference = "https://github.com/cvelist/cvelist"
 		hash = "4e37592a2a415f520438330c32cfbdbd6af594deef5290b2fa4b9722b898ff69"
 		date = "2023-06-14"
 		score = 70
@@ -4765,9 +4765,9 @@ rule PUA_VULN_Renamed_Driver_Trendmicroinc_Tmcommsys_Trendmicroeyes_4E37 {
 
 rule PUA_VULN_Renamed_Driver_Trendmicroinc_Tmcommsys_Trendmicroeyes_ECD0 {
 	meta:
-		description = "Detects renamed vulnerable driver mentioned in risksDrivers project using VersionInfo values from the PE header - TmComm.sys"
+		description = "Detects renamed vulnerable driver mentioned in cvelist project using VersionInfo values from the PE header - TmComm.sys"
 		author = "Florian Roth"
-		reference = "https://github.com/boss-net/risksDrivers"
+		reference = "https://github.com/cvelist/cvelist"
 		hash = "ecd07df7ad6fee9269a9e9429eb199bf3e24cf672aa1d013b7e8d90d75324566"
 		date = "2023-06-14"
 		score = 70
@@ -4787,9 +4787,9 @@ rule PUA_VULN_Renamed_Driver_Trendmicroinc_Tmcommsys_Trendmicroeyes_ECD0 {
 
 rule PUA_VULN_Renamed_Driver_Avastsoftware_Aswarpot_Avastantivirus_36E3 {
 	meta:
-		description = "Detects renamed vulnerable driver mentioned in risksDrivers project using VersionInfo values from the PE header - aswArPot.sys, avgArPot.sys"
+		description = "Detects renamed vulnerable driver mentioned in cvelist project using VersionInfo values from the PE header - aswArPot.sys, avgArPot.sys"
 		author = "Florian Roth"
-		reference = "https://github.com/boss-net/risksDrivers"
+		reference = "https://github.com/cvelist/cvelist"
 		hash = "36e3127f045ef1fa7426a3ff8c441092d3b66923d2b69826034e48306609e289"
 		date = "2023-06-14"
 		score = 70
@@ -4809,9 +4809,9 @@ rule PUA_VULN_Renamed_Driver_Avastsoftware_Aswarpot_Avastantivirus_36E3 {
 
 rule PUA_VULN_Renamed_Driver_Trendmicroinc_Tmcommsys_Trendmicroeyes_FDA9 {
 	meta:
-		description = "Detects renamed vulnerable driver mentioned in risksDrivers project using VersionInfo values from the PE header - TmComm.sys"
+		description = "Detects renamed vulnerable driver mentioned in cvelist project using VersionInfo values from the PE header - TmComm.sys"
 		author = "Florian Roth"
-		reference = "https://github.com/boss-net/risksDrivers"
+		reference = "https://github.com/cvelist/cvelist"
 		hash = "fda93c6e41212e86af07f57ca95db841161f00b08dae6304a51b467056e56280"
 		date = "2023-06-14"
 		score = 70
@@ -4831,9 +4831,9 @@ rule PUA_VULN_Renamed_Driver_Trendmicroinc_Tmcommsys_Trendmicroeyes_FDA9 {
 
 rule PUA_VULN_Renamed_Driver_Biostargroup_Iodriver_Biostariodriver_D205 {
 	meta:
-		description = "Detects renamed vulnerable driver mentioned in risksDrivers project using VersionInfo values from the PE header - BS_RCIO64.sys"
+		description = "Detects renamed vulnerable driver mentioned in cvelist project using VersionInfo values from the PE header - BS_RCIO64.sys"
 		author = "Florian Roth"
-		reference = "https://github.com/boss-net/risksDrivers"
+		reference = "https://github.com/cvelist/cvelist"
 		hash = "d205286bffdf09bc033c09e95c519c1c267b40c2ee8bab703c6a2d86741ccd3e"
 		date = "2023-06-14"
 		score = 70
@@ -4853,9 +4853,9 @@ rule PUA_VULN_Renamed_Driver_Biostargroup_Iodriver_Biostariodriver_D205 {
 
 rule PUA_VULN_Renamed_Driver_Windowsrwinddkprovider_Amifldrvsys_Windowsrwinddkdriver_38D8 {
 	meta:
-		description = "Detects renamed vulnerable driver mentioned in risksDrivers project using VersionInfo values from the PE header - amifldrv64.sys"
+		description = "Detects renamed vulnerable driver mentioned in cvelist project using VersionInfo values from the PE header - amifldrv64.sys"
 		author = "Florian Roth"
-		reference = "https://github.com/boss-net/risksDrivers"
+		reference = "https://github.com/cvelist/cvelist"
 		hash = "38d87b51f4b69ba2dae1477684a1415f1a3b578eee5e1126673b1beaefee9a20"
 		hash = "ffc72f0bde21ba20aa97bee99d9e96870e5aa40cce9884e44c612757f939494f"
 		date = "2023-06-14"
@@ -4876,9 +4876,9 @@ rule PUA_VULN_Renamed_Driver_Windowsrwinddkprovider_Amifldrvsys_Windowsrwinddkdr
 
 rule PUA_VULN_Renamed_Driver_Highresolutionenterpriseswwwhighrezcouk_Inpoutxsys_Inpoutxdriverversion_X_F581 {
 	meta:
-		description = "Detects renamed vulnerable driver mentioned in risksDrivers project using VersionInfo values from the PE header - inpoutx64.sys"
+		description = "Detects renamed vulnerable driver mentioned in cvelist project using VersionInfo values from the PE header - inpoutx64.sys"
 		author = "Florian Roth"
-		reference = "https://github.com/boss-net/risksDrivers"
+		reference = "https://github.com/cvelist/cvelist"
 		hash = "f581decc2888ef27ee1ea85ea23bbb5fb2fe6a554266ff5a1476acd1d29d53af"
 		hash = "f8965fdce668692c3785afa3559159f9a18287bc0d53abb21902895a8ecf221b"
 		hash = "2d83ccb1ad9839c9f5b3f10b1f856177df1594c66cbbc7661677d4b462ebf44d"
@@ -4900,9 +4900,9 @@ rule PUA_VULN_Renamed_Driver_Highresolutionenterpriseswwwhighrezcouk_Inpoutxsys_
 
 rule PUA_VULN_Renamed_Driver_Trendmicroinc_Tmcommsys_Trendmicroeyes_12ED {
 	meta:
-		description = "Detects renamed vulnerable driver mentioned in risksDrivers project using VersionInfo values from the PE header - TmComm.sys"
+		description = "Detects renamed vulnerable driver mentioned in cvelist project using VersionInfo values from the PE header - TmComm.sys"
 		author = "Florian Roth"
-		reference = "https://github.com/boss-net/risksDrivers"
+		reference = "https://github.com/cvelist/cvelist"
 		hash = "12eda8b65ed8c1d80464a0c535ea099dffdb4981c134294cb0fa424efc85ee56"
 		date = "2023-06-14"
 		score = 70
@@ -4922,9 +4922,9 @@ rule PUA_VULN_Renamed_Driver_Trendmicroinc_Tmcommsys_Trendmicroeyes_12ED {
 
 rule PUA_VULN_Renamed_Driver_Avastsoftware_Aswarpotsys_Avastantivirus_EBE2 {
 	meta:
-		description = "Detects renamed vulnerable driver mentioned in risksDrivers project using VersionInfo values from the PE header - aswArPot.sys, avgArPot.sys"
+		description = "Detects renamed vulnerable driver mentioned in cvelist project using VersionInfo values from the PE header - aswArPot.sys, avgArPot.sys"
 		author = "Florian Roth"
-		reference = "https://github.com/boss-net/risksDrivers"
+		reference = "https://github.com/cvelist/cvelist"
 		hash = "ebe2e9ec6d5d94c2d58fbcc9d78c5f0ee7a2f2c1aed6d1b309f383186d11dfa3"
 		date = "2023-06-14"
 		score = 70
@@ -4944,9 +4944,9 @@ rule PUA_VULN_Renamed_Driver_Avastsoftware_Aswarpotsys_Avastantivirus_EBE2 {
 
 rule PUA_VULN_Renamed_Driver_Corsairmemoryinc_Corsairllaccess_Corsairllaccess_A334 {
 	meta:
-		description = "Detects renamed vulnerable driver mentioned in risksDrivers project using VersionInfo values from the PE header - CorsairLLAccess64.sys"
+		description = "Detects renamed vulnerable driver mentioned in cvelist project using VersionInfo values from the PE header - CorsairLLAccess64.sys"
 		author = "Florian Roth"
-		reference = "https://github.com/boss-net/risksDrivers"
+		reference = "https://github.com/cvelist/cvelist"
 		hash = "a334bdf0c0ab07803380eb6ef83eefe7c147d6962595dd9c943a6a76f2200b0d"
 		hash = "000547560fea0dd4b477eb28bf781ea67bf83c748945ce8923f90fdd14eb7a4b"
 		date = "2023-06-14"
@@ -4967,9 +4967,9 @@ rule PUA_VULN_Renamed_Driver_Corsairmemoryinc_Corsairllaccess_Corsairllaccess_A3
 
 rule PUA_VULN_Renamed_Driver_Trendmicroinc_Tmcommsys_Trendmicroeyes_1C12 {
 	meta:
-		description = "Detects renamed vulnerable driver mentioned in risksDrivers project using VersionInfo values from the PE header - TmComm.sys"
+		description = "Detects renamed vulnerable driver mentioned in cvelist project using VersionInfo values from the PE header - TmComm.sys"
 		author = "Florian Roth"
-		reference = "https://github.com/boss-net/risksDrivers"
+		reference = "https://github.com/cvelist/cvelist"
 		hash = "1c1251784e6f61525d0082882a969cb8a0c5d5359be22f5a73e3b0cd38b51687"
 		date = "2023-06-14"
 		score = 70
@@ -4989,9 +4989,9 @@ rule PUA_VULN_Renamed_Driver_Trendmicroinc_Tmcommsys_Trendmicroeyes_1C12 {
 
 rule PUA_VULN_Renamed_Driver_Trendmicroinc_Tmcommsys_Trendmicroaegis_4BC0 {
 	meta:
-		description = "Detects renamed vulnerable driver mentioned in risksDrivers project using VersionInfo values from the PE header - TmComm.sys"
+		description = "Detects renamed vulnerable driver mentioned in cvelist project using VersionInfo values from the PE header - TmComm.sys"
 		author = "Florian Roth"
-		reference = "https://github.com/boss-net/risksDrivers"
+		reference = "https://github.com/cvelist/cvelist"
 		hash = "4bc0921ffd4acc865525d3faf98961e8decc5aec4974552cbbf2ae8d5a569de4"
 		date = "2023-06-14"
 		score = 70
@@ -5011,9 +5011,9 @@ rule PUA_VULN_Renamed_Driver_Trendmicroinc_Tmcommsys_Trendmicroaegis_4BC0 {
 
 rule PUA_VULN_Renamed_Driver_Iobitinformationtechnology_Iobitunlockersys_Unlocker_F85C {
 	meta:
-		description = "Detects renamed vulnerable driver mentioned in risksDrivers project using VersionInfo values from the PE header - IObitUnlocker.sys"
+		description = "Detects renamed vulnerable driver mentioned in cvelist project using VersionInfo values from the PE header - IObitUnlocker.sys"
 		author = "Florian Roth"
-		reference = "https://github.com/boss-net/risksDrivers"
+		reference = "https://github.com/cvelist/cvelist"
 		hash = "f85cca4badff17d1aa90752153ccec77a68ad282b69e3985fdc4743eaea85004"
 		date = "2023-06-14"
 		score = 70
@@ -5033,9 +5033,9 @@ rule PUA_VULN_Renamed_Driver_Iobitinformationtechnology_Iobitunlockersys_Unlocke
 
 rule PUA_VULN_Renamed_Driver_Razerinc_Rzpnk_Rzpnk_93D8 {
 	meta:
-		description = "Detects renamed vulnerable driver mentioned in risksDrivers project using VersionInfo values from the PE header - rzpnk.sys"
+		description = "Detects renamed vulnerable driver mentioned in cvelist project using VersionInfo values from the PE header - rzpnk.sys"
 		author = "Florian Roth"
-		reference = "https://github.com/boss-net/risksDrivers"
+		reference = "https://github.com/cvelist/cvelist"
 		hash = "93d873cdf23d5edc622b74f9544cac7fe247d7a68e1e2a7bf2879fad97a3ae63"
 		date = "2023-06-14"
 		score = 70
@@ -5055,9 +5055,9 @@ rule PUA_VULN_Renamed_Driver_Razerinc_Rzpnk_Rzpnk_93D8 {
 
 rule PUA_VULN_Renamed_Driver_Wisecleanercom_Wiseunlosys_Wiseunlo_358A {
 	meta:
-		description = "Detects renamed vulnerable driver mentioned in risksDrivers project using VersionInfo values from the PE header - WiseUnlo.sys"
+		description = "Detects renamed vulnerable driver mentioned in cvelist project using VersionInfo values from the PE header - WiseUnlo.sys"
 		author = "Florian Roth"
-		reference = "https://github.com/boss-net/risksDrivers"
+		reference = "https://github.com/cvelist/cvelist"
 		hash = "358ac54be252673841a1d65bfc2fb6d549c1a4c877fa7f5e1bfa188f30375d69"
 		date = "2023-06-14"
 		score = 70
@@ -5077,9 +5077,9 @@ rule PUA_VULN_Renamed_Driver_Wisecleanercom_Wiseunlosys_Wiseunlo_358A {
 
 rule PUA_VULN_Renamed_Driver_Sysinternalswwwsysinternalscom_Procexpsys_Processexplorer_9B6A {
 	meta:
-		description = "Detects renamed vulnerable driver mentioned in risksDrivers project using VersionInfo values from the PE header - procexp.Sys"
+		description = "Detects renamed vulnerable driver mentioned in cvelist project using VersionInfo values from the PE header - procexp.Sys"
 		author = "Florian Roth"
-		reference = "https://github.com/boss-net/risksDrivers"
+		reference = "https://github.com/cvelist/cvelist"
 		hash = "9b6a84f7c40ea51c38cc4d2e93efb3375e9d98d4894a85941190d94fbe73a4e4"
 		date = "2023-06-14"
 		score = 70
@@ -5099,9 +5099,9 @@ rule PUA_VULN_Renamed_Driver_Sysinternalswwwsysinternalscom_Procexpsys_Processex
 
 rule PUA_VULN_Renamed_Driver_Avgtechnologiesczsro_Aswarpotsys_Avginternetsecuritysystem_7D43 {
 	meta:
-		description = "Detects renamed vulnerable driver mentioned in risksDrivers project using VersionInfo values from the PE header - aswArPot.sys, avgArPot.sys"
+		description = "Detects renamed vulnerable driver mentioned in cvelist project using VersionInfo values from the PE header - aswArPot.sys, avgArPot.sys"
 		author = "Florian Roth"
-		reference = "https://github.com/boss-net/risksDrivers"
+		reference = "https://github.com/cvelist/cvelist"
 		hash = "7d43769b353d63093228a59eb19bba87ce6b552d7e1a99bf34a54eee641aa0ea"
 		date = "2023-06-14"
 		score = 70
@@ -5121,9 +5121,9 @@ rule PUA_VULN_Renamed_Driver_Avgtechnologiesczsro_Aswarpotsys_Avginternetsecurit
 
 rule PUA_VULN_Renamed_Driver_Trendmicroinc_Tmcommsys_Aegis_ADC1 {
 	meta:
-		description = "Detects renamed vulnerable driver mentioned in risksDrivers project using VersionInfo values from the PE header - TmComm.sys"
+		description = "Detects renamed vulnerable driver mentioned in cvelist project using VersionInfo values from the PE header - TmComm.sys"
 		author = "Florian Roth"
-		reference = "https://github.com/boss-net/risksDrivers"
+		reference = "https://github.com/cvelist/cvelist"
 		hash = "adc10de960f40fa9f6e28449748250fa9ddfd331115b77a79809a50c606753ee"
 		date = "2023-06-14"
 		score = 70
@@ -5143,9 +5143,9 @@ rule PUA_VULN_Renamed_Driver_Trendmicroinc_Tmcommsys_Aegis_ADC1 {
 
 rule PUA_VULN_Renamed_Driver_Avgtechnologiesczsro_Aswarpot_Avginternetsecuritysystem_9491 {
 	meta:
-		description = "Detects renamed vulnerable driver mentioned in risksDrivers project using VersionInfo values from the PE header - aswArPot.sys, avgArPot.sys"
+		description = "Detects renamed vulnerable driver mentioned in cvelist project using VersionInfo values from the PE header - aswArPot.sys, avgArPot.sys"
 		author = "Florian Roth"
-		reference = "https://github.com/boss-net/risksDrivers"
+		reference = "https://github.com/cvelist/cvelist"
 		hash = "94911fe6f2aba9683b10353094caf71ee4a882de63b4620797629d79f18feec5"
 		date = "2023-06-14"
 		score = 70
@@ -5165,9 +5165,9 @@ rule PUA_VULN_Renamed_Driver_Avgtechnologiesczsro_Aswarpot_Avginternetsecuritysy
 
 rule PUA_VULN_Renamed_Driver_Fujitsulimited_Advdrvsys_Microsoftrwindowsroperatingsystem_04A8 {
 	meta:
-		description = "Detects renamed vulnerable driver mentioned in risksDrivers project using VersionInfo values from the PE header - ADV64DRV.sys"
+		description = "Detects renamed vulnerable driver mentioned in cvelist project using VersionInfo values from the PE header - ADV64DRV.sys"
 		author = "Florian Roth"
-		reference = "https://github.com/boss-net/risksDrivers"
+		reference = "https://github.com/cvelist/cvelist"
 		hash = "04a85e359525d662338cae86c1e59b1d7aa9bd12b920e8067503723dc1e03162"
 		date = "2023-06-14"
 		score = 70
@@ -5186,9 +5186,9 @@ rule PUA_VULN_Renamed_Driver_Fujitsulimited_Advdrvsys_Microsoftrwindowsroperatin
 
 rule PUA_VULN_Renamed_Driver_Advancedmicrodevices_Amdryzenmasterdriversys_Amdryzenmasterservicedriver_FF96 {
 	meta:
-		description = "Detects renamed vulnerable driver mentioned in risksDrivers project using VersionInfo values from the PE header - AMDRyzenMasterDriver.sys"
+		description = "Detects renamed vulnerable driver mentioned in cvelist project using VersionInfo values from the PE header - AMDRyzenMasterDriver.sys"
 		author = "Florian Roth"
-		reference = "https://github.com/boss-net/risksDrivers"
+		reference = "https://github.com/cvelist/cvelist"
 		hash = "ff9623317287358440ec67da9ba79994d9b17b99ffdd709ec836478fe1fc22a5"
 		date = "2023-06-14"
 		score = 70
@@ -5208,9 +5208,9 @@ rule PUA_VULN_Renamed_Driver_Advancedmicrodevices_Amdryzenmasterdriversys_Amdryz
 
 rule PUA_VULN_Renamed_Driver_Sysinternalswwwsysinternalscom_Procexpsys_7795 {
 	meta:
-		description = "Detects renamed vulnerable driver mentioned in risksDrivers project using VersionInfo values from the PE header - procexp.Sys"
+		description = "Detects renamed vulnerable driver mentioned in cvelist project using VersionInfo values from the PE header - procexp.Sys"
 		author = "Florian Roth"
-		reference = "https://github.com/boss-net/risksDrivers"
+		reference = "https://github.com/cvelist/cvelist"
 		hash = "77950e2a40ac0447ae7ee1ee3ef1242ce22796a157074e6f04e345b1956e143c"
 		date = "2023-06-14"
 		score = 70
@@ -5230,9 +5230,9 @@ rule PUA_VULN_Renamed_Driver_Sysinternalswwwsysinternalscom_Procexpsys_7795 {
 
 rule PUA_VULN_Renamed_Driver_Sisoftware_Sandra_Sisoftwaresandra_B019 {
 	meta:
-		description = "Detects renamed vulnerable driver mentioned in risksDrivers project using VersionInfo values from the PE header - SANDRA"
+		description = "Detects renamed vulnerable driver mentioned in cvelist project using VersionInfo values from the PE header - SANDRA"
 		author = "Florian Roth"
-		reference = "https://github.com/boss-net/risksDrivers"
+		reference = "https://github.com/cvelist/cvelist"
 		hash = "b019ebd77ac19cdd72bba3318032752649bd56a7576723a8ae1cccd70ee1e61a"
 		date = "2023-06-14"
 		score = 70
@@ -5252,9 +5252,9 @@ rule PUA_VULN_Renamed_Driver_Sisoftware_Sandra_Sisoftwaresandra_B019 {
 
 rule PUA_VULN_Renamed_Driver_Advancedmicrodevicesinc_Amdpowerprofilersys_Amduprof_0AF5 {
 	meta:
-		description = "Detects renamed vulnerable driver mentioned in risksDrivers project using VersionInfo values from the PE header - AMDPowerProfiler.sys"
+		description = "Detects renamed vulnerable driver mentioned in cvelist project using VersionInfo values from the PE header - AMDPowerProfiler.sys"
 		author = "Florian Roth"
-		reference = "https://github.com/boss-net/risksDrivers"
+		reference = "https://github.com/cvelist/cvelist"
 		hash = "0af5ccb3d33a9ba92071c9637be6254030d61998733a5eb3583e865e17844e05"
 		date = "2023-06-14"
 		score = 70
@@ -5274,9 +5274,9 @@ rule PUA_VULN_Renamed_Driver_Advancedmicrodevicesinc_Amdpowerprofilersys_Amdupro
 
 rule PUA_VULN_Renamed_Driver_Realtek_Rtkiosys_Realtekiodriver_074A {
 	meta:
-		description = "Detects renamed vulnerable driver mentioned in risksDrivers project using VersionInfo values from the PE header - rtkio64.sys"
+		description = "Detects renamed vulnerable driver mentioned in cvelist project using VersionInfo values from the PE header - rtkio64.sys"
 		author = "Florian Roth"
-		reference = "https://github.com/boss-net/risksDrivers"
+		reference = "https://github.com/cvelist/cvelist"
 		hash = "074ae477c8c7ae76c6f2b0bf77ac17935a8e8ee51b52155d2821d93ab30f3761"
 		date = "2023-06-14"
 		score = 70
@@ -5296,9 +5296,9 @@ rule PUA_VULN_Renamed_Driver_Realtek_Rtkiosys_Realtekiodriver_074A {
 
 rule PUA_VULN_Renamed_Driver_Msi_Ntiolibsys_Ntiolib_98B7 {
 	meta:
-		description = "Detects renamed vulnerable driver mentioned in risksDrivers project using VersionInfo values from the PE header - NTIOLib.sys"
+		description = "Detects renamed vulnerable driver mentioned in cvelist project using VersionInfo values from the PE header - NTIOLib.sys"
 		author = "Florian Roth"
-		reference = "https://github.com/boss-net/risksDrivers"
+		reference = "https://github.com/cvelist/cvelist"
 		hash = "98b734dda78c16ebcaa4afeb31007926542b63b2f163b2f733fa0d00dbb344d8"
 		date = "2023-06-14"
 		score = 70
@@ -5318,9 +5318,9 @@ rule PUA_VULN_Renamed_Driver_Msi_Ntiolibsys_Ntiolib_98B7 {
 
 rule PUA_VULN_Renamed_Driver_Zemanaltd_Zam_9A95 {
 	meta:
-		description = "Detects renamed vulnerable driver mentioned in risksDrivers project using VersionInfo values from the PE header - zam64.sys"
+		description = "Detects renamed vulnerable driver mentioned in cvelist project using VersionInfo values from the PE header - zam64.sys"
 		author = "Florian Roth"
-		reference = "https://github.com/boss-net/risksDrivers"
+		reference = "https://github.com/cvelist/cvelist"
 		hash = "9a95a70f68144980f2d684e96c79bdc93ebca1587f46afae6962478631e85d0c"
 		date = "2023-06-14"
 		score = 70
@@ -5337,9 +5337,9 @@ rule PUA_VULN_Renamed_Driver_Zemanaltd_Zam_9A95 {
 
 rule PUA_VULN_Renamed_Driver_Intelcorporation_Iqvwsys_Intelriqvwsys_19BF {
 	meta:
-		description = "Detects renamed vulnerable driver mentioned in risksDrivers project using VersionInfo values from the PE header - iQVW64.SYS"
+		description = "Detects renamed vulnerable driver mentioned in cvelist project using VersionInfo values from the PE header - iQVW64.SYS"
 		author = "Florian Roth"
-		reference = "https://github.com/boss-net/risksDrivers"
+		reference = "https://github.com/cvelist/cvelist"
 		hash = "19bf0d0f55d2ad33ef2d105520bde8fb4286f00e9d7a721e3c9587b9408a0775"
 		date = "2023-06-14"
 		score = 70
@@ -5359,9 +5359,9 @@ rule PUA_VULN_Renamed_Driver_Intelcorporation_Iqvwsys_Intelriqvwsys_19BF {
 
 rule PUA_VULN_Renamed_Driver_Zemanaltd_Zam_2BBC {
 	meta:
-		description = "Detects renamed vulnerable driver mentioned in risksDrivers project using VersionInfo values from the PE header - zam64.sys"
+		description = "Detects renamed vulnerable driver mentioned in cvelist project using VersionInfo values from the PE header - zam64.sys"
 		author = "Florian Roth"
-		reference = "https://github.com/boss-net/risksDrivers"
+		reference = "https://github.com/cvelist/cvelist"
 		hash = "2bbc6b9dd5e6d0327250b32305be20c89b19b56d33a096522ee33f22d8c82ff1"
 		date = "2023-06-14"
 		score = 70
@@ -5378,9 +5378,9 @@ rule PUA_VULN_Renamed_Driver_Zemanaltd_Zam_2BBC {
 
 rule PUA_VULN_Renamed_Driver_Logitechinc_Lvavsys_Logitechwebcamsoftware_E86C {
 	meta:
-		description = "Detects renamed vulnerable driver mentioned in risksDrivers project using VersionInfo values from the PE header - Lv561av.sys"
+		description = "Detects renamed vulnerable driver mentioned in cvelist project using VersionInfo values from the PE header - Lv561av.sys"
 		author = "Florian Roth"
-		reference = "https://github.com/boss-net/risksDrivers"
+		reference = "https://github.com/cvelist/cvelist"
 		hash = "e86cb77de7b6a8025f9a546f6c45d135f471e664963cf70b381bee2dfd0fdef4"
 		date = "2023-06-14"
 		score = 70
@@ -5400,9 +5400,9 @@ rule PUA_VULN_Renamed_Driver_Logitechinc_Lvavsys_Logitechwebcamsoftware_E86C {
 
 rule PUA_VULN_Renamed_Driver_Hpinc_Hpportioxsys_Hpportio_C505 {
 	meta:
-		description = "Detects renamed vulnerable driver mentioned in risksDrivers project using VersionInfo values from the PE header - HpPortIox64.sys"
+		description = "Detects renamed vulnerable driver mentioned in cvelist project using VersionInfo values from the PE header - HpPortIox64.sys"
 		author = "Florian Roth"
-		reference = "https://github.com/boss-net/risksDrivers"
+		reference = "https://github.com/cvelist/cvelist"
 		hash = "c5050a2017490fff7aa53c73755982b339ddb0fd7cef2cde32c81bc9834331c5"
 		date = "2023-06-14"
 		score = 70
@@ -5422,9 +5422,9 @@ rule PUA_VULN_Renamed_Driver_Hpinc_Hpportioxsys_Hpportio_C505 {
 
 rule PUA_VULN_Renamed_Driver_Realtek_Rtkiowxsys_Realtekiodriver_AB8F {
 	meta:
-		description = "Detects renamed vulnerable driver mentioned in risksDrivers project using VersionInfo values from the PE header - rtkio64.sys"
+		description = "Detects renamed vulnerable driver mentioned in cvelist project using VersionInfo values from the PE header - rtkio64.sys"
 		author = "Florian Roth"
-		reference = "https://github.com/boss-net/risksDrivers"
+		reference = "https://github.com/cvelist/cvelist"
 		hash = "ab8f2217e59319b88080e052782e559a706fa4fb7b8b708f709ff3617124da89"
 		date = "2023-06-14"
 		score = 70
@@ -5444,9 +5444,9 @@ rule PUA_VULN_Renamed_Driver_Realtek_Rtkiowxsys_Realtekiodriver_AB8F {
 
 rule PUA_VULN_Renamed_Driver_Avgtechnologiesczsro_Aswarpot_Avginternetsecuritysystem_2CE8 {
 	meta:
-		description = "Detects renamed vulnerable driver mentioned in risksDrivers project using VersionInfo values from the PE header - aswArPot.sys, avgArPot.sys"
+		description = "Detects renamed vulnerable driver mentioned in cvelist project using VersionInfo values from the PE header - aswArPot.sys, avgArPot.sys"
 		author = "Florian Roth"
-		reference = "https://github.com/boss-net/risksDrivers"
+		reference = "https://github.com/cvelist/cvelist"
 		hash = "2ce81759bfa236913bbbb9b2cbc093140b099486fd002910b18e2c6e31fdc4f1"
 		date = "2023-06-14"
 		score = 70
@@ -5466,9 +5466,9 @@ rule PUA_VULN_Renamed_Driver_Avgtechnologiesczsro_Aswarpot_Avginternetsecuritysy
 
 rule PUA_VULN_Renamed_Driver_Msi_Ntiolibsys_Ntiolib_9254 {
 	meta:
-		description = "Detects renamed vulnerable driver mentioned in risksDrivers project using VersionInfo values from the PE header - NTIOLib.sys"
+		description = "Detects renamed vulnerable driver mentioned in cvelist project using VersionInfo values from the PE header - NTIOLib.sys"
 		author = "Florian Roth"
-		reference = "https://github.com/boss-net/risksDrivers"
+		reference = "https://github.com/cvelist/cvelist"
 		hash = "9254f012009d55f555418ff85f7d93b184ab7cb0e37aecdfdab62cfe94dea96b"
 		date = "2023-06-14"
 		score = 70
@@ -5488,9 +5488,9 @@ rule PUA_VULN_Renamed_Driver_Msi_Ntiolibsys_Ntiolib_9254 {
 
 rule PUA_VULN_Renamed_Driver_Intelcorporation_Iqvwsys_Intelriqvwsys_4429 {
 	meta:
-		description = "Detects renamed vulnerable driver mentioned in risksDrivers project using VersionInfo values from the PE header - NalDrv.sys"
+		description = "Detects renamed vulnerable driver mentioned in cvelist project using VersionInfo values from the PE header - NalDrv.sys"
 		author = "Florian Roth"
-		reference = "https://github.com/boss-net/risksDrivers"
+		reference = "https://github.com/cvelist/cvelist"
 		hash = "4429f32db1cc70567919d7d47b844a91cf1329a6cd116f582305f3b7b60cd60b"
 		hash = "a59c40e7470b7003e8adfee37c77606663e78d7e3f2ebb8d60910af19924d8df"
 		date = "2023-06-14"
@@ -5511,9 +5511,9 @@ rule PUA_VULN_Renamed_Driver_Intelcorporation_Iqvwsys_Intelriqvwsys_4429 {
 
 rule PUA_VULN_Renamed_Driver_Realtek_Rtkiowxsys_Realtekiodriver_32E1 {
 	meta:
-		description = "Detects renamed vulnerable driver mentioned in risksDrivers project using VersionInfo values from the PE header - rtkiow10x64.sys"
+		description = "Detects renamed vulnerable driver mentioned in cvelist project using VersionInfo values from the PE header - rtkiow10x64.sys"
 		author = "Florian Roth"
-		reference = "https://github.com/boss-net/risksDrivers"
+		reference = "https://github.com/cvelist/cvelist"
 		hash = "32e1a8513eee746d17eb5402fb9d8ff9507fb6e1238e7ff06f7a5c50ff3df993"
 		date = "2023-06-14"
 		score = 70
@@ -5533,9 +5533,9 @@ rule PUA_VULN_Renamed_Driver_Realtek_Rtkiowxsys_Realtekiodriver_32E1 {
 
 rule PUA_VULN_Renamed_Driver_Micsystechnologycoltd_Msiosys_Msiodriverversion_X_43BA {
 	meta:
-		description = "Detects renamed vulnerable driver mentioned in risksDrivers project using VersionInfo values from the PE header - MsIo64.sys"
+		description = "Detects renamed vulnerable driver mentioned in cvelist project using VersionInfo values from the PE header - MsIo64.sys"
 		author = "Florian Roth"
-		reference = "https://github.com/boss-net/risksDrivers"
+		reference = "https://github.com/cvelist/cvelist"
 		hash = "43ba8d96d5e8e54cab59d82d495eeca730eeb16e4743ed134cdd495c51a4fc89"
 		date = "2023-06-14"
 		score = 70
@@ -5555,9 +5555,9 @@ rule PUA_VULN_Renamed_Driver_Micsystechnologycoltd_Msiosys_Msiodriverversion_X_4
 
 rule PUA_VULN_Renamed_Driver_Avgtechnologiesczsro_Aswarpotsys_Avginternetsecuritysystem_1078 {
 	meta:
-		description = "Detects renamed vulnerable driver mentioned in risksDrivers project using VersionInfo values from the PE header - aswArPot.sys, avgArPot.sys"
+		description = "Detects renamed vulnerable driver mentioned in cvelist project using VersionInfo values from the PE header - aswArPot.sys, avgArPot.sys"
 		author = "Florian Roth"
-		reference = "https://github.com/boss-net/risksDrivers"
+		reference = "https://github.com/cvelist/cvelist"
 		hash = "1078af0c70e03ac17c7b8aa5ee03593f5decfef2f536716646a4ded1e98c153c"
 		date = "2023-06-14"
 		score = 70
@@ -5577,9 +5577,9 @@ rule PUA_VULN_Renamed_Driver_Avgtechnologiesczsro_Aswarpotsys_Avginternetsecurit
 
 rule PUA_VULN_Renamed_Driver_Gigabytetechnologycoltd_Gdrvsys_Gigabytesoftwaredriver_26C2 {
 	meta:
-		description = "Detects renamed vulnerable driver mentioned in risksDrivers project using VersionInfo values from the PE header - gdrv.sys"
+		description = "Detects renamed vulnerable driver mentioned in cvelist project using VersionInfo values from the PE header - gdrv.sys"
 		author = "Florian Roth"
-		reference = "https://github.com/boss-net/risksDrivers"
+		reference = "https://github.com/cvelist/cvelist"
 		hash = "26c28746e947389856543837aa59a5b1f4697e5721a04d00aa28151a2659b097"
 		date = "2023-06-14"
 		score = 70
@@ -5599,9 +5599,9 @@ rule PUA_VULN_Renamed_Driver_Gigabytetechnologycoltd_Gdrvsys_Gigabytesoftwaredri
 
 rule PUA_VULN_Renamed_Driver_Trendmicroinc_Tmcommsys_Trendmicroeyes_CC68 {
 	meta:
-		description = "Detects renamed vulnerable driver mentioned in risksDrivers project using VersionInfo values from the PE header - TmComm.sys"
+		description = "Detects renamed vulnerable driver mentioned in cvelist project using VersionInfo values from the PE header - TmComm.sys"
 		author = "Florian Roth"
-		reference = "https://github.com/boss-net/risksDrivers"
+		reference = "https://github.com/cvelist/cvelist"
 		hash = "cc687fe3741bbde1dd142eac0ef59fd1d4457daee43cdde23bb162ef28d04e64"
 		date = "2023-06-14"
 		score = 70
@@ -5621,9 +5621,9 @@ rule PUA_VULN_Renamed_Driver_Trendmicroinc_Tmcommsys_Trendmicroeyes_CC68 {
 
 rule PUA_VULN_Renamed_Driver_Windowsrcodenamelonghornddkprovider_Cpudriver_Windowsrcodenamelonghornddkdriver_159E {
 	meta:
-		description = "Detects renamed vulnerable driver mentioned in risksDrivers project using VersionInfo values from the PE header - WCPU.sys"
+		description = "Detects renamed vulnerable driver mentioned in cvelist project using VersionInfo values from the PE header - WCPU.sys"
 		author = "Florian Roth"
-		reference = "https://github.com/boss-net/risksDrivers"
+		reference = "https://github.com/cvelist/cvelist"
 		hash = "159e7c5a12157af92e0d14a0d3ea116f91c09e21a9831486e6dc592c93c10980"
 		date = "2023-06-14"
 		score = 70
@@ -5643,9 +5643,9 @@ rule PUA_VULN_Renamed_Driver_Windowsrcodenamelonghornddkprovider_Cpudriver_Windo
 
 rule PUA_VULN_Renamed_Driver_Msi_Ntiolibsys_Ntiolib_1DDF {
 	meta:
-		description = "Detects renamed vulnerable driver mentioned in risksDrivers project using VersionInfo values from the PE header - NTIOLib.sys"
+		description = "Detects renamed vulnerable driver mentioned in cvelist project using VersionInfo values from the PE header - NTIOLib.sys"
 		author = "Florian Roth"
-		reference = "https://github.com/boss-net/risksDrivers"
+		reference = "https://github.com/cvelist/cvelist"
 		hash = "1ddfe4756f5db9fb319d6c6da9c41c588a729d9e7817190b027b38e9c076d219"
 		date = "2023-06-14"
 		score = 70
@@ -5665,9 +5665,9 @@ rule PUA_VULN_Renamed_Driver_Msi_Ntiolibsys_Ntiolib_1DDF {
 
 rule PUA_VULN_Renamed_Driver_Trendmicroinc_Tmcommsys_Trendmicroeyes_654C {
 	meta:
-		description = "Detects renamed vulnerable driver mentioned in risksDrivers project using VersionInfo values from the PE header - TmComm.sys"
+		description = "Detects renamed vulnerable driver mentioned in cvelist project using VersionInfo values from the PE header - TmComm.sys"
 		author = "Florian Roth"
-		reference = "https://github.com/boss-net/risksDrivers"
+		reference = "https://github.com/cvelist/cvelist"
 		hash = "654c5ba47f74008c8f49cbb97988017eec8c898adc3bb851bc6e1fdf9dcf54ad"
 		date = "2023-06-14"
 		score = 70
@@ -5687,9 +5687,9 @@ rule PUA_VULN_Renamed_Driver_Trendmicroinc_Tmcommsys_Trendmicroeyes_654C {
 
 rule PUA_VULN_Renamed_Driver_Marvintestsolutionsinc_Hwsys_Hw_FD38 {
 	meta:
-		description = "Detects renamed vulnerable driver mentioned in risksDrivers project using VersionInfo values from the PE header - HW.sys"
+		description = "Detects renamed vulnerable driver mentioned in cvelist project using VersionInfo values from the PE header - HW.sys"
 		author = "Florian Roth"
-		reference = "https://github.com/boss-net/risksDrivers"
+		reference = "https://github.com/cvelist/cvelist"
 		hash = "fd388cf1df06d419b14dedbeb24c6f4dff37bea26018775f09d56b3067f0de2c"
 		hash = "6a4875ae86131a594019dec4abd46ac6ba47e57a88287b814d07d929858fe3e5"
 		date = "2023-06-14"
@@ -5710,9 +5710,9 @@ rule PUA_VULN_Renamed_Driver_Marvintestsolutionsinc_Hwsys_Hw_FD38 {
 
 rule PUA_VULN_Renamed_Driver_Avgtechnologiesczsro_Aswarpotsys_Avginternetsecuritysystem_6E0A {
 	meta:
-		description = "Detects renamed vulnerable driver mentioned in risksDrivers project using VersionInfo values from the PE header - aswArPot.sys, avgArPot.sys"
+		description = "Detects renamed vulnerable driver mentioned in cvelist project using VersionInfo values from the PE header - aswArPot.sys, avgArPot.sys"
 		author = "Florian Roth"
-		reference = "https://github.com/boss-net/risksDrivers"
+		reference = "https://github.com/cvelist/cvelist"
 		hash = "6e0aa67cfdbe27a059cbd066443337f81c5b6d37444d14792d1c765d9d122dcf"
 		date = "2023-06-14"
 		score = 70
@@ -5732,9 +5732,9 @@ rule PUA_VULN_Renamed_Driver_Avgtechnologiesczsro_Aswarpotsys_Avginternetsecurit
 
 rule PUA_VULN_Renamed_Driver_Avgtechnologiesczsro_Aswarpotsys_Avginternetsecuritysystem_A2F4 {
 	meta:
-		description = "Detects renamed vulnerable driver mentioned in risksDrivers project using VersionInfo values from the PE header - aswArPot.sys, avgArPot.sys"
+		description = "Detects renamed vulnerable driver mentioned in cvelist project using VersionInfo values from the PE header - aswArPot.sys, avgArPot.sys"
 		author = "Florian Roth"
-		reference = "https://github.com/boss-net/risksDrivers"
+		reference = "https://github.com/cvelist/cvelist"
 		hash = "a2f45d95d54f4e110b577e621fefa0483fa0e3dcca14c500c298fb9209e491c1"
 		date = "2023-06-14"
 		score = 70
@@ -5754,9 +5754,9 @@ rule PUA_VULN_Renamed_Driver_Avgtechnologiesczsro_Aswarpotsys_Avginternetsecurit
 
 rule PUA_VULN_Renamed_Driver_Nvidiacorporation_Nvflash_Nvidiaflashdriver_AFDD {
 	meta:
-		description = "Detects renamed vulnerable driver mentioned in risksDrivers project using VersionInfo values from the PE header - nvflash.sys"
+		description = "Detects renamed vulnerable driver mentioned in cvelist project using VersionInfo values from the PE header - nvflash.sys"
 		author = "Florian Roth"
-		reference = "https://github.com/boss-net/risksDrivers"
+		reference = "https://github.com/cvelist/cvelist"
 		hash = "afdd66562dea51001c3a9de300f91fc3eb965d6848dfce92ccb9b75853e02508"
 		date = "2023-06-14"
 		score = 70
@@ -5776,9 +5776,9 @@ rule PUA_VULN_Renamed_Driver_Nvidiacorporation_Nvflash_Nvidiaflashdriver_AFDD {
 
 rule PUA_VULN_Renamed_Driver_Elaboratebytesag_Elbycdio_Cdrtools_F85E {
 	meta:
-		description = "Detects renamed vulnerable driver mentioned in risksDrivers project using VersionInfo values from the PE header - ElbyCDIO.sys"
+		description = "Detects renamed vulnerable driver mentioned in cvelist project using VersionInfo values from the PE header - ElbyCDIO.sys"
 		author = "Florian Roth"
-		reference = "https://github.com/boss-net/risksDrivers"
+		reference = "https://github.com/cvelist/cvelist"
 		hash = "f85eb576acb5db0d2f48e5f09a7244165a876fa1ca8697ebb773e4d7071d4439"
 		date = "2023-06-14"
 		score = 70
@@ -5798,9 +5798,9 @@ rule PUA_VULN_Renamed_Driver_Elaboratebytesag_Elbycdio_Cdrtools_F85E {
 
 rule PUA_VULN_Renamed_Driver_Vektortsecurityservice_Vboxdrv_Antidetectpublicbyvektortrev_26F4 {
 	meta:
-		description = "Detects renamed vulnerable driver mentioned in risksDrivers project using VersionInfo values from the PE header - VBoxDrv.sys"
+		description = "Detects renamed vulnerable driver mentioned in cvelist project using VersionInfo values from the PE header - VBoxDrv.sys"
 		author = "Florian Roth"
-		reference = "https://github.com/boss-net/risksDrivers"
+		reference = "https://github.com/cvelist/cvelist"
 		hash = "26f41e4268be59f5de07552b51fa52d18d88be94f8895eb4a16de0f3940cf712"
 		date = "2023-06-14"
 		score = 70
@@ -5820,9 +5820,9 @@ rule PUA_VULN_Renamed_Driver_Vektortsecurityservice_Vboxdrv_Antidetectpublicbyve
 
 rule PUA_VULN_Renamed_Driver_Trendmicroinc_Tmcommsys_Trendmicroeyes_3C42 {
 	meta:
-		description = "Detects renamed vulnerable driver mentioned in risksDrivers project using VersionInfo values from the PE header - TmComm.sys"
+		description = "Detects renamed vulnerable driver mentioned in cvelist project using VersionInfo values from the PE header - TmComm.sys"
 		author = "Florian Roth"
-		reference = "https://github.com/boss-net/risksDrivers"
+		reference = "https://github.com/cvelist/cvelist"
 		hash = "3c4207c90c97733fae2a08679d63fbbe94dfcf96fdfdf88406aa7ab3f80ea78f"
 		date = "2023-06-14"
 		score = 70
@@ -5842,9 +5842,9 @@ rule PUA_VULN_Renamed_Driver_Trendmicroinc_Tmcommsys_Trendmicroeyes_3C42 {
 
 rule PUA_VULN_Renamed_Driver_Asustekcomputerinc_Atsziosys_Atsziodriver_55A1 {
 	meta:
-		description = "Detects renamed vulnerable driver mentioned in risksDrivers project using VersionInfo values from the PE header - ATSZIO.sys"
+		description = "Detects renamed vulnerable driver mentioned in cvelist project using VersionInfo values from the PE header - ATSZIO.sys"
 		author = "Florian Roth"
-		reference = "https://github.com/boss-net/risksDrivers"
+		reference = "https://github.com/cvelist/cvelist"
 		hash = "55a1535e173c998fbbc978009b02d36ca0c737340d84ac2a8da73dfc2f450ef9"
 		hash = "c64d4ac416363c7a1aa828929544d1c1d78cf032b39769943b851cfc4c0faafc"
 		date = "2023-06-14"
@@ -5865,9 +5865,9 @@ rule PUA_VULN_Renamed_Driver_Asustekcomputerinc_Atsziosys_Atsziodriver_55A1 {
 
 rule PUA_VULN_Renamed_Driver_Sisoftware_Sandra_Sisoftwaresandra_1AAF {
 	meta:
-		description = "Detects renamed vulnerable driver mentioned in risksDrivers project using VersionInfo values from the PE header - sandra.sys"
+		description = "Detects renamed vulnerable driver mentioned in cvelist project using VersionInfo values from the PE header - sandra.sys"
 		author = "Florian Roth"
-		reference = "https://github.com/boss-net/risksDrivers"
+		reference = "https://github.com/cvelist/cvelist"
 		hash = "1aaf4c1e3cb6774857e2eef27c17e68dc1ae577112e4769665f516c2e8c4e27b"
 		date = "2023-06-14"
 		score = 70
@@ -5887,9 +5887,9 @@ rule PUA_VULN_Renamed_Driver_Sisoftware_Sandra_Sisoftwaresandra_1AAF {
 
 rule PUA_VULN_Renamed_Driver_Trendmicroinc_Tmcommsys_Aegis_C901 {
 	meta:
-		description = "Detects renamed vulnerable driver mentioned in risksDrivers project using VersionInfo values from the PE header - TmComm.sys"
+		description = "Detects renamed vulnerable driver mentioned in cvelist project using VersionInfo values from the PE header - TmComm.sys"
 		author = "Florian Roth"
-		reference = "https://github.com/boss-net/risksDrivers"
+		reference = "https://github.com/cvelist/cvelist"
 		hash = "c9014b03866bf37faa8fdb16b6af7cfec976aaef179fd5797d0c0bf8079d3a8c"
 		date = "2023-06-14"
 		score = 70
@@ -5909,9 +5909,9 @@ rule PUA_VULN_Renamed_Driver_Trendmicroinc_Tmcommsys_Aegis_C901 {
 
 rule PUA_VULN_Renamed_Driver_Symanteccorporation_Vproeventmonitorsys_Symanteceventmonitorsdriverdevelopmentedition_7877 {
 	meta:
-		description = "Detects renamed vulnerable driver mentioned in risksDrivers project using VersionInfo values from the PE header - VProEventMonitor.sys"
+		description = "Detects renamed vulnerable driver mentioned in cvelist project using VersionInfo values from the PE header - VProEventMonitor.sys"
 		author = "Florian Roth"
-		reference = "https://github.com/boss-net/risksDrivers"
+		reference = "https://github.com/cvelist/cvelist"
 		hash = "7877c1b0e7429453b750218ca491c2825dae684ad9616642eff7b41715c70aca"
 		date = "2023-06-14"
 		score = 70
@@ -5931,9 +5931,9 @@ rule PUA_VULN_Renamed_Driver_Symanteccorporation_Vproeventmonitorsys_Symanteceve
 
 rule PUA_VULN_Renamed_Driver_Wj_Kprocesshacker_C725 {
 	meta:
-		description = "Detects renamed vulnerable driver mentioned in risksDrivers project using VersionInfo values from the PE header - krpocesshacker.sys"
+		description = "Detects renamed vulnerable driver mentioned in cvelist project using VersionInfo values from the PE header - krpocesshacker.sys"
 		author = "Florian Roth"
-		reference = "https://github.com/boss-net/risksDrivers"
+		reference = "https://github.com/cvelist/cvelist"
 		hash = "c725919e6357126d512c638f993cf572112f323da359645e4088f789eb4c7b8c"
 		date = "2023-06-14"
 		score = 70
@@ -5952,9 +5952,9 @@ rule PUA_VULN_Renamed_Driver_Wj_Kprocesshacker_C725 {
 
 rule PUA_VULN_Renamed_Driver_Avastsoftware_Aswarpot_Avastantivirus_7AD0 {
 	meta:
-		description = "Detects renamed vulnerable driver mentioned in risksDrivers project using VersionInfo values from the PE header - aswArPot.sys, avgArPot.sys"
+		description = "Detects renamed vulnerable driver mentioned in cvelist project using VersionInfo values from the PE header - aswArPot.sys, avgArPot.sys"
 		author = "Florian Roth"
-		reference = "https://github.com/boss-net/risksDrivers"
+		reference = "https://github.com/cvelist/cvelist"
 		hash = "7ad0ab23023bc500c3b46f414a8b363c5f8700861bc4745cecc14dd34bcee9ed"
 		date = "2023-06-14"
 		score = 70
@@ -5974,9 +5974,9 @@ rule PUA_VULN_Renamed_Driver_Avastsoftware_Aswarpot_Avastantivirus_7AD0 {
 
 rule PUA_VULN_Renamed_Driver_Trendmicroinc_Tmcommsys_Trendmicroeyes_C082 {
 	meta:
-		description = "Detects renamed vulnerable driver mentioned in risksDrivers project using VersionInfo values from the PE header - TmComm.sys"
+		description = "Detects renamed vulnerable driver mentioned in cvelist project using VersionInfo values from the PE header - TmComm.sys"
 		author = "Florian Roth"
-		reference = "https://github.com/boss-net/risksDrivers"
+		reference = "https://github.com/cvelist/cvelist"
 		hash = "c082514317bf80a2f5129d84a5a55e411a95e32d03a4df1274537704c80e41dd"
 		date = "2023-06-14"
 		score = 70
@@ -5996,9 +5996,9 @@ rule PUA_VULN_Renamed_Driver_Trendmicroinc_Tmcommsys_Trendmicroeyes_C082 {
 
 rule PUA_VULN_Renamed_Driver_Creativetechnologyinnovationcoltd_Ctiiosys_Ctiiodriverversion_X_2121 {
 	meta:
-		description = "Detects renamed vulnerable driver mentioned in risksDrivers project using VersionInfo values from the PE header - CtiIo64.sys"
+		description = "Detects renamed vulnerable driver mentioned in cvelist project using VersionInfo values from the PE header - CtiIo64.sys"
 		author = "Florian Roth"
-		reference = "https://github.com/boss-net/risksDrivers"
+		reference = "https://github.com/cvelist/cvelist"
 		hash = "2121a2bb8ebbf2e6e82c782b6f3c6b7904f686aa495def25cf1cf52a42e16109"
 		date = "2023-06-14"
 		score = 70
@@ -6018,9 +6018,9 @@ rule PUA_VULN_Renamed_Driver_Creativetechnologyinnovationcoltd_Ctiiosys_Ctiiodri
 
 rule PUA_VULN_Renamed_Driver_Ssmartsoftwaresolutionsgmbh_Sysdrvs_Sysdrvs_0E53 {
 	meta:
-		description = "Detects renamed vulnerable driver mentioned in risksDrivers project using VersionInfo values from the PE header - SysDrv3S.sys"
+		description = "Detects renamed vulnerable driver mentioned in cvelist project using VersionInfo values from the PE header - SysDrv3S.sys"
 		author = "Florian Roth"
-		reference = "https://github.com/boss-net/risksDrivers"
+		reference = "https://github.com/cvelist/cvelist"
 		hash = "0e53b58415fa68552928622118d5b8a3a851b2fc512709a90b63ba46acda8b6b"
 		date = "2023-06-14"
 		score = 70
@@ -6040,9 +6040,9 @@ rule PUA_VULN_Renamed_Driver_Ssmartsoftwaresolutionsgmbh_Sysdrvs_Sysdrvs_0E53 {
 
 rule PUA_VULN_Renamed_Driver_Avastsoftware_Aswarpotsys_Avastantivirus_14AD {
 	meta:
-		description = "Detects renamed vulnerable driver mentioned in risksDrivers project using VersionInfo values from the PE header - aswArPot.sys, avgArPot.sys"
+		description = "Detects renamed vulnerable driver mentioned in cvelist project using VersionInfo values from the PE header - aswArPot.sys, avgArPot.sys"
 		author = "Florian Roth"
-		reference = "https://github.com/boss-net/risksDrivers"
+		reference = "https://github.com/cvelist/cvelist"
 		hash = "14adbf0bc43414a7700e5403100cff7fc6ade50bebfab16a17acf2fdda5a9da8"
 		date = "2023-06-14"
 		score = 70
@@ -6062,9 +6062,9 @@ rule PUA_VULN_Renamed_Driver_Avastsoftware_Aswarpotsys_Avastantivirus_14AD {
 
 rule PUA_VULN_Renamed_Driver_Windowsrserverddkprovider_Cpuzsys_Windowsrserverddkdriver_3871 {
 	meta:
-		description = "Detects renamed vulnerable driver mentioned in risksDrivers project using VersionInfo values from the PE header - cpuz_x64.sys"
+		description = "Detects renamed vulnerable driver mentioned in cvelist project using VersionInfo values from the PE header - cpuz_x64.sys"
 		author = "Florian Roth"
-		reference = "https://github.com/boss-net/risksDrivers"
+		reference = "https://github.com/cvelist/cvelist"
 		hash = "3871e16758a1778907667f78589359734f7f62f9dc953ec558946dcdbe6951e3"
 		date = "2023-06-14"
 		score = 70
@@ -6084,9 +6084,9 @@ rule PUA_VULN_Renamed_Driver_Windowsrserverddkprovider_Cpuzsys_Windowsrserverddk
 
 rule PUA_VULN_Renamed_Driver_Intelcorporation_Iqvwsys_Intelriqvwsys_37C6 {
 	meta:
-		description = "Detects renamed vulnerable driver mentioned in risksDrivers project using VersionInfo values from the PE header - iQVW64.SYS"
+		description = "Detects renamed vulnerable driver mentioned in cvelist project using VersionInfo values from the PE header - iQVW64.SYS"
 		author = "Florian Roth"
-		reference = "https://github.com/boss-net/risksDrivers"
+		reference = "https://github.com/cvelist/cvelist"
 		hash = "37c637a74bf20d7630281581a8fae124200920df11ad7cd68c14c26cc12c5ec9"
 		date = "2023-06-14"
 		score = 70
@@ -6106,9 +6106,9 @@ rule PUA_VULN_Renamed_Driver_Intelcorporation_Iqvwsys_Intelriqvwsys_37C6 {
 
 rule PUA_VULN_Renamed_Driver_Toshibacorporation_Nchgbiosxsys_Toshibabiospackage_3143 {
 	meta:
-		description = "Detects renamed vulnerable driver mentioned in risksDrivers project using VersionInfo values from the PE header - NCHGBIOS2x64.SYS"
+		description = "Detects renamed vulnerable driver mentioned in cvelist project using VersionInfo values from the PE header - NCHGBIOS2x64.SYS"
 		author = "Florian Roth"
-		reference = "https://github.com/boss-net/risksDrivers"
+		reference = "https://github.com/cvelist/cvelist"
 		hash = "314384b40626800b1cde6fbc51ebc7d13e91398be2688c2a58354aa08d00b073"
 		date = "2023-06-14"
 		score = 70
@@ -6128,9 +6128,9 @@ rule PUA_VULN_Renamed_Driver_Toshibacorporation_Nchgbiosxsys_Toshibabiospackage_
 
 rule PUA_VULN_Renamed_Driver_Zemanaltd_Zam_5439 {
 	meta:
-		description = "Detects renamed vulnerable driver mentioned in risksDrivers project using VersionInfo values from the PE header - zam64.sys"
+		description = "Detects renamed vulnerable driver mentioned in cvelist project using VersionInfo values from the PE header - zam64.sys"
 		author = "Florian Roth"
-		reference = "https://github.com/boss-net/risksDrivers"
+		reference = "https://github.com/cvelist/cvelist"
 		hash = "543991ca8d1c65113dff039b85ae3f9a87f503daec30f46929fd454bc57e5a91"
 		hash = "ab2632a4d93a7f3b7598c06a9fdc773a1b1b69a7dd926bdb7cf578992628e9dd"
 		date = "2023-06-14"
@@ -6148,9 +6148,9 @@ rule PUA_VULN_Renamed_Driver_Zemanaltd_Zam_5439 {
 
 rule PUA_VULN_Renamed_Driver_Sysinternalswwwsysinternalscom_Procexpsys_Processexplorer_30AB {
 	meta:
-		description = "Detects renamed vulnerable driver mentioned in risksDrivers project using VersionInfo values from the PE header - procexp.Sys"
+		description = "Detects renamed vulnerable driver mentioned in cvelist project using VersionInfo values from the PE header - procexp.Sys"
 		author = "Florian Roth"
-		reference = "https://github.com/boss-net/risksDrivers"
+		reference = "https://github.com/cvelist/cvelist"
 		hash = "30abc0cc700fdebc74e62d574addc08f6227f9c7177d9eaa8cbc37d5c017c9bb"
 		date = "2023-06-14"
 		score = 70
@@ -6170,9 +6170,9 @@ rule PUA_VULN_Renamed_Driver_Sysinternalswwwsysinternalscom_Procexpsys_Processex
 
 rule PUA_VULN_Renamed_Driver_Zemanaltd_Zam_DE8F {
 	meta:
-		description = "Detects renamed vulnerable driver mentioned in risksDrivers project using VersionInfo values from the PE header - zam64.sys"
+		description = "Detects renamed vulnerable driver mentioned in cvelist project using VersionInfo values from the PE header - zam64.sys"
 		author = "Florian Roth"
-		reference = "https://github.com/boss-net/risksDrivers"
+		reference = "https://github.com/cvelist/cvelist"
 		hash = "de8f8006d8ee429b5f333503defa54b25447f4ed6aeade5e4219e23f3473ef1c"
 		date = "2023-06-14"
 		score = 70
@@ -6189,9 +6189,9 @@ rule PUA_VULN_Renamed_Driver_Zemanaltd_Zam_DE8F {
 
 rule PUA_VULN_Renamed_Driver_Supermicrocomputerinc_Phymem_Phymem_1963 {
 	meta:
-		description = "Detects renamed vulnerable driver mentioned in risksDrivers project using VersionInfo values from the PE header - phymem64.sys"
+		description = "Detects renamed vulnerable driver mentioned in cvelist project using VersionInfo values from the PE header - phymem64.sys"
 		author = "Florian Roth"
-		reference = "https://github.com/boss-net/risksDrivers"
+		reference = "https://github.com/cvelist/cvelist"
 		hash = "1963d5a0e512b72353953aadbe694f73a9a576f0241a988378fa40bf574eda52"
 		date = "2023-06-14"
 		score = 70
@@ -6211,9 +6211,9 @@ rule PUA_VULN_Renamed_Driver_Supermicrocomputerinc_Phymem_Phymem_1963 {
 
 rule PUA_VULN_Renamed_Driver_Sysinternalswwwsysinternalscom_Procexpsys_Processexplorer_16A2 {
 	meta:
-		description = "Detects renamed vulnerable driver mentioned in risksDrivers project using VersionInfo values from the PE header - procexp.Sys"
+		description = "Detects renamed vulnerable driver mentioned in cvelist project using VersionInfo values from the PE header - procexp.Sys"
 		author = "Florian Roth"
-		reference = "https://github.com/boss-net/risksDrivers"
+		reference = "https://github.com/cvelist/cvelist"
 		hash = "16a2e578bc8683f17a175480fea4f53c838cfae965f1d4caa47eaf9e0b3415c1"
 		hash = "98a123b314cba2de65f899cdbfa386532f178333389e0f0fbd544aff85be02eb"
 		date = "2023-06-14"
@@ -6234,9 +6234,9 @@ rule PUA_VULN_Renamed_Driver_Sysinternalswwwsysinternalscom_Procexpsys_Processex
 
 rule PUA_VULN_Renamed_Driver_Vektortsecurityservice_Vboxdrv_Antidetectpublic_CFB7 {
 	meta:
-		description = "Detects renamed vulnerable driver mentioned in risksDrivers project using VersionInfo values from the PE header - VBoxDrv.sys"
+		description = "Detects renamed vulnerable driver mentioned in cvelist project using VersionInfo values from the PE header - VBoxDrv.sys"
 		author = "Florian Roth"
-		reference = "https://github.com/boss-net/risksDrivers"
+		reference = "https://github.com/cvelist/cvelist"
 		hash = "cfb7af8ac67a379e7869289aeee21837c448ea6f8ab6c93988e7aa423653bd40"
 		date = "2023-06-14"
 		score = 70
@@ -6256,9 +6256,9 @@ rule PUA_VULN_Renamed_Driver_Vektortsecurityservice_Vboxdrv_Antidetectpublic_CFB
 
 rule PUA_VULN_Renamed_Driver_Sunmicrosystemsinc_Vboxdrvsys_Sunvirtualbox_R_C894 {
 	meta:
-		description = "Detects renamed vulnerable driver mentioned in risksDrivers project using VersionInfo values from the PE header - VBoxDrv.sys"
+		description = "Detects renamed vulnerable driver mentioned in cvelist project using VersionInfo values from the PE header - VBoxDrv.sys"
 		author = "Florian Roth"
-		reference = "https://github.com/boss-net/risksDrivers"
+		reference = "https://github.com/cvelist/cvelist"
 		hash = "c8940e2e9b069ec94f9f711150b313b437f8429f78d522810601b6ee8b52bada"
 		date = "2023-06-14"
 		score = 70
@@ -6278,9 +6278,9 @@ rule PUA_VULN_Renamed_Driver_Sunmicrosystemsinc_Vboxdrvsys_Sunvirtualbox_R_C894 
 
 rule PUA_VULN_Renamed_Driver_Pinduoduoltdcorp_Vboxdrv_Pinduoduosecurevdi_9DAB {
 	meta:
-		description = "Detects renamed vulnerable driver mentioned in risksDrivers project using VersionInfo values from the PE header - VBoxDrv.sys"
+		description = "Detects renamed vulnerable driver mentioned in cvelist project using VersionInfo values from the PE header - VBoxDrv.sys"
 		author = "Florian Roth"
-		reference = "https://github.com/boss-net/risksDrivers"
+		reference = "https://github.com/cvelist/cvelist"
 		hash = "9dab4b6fddc8e1ec0a186aa8382b184a5d52cfcabaaf04ff9e3767021eb09cf4"
 		date = "2023-06-14"
 		score = 70
@@ -6300,9 +6300,9 @@ rule PUA_VULN_Renamed_Driver_Pinduoduoltdcorp_Vboxdrv_Pinduoduosecurevdi_9DAB {
 
 rule PUA_VULN_Renamed_Driver_Tgsoftsas_Viragtsys_Viritagentsystem_18DE {
 	meta:
-		description = "Detects renamed vulnerable driver mentioned in risksDrivers project using VersionInfo values from the PE header - viragt64.sys"
+		description = "Detects renamed vulnerable driver mentioned in cvelist project using VersionInfo values from the PE header - viragt64.sys"
 		author = "Florian Roth"
-		reference = "https://github.com/boss-net/risksDrivers"
+		reference = "https://github.com/cvelist/cvelist"
 		hash = "18deed37f60b6aa8634dda2565a0485452487d7bce88afb49301a7352db4e506"
 		date = "2023-06-14"
 		score = 70
@@ -6322,9 +6322,9 @@ rule PUA_VULN_Renamed_Driver_Tgsoftsas_Viragtsys_Viritagentsystem_18DE {
 
 rule PUA_VULN_Renamed_Driver_Avgtechnologiesczsro_Aswarpotsys_Avginternetsecuritysystem_8CFD {
 	meta:
-		description = "Detects renamed vulnerable driver mentioned in risksDrivers project using VersionInfo values from the PE header - aswArPot.sys, avgArPot.sys"
+		description = "Detects renamed vulnerable driver mentioned in cvelist project using VersionInfo values from the PE header - aswArPot.sys, avgArPot.sys"
 		author = "Florian Roth"
-		reference = "https://github.com/boss-net/risksDrivers"
+		reference = "https://github.com/cvelist/cvelist"
 		hash = "8cfd5b2102fbc77018c7fe6019ec15f07da497f6d73c32a31f4ba07e67ec85d9"
 		date = "2023-06-14"
 		score = 70
@@ -6344,9 +6344,9 @@ rule PUA_VULN_Renamed_Driver_Avgtechnologiesczsro_Aswarpotsys_Avginternetsecurit
 
 rule PUA_VULN_Renamed_Driver_Avastsoftware_Aswarpotsys_Avastantivirus_D5C4 {
 	meta:
-		description = "Detects renamed vulnerable driver mentioned in risksDrivers project using VersionInfo values from the PE header - aswArPot.sys, avgArPot.sys"
+		description = "Detects renamed vulnerable driver mentioned in cvelist project using VersionInfo values from the PE header - aswArPot.sys, avgArPot.sys"
 		author = "Florian Roth"
-		reference = "https://github.com/boss-net/risksDrivers"
+		reference = "https://github.com/cvelist/cvelist"
 		hash = "d5c4ff35eaa74ccdb80c7197d3d113c9cd38561070f2aa69c0affe8ed84a77c9"
 		date = "2023-06-14"
 		score = 70
@@ -6366,9 +6366,9 @@ rule PUA_VULN_Renamed_Driver_Avastsoftware_Aswarpotsys_Avastantivirus_D5C4 {
 
 rule PUA_VULN_Renamed_Driver_Wj_Kprocesshacker_7021 {
 	meta:
-		description = "Detects renamed vulnerable driver mentioned in risksDrivers project using VersionInfo values from the PE header - kprocesshacker.sys"
+		description = "Detects renamed vulnerable driver mentioned in cvelist project using VersionInfo values from the PE header - kprocesshacker.sys"
 		author = "Florian Roth"
-		reference = "https://github.com/boss-net/risksDrivers"
+		reference = "https://github.com/cvelist/cvelist"
 		hash = "70211a3f90376bbc61f49c22a63075d1d4ddd53f0aefa976216c46e6ba39a9f4"
 		date = "2023-06-14"
 		score = 70
@@ -6387,9 +6387,9 @@ rule PUA_VULN_Renamed_Driver_Wj_Kprocesshacker_7021 {
 
 rule PUA_VULN_Renamed_Driver_Trendmicroinc_Tmcommsys_Trendmicroeyes_76E8 {
 	meta:
-		description = "Detects renamed vulnerable driver mentioned in risksDrivers project using VersionInfo values from the PE header - TmComm.sys"
+		description = "Detects renamed vulnerable driver mentioned in cvelist project using VersionInfo values from the PE header - TmComm.sys"
 		author = "Florian Roth"
-		reference = "https://github.com/boss-net/risksDrivers"
+		reference = "https://github.com/cvelist/cvelist"
 		hash = "76e807b6c0214e66455f09a8de8faad40b738982ca84470f0043de0290449524"
 		date = "2023-06-14"
 		score = 70
@@ -6409,9 +6409,9 @@ rule PUA_VULN_Renamed_Driver_Trendmicroinc_Tmcommsys_Trendmicroeyes_76E8 {
 
 rule PUA_VULN_Renamed_Driver_Biostargroup_Iodriver_Biostariodriver_1D03 {
 	meta:
-		description = "Detects renamed vulnerable driver mentioned in risksDrivers project using VersionInfo values from the PE header - BS_HWMIO64_W10.sys"
+		description = "Detects renamed vulnerable driver mentioned in cvelist project using VersionInfo values from the PE header - BS_HWMIO64_W10.sys"
 		author = "Florian Roth"
-		reference = "https://github.com/boss-net/risksDrivers"
+		reference = "https://github.com/cvelist/cvelist"
 		hash = "1d0397c263d51e9fc95bcc8baf98d1a853e1c0401cd0e27c7bf5da3fba1c93a8"
 		date = "2023-06-14"
 		score = 70
@@ -6431,9 +6431,9 @@ rule PUA_VULN_Renamed_Driver_Biostargroup_Iodriver_Biostariodriver_1D03 {
 
 rule PUA_VULN_Renamed_Driver_Avgtechnologiesczsro_Aswarpotsys_Avginternetsecuritysystem_E2E7 {
 	meta:
-		description = "Detects renamed vulnerable driver mentioned in risksDrivers project using VersionInfo values from the PE header - aswArPot.sys, avgArPot.sys"
+		description = "Detects renamed vulnerable driver mentioned in cvelist project using VersionInfo values from the PE header - aswArPot.sys, avgArPot.sys"
 		author = "Florian Roth"
-		reference = "https://github.com/boss-net/risksDrivers"
+		reference = "https://github.com/cvelist/cvelist"
 		hash = "e2e79f1e696f27fa70d72f97e448081b1fa14d59cbb89bb4a40428534dd5c6f6"
 		date = "2023-06-14"
 		score = 70
@@ -6453,9 +6453,9 @@ rule PUA_VULN_Renamed_Driver_Avgtechnologiesczsro_Aswarpotsys_Avginternetsecurit
 
 rule PUA_VULN_Renamed_Driver_Intelcorporation_Iqvwsys_Intelriqvwsys_5F69 {
 	meta:
-		description = "Detects renamed vulnerable driver mentioned in risksDrivers project using VersionInfo values from the PE header - iQVW64.SYS"
+		description = "Detects renamed vulnerable driver mentioned in cvelist project using VersionInfo values from the PE header - iQVW64.SYS"
 		author = "Florian Roth"
-		reference = "https://github.com/boss-net/risksDrivers"
+		reference = "https://github.com/cvelist/cvelist"
 		hash = "5f69d6b167a1eeca3f6ac64785c3c01976ee7303171faf998d65852056988683"
 		date = "2023-06-14"
 		score = 70
@@ -6475,9 +6475,9 @@ rule PUA_VULN_Renamed_Driver_Intelcorporation_Iqvwsys_Intelriqvwsys_5F69 {
 
 rule PUA_VULN_Renamed_Driver_Elaboratebytesag_Elbycdio_Cdrtools_9679 {
 	meta:
-		description = "Detects renamed vulnerable driver mentioned in risksDrivers project using VersionInfo values from the PE header - ElbyCDIO.sys"
+		description = "Detects renamed vulnerable driver mentioned in cvelist project using VersionInfo values from the PE header - ElbyCDIO.sys"
 		author = "Florian Roth"
-		reference = "https://github.com/boss-net/risksDrivers"
+		reference = "https://github.com/cvelist/cvelist"
 		hash = "9679758455c69877fce866267d60c39d108b495dca183954e4af869902965b3d"
 		date = "2023-06-14"
 		score = 70
@@ -6497,9 +6497,9 @@ rule PUA_VULN_Renamed_Driver_Elaboratebytesag_Elbycdio_Cdrtools_9679 {
 
 rule PUA_VULN_Renamed_Driver_Elaboratebytesag_Elbycdio_Cdrtools_8137 {
 	meta:
-		description = "Detects renamed vulnerable driver mentioned in risksDrivers project using VersionInfo values from the PE header - ElbyCDIO.sys"
+		description = "Detects renamed vulnerable driver mentioned in cvelist project using VersionInfo values from the PE header - ElbyCDIO.sys"
 		author = "Florian Roth"
-		reference = "https://github.com/boss-net/risksDrivers"
+		reference = "https://github.com/cvelist/cvelist"
 		hash = "8137ce22d0d0fc5ea5b174d6ad3506a4949506477b1325da2ccb76511f4c4f60"
 		date = "2023-06-14"
 		score = 70
@@ -6519,9 +6519,9 @@ rule PUA_VULN_Renamed_Driver_Elaboratebytesag_Elbycdio_Cdrtools_8137 {
 
 rule PUA_VULN_Renamed_Driver_Avastsoftware_Aswarpotsys_Avastantivirus_4DA0 {
 	meta:
-		description = "Detects renamed vulnerable driver mentioned in risksDrivers project using VersionInfo values from the PE header - aswArPot.sys, avgArPot.sys"
+		description = "Detects renamed vulnerable driver mentioned in cvelist project using VersionInfo values from the PE header - aswArPot.sys, avgArPot.sys"
 		author = "Florian Roth"
-		reference = "https://github.com/boss-net/risksDrivers"
+		reference = "https://github.com/cvelist/cvelist"
 		hash = "4da08c0681fbe028b60a1eaf5cb8890bd3eba4d0e6a8b976495ddcd315e147ba"
 		date = "2023-06-14"
 		score = 70

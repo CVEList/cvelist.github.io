@@ -1,9 +1,9 @@
 
 rule MAL_Driver_Microsoftcorporation_Windbgsys_Microsoftwindowsoperatingsystem_6994 {
 	meta:
-		description = "Detects malicious driver mentioned in risksDrivers project using VersionInfo values from the PE header - windbg.sys"
+		description = "Detects malicious driver mentioned in cvelist project using VersionInfo values from the PE header - windbg.sys"
 		author = "Florian Roth"
-		reference = "https://github.com/boss-net/risksDrivers"
+		reference = "https://github.com/cvelist/cvelist"
 		hash = "6994b32e3f3357f4a1d0abe81e8b62dd54e36b17816f2f1a80018584200a1b77"
 		hash = "5b932eab6c67f62f097a3249477ac46d80ddccdc52654f8674060b4ddf638e5d"
 		hash = "ea50f22daade04d3ca06dedb497b905215cba31aae7b4cab4b533fda0c5be620"
@@ -39,9 +39,9 @@ rule MAL_Driver_Microsoftcorporation_Windbgsys_Microsoftwindowsoperatingsystem_6
 
 rule MAL_Driver_Sensecorp_42B2 {
 	meta:
-		description = "Detects malicious driver mentioned in risksDrivers project using VersionInfo values from the PE header - Sense5Ext.sys"
+		description = "Detects malicious driver mentioned in cvelist project using VersionInfo values from the PE header - Sense5Ext.sys"
 		author = "Florian Roth"
-		reference = "https://github.com/boss-net/risksDrivers"
+		reference = "https://github.com/cvelist/cvelist"
 		hash = "42b22faa489b5de936db33f12184f6233198bdf851a18264d31210207827ba25"
 		date = "2023-06-14"
 		score = 70
@@ -58,9 +58,9 @@ rule MAL_Driver_Sensecorp_42B2 {
 
 rule MAL_Driver_Legalcorp_Pciexpressvideocapture_FD22 {
 	meta:
-		description = "Detects malicious driver mentioned in risksDrivers project using VersionInfo values from the PE header - PcieCubed.sys"
+		description = "Detects malicious driver mentioned in cvelist project using VersionInfo values from the PE header - PcieCubed.sys"
 		author = "Florian Roth"
-		reference = "https://github.com/boss-net/risksDrivers"
+		reference = "https://github.com/cvelist/cvelist"
 		hash = "fd223833abffa9cd6cc1848d77599673643585925a7ee51259d67c44d361cce8"
 		date = "2023-06-14"
 		score = 70
@@ -79,9 +79,9 @@ rule MAL_Driver_Legalcorp_Pciexpressvideocapture_FD22 {
 
 rule MAL_Driver_Microsoftcorporation_Ntbiosys_Microsoftrwindowsrntoperatingsystem_C0D8 {
 	meta:
-		description = "Detects malicious driver mentioned in risksDrivers project using VersionInfo values from the PE header - ntbios_2.sys"
+		description = "Detects malicious driver mentioned in cvelist project using VersionInfo values from the PE header - ntbios_2.sys"
 		author = "Florian Roth"
-		reference = "https://github.com/boss-net/risksDrivers"
+		reference = "https://github.com/cvelist/cvelist"
 		hash = "c0d88db11d0f529754d290ed5f4c34b4dba8c4f2e5c4148866daabeab0d25f9c"
 		hash = "96bf3ee7c6673b69c6aa173bb44e21fa636b1c2c73f4356a7599c121284a51cc"
 		date = "2023-06-14"
@@ -102,9 +102,9 @@ rule MAL_Driver_Microsoftcorporation_Ntbiosys_Microsoftrwindowsrntoperatingsyste
 
 rule MAL_Driver_Gentilkiwibenjamindelpy_Mimidrv_Mimidrvmimikatz_200F {
 	meta:
-		description = "Detects malicious driver mentioned in risksDrivers project using VersionInfo values from the PE header - mimidrv.sys"
+		description = "Detects malicious driver mentioned in cvelist project using VersionInfo values from the PE header - mimidrv.sys"
 		author = "Florian Roth"
-		reference = "https://github.com/boss-net/risksDrivers"
+		reference = "https://github.com/cvelist/cvelist"
 		hash = "200f98655d1f46d2599c2c8605ebb7e335fee3883a32135ca1a81e09819bc64a"
 		date = "2023-06-14"
 		score = 70
@@ -124,9 +124,9 @@ rule MAL_Driver_Gentilkiwibenjamindelpy_Mimidrv_Mimidrvmimikatz_200F {
 
 rule MAL_Driver_Microsoftcorporation_Wantdsys_Microsoftwindowsoperatingsystem_E7AF {
 	meta:
-		description = "Detects malicious driver mentioned in risksDrivers project using VersionInfo values from the PE header - wantd_6.sys"
+		description = "Detects malicious driver mentioned in cvelist project using VersionInfo values from the PE header - wantd_6.sys"
 		author = "Florian Roth"
-		reference = "https://github.com/boss-net/risksDrivers"
+		reference = "https://github.com/cvelist/cvelist"
 		hash = "e7af7bcb86bd6bab1835f610671c3921441965a839673ac34444cf0ce7b2164e"
 		hash = "b9dad0131c51e2645e761b74a71ebad2bf175645fa9f42a4ab0e6921b83306e3"
 		hash = "8d9a2363b757d3f127b9c6ed8f7b8b018e652369bc070aa3500b3a978feaa6ce"
@@ -149,9 +149,9 @@ rule MAL_Driver_Microsoftcorporation_Wantdsys_Microsoftwindowsoperatingsystem_E7
 
 rule MAL_Driver_Gmer_Gmersys_Gmer_18C9 {
 	meta:
-		description = "Detects malicious driver mentioned in risksDrivers project using VersionInfo values from the PE header - gmer64.sys"
+		description = "Detects malicious driver mentioned in cvelist project using VersionInfo values from the PE header - gmer64.sys"
 		author = "Florian Roth"
-		reference = "https://github.com/boss-net/risksDrivers"
+		reference = "https://github.com/cvelist/cvelist"
 		hash = "18c909a2b8c5e16821d6ef908f56881aa0ecceeaccb5fa1e54995935fcfd12f7"
 		date = "2023-06-14"
 		score = 70
@@ -171,9 +171,9 @@ rule MAL_Driver_Gmer_Gmersys_Gmer_18C9 {
 
 rule MAL_Driver_Microsoftcorporation_Wantdsys_Microsoftwindowsoperatingsystem_6908 {
 	meta:
-		description = "Detects malicious driver mentioned in risksDrivers project using VersionInfo values from the PE header - wantd_2.sys"
+		description = "Detects malicious driver mentioned in cvelist project using VersionInfo values from the PE header - wantd_2.sys"
 		author = "Florian Roth"
-		reference = "https://github.com/boss-net/risksDrivers"
+		reference = "https://github.com/cvelist/cvelist"
 		hash = "6908ebf52eb19c6719a0b508d1e2128f198d10441551cbfb9f4031d382f5229f"
 		date = "2023-06-14"
 		score = 70
@@ -193,9 +193,9 @@ rule MAL_Driver_Microsoftcorporation_Wantdsys_Microsoftwindowsoperatingsystem_69
 
 rule MAL_Driver_Microsoftcorporation_Wantdsys_Microsoftwindowsoperatingsystem_81C7 {
 	meta:
-		description = "Detects malicious driver mentioned in risksDrivers project using VersionInfo values from the PE header - wantd_3.sys"
+		description = "Detects malicious driver mentioned in cvelist project using VersionInfo values from the PE header - wantd_3.sys"
 		author = "Florian Roth"
-		reference = "https://github.com/boss-net/risksDrivers"
+		reference = "https://github.com/cvelist/cvelist"
 		hash = "81c7bb39100d358f8286da5e9aa838606c98dfcc263e9a82ed91cd438cb130d1"
 		date = "2023-06-14"
 		score = 70
@@ -215,9 +215,9 @@ rule MAL_Driver_Microsoftcorporation_Wantdsys_Microsoftwindowsoperatingsystem_81
 
 rule MAL_Driver_Sensecorp_7F45 {
 	meta:
-		description = "Detects malicious driver mentioned in risksDrivers project using VersionInfo values from the PE header - Sense5Ext.sys"
+		description = "Detects malicious driver mentioned in cvelist project using VersionInfo values from the PE header - Sense5Ext.sys"
 		author = "Florian Roth"
-		reference = "https://github.com/boss-net/risksDrivers"
+		reference = "https://github.com/cvelist/cvelist"
 		hash = "7f4555a940ce1156c9bcea9a2a0b801f9a5e44ec9400b61b14a7b1a6404ffdf6"
 		date = "2023-06-14"
 		score = 70
@@ -234,9 +234,9 @@ rule MAL_Driver_Sensecorp_7F45 {
 
 rule MAL_Driver_Microsoftcorporation_Ndislansys_Microsoftwindowsoperatingsystem_B0EB {
 	meta:
-		description = "Detects malicious driver mentioned in risksDrivers project using VersionInfo values from the PE header - ndislan.sys"
+		description = "Detects malicious driver mentioned in cvelist project using VersionInfo values from the PE header - ndislan.sys"
 		author = "Florian Roth"
-		reference = "https://github.com/boss-net/risksDrivers"
+		reference = "https://github.com/cvelist/cvelist"
 		hash = "b0eb4d999e4e0e7c2e33ff081e847c87b49940eb24a9e0794c6aa9516832c427"
 		date = "2023-06-14"
 		score = 70

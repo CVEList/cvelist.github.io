@@ -30,9 +30,9 @@ import pefile
 YARA_RULE_TEMPLATE = '''
 rule $$$RULENAME$$$ {
 	meta:
-		description = "Detects $$$TYPE$$$ driver mentioned in risksDrivers project using VersionInfo values from the PE header - $$$FILENAMES$$$"
+		description = "Detects $$$TYPE$$$ driver mentioned in cvelist project using VersionInfo values from the PE header - $$$FILENAMES$$$"
 		author = "Florian Roth"
-		reference = "https://github.com/boss-net/risksDrivers"
+		reference = "https://github.com/cvelist/cvelist"
 		hash = "$$$HASH$$$"
 		date = "$$$DATE$$$"
 		score = $$$SCORE$$$

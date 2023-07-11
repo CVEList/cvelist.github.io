@@ -19,15 +19,15 @@ Acknowledgement:
   Handle: ''
 Detection:
 - type: yara_signature
-  value: https://github.com/boss-net/risksDrivers/blob/main/detections/yara/2aa1b08f47fbb1e2bd2e4a492f5d616968e703e1359a921f62b38b8e4662f0c4.yara
+  value: https://github.com/cvelist/cvelist/blob/main/detections/yara/2aa1b08f47fbb1e2bd2e4a492f5d616968e703e1359a921f62b38b8e4662f0c4.yara
 - type: sigma_hash
-  value: https://github.com/boss-net/risksDrivers/blob/main/detections/sigma/driver_load_win_vuln_drivers.yml
+  value: https://github.com/cvelist/cvelist/blob/main/detections/sigma/driver_load_win_vuln_drivers.yml
 - type: sigma_names
-  value: https://github.com/boss-net/risksDrivers/blob/main/detections/sigma/driver_load_win_vuln_drivers_names.yml
+  value: https://github.com/cvelist/cvelist/blob/main/detections/sigma/driver_load_win_vuln_drivers_names.yml
 - type: sysmon_hash_detect
-  value: https://github.com/boss-net/risksDrivers/blob/main/detections/sysmon/sysmon_config_vulnerable_hashes.xml
+  value: https://github.com/cvelist/cvelist/blob/main/detections/sysmon/sysmon_config_vulnerable_hashes.xml
 - type: sysmon_hash_block
-  value: https://github.com/boss-net/risksDrivers/blob/main/detections/sysmon/sysmon_config_vulnerable_hashes_block.xml
+  value: https://github.com/cvelist/cvelist/blob/main/detections/sysmon/sysmon_config_vulnerable_hashes_block.xml
 KnownVulnerableSamples:
 - Filename: AsrAutoChkUpdDrv.sys
   MD5: 75d6c3469347de1cdfa3b1b9f1544208

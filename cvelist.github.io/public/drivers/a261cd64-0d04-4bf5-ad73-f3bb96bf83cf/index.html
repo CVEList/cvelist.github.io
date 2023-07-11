@@ -1,0 +1,964 @@
+<!doctype html>
+<html lang="en" class="dark">
+<head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1"><meta name="generator" content="Hugo 0.113.0">
+<link rel="apple-touch-icon" sizes="180x180" href='cvelist.github.io/favicons/apple-touch-icon.png'>
+<link rel="icon" type="image/png" sizes="32x32" href='cvelist.github.io/favicons/favicon-32x32.png'>
+<link rel="icon" type="image/png" sizes="16x16" href='cvelist.github.io/favicons/favicon-16x16.png'>
+<link rel="manifest" href='cvelist.github.io/favicons/site.webmanifest'>
+<link rel="mask-icon" href='cvelist.github.io/favicons/safari-pinned-tab.svg'  color="#004750">
+<link rel="shortcut icon" href='cvelist.github.io/favicons/favicon.ico'>
+<meta name="msapplication-config" content='cvelist.github.io/favicons/browserconfig.xml'>
+<title>a261cd64-0d04-4bf5-ad73-f3bb96bf83cf | cvelist</title><meta property="og:title" content="a261cd64-0d04-4bf5-ad73-f3bb96bf83cf" />
+<meta property="og:description" content="PCHunter.sys We were not able to verify the hash of this driver successfully, it has not been confirmed. Description PCHunter.sys is a vulnerable driver and more information will be added as found.
+UUID: a261cd64-0d04-4bf5-ad73-f3bb96bf83cf Created: 2023-01-09 Author: Michael Haag Acknowledgement: | Download
+This download link contains the vulnerable driver! Commands sc.exe create PCHunter.sys binPath=C:\windows\temp\PCHunter.sys type=kernel &amp;amp;&amp;amp; sc.exe start PCHunter.sys Use Case Privileges Operating System Elevate privileges kernel Windows 10 Detections YARA 🏹 Expand Exact Match" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="cvelist.github.io/drivers/a261cd64-0d04-4bf5-ad73-f3bb96bf83cf/" /><meta property="article:section" content="drivers" />
+
+
+<meta itemprop="name" content="a261cd64-0d04-4bf5-ad73-f3bb96bf83cf">
+<meta itemprop="description" content="PCHunter.sys We were not able to verify the hash of this driver successfully, it has not been confirmed. Description PCHunter.sys is a vulnerable driver and more information will be added as found.
+UUID: a261cd64-0d04-4bf5-ad73-f3bb96bf83cf Created: 2023-01-09 Author: Michael Haag Acknowledgement: | Download
+This download link contains the vulnerable driver! Commands sc.exe create PCHunter.sys binPath=C:\windows\temp\PCHunter.sys type=kernel &amp;amp;&amp;amp; sc.exe start PCHunter.sys Use Case Privileges Operating System Elevate privileges kernel Windows 10 Detections YARA 🏹 Expand Exact Match">
+
+<meta itemprop="wordCount" content="822">
+<meta itemprop="keywords" content="" /><meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="a261cd64-0d04-4bf5-ad73-f3bb96bf83cf"/>
+<meta name="twitter:description" content="PCHunter.sys We were not able to verify the hash of this driver successfully, it has not been confirmed. Description PCHunter.sys is a vulnerable driver and more information will be added as found.
+UUID: a261cd64-0d04-4bf5-ad73-f3bb96bf83cf Created: 2023-01-09 Author: Michael Haag Acknowledgement: | Download
+This download link contains the vulnerable driver! Commands sc.exe create PCHunter.sys binPath=C:\windows\temp\PCHunter.sys type=kernel &amp;amp;&amp;amp; sc.exe start PCHunter.sys Use Case Privileges Operating System Elevate privileges kernel Windows 10 Detections YARA 🏹 Expand Exact Match"/>
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-33C5VXLWPQ"></script>
+<script>
+var doNotTrack = false;
+if (!doNotTrack) {
+	window.dataLayer = window.dataLayer || [];
+	function gtag(){dataLayer.push(arguments);}
+	gtag('js', new Date());
+	gtag('config', 'G-33C5VXLWPQ', { 'anonymize_ip': false });
+}
+</script>
+
+<link rel="stylesheet" href="/cvelist.github.io/sass/main.sass" integrity="">
+
+
+
+
+  <meta name="description" content="PCHunter.sys We were not able to verify the hash of this driver successfully, it has not been confirmed. Description PCHunter.sys is a vulnerable driver and more information will be added as found.
+UUID: a261cd64-0d04-4bf5-ad73-f3bb96bf83cf Created: 2023-01-09 Author: Michael Haag Acknowledgement: | Download
+This download link contains the vulnerable driver! Commands sc.exe create PCHunter.sys binPath=C:\windows\temp\PCHunter.sys type=kernel &amp;amp;amp;&amp;amp;amp; sc.exe start PCHunter.sys Use Case Privileges Operating System Elevate privileges kernel Windows 10 Detections YARA 🏹 Expand Exact Match">
+
+
+</head>
+<body class="page-page" id="pagetop">
+  <header class="nav_header">
+<nav class="wrap nav menu">
+	<a href="cvelist.github.io" class="nav_brand">
+		<picture data-lit="cvelist.github.io/images/logo.png" data-dark="cvelist.github.io/images/logo-dark.png">
+			<img src="cvelist.github.io/images/logo.png" alt="cvelist Logo">
+		</picture>
+		<label class="nav_toggle toggle" title='Site Menu' role="button">
+			<svg class="icon icon_harmburger">
+  <use xlink:href="#harmburger"></use>
+</svg>
+		</label>
+	</a>
+	<ul class="nav_body">
+		<li class="nav-item">
+<div class="search">
+  <label for="find" class="search_label"><svg class="icon icon_search">
+  <use xlink:href="#search"></use>
+</svg>
+  </label>
+  
+  
+  
+  <input type="search" class="search_field" placeholder='Search drivers' id="find" autocomplete="off"  data-scope='drivers'>
+  <div class="search_results results"></div>
+</div>
+
+
+
+		</li>
+		<li class="nav-item">
+			<a class="nav-link" href="cvelist.github.io/about/"><span>About</span></a>
+		</li>
+		
+		<li class="nav-item nav_repo">
+			<a class="nav-link" href="https://github.com/cvelist/cvelist" target="_blank">
+				
+					<picture data-lit="cvelist.github.io/images/GitHubMarkLight.svg" data-dark="cvelist.github.io/images/GitHubMarkDark.svg">
+						<img src="cvelist.github.io/images/GitHubMarkLight.svg" alt="GitHub Repo">
+					</picture>
+				
+			</a>
+		</li>
+		<li class="nav-item"><div class = 'color_mode'>
+  <label for = 'mode'></label>
+  <input type = 'checkbox' class = 'color_choice' id = 'mode' title="Toggle Dark Mode">
+</div>
+</li>
+	</ul>
+</nav>
+
+  </header>
+  
+  <div class="main wrap pt-4">
+    
+    
+    
+      
+    
+      <div class="content">
+<div class="content">
+	<h1>a261cd64-0d04-4bf5-ad73-f3bb96bf83cf</h1>
+	<section class="grid-1"  >
+<div class="mt-2 pt-1"><h1 id="pchuntersys">PCHunter.sys</h1>
+<div class="tip tip_warning">
+  We were not able to verify the hash of this driver successfully, it has not been confirmed.
+</div>
+<h3 id="description">Description</h3>
+<p>PCHunter.sys is a vulnerable driver and more information will be added as found.</p>
+<ul>
+<li><strong>UUID</strong>: a261cd64-0d04-4bf5-ad73-f3bb96bf83cf</li>
+<li><strong>Created</strong>: 2023-01-09</li>
+<li><strong>Author</strong>: Michael Haag</li>
+<li><strong>Acknowledgement</strong>:  | <a href="https://twitter.com/"></a></li>
+</ul>
+<p><a href="https://github.com/cvelist/cvelist/raw/main/drivers/c2c1b8c00b99e913d992a870ed478a24.bin" class="button">Download</a></p>
+<div class="tip tip_warning">
+  This download link contains the vulnerable driver!
+</div>
+<h3 id="commands">Commands</h3>
+<pre tabindex="0"><code>sc.exe create PCHunter.sys binPath=C:\windows\temp\PCHunter.sys type=kernel &amp;amp;&amp;amp; sc.exe start PCHunter.sys
+</code></pre><table>
+<thead>
+<tr>
+<th style="text-align:left">Use Case</th>
+<th>Privileges</th>
+<th>Operating System</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left">Elevate privileges</td>
+<td>kernel</td>
+<td>Windows 10</td>
+</tr>
+</tbody>
+</table>
+<h3 id="detections">Detections</h3>
+<section class="grid-3"  >
+<div><h4 id="yara-">YARA 🏹</h4>
+<details>
+  <summary>Expand</summary>
+  <p><a href="https://github.com/cvelist/cvelist/tree/main/detections/yara/yara-rules_vuln_drivers_strict.yar" class="button">Exact Match</a></p>
+<div class="tip">
+  with header and size limitation
+</div>
+<p><a href="https://github.com/cvelist/cvelist/tree/main/detections/yara/yara-rules_vuln_drivers.yar" class="button">Threat Hunting</a></p>
+<div class="tip">
+  without header and size limitation
+</div>
+<p><a href="https://github.com/cvelist/cvelist/tree/main/detections/yara/yara-rules_vuln_strict_renamed.yar" class="button">Renamed</a></p>
+<div class="tip">
+  for renamed driver files
+</div>
+</details>
+</div>
+<div><h4 id="sigma-">Sigma 🛡️</h4>
+<details>
+  <summary>Expand</summary>
+  <p><a href="https://github.com/cvelist/cvelist/tree/main/detections/sigma/driver_load_win_vuln_drivers_names.yml" class="button">Names</a></p>
+<div class="tip">
+  detects loading using name only
+</div>
+<p><a href="https://github.com/cvelist/cvelist/tree/main/detections/sigma/driver_load_win_vuln_drivers.yml" class="button">Hashes</a></p>
+<div class="tip">
+  detects loading using hashes only
+</div>
+</details>
+</div>
+<div class="mb-2"><h4 id="sysmon-">Sysmon 🔎</h4>
+<details>
+  <summary>Expand</summary>
+  <p><a href="https://github.com/cvelist/cvelist/tree/main/detections/sysmon/sysmon_config_vulnerable_hashes_block.xml" class="button">Block</a></p>
+<div class="tip">
+  on hashes
+</div>
+<p><a href="https://github.com/cvelist/cvelist/tree/main/detections/sysmon_config_vulnerable_hashes.xml" class="button">Alert</a></p>
+<div class="tip">
+  on hashes
+</div>
+</details>
+</div>
+</section>
+<h3 id="resources">Resources</h3>
+<br>
+<li><a href=" https://learn.microsoft.com/en-us/windows/security/threat-protection/windows-defender-application-control/microsoft-recommended-driver-block-rules"> https://learn.microsoft.com/en-us/windows/security/threat-protection/windows-defender-application-control/microsoft-recommended-driver-block-rules</a></li>
+<li><a href="https://learn.microsoft.com/en-us/windows/security/threat-protection/windows-defender-application-control/microsoft-recommended-driver-block-rules">https://learn.microsoft.com/en-us/windows/security/threat-protection/windows-defender-application-control/microsoft-recommended-driver-block-rules</a></li>
+<br>
+<h3 id="known-vulnerable-samples">Known Vulnerable Samples</h3>
+<table>
+<thead>
+<tr>
+<th style="text-align:left">Property</th>
+<th style="text-align:left">Value</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left">Filename</td>
+<td style="text-align:left">PCHunter.sys</td>
+</tr>
+<tr>
+<td style="text-align:left">MD5</td>
+<td style="text-align:left"><a href="https://www.virustotal.com/gui/file/c2c1b8c00b99e913d992a870ed478a24">c2c1b8c00b99e913d992a870ed478a24</a></td>
+</tr>
+<tr>
+<td style="text-align:left">SHA1</td>
+<td style="text-align:left"><a href="https://www.virustotal.com/gui/file/a64354aac2d68b4fa74b5829a9d42d90d83b040c">a64354aac2d68b4fa74b5829a9d42d90d83b040c</a></td>
+</tr>
+<tr>
+<td style="text-align:left">SHA256</td>
+<td style="text-align:left"><a href="https://www.virustotal.com/gui/file/1b7fb154a7b7903a3c81f12f4b094f24a3c60a6a8cffca894c67c264ab7545fa">1b7fb154a7b7903a3c81f12f4b094f24a3c60a6a8cffca894c67c264ab7545fa</a></td>
+</tr>
+<tr>
+<td style="text-align:left">Authentihash MD5</td>
+<td style="text-align:left"><a href="https://www.virustotal.com/gui/search/authentihash%253A9655d43fd874e7a6720b36e7fd9fa6b7">9655d43fd874e7a6720b36e7fd9fa6b7</a></td>
+</tr>
+<tr>
+<td style="text-align:left">Authentihash SHA1</td>
+<td style="text-align:left"><a href="https://www.virustotal.com/gui/search/authentihash%253Aa14261c290339995b7430495f2dfdd1da64dcfc5">a14261c290339995b7430495f2dfdd1da64dcfc5</a></td>
+</tr>
+<tr>
+<td style="text-align:left">Authentihash SHA256</td>
+<td style="text-align:left"><a href="https://www.virustotal.com/gui/search/authentihash%253Ac2d209ed240027608003f8d32b621f8baaf5601aaf348e64269e4457a594c7c3">c2d209ed240027608003f8d32b621f8baaf5601aaf348e64269e4457a594c7c3</a></td>
+</tr>
+<tr>
+<td style="text-align:left">RichPEHeaderHash MD5</td>
+<td style="text-align:left"><a href="https://www.virustotal.com/gui/search/rich_pe_header_hash%253A819db1bed1ee2ace0a19ce67f94dfc84">819db1bed1ee2ace0a19ce67f94dfc84</a></td>
+</tr>
+<tr>
+<td style="text-align:left">RichPEHeaderHash SHA1</td>
+<td style="text-align:left"><a href="https://www.virustotal.com/gui/search/rich_pe_header_hash%253A0dd604290ee6a8e102aa4964d90c99d1c8bc1332">0dd604290ee6a8e102aa4964d90c99d1c8bc1332</a></td>
+</tr>
+<tr>
+<td style="text-align:left">RichPEHeaderHash SHA256</td>
+<td style="text-align:left"><a href="https://www.virustotal.com/gui/search/rich_pe_header_hash%253A608f08d51ee0c93ea049baae3b51084ac93c2453383d22aacfbcde896d4d398a">608f08d51ee0c93ea049baae3b51084ac93c2453383d22aacfbcde896d4d398a</a></td>
+</tr>
+<tr>
+<td style="text-align:left">Company</td>
+<td style="text-align:left">一普明为（北京）信息技术有限公司</td>
+</tr>
+<tr>
+<td style="text-align:left">Description</td>
+<td style="text-align:left">Epoolsoft Windows Information View Tools</td>
+</tr>
+<tr>
+<td style="text-align:left">Product</td>
+<td style="text-align:left">PCHunter</td>
+</tr>
+<tr>
+<td style="text-align:left">OriginalFilename</td>
+<td style="text-align:left">PCHunter.sys</td>
+</tr>
+</tbody>
+</table>
+<h4 id="certificates">Certificates</h4>
+<details>
+  <summary>Expand</summary>
+  <h6 id="certificate-5c5d0a336ba298b9695d2cfa5a181510">Certificate 5c5d0a336ba298b9695d2cfa5a181510</h6>
+<table>
+<thead>
+<tr>
+<th>Field</th>
+<th>Value</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>ToBeSigned (TBS) MD5</td>
+<td>22abfcdb0a677a41a0e98019f629e785</td>
+</tr>
+<tr>
+<td>ToBeSigned (TBS) SHA1</td>
+<td>3c68a9e0ba9434a54c9b731fed228bb0f662f6c5</td>
+</tr>
+<tr>
+<td>ToBeSigned (TBS) SHA256</td>
+<td>5142ab5696ee82d72ca8fc8f622adffcdb73bf2e6d6a8531d5f86ce4f823ac23</td>
+</tr>
+<tr>
+<td>Subject</td>
+<td>C=CN, ST=?????????, L=?????????, O=????????????(??????)????????????????????????, CN=????????????(??????)????????????????????????</td>
+</tr>
+<tr>
+<td>ValidFrom</td>
+<td>2015-10-16 04:47:28</td>
+</tr>
+<tr>
+<td>ValidTo</td>
+<td>2016-11-16 04:47:28</td>
+</tr>
+<tr>
+<td>Signature</td>
+<td>c87f8ed5e0c37da04f8f7b193aae1974b8712e6d9740a8dc55058a576301c1783919200b621b7d674954efe2689ee641cdd2609541eea9a633277af5e3ac84fc33b681d3737d54bd45bf9405947dbfe89338577c841b148dd745c742f19775cdb6f1f456500b439b79e350b41987c671ebd6bf05eb6832fb8bde7e4aaa42d7e26d8080b41cd6181f9a0ac62bce4cb9103907f279d6c18237b4744a745bcfa118f90bd2fa3f4eed5b059faffef0f8ae7c023f2e9e8788cd071b6ceb949a00b078591988a8ab7792cb11a545c7bb079687d2defdb88a6615e0d3204c29dae9a6f19fbb3ae4c3d338522648cb1bd5399f55fa7bd01ee9041330eb6a57edcd0fc455</td>
+</tr>
+<tr>
+<td>SignatureAlgorithmOID</td>
+<td>1.2.840.113549.1.1.5</td>
+</tr>
+<tr>
+<td>IsCertificateAuthority</td>
+<td>False</td>
+</tr>
+<tr>
+<td>SerialNumber</td>
+<td>5c5d0a336ba298b9695d2cfa5a181510</td>
+</tr>
+<tr>
+<td>Version</td>
+<td>3</td>
+</tr>
+</tbody>
+</table>
+<h6 id="certificate-251f5d988182172e3c419e014fb0404c">Certificate 251f5d988182172e3c419e014fb0404c</h6>
+<table>
+<thead>
+<tr>
+<th>Field</th>
+<th>Value</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>ToBeSigned (TBS) MD5</td>
+<td>626797c449e52df71f4d81ad5be6d993</td>
+</tr>
+<tr>
+<td>ToBeSigned (TBS) SHA1</td>
+<td>58672dea8f4352d39f2021436acf155a2dcbb224</td>
+</tr>
+<tr>
+<td>ToBeSigned (TBS) SHA256</td>
+<td>21ee871c9b6d0fdb62f442f75f9f446f5cfece9c8ed5624f5691bfd704fa90e5</td>
+</tr>
+<tr>
+<td>Subject</td>
+<td>C=CN, O=WoSign CA Limited, CN=WoSign Time Stamping Signer</td>
+</tr>
+<tr>
+<td>ValidFrom</td>
+<td>2009-08-08 01:00:05</td>
+</tr>
+<tr>
+<td>ValidTo</td>
+<td>2024-08-08 01:00:05</td>
+</tr>
+<tr>
+<td>Signature</td>
+<td>7c982fbbc3d2aec22a8fa69776568632c4cd36688becd7801a3179b05e56b969ebb90b32a98326dc775d7a56b246a07d15d66df9acf835737836026022201cef188f7e66b24fe771935a2be6e58d3d5d2e274b46cb1d04f30b8c3f13a80dd4cde828e82a9c55c8e3ff9da922496ee8e7889237578060441827435818046d86c065470557555091e67350ee3f10a98f052fda6811536e1fad98f3763e85d057a3cfe4c11a4c6406a644ab4e1ee24bd5a46d71f86bcb6613a6471f212aa1ae4c89a47d2877174f888db1d15db1c4935abf22926cab678268edd721cb63bc93c4178e871925ad1754b479d2a59373bc7cbbe4800f8fccaa0ad0e49375aa6ccf497d75ec82285c73f042bf9ea6132ede6cee8003a6ee8836a01bb282e83dbba61ad511ae0a0b62d651369723175226edf1c5b62175391507e042f12a89047766ad1404d2c7d47c4f6cdd4edced8ea9f68617e7e15966bbd07ad09442ebafc154cae21aa4a9b6a5d481ca1526fa6fb4df7810048c4818bc2859669ab818f1d95e5b82fffe11d7d40436309f511d3cc86440757cd83583efb1e528760a053de9b81e70503a60e2a50188889c04cc6af21585d10cb74a6d934e82ca29e9750b42e43a4724086d805ce66a672cb61308c94fd86653b9b67fe2ea39956f71779603afb9e3cce3a1b9f101c66ebefc975cb2d1f17bfb33c665eae618f9ab3a271a2d206be6</td>
+</tr>
+<tr>
+<td>SignatureAlgorithmOID</td>
+<td>1.2.840.113549.1.1.5</td>
+</tr>
+<tr>
+<td>IsCertificateAuthority</td>
+<td>False</td>
+</tr>
+<tr>
+<td>SerialNumber</td>
+<td>251f5d988182172e3c419e014fb0404c</td>
+</tr>
+<tr>
+<td>Version</td>
+<td>3</td>
+</tr>
+</tbody>
+</table>
+<h6 id="certificate-46bbb340fab9c17928938c93da108679">Certificate 46bbb340fab9c17928938c93da108679</h6>
+<table>
+<thead>
+<tr>
+<th>Field</th>
+<th>Value</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>ToBeSigned (TBS) MD5</td>
+<td>1a335fef744b698e4bde0dbe71df85ba</td>
+</tr>
+<tr>
+<td>ToBeSigned (TBS) SHA1</td>
+<td>567c76a1da9fd89c9f8bc09fe4f1e8109b8794cd</td>
+</tr>
+<tr>
+<td>ToBeSigned (TBS) SHA256</td>
+<td>86eaa893035f20d7480aba99d60c96cbe5aebb5490adef7b2d18f0da65efc238</td>
+</tr>
+<tr>
+<td>Subject</td>
+<td>C=CN, O=WoSign CA Limited, CN=WoSign Class 3 Code Signing CA</td>
+</tr>
+<tr>
+<td>ValidFrom</td>
+<td>2009-08-08 01:00:05</td>
+</tr>
+<tr>
+<td>ValidTo</td>
+<td>2024-08-08 01:00:05</td>
+</tr>
+<tr>
+<td>Signature</td>
+<td>0e93a5712562a282627ab579eae1eaaccaa58bc7a14cdcccae1ce9ea2e88e251e5812276e9f6e06641c974e4de667ef9529912fdc59e6a85a45dc554f2221fbc786120c0fe1c1b24ff01e3dcad1379cbcc3daef43f6e35cacf5dc6053e431ea78d03dd6eabcd5c6ab8155085dab896530f557d19d9a374681a84d0c25809d6dd6ae785a5d4ac415edefda6ab798e24abed396f8f5f71990274fc427e3202202932c29006c27ed0ab065017c3acfba6b96bbeeebea41e188002ed449da2c6544dabe1b698197ee1b4ba7c2c3c4719cb4af76362665e5709a86c1eb84dec5394d781ff0c0bef080215aed8d49f5c3987d7246684a0d038904a4e994d936076f51ae28e465f5b1297b466d77c4f421623e80aed86460f6d9ae47baf37dcf380544b3b22dd902c07bdc097f2c3ec7f7cfbbe4699366e48c781e5f28c020dc07c3fc5439b700281f5b0aa7f0554c0c2309cc5c257f519b190bcd99dd62608d60c0eb268d091e3e73e274837475ed351b50e5959c9baa7cb846e0384cfec50bbeecd756d7c3a9b9afb151890b1c4a3e19819770896fcd548c455f7d3ac2058ff47c3d4fc7bae641855ab472d84e42453b000f47873cbcca622202e7ff5454d0a49aa6bae6e6624e2c40a7ea42b908e90621cf58bf14528f7614acbb48c48839ece01f3a584f4d26afd3a2568f208c5cf1c8d27c036db17136cc1da214035f866b32327</td>
+</tr>
+<tr>
+<td>SignatureAlgorithmOID</td>
+<td>1.2.840.113549.1.1.5</td>
+</tr>
+<tr>
+<td>IsCertificateAuthority</td>
+<td>True</td>
+</tr>
+<tr>
+<td>SerialNumber</td>
+<td>46bbb340fab9c17928938c93da108679</td>
+</tr>
+<tr>
+<td>Version</td>
+<td>3</td>
+</tr>
+</tbody>
+</table>
+<h6 id="certificate-330000003965c472e0dc2bd965000000000039">Certificate 330000003965c472e0dc2bd965000000000039</h6>
+<table>
+<thead>
+<tr>
+<th>Field</th>
+<th>Value</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>ToBeSigned (TBS) MD5</td>
+<td>ac25a5b7bc19804fd0911884d862f25c</td>
+</tr>
+<tr>
+<td>ToBeSigned (TBS) SHA1</td>
+<td>d474e0b87ecde20a8aeaa4fa25431a620cbd4b63</td>
+</tr>
+<tr>
+<td>ToBeSigned (TBS) SHA256</td>
+<td>1fcf929a758d423c1466d3504642ec681de44f4d3b57dcca98c637f3a46d6f12</td>
+</tr>
+<tr>
+<td>Subject</td>
+<td>C=CN, O=WoSign CA Limited, CN=Certification Authority of WoSign</td>
+</tr>
+<tr>
+<td>ValidFrom</td>
+<td>2015-04-29 17:12:11</td>
+</tr>
+<tr>
+<td>ValidTo</td>
+<td>2025-04-29 17:12:11</td>
+</tr>
+<tr>
+<td>Signature</td>
+<td>0c9e907a381c3c94a5f76fb3989e6f52f9cac16e59ac5e76a96251971b98be114a421c5aec81972fd19436b91ea63e2a6ca219d2124b3924e36986125a2af5d8ca331725a69d3c8ba9beba6b956e04603ff9a84d77e874aa7b6776991b797f1f64dd62858ea09559332ff81c87f0f7f3060cd13c3e9b4f1b5b4a99dd8c62f1308ef8a4900f64c303f84ec232e2c18b71977d49aebdf6770e470bf36f182318e0a03071a49afd47ee0cf36e466274504a08bae15862143d40b6744d21c347520780632a4af199e5e71e7f20d87d04e34e528e712e08ab6ec4223c0d6b6d90f3b4d861c675c0ca26d5f01d9ced505558654ef637108d212938c3dfdb98b6a76663e65675bb166a4cbc9d516745008564555fbbcbff213c0833b59c8455e22497e5deefd15336710e7be432c58da0c54d976e7ff2c7e8c951ca325114d63771667ef0668107d84c50ee0497dc93916d1fb794c7cf710e011d66b4f64cce75a74ca754ffc83bea3711b414f1a609455b28ce7ebc5074ed934fbbcd48fe378a59a72b97a097eb4c59e0907698397d4b38125aa22c00def8f3f2f7ef3a05040a905c87d47accb70917a6d557c03a8f28b70782d7add8df43a7238c95be42e923abc9c7f033a890947f80cbe75f66a342592fa4776fee2956da0a091f16f0699018c41284bfa0b6e608ce46b893168fb7e04ecb38c25d2f1078fdbe0c41825b47049f64</td>
+</tr>
+<tr>
+<td>SignatureAlgorithmOID</td>
+<td>1.2.840.113549.1.1.5</td>
+</tr>
+<tr>
+<td>IsCertificateAuthority</td>
+<td>True</td>
+</tr>
+<tr>
+<td>SerialNumber</td>
+<td>330000003965c472e0dc2bd965000000000039</td>
+</tr>
+<tr>
+<td>Version</td>
+<td>3</td>
+</tr>
+</tbody>
+</table>
+<h6 id="certificate-6139bb9c000000000033">Certificate 6139bb9c000000000033</h6>
+<table>
+<thead>
+<tr>
+<th>Field</th>
+<th>Value</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>ToBeSigned (TBS) MD5</td>
+<td>5b3304180221a8328ce477b1fd93898f</td>
+</tr>
+<tr>
+<td>ToBeSigned (TBS) SHA1</td>
+<td>9b7f1e1653a52d801387f1e51d17fabb8d435d0c</td>
+</tr>
+<tr>
+<td>ToBeSigned (TBS) SHA256</td>
+<td>67070bcf2ee304cedd252a1dd8a7222c1be50fd2d5eabef9446cb633e133d264</td>
+</tr>
+<tr>
+<td>Subject</td>
+<td>C=IL, O=StartCom Ltd., OU=Secure Digital Certificate Signing, CN=StartCom Certification Authority</td>
+</tr>
+<tr>
+<td>ValidFrom</td>
+<td>2011-04-15 20:13:19</td>
+</tr>
+<tr>
+<td>ValidTo</td>
+<td>2021-04-15 20:23:19</td>
+</tr>
+<tr>
+<td>Signature</td>
+<td>375933ca5e487d489a5be42fdbdb59a8c61f77c0a58747e86508c6672688d95c58e2c631ac0c32b96f7cc58748db2c0a23484d0dcf1116ef60577ed5326e22de373cc7dc16f3c9ce2939fb37daf5e4e741d8a2f82db3498a601f64ef9c1364b3469a82cc650f18550776c9e9337790a644daefa64d551038316f3a58ed31486190c04615b4c0a64e5493c00db524e55017c6d62392226992e0abab297508255399959f50b65b6753aaa2ba905a6ea3e35b5c830e54426dbdb917a8205284b51a4fb24d68d2c28ff8f9ae837c24a6e6c17f9a932f2e550df87bc1be336fab0cd934585c9c40ce284a015529655d5bfd525a54591171470b3eff2c9ae931d9046a33871d2f880fc99aab14a8c20b4f8589ac25490dff54395513d6b84d6bf44aad1833bc8e0052b476c2eccd8beb60d57880844a0eb93d4d560d1b17176f60fcdbd867cd3d4082b55c567f8d274cc76d5da410b57c410c39912f41d2c6310686eb405087d8131e852f10448b7a0361693b29fedfcdd3e07d19ba3b84e34e9ad78c7cd73d9dd7fd50108f06683bd8be3bbbaa284552eadde83a334caf38c715e3e97cee83eb2a1cbdd8fdf5394e7c5f25b39349ca88e56152f0dd14f8394ead47182aefcc6b29493fd7a48e7abd6f6bee675db7b167a60055014532b842fe96fc06b9cecfcff9fb6eab728718451afce3846a414f36714c77eea3191ab87d098c01</td>
+</tr>
+<tr>
+<td>SignatureAlgorithmOID</td>
+<td>1.2.840.113549.1.1.5</td>
+</tr>
+<tr>
+<td>IsCertificateAuthority</td>
+<td>True</td>
+</tr>
+<tr>
+<td>SerialNumber</td>
+<td>6139bb9c000000000033</td>
+</tr>
+<tr>
+<td>Version</td>
+<td>3</td>
+</tr>
+</tbody>
+</table>
+<h6 id="certificate-19c28530e93b36">Certificate 19c28530e93b36</h6>
+<table>
+<thead>
+<tr>
+<th>Field</th>
+<th>Value</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>ToBeSigned (TBS) MD5</td>
+<td>dd50ed7562bd4ce20df7b5c24d9f1446</td>
+</tr>
+<tr>
+<td>ToBeSigned (TBS) SHA1</td>
+<td>188ce565932b1320e89f1c94e1b21eb49f714a6b</td>
+</tr>
+<tr>
+<td>ToBeSigned (TBS) SHA256</td>
+<td>e9c8df2dbd3edd63c701a9a6b71cf740eb8d54526dba56970712888237086691</td>
+</tr>
+<tr>
+<td>Subject</td>
+<td>C=CN, O=WoSign CA Limited, CN=Certification Authority of WoSign</td>
+</tr>
+<tr>
+<td>ValidFrom</td>
+<td>2006-09-17 22:46:36</td>
+</tr>
+<tr>
+<td>ValidTo</td>
+<td>2019-12-31 23:59:59</td>
+</tr>
+<tr>
+<td>Signature</td>
+<td>b66df870fbe20d4c98b3074915f504c46ccacaf568a008fe126d9c0406c9ad9a91523e78c45cee9f541deee3f15e30c949e139e0a69d366c57fae6344f55e887a82cdd05f1581291e8cace28788fdf078501a5dc459605d480b22b059acb9aa58be03a67e67347be4afd27b188efe6cacf8d0e269ffa5f5778ad6dfeae9b3508b1c3bac1004a4b7d14bdf7f1d35518acd03370886dc4097114a62b4f8881e70b0037a9157d7ed701963f2faf7b62ae0a4abf4b392e35108bfe0439e43c3a0c0956403ab5f4c2680cb5f952cdee9df898fc78e758478f1c73586933abffdddf8e24017798193ab06679bce108a30e4fc104b3f301c8ebd3591c35d2931e7065827fdbcffbc8991260c3446f3a804bd7be21aa147a64cbdd3743455b322e45f0d9591f6b18f07ce9553619615fb57df18dbd88e4754b98dd27b0e484442a6184570582111faa3558f3200eaf59effa5572720d26d09b5349acce372e6561fff6ec1beaf6f1a6d3d1b57bbe35f422c1bc8d01bd685e830d2fecd6da630c27d1543ee4a8d3ce4b32b89194fffb5b492d7518a8ba719a3baed9c0a94f8791ed8b7b6b20988939834f80c469cc17c9c84ebee4a9a5817670060432cd8365f4bc7d3e13bcd2e86f63aab53bda8d863282789dd9ccffbf576474ed283d446215614bf794b00d2a671cf0cb9ba592bff8415ac13d60ed9fbbb86d9bcea96a163f7eea06f1</td>
+</tr>
+<tr>
+<td>SignatureAlgorithmOID</td>
+<td>1.2.840.113549.1.1.11</td>
+</tr>
+<tr>
+<td>IsCertificateAuthority</td>
+<td>True</td>
+</tr>
+<tr>
+<td>SerialNumber</td>
+<td>19c28530e93b36</td>
+</tr>
+<tr>
+<td>Version</td>
+<td>3</td>
+</tr>
+</tbody>
+</table>
+<h6 id="certificate-01">Certificate 01</h6>
+<table>
+<thead>
+<tr>
+<th>Field</th>
+<th>Value</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>ToBeSigned (TBS) MD5</td>
+<td>8df2b22eaf3cd2c53b65a50b1e9bb8aa</td>
+</tr>
+<tr>
+<td>ToBeSigned (TBS) SHA1</td>
+<td>84e608dd4cc47c78e2de0f831405996c467fc35d</td>
+</tr>
+<tr>
+<td>ToBeSigned (TBS) SHA256</td>
+<td>e6f79754976245b19b33d66ba2fb76381e96c2fe296354e73d19ef9d177a5025</td>
+</tr>
+<tr>
+<td>Subject</td>
+<td>C=IL, O=StartCom Ltd., OU=Secure Digital Certificate Signing, CN=StartCom Certification Authority</td>
+</tr>
+<tr>
+<td>ValidFrom</td>
+<td>2006-09-17 19:46:36</td>
+</tr>
+<tr>
+<td>ValidTo</td>
+<td>2036-09-17 19:46:36</td>
+</tr>
+<tr>
+<td>Signature</td>
+<td>166c99f4660c34f5d0855e7d0aecda104e381c5edfa625054b9132c1e83bf13ddd44095b07498a29cb6602b7b19af72598093c8e1be1dd36872b4bbb68d339663da026c7f239911d51ab827b7ed5ce5ae4e2035770699708f95e58a60adf8c069a451616380a5e57f662c77a0205e6bc1eb5f29ef4a92983f8b214e36e288744c3901ade38a93cac434d6445cedd28a95cf2737b04f817e8abb1f32e5c646e73313a12b8bcb311e47d8f81519a3b8d89f44d93667b3c03edd39a1d9af36550f5a0d0759f2faff0ea824398f8699c8979c4438e4672e3643612aff7251e388990777ec36b6ab9c3cb444bac78908be7c72c1e4b1144c8345227cd0a5d9f85c189d51a78f295105332dd80846675d9b56828fb612ebe84a838c0991286a51e6764ad062e2fa97085c7960f7c8965f58e43540eabdda580399460c034c996702ca312f51f487bbd1c7e6bb79d90f4223baef8fc2acafa8252a0efaf4b5593ebc1b5f0228bac344e262204a1872c754ab7e57d13d7b80c64c036d2c92f86128c2309c11b823b7349a36a578794e5d678c5994363e34de0772de165997269041a4709e60f015624fb1fbf0e79a9582eb9c409017e95ba6d00063eb2ea4a1039d8d02bf5bfec75bf9702c5091b08dc5537e281fb3784436220cae7564b65eafe6cc1249324a134eb05ff9a22ae9b7d3ff165510aa6306ab3f4881c800dfc728ae8835e</td>
+</tr>
+<tr>
+<td>SignatureAlgorithmOID</td>
+<td>1.2.840.113549.1.1.5</td>
+</tr>
+<tr>
+<td>IsCertificateAuthority</td>
+<td>True</td>
+</tr>
+<tr>
+<td>SerialNumber</td>
+<td>01</td>
+</tr>
+<tr>
+<td>Version</td>
+<td>3</td>
+</tr>
+</tbody>
+</table>
+</details>
+<h4 id="imports">Imports</h4>
+<details>
+  <summary>Expand</summary>
+  <ul>
+<li>ntoskrnl.exe</li>
+<li>FLTMGR.SYS</li>
+</ul>
+</details>
+<h4 id="imports-1">Imports</h4>
+<details>
+  <summary>Expand</summary>
+  <ul>
+<li>ntoskrnl.exe</li>
+<li>FLTMGR.SYS</li>
+</ul>
+</details>
+<h4 id="importedfunctions">ImportedFunctions</h4>
+<details>
+  <summary>Expand</summary>
+  <ul>
+<li>ZwCreateKey</li>
+<li>RtlInitUnicodeString</li>
+<li>ZwSetValueKey</li>
+<li>ExGetPreviousMode</li>
+<li>PsGetCurrentProcessId</li>
+<li>KeInitializeEvent</li>
+<li>ExFreePoolWithTag</li>
+<li>ZwQuerySymbolicLinkObject</li>
+<li>SeCreateAccessState</li>
+<li>KeSetEvent</li>
+<li>IoGetFileObjectGenericMapping</li>
+<li>ObCreateObject</li>
+<li>IoCreateFile</li>
+<li>MmBuildMdlForNonPagedPool</li>
+<li>ZwOpenSymbolicLinkObject</li>
+<li>IoFreeMdl</li>
+<li>IoFileObjectType</li>
+<li>ExAllocatePool</li>
+<li>ObReferenceObjectByHandle</li>
+<li>KeWaitForSingleObject</li>
+<li>IoFreeIrp</li>
+<li>MmProbeAndLockPages</li>
+<li>ZwClose</li>
+<li>MmUnlockPages</li>
+<li>ObOpenObjectByPointer</li>
+<li>IoAllocateMdl</li>
+<li>MmSectionObjectType</li>
+<li>_wcsicmp</li>
+<li>NtDeviceIoControlFile</li>
+<li>NtFsControlFile</li>
+<li>swprintf</li>
+<li>MmGetSystemRoutineAddress</li>
+<li>ExAllocatePoolWithTag</li>
+<li>ObQueryNameString</li>
+<li>KeBugCheckEx</li>
+<li>PsLookupThreadByThreadId</li>
+<li>IoDeleteSymbolicLink</li>
+<li>IoDeleteDevice</li>
+<li>wcsncat</li>
+<li>KeDelayExecutionThread</li>
+<li>wcsrchr</li>
+<li>IofCompleteRequest</li>
+<li>IoCreateSymbolicLink</li>
+<li>IoCreateDevice</li>
+<li>MmUnmapLockedPages</li>
+<li>MmMapLockedPagesSpecifyCache</li>
+<li>KeStackAttachProcess</li>
+<li>ObfDereferenceObject</li>
+<li>MmIsAddressValid</li>
+<li>KeUnstackDetachProcess</li>
+<li>PsLookupProcessByProcessId</li>
+<li>ProbeForRead</li>
+<li>IoGetCurrentProcess</li>
+<li>MmUserProbeAddress</li>
+<li>ProbeForWrite</li>
+<li>NtBuildNumber</li>
+<li>IoAllocateIrp</li>
+<li>MmSystemRangeStart</li>
+<li>__C_specific_handler</li>
+<li>FltReleaseFileNameInformation</li>
+<li>FltClose</li>
+<li>FltStartFiltering</li>
+<li>FltParseFileNameInformation</li>
+<li>FltCreateFile</li>
+<li>FltRegisterFilter</li>
+<li>FltUnregisterFilter</li>
+<li>FltGetFileNameInformation</li>
+</ul>
+</details>
+<h4 id="exportedfunctions">ExportedFunctions</h4>
+<details>
+  <summary>Expand</summary>
+</details>
+<h4 id="signature">Signature</h4>
+<details>
+  <summary>Expand</summary>
+  <pre tabindex="0"><code>{
+  &#34;Certificates&#34;: [
+    {
+      &#34;IsCertificateAuthority&#34;: false,
+      &#34;SerialNumber&#34;: &#34;5c5d0a336ba298b9695d2cfa5a181510&#34;,
+      &#34;Signature&#34;: &#34;c87f8ed5e0c37da04f8f7b193aae1974b8712e6d9740a8dc55058a576301c1783919200b621b7d674954efe2689ee641cdd2609541eea9a633277af5e3ac84fc33b681d3737d54bd45bf9405947dbfe89338577c841b148dd745c742f19775cdb6f1f456500b439b79e350b41987c671ebd6bf05eb6832fb8bde7e4aaa42d7e26d8080b41cd6181f9a0ac62bce4cb9103907f279d6c18237b4744a745bcfa118f90bd2fa3f4eed5b059faffef0f8ae7c023f2e9e8788cd071b6ceb949a00b078591988a8ab7792cb11a545c7bb079687d2defdb88a6615e0d3204c29dae9a6f19fbb3ae4c3d338522648cb1bd5399f55fa7bd01ee9041330eb6a57edcd0fc455&#34;,
+      &#34;SignatureAlgorithmOID&#34;: &#34;1.2.840.113549.1.1.5&#34;,
+      &#34;Subject&#34;: &#34;C=CN, ST=?????????, L=?????????, O=????????????(??????)????????????????????????, CN=????????????(??????)????????????????????????&#34;,
+      &#34;TBS&#34;: {
+        &#34;MD5&#34;: &#34;22abfcdb0a677a41a0e98019f629e785&#34;,
+        &#34;SHA1&#34;: &#34;3c68a9e0ba9434a54c9b731fed228bb0f662f6c5&#34;,
+        &#34;SHA256&#34;: &#34;5142ab5696ee82d72ca8fc8f622adffcdb73bf2e6d6a8531d5f86ce4f823ac23&#34;
+      },
+      &#34;ValidFrom&#34;: &#34;2015-10-16 04:47:28&#34;,
+      &#34;ValidTo&#34;: &#34;2016-11-16 04:47:28&#34;,
+      &#34;Version&#34;: 3
+    },
+    {
+      &#34;IsCertificateAuthority&#34;: false,
+      &#34;SerialNumber&#34;: &#34;251f5d988182172e3c419e014fb0404c&#34;,
+      &#34;Signature&#34;: &#34;7c982fbbc3d2aec22a8fa69776568632c4cd36688becd7801a3179b05e56b969ebb90b32a98326dc775d7a56b246a07d15d66df9acf835737836026022201cef188f7e66b24fe771935a2be6e58d3d5d2e274b46cb1d04f30b8c3f13a80dd4cde828e82a9c55c8e3ff9da922496ee8e7889237578060441827435818046d86c065470557555091e67350ee3f10a98f052fda6811536e1fad98f3763e85d057a3cfe4c11a4c6406a644ab4e1ee24bd5a46d71f86bcb6613a6471f212aa1ae4c89a47d2877174f888db1d15db1c4935abf22926cab678268edd721cb63bc93c4178e871925ad1754b479d2a59373bc7cbbe4800f8fccaa0ad0e49375aa6ccf497d75ec82285c73f042bf9ea6132ede6cee8003a6ee8836a01bb282e83dbba61ad511ae0a0b62d651369723175226edf1c5b62175391507e042f12a89047766ad1404d2c7d47c4f6cdd4edced8ea9f68617e7e15966bbd07ad09442ebafc154cae21aa4a9b6a5d481ca1526fa6fb4df7810048c4818bc2859669ab818f1d95e5b82fffe11d7d40436309f511d3cc86440757cd83583efb1e528760a053de9b81e70503a60e2a50188889c04cc6af21585d10cb74a6d934e82ca29e9750b42e43a4724086d805ce66a672cb61308c94fd86653b9b67fe2ea39956f71779603afb9e3cce3a1b9f101c66ebefc975cb2d1f17bfb33c665eae618f9ab3a271a2d206be6&#34;,
+      &#34;SignatureAlgorithmOID&#34;: &#34;1.2.840.113549.1.1.5&#34;,
+      &#34;Subject&#34;: &#34;C=CN, O=WoSign CA Limited, CN=WoSign Time Stamping Signer&#34;,
+      &#34;TBS&#34;: {
+        &#34;MD5&#34;: &#34;626797c449e52df71f4d81ad5be6d993&#34;,
+        &#34;SHA1&#34;: &#34;58672dea8f4352d39f2021436acf155a2dcbb224&#34;,
+        &#34;SHA256&#34;: &#34;21ee871c9b6d0fdb62f442f75f9f446f5cfece9c8ed5624f5691bfd704fa90e5&#34;
+      },
+      &#34;ValidFrom&#34;: &#34;2009-08-08 01:00:05&#34;,
+      &#34;ValidTo&#34;: &#34;2024-08-08 01:00:05&#34;,
+      &#34;Version&#34;: 3
+    },
+    {
+      &#34;IsCertificateAuthority&#34;: true,
+      &#34;SerialNumber&#34;: &#34;46bbb340fab9c17928938c93da108679&#34;,
+      &#34;Signature&#34;: &#34;0e93a5712562a282627ab579eae1eaaccaa58bc7a14cdcccae1ce9ea2e88e251e5812276e9f6e06641c974e4de667ef9529912fdc59e6a85a45dc554f2221fbc786120c0fe1c1b24ff01e3dcad1379cbcc3daef43f6e35cacf5dc6053e431ea78d03dd6eabcd5c6ab8155085dab896530f557d19d9a374681a84d0c25809d6dd6ae785a5d4ac415edefda6ab798e24abed396f8f5f71990274fc427e3202202932c29006c27ed0ab065017c3acfba6b96bbeeebea41e188002ed449da2c6544dabe1b698197ee1b4ba7c2c3c4719cb4af76362665e5709a86c1eb84dec5394d781ff0c0bef080215aed8d49f5c3987d7246684a0d038904a4e994d936076f51ae28e465f5b1297b466d77c4f421623e80aed86460f6d9ae47baf37dcf380544b3b22dd902c07bdc097f2c3ec7f7cfbbe4699366e48c781e5f28c020dc07c3fc5439b700281f5b0aa7f0554c0c2309cc5c257f519b190bcd99dd62608d60c0eb268d091e3e73e274837475ed351b50e5959c9baa7cb846e0384cfec50bbeecd756d7c3a9b9afb151890b1c4a3e19819770896fcd548c455f7d3ac2058ff47c3d4fc7bae641855ab472d84e42453b000f47873cbcca622202e7ff5454d0a49aa6bae6e6624e2c40a7ea42b908e90621cf58bf14528f7614acbb48c48839ece01f3a584f4d26afd3a2568f208c5cf1c8d27c036db17136cc1da214035f866b32327&#34;,
+      &#34;SignatureAlgorithmOID&#34;: &#34;1.2.840.113549.1.1.5&#34;,
+      &#34;Subject&#34;: &#34;C=CN, O=WoSign CA Limited, CN=WoSign Class 3 Code Signing CA&#34;,
+      &#34;TBS&#34;: {
+        &#34;MD5&#34;: &#34;1a335fef744b698e4bde0dbe71df85ba&#34;,
+        &#34;SHA1&#34;: &#34;567c76a1da9fd89c9f8bc09fe4f1e8109b8794cd&#34;,
+        &#34;SHA256&#34;: &#34;86eaa893035f20d7480aba99d60c96cbe5aebb5490adef7b2d18f0da65efc238&#34;
+      },
+      &#34;ValidFrom&#34;: &#34;2009-08-08 01:00:05&#34;,
+      &#34;ValidTo&#34;: &#34;2024-08-08 01:00:05&#34;,
+      &#34;Version&#34;: 3
+    },
+    {
+      &#34;IsCertificateAuthority&#34;: true,
+      &#34;SerialNumber&#34;: &#34;330000003965c472e0dc2bd965000000000039&#34;,
+      &#34;Signature&#34;: &#34;0c9e907a381c3c94a5f76fb3989e6f52f9cac16e59ac5e76a96251971b98be114a421c5aec81972fd19436b91ea63e2a6ca219d2124b3924e36986125a2af5d8ca331725a69d3c8ba9beba6b956e04603ff9a84d77e874aa7b6776991b797f1f64dd62858ea09559332ff81c87f0f7f3060cd13c3e9b4f1b5b4a99dd8c62f1308ef8a4900f64c303f84ec232e2c18b71977d49aebdf6770e470bf36f182318e0a03071a49afd47ee0cf36e466274504a08bae15862143d40b6744d21c347520780632a4af199e5e71e7f20d87d04e34e528e712e08ab6ec4223c0d6b6d90f3b4d861c675c0ca26d5f01d9ced505558654ef637108d212938c3dfdb98b6a76663e65675bb166a4cbc9d516745008564555fbbcbff213c0833b59c8455e22497e5deefd15336710e7be432c58da0c54d976e7ff2c7e8c951ca325114d63771667ef0668107d84c50ee0497dc93916d1fb794c7cf710e011d66b4f64cce75a74ca754ffc83bea3711b414f1a609455b28ce7ebc5074ed934fbbcd48fe378a59a72b97a097eb4c59e0907698397d4b38125aa22c00def8f3f2f7ef3a05040a905c87d47accb70917a6d557c03a8f28b70782d7add8df43a7238c95be42e923abc9c7f033a890947f80cbe75f66a342592fa4776fee2956da0a091f16f0699018c41284bfa0b6e608ce46b893168fb7e04ecb38c25d2f1078fdbe0c41825b47049f64&#34;,
+      &#34;SignatureAlgorithmOID&#34;: &#34;1.2.840.113549.1.1.5&#34;,
+      &#34;Subject&#34;: &#34;C=CN, O=WoSign CA Limited, CN=Certification Authority of WoSign&#34;,
+      &#34;TBS&#34;: {
+        &#34;MD5&#34;: &#34;ac25a5b7bc19804fd0911884d862f25c&#34;,
+        &#34;SHA1&#34;: &#34;d474e0b87ecde20a8aeaa4fa25431a620cbd4b63&#34;,
+        &#34;SHA256&#34;: &#34;1fcf929a758d423c1466d3504642ec681de44f4d3b57dcca98c637f3a46d6f12&#34;
+      },
+      &#34;ValidFrom&#34;: &#34;2015-04-29 17:12:11&#34;,
+      &#34;ValidTo&#34;: &#34;2025-04-29 17:12:11&#34;,
+      &#34;Version&#34;: 3
+    },
+    {
+      &#34;IsCertificateAuthority&#34;: true,
+      &#34;SerialNumber&#34;: &#34;6139bb9c000000000033&#34;,
+      &#34;Signature&#34;: &#34;375933ca5e487d489a5be42fdbdb59a8c61f77c0a58747e86508c6672688d95c58e2c631ac0c32b96f7cc58748db2c0a23484d0dcf1116ef60577ed5326e22de373cc7dc16f3c9ce2939fb37daf5e4e741d8a2f82db3498a601f64ef9c1364b3469a82cc650f18550776c9e9337790a644daefa64d551038316f3a58ed31486190c04615b4c0a64e5493c00db524e55017c6d62392226992e0abab297508255399959f50b65b6753aaa2ba905a6ea3e35b5c830e54426dbdb917a8205284b51a4fb24d68d2c28ff8f9ae837c24a6e6c17f9a932f2e550df87bc1be336fab0cd934585c9c40ce284a015529655d5bfd525a54591171470b3eff2c9ae931d9046a33871d2f880fc99aab14a8c20b4f8589ac25490dff54395513d6b84d6bf44aad1833bc8e0052b476c2eccd8beb60d57880844a0eb93d4d560d1b17176f60fcdbd867cd3d4082b55c567f8d274cc76d5da410b57c410c39912f41d2c6310686eb405087d8131e852f10448b7a0361693b29fedfcdd3e07d19ba3b84e34e9ad78c7cd73d9dd7fd50108f06683bd8be3bbbaa284552eadde83a334caf38c715e3e97cee83eb2a1cbdd8fdf5394e7c5f25b39349ca88e56152f0dd14f8394ead47182aefcc6b29493fd7a48e7abd6f6bee675db7b167a60055014532b842fe96fc06b9cecfcff9fb6eab728718451afce3846a414f36714c77eea3191ab87d098c01&#34;,
+      &#34;SignatureAlgorithmOID&#34;: &#34;1.2.840.113549.1.1.5&#34;,
+      &#34;Subject&#34;: &#34;C=IL, O=StartCom Ltd., OU=Secure Digital Certificate Signing, CN=StartCom Certification Authority&#34;,
+      &#34;TBS&#34;: {
+        &#34;MD5&#34;: &#34;5b3304180221a8328ce477b1fd93898f&#34;,
+        &#34;SHA1&#34;: &#34;9b7f1e1653a52d801387f1e51d17fabb8d435d0c&#34;,
+        &#34;SHA256&#34;: &#34;67070bcf2ee304cedd252a1dd8a7222c1be50fd2d5eabef9446cb633e133d264&#34;
+      },
+      &#34;ValidFrom&#34;: &#34;2011-04-15 20:13:19&#34;,
+      &#34;ValidTo&#34;: &#34;2021-04-15 20:23:19&#34;,
+      &#34;Version&#34;: 3
+    },
+    {
+      &#34;IsCertificateAuthority&#34;: true,
+      &#34;SerialNumber&#34;: &#34;19c28530e93b36&#34;,
+      &#34;Signature&#34;: &#34;b66df870fbe20d4c98b3074915f504c46ccacaf568a008fe126d9c0406c9ad9a91523e78c45cee9f541deee3f15e30c949e139e0a69d366c57fae6344f55e887a82cdd05f1581291e8cace28788fdf078501a5dc459605d480b22b059acb9aa58be03a67e67347be4afd27b188efe6cacf8d0e269ffa5f5778ad6dfeae9b3508b1c3bac1004a4b7d14bdf7f1d35518acd03370886dc4097114a62b4f8881e70b0037a9157d7ed701963f2faf7b62ae0a4abf4b392e35108bfe0439e43c3a0c0956403ab5f4c2680cb5f952cdee9df898fc78e758478f1c73586933abffdddf8e24017798193ab06679bce108a30e4fc104b3f301c8ebd3591c35d2931e7065827fdbcffbc8991260c3446f3a804bd7be21aa147a64cbdd3743455b322e45f0d9591f6b18f07ce9553619615fb57df18dbd88e4754b98dd27b0e484442a6184570582111faa3558f3200eaf59effa5572720d26d09b5349acce372e6561fff6ec1beaf6f1a6d3d1b57bbe35f422c1bc8d01bd685e830d2fecd6da630c27d1543ee4a8d3ce4b32b89194fffb5b492d7518a8ba719a3baed9c0a94f8791ed8b7b6b20988939834f80c469cc17c9c84ebee4a9a5817670060432cd8365f4bc7d3e13bcd2e86f63aab53bda8d863282789dd9ccffbf576474ed283d446215614bf794b00d2a671cf0cb9ba592bff8415ac13d60ed9fbbb86d9bcea96a163f7eea06f1&#34;,
+      &#34;SignatureAlgorithmOID&#34;: &#34;1.2.840.113549.1.1.11&#34;,
+      &#34;Subject&#34;: &#34;C=CN, O=WoSign CA Limited, CN=Certification Authority of WoSign&#34;,
+      &#34;TBS&#34;: {
+        &#34;MD5&#34;: &#34;dd50ed7562bd4ce20df7b5c24d9f1446&#34;,
+        &#34;SHA1&#34;: &#34;188ce565932b1320e89f1c94e1b21eb49f714a6b&#34;,
+        &#34;SHA256&#34;: &#34;e9c8df2dbd3edd63c701a9a6b71cf740eb8d54526dba56970712888237086691&#34;
+      },
+      &#34;ValidFrom&#34;: &#34;2006-09-17 22:46:36&#34;,
+      &#34;ValidTo&#34;: &#34;2019-12-31 23:59:59&#34;,
+      &#34;Version&#34;: 3
+    },
+    {
+      &#34;IsCertificateAuthority&#34;: true,
+      &#34;SerialNumber&#34;: &#34;01&#34;,
+      &#34;Signature&#34;: &#34;166c99f4660c34f5d0855e7d0aecda104e381c5edfa625054b9132c1e83bf13ddd44095b07498a29cb6602b7b19af72598093c8e1be1dd36872b4bbb68d339663da026c7f239911d51ab827b7ed5ce5ae4e2035770699708f95e58a60adf8c069a451616380a5e57f662c77a0205e6bc1eb5f29ef4a92983f8b214e36e288744c3901ade38a93cac434d6445cedd28a95cf2737b04f817e8abb1f32e5c646e73313a12b8bcb311e47d8f81519a3b8d89f44d93667b3c03edd39a1d9af36550f5a0d0759f2faff0ea824398f8699c8979c4438e4672e3643612aff7251e388990777ec36b6ab9c3cb444bac78908be7c72c1e4b1144c8345227cd0a5d9f85c189d51a78f295105332dd80846675d9b56828fb612ebe84a838c0991286a51e6764ad062e2fa97085c7960f7c8965f58e43540eabdda580399460c034c996702ca312f51f487bbd1c7e6bb79d90f4223baef8fc2acafa8252a0efaf4b5593ebc1b5f0228bac344e262204a1872c754ab7e57d13d7b80c64c036d2c92f86128c2309c11b823b7349a36a578794e5d678c5994363e34de0772de165997269041a4709e60f015624fb1fbf0e79a9582eb9c409017e95ba6d00063eb2ea4a1039d8d02bf5bfec75bf9702c5091b08dc5537e281fb3784436220cae7564b65eafe6cc1249324a134eb05ff9a22ae9b7d3ff165510aa6306ab3f4881c800dfc728ae8835e&#34;,
+      &#34;SignatureAlgorithmOID&#34;: &#34;1.2.840.113549.1.1.5&#34;,
+      &#34;Subject&#34;: &#34;C=IL, O=StartCom Ltd., OU=Secure Digital Certificate Signing, CN=StartCom Certification Authority&#34;,
+      &#34;TBS&#34;: {
+        &#34;MD5&#34;: &#34;8df2b22eaf3cd2c53b65a50b1e9bb8aa&#34;,
+        &#34;SHA1&#34;: &#34;84e608dd4cc47c78e2de0f831405996c467fc35d&#34;,
+        &#34;SHA256&#34;: &#34;e6f79754976245b19b33d66ba2fb76381e96c2fe296354e73d19ef9d177a5025&#34;
+      },
+      &#34;ValidFrom&#34;: &#34;2006-09-17 19:46:36&#34;,
+      &#34;ValidTo&#34;: &#34;2036-09-17 19:46:36&#34;,
+      &#34;Version&#34;: 3
+    }
+  ],
+  &#34;CertificatesInfo&#34;: &#34;&#34;,
+  &#34;Signer&#34;: [
+    {
+      &#34;Issuer&#34;: &#34;C=CN, O=WoSign CA Limited, CN=WoSign Class 3 Code Signing CA&#34;,
+      &#34;SerialNumber&#34;: &#34;5c5d0a336ba298b9695d2cfa5a181510&#34;,
+      &#34;Version&#34;: 1
+    }
+  ],
+  &#34;SignerInfo&#34;: &#34;&#34;
+}
+</code></pre>
+</details>
+<hr>
+<p><a href="https://github.com/cvelist/cvelist/tree/main/yaml/a261cd64-0d04-4bf5-ad73-f3bb96bf83cf.yaml"><em>source</em></a></p>
+<p><em>last_updated:</em> 2023-07-11</p>
+</div>
+
+</section>
+
+
+</div>
+      </div></div>
+  
+<footer class="pt-2 pb-2">
+  <div class="wrap">
+    <p>&copy; <span class="year">2023</span> <a href ="https://cvelist.github.io/about" target="_blank" rel="noopener">With ♥️ from Magicsword</a></p>
+    <a href="#pagetop" id="toTop" title=Back&#32;to&#32;top></a>
+  </div>
+</footer>
+
+
+<svg width="0" height="0" class="hidden">
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 492.004 492.004" id="next">
+    <path d="M484.14 226.886L306.46 49.202c-5.072-5.072-11.832-7.856-19.04-7.856-7.216 0-13.972 2.788-19.044 7.856l-16.132 16.136c-5.068 5.064-7.86 11.828-7.86 19.04 0 7.208 2.792 14.2 7.86 19.264L355.9 207.526H26.58C11.732 207.526 0 219.15 0 234.002v22.812c0 14.852 11.732 27.648 26.58 27.648h330.496L252.248 388.926c-5.068 5.072-7.86 11.652-7.86 18.864 0 7.204 2.792 13.88 7.86 18.948l16.132 16.084c5.072 5.072 11.828 7.836 19.044 7.836 7.208 0 13.968-2.8 19.04-7.872l177.68-177.68c5.084-5.088 7.88-11.88 7.86-19.1.016-7.244-2.776-14.04-7.864-19.12z"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 511.999 511.999" id="search">
+    <path d="M508.874 478.708L360.142 329.976c28.21-34.827 45.191-79.103 45.191-127.309C405.333 90.917 314.416 0 202.666 0S0 90.917 0 202.667s90.917 202.667 202.667 202.667c48.206 0 92.482-16.982 127.309-45.191l148.732 148.732c4.167 4.165 10.919 4.165 15.086 0l15.081-15.082c4.165-4.166 4.165-10.92-.001-15.085zM202.667 362.667c-88.229 0-160-71.771-160-160s71.771-160 160-160 160 71.771 160 160-71.771 160-160 160z"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 241 179" id="harmburger">
+    <path d="M1 10C1 4.477 5.477 0 11 0h220c5.523 0 10 4.477 10 10s-4.477 10-10 10H11C5.477 20 1 15.523 1 10zm0 80c0-5.523 4.477-10 10-10h220c5.523 0 10 4.477 10 10s-4.477 10-10 10H11c-5.523 0-10-4.477-10-10zm9 69c-5.523 0-10 4.477-10 10s4.477 10 10 10h220c5.523 0 10-4.477 10-10s-4.477-10-10-10H10z"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 401.998 401.998" id="sort">
+    <path d="M73.092 164.452h255.813c4.949 0 9.233-1.807 12.848-5.424 3.613-3.616 5.427-7.898 5.427-12.847s-1.813-9.229-5.427-12.85L213.846 5.424C210.232 1.812 205.951 0 200.999 0s-9.233 1.812-12.85 5.424L60.242 133.331c-3.617 3.617-5.424 7.901-5.424 12.85 0 4.948 1.807 9.231 5.424 12.847 3.621 3.617 7.902 5.424 12.85 5.424zm255.813 73.097H73.092c-4.952 0-9.233 1.808-12.85 5.421-3.617 3.617-5.424 7.898-5.424 12.847s1.807 9.233 5.424 12.848L188.149 396.57c3.621 3.617 7.902 5.428 12.85 5.428s9.233-1.811 12.847-5.428l127.907-127.906c3.613-3.614 5.427-7.898 5.427-12.848 0-4.948-1.813-9.229-5.427-12.847-3.614-3.616-7.899-5.42-12.848-5.42z"></path>
+  </symbol>
+</svg>
+
+<svg width="0" height="0" class="hidden">
+  <symbol viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg" id="facebook">
+    <path d="M437 0H75C33.648 0 0 33.648 0 75v362c0 41.352 33.648 75 75 75h151V331h-60v-90h60v-61c0-49.629 40.371-90 90-90h91v90h-91v61h91l-15 90h-76v181h121c41.352 0 75-33.648 75-75V75c0-41.352-33.648-75-75-75zm0 0"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 18.001 18.001" id="twitter">
+    <path d="M15.891 4.013c.808-.496 1.343-1.173 1.605-2.034a8.68 8.68 0 0 1-2.351.861c-.703-.756-1.593-1.14-2.66-1.14-1.043 0-1.924.366-2.643 1.078a3.56 3.56 0 0 0-1.076 2.605c0 .309.039.585.117.819-3.076-.105-5.622-1.381-7.628-3.837-.34.601-.51 1.213-.51 1.846 0 1.301.549 2.332 1.645 3.089-.625-.053-1.176-.211-1.645-.47 0 .929.273 1.705.82 2.388a3.623 3.623 0 0 0 2.115 1.291c-.312.08-.641.118-.979.118-.312 0-.533-.026-.664-.083.23.757.664 1.371 1.291 1.841a3.652 3.652 0 0 0 2.152.743C4.148 14.173 2.625 14.69.902 14.69c-.422 0-.721-.006-.902-.038 1.697 1.102 3.586 1.649 5.676 1.649 2.139 0 4.029-.542 5.674-1.626 1.645-1.078 2.859-2.408 3.639-3.974a10.77 10.77 0 0 0 1.172-4.892v-.468a7.788 7.788 0 0 0 1.84-1.921 8.142 8.142 0 0 1-2.11.593z"
+      ></path>
+  </symbol>
+  <symbol aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" id="mail">
+    <path  d="M502.3 190.8c3.9-3.1 9.7-.2 9.7 4.7V400c0 26.5-21.5 48-48 48H48c-26.5 0-48-21.5-48-48V195.6c0-5 5.7-7.8 9.7-4.7 22.4 17.4 52.1 39.5 154.1 113.6 21.1 15.4 56.7 47.8 92.2 47.6 35.7.3 72-32.8 92.3-47.6 102-74.1 131.6-96.3 154-113.7zM256 320c23.2.4 56.6-29.2 73.4-41.4 132.7-96.3 142.8-104.7 173.4-128.7 5.8-4.5 9.2-11.5 9.2-18.9v-19c0-26.5-21.5-48-48-48H48C21.5 64 0 85.5 0 112v19c0 7.4 3.4 14.3 9.2 18.9 30.6 23.9 40.7 32.4 173.4 128.7 16.8 12.2 50.2 41.8 73.4 41.4z"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" id="calendar">
+    <path d="M452 40h-24V0h-40v40H124V0H84v40H60C26.916 40 0 66.916 0 100v352c0 33.084 26.916 60 60 60h392c33.084 0 60-26.916 60-60V100c0-33.084-26.916-60-60-60zm20 412c0 11.028-8.972 20-20 20H60c-11.028 0-20-8.972-20-20V188h432v264zm0-304H40v-48c0-11.028 8.972-20 20-20h24v40h40V80h264v40h40V80h24c11.028 0 20 8.972 20 20v48z"></path>
+    <path d="M76 230h40v40H76zm80 0h40v40h-40zm80 0h40v40h-40zm80 0h40v40h-40zm80 0h40v40h-40zM76 310h40v40H76zm80 0h40v40h-40zm80 0h40v40h-40zm80 0h40v40h-40zM76 390h40v40H76zm80 0h40v40h-40zm80 0h40v40h-40zm80 0h40v40h-40zm80-80h40v40h-40z"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" id="github">
+    <path d="M255.968 5.329C114.624 5.329 0 120.401 0 262.353c0 113.536 73.344 209.856 175.104 243.872 12.8 2.368 17.472-5.568 17.472-12.384 0-6.112-.224-22.272-.352-43.712-71.2 15.52-86.24-34.464-86.24-34.464-11.616-29.696-28.416-37.6-28.416-37.6-23.264-15.936 1.728-15.616 1.728-15.616 25.696 1.824 39.2 26.496 39.2 26.496 22.848 39.264 59.936 27.936 74.528 21.344 2.304-16.608 8.928-27.936 16.256-34.368-56.832-6.496-116.608-28.544-116.608-127.008 0-28.064 9.984-51.008 26.368-68.992-2.656-6.496-11.424-32.64 2.496-68 0 0 21.504-6.912 70.4 26.336 20.416-5.696 42.304-8.544 64.096-8.64 21.728.128 43.648 2.944 64.096 8.672 48.864-33.248 70.336-26.336 70.336-26.336 13.952 35.392 5.184 61.504 2.56 68 16.416 17.984 26.304 40.928 26.304 68.992 0 98.72-59.84 120.448-116.864 126.816 9.184 7.936 17.376 23.616 17.376 47.584 0 34.368-.32 62.08-.32 70.496 0 6.88 4.608 14.88 17.6 12.352C438.72 472.145 512 375.857 512 262.353 512 120.401 397.376 5.329 255.968 5.329z"></path>
+  </symbol>
+  <symbol viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" id="rss">
+    <circle cx="3.429" cy="20.571" r="3.429"></circle>
+    <path d="M11.429 24h4.57C15.999 15.179 8.821 8.001 0 8v4.572c6.302.001 11.429 5.126 11.429 11.428z"></path>
+    <path d="M24 24C24 10.766 13.234 0 0 0v4.571c10.714 0 19.43 8.714 19.43 19.429z"></path>
+  </symbol>
+  <symbol viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg" id="linkedin">
+    <path d="M437 0H75C33.648 0 0 33.648 0 75v362c0 41.352 33.648 75 75 75h362c41.352 0 75-33.648 75-75V75c0-41.352-33.648-75-75-75zM181 406h-60V196h60zm0-240h-60v-60h60zm210 240h-60V286c0-16.54-13.46-30-30-30s-30 13.46-30 30v120h-60V196h60v11.309C286.719 202.422 296.93 196 316 196c40.691.043 75 36.547 75 79.688zm0 0"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 612 612" id="arrow">
+    <path d="M604.501 440.509L325.398 134.956c-5.331-5.357-12.423-7.627-19.386-7.27-6.989-.357-14.056 1.913-19.387 7.27L7.499 440.509c-9.999 10.024-9.999 26.298 0 36.323s26.223 10.024 36.222 0l262.293-287.164L568.28 476.832c9.999 10.024 26.222 10.024 36.221 0 9.999-10.023 9.999-26.298 0-36.323z"></path>
+  </symbol>
+  <symbol aria-hidden="true" viewBox="0 0 24 24" id="carly">
+    <path fill="currentColor" d="M4 19h6v-2H4v2zM20 5H4v2h16V5zm-3 6H4v2h13.25c1.1 0 2 .9 2 2s-.9 2-2 2H15v-2l-3 3l3 3v-2h2c2.21 0 4-1.79 4-4s-1.79-4-4-4z"></path>
+  </symbol>
+  <symbol viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" id="copy" fill="currentColor">
+    <path d="M23 2.75A2.75 2.75 0 0 0 20.25 0H8.75A2.75 2.75 0 0 0 6 2.75v13.5A2.75 2.75 0 0 0 8.75 19h11.5A2.75 2.75 0 0 0 23 16.25zM18.25 14.5h-7.5a.75.75 0 0 1 0-1.5h7.5a.75.75 0 0 1 0 1.5zm0-3h-7.5a.75.75 0 0 1 0-1.5h7.5a.75.75 0 0 1 0 1.5zm0-3h-7.5a.75.75 0 0 1 0-1.5h7.5a.75.75 0 0 1 0 1.5z"></path>
+    <path d="M8.75 20.5a4.255 4.255 0 0 1-4.25-4.25V2.75c0-.086.02-.166.025-.25H3.75A2.752 2.752 0 0 0 1 5.25v16A2.752 2.752 0 0 0 3.75 24h12a2.752 2.752 0 0 0 2.75-2.75v-.75z"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512.001 512.001" id="closeme">
+    <path d="M284.286 256.002L506.143 34.144c7.811-7.811 7.811-20.475 0-28.285-7.811-7.81-20.475-7.811-28.285 0L256 227.717 34.143 5.859c-7.811-7.811-20.475-7.811-28.285 0-7.81 7.811-7.811 20.475 0 28.285l221.857 221.857L5.858 477.859c-7.811 7.811-7.811 20.475 0 28.285a19.938 19.938 0 0 0 14.143 5.857 19.94 19.94 0 0 0 14.143-5.857L256 284.287l221.857 221.857c3.905 3.905 9.024 5.857 14.143 5.857s10.237-1.952 14.143-5.857c7.811-7.811 7.811-20.475 0-28.285L284.286 256.002z"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" id="open-menu">
+    <path d="M492 236H20c-11.046 0-20 8.954-20 20s8.954 20 20 20h472c11.046 0 20-8.954 20-20s-8.954-20-20-20zm0-160H20C8.954 76 0 84.954 0 96s8.954 20 20 20h472c11.046 0 20-8.954 20-20s-8.954-20-20-20zm0 320H20c-11.046 0-20 8.954-20 20s8.954 20 20 20h472c11.046 0 20-8.954 20-20s-8.954-20-20-20z"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" id="instagram">
+    <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" id="youtube">
+    <path d="M19.615 3.184c-3.604-.246-11.631-.245-15.23 0-3.897.266-4.356 2.62-4.385 8.816.029 6.185.484 8.549 4.385 8.816 3.6.245 11.626.246 15.23 0 3.897-.266 4.356-2.62 4.385-8.816-.029-6.185-.484-8.549-4.385-8.816zm-10.615 12.816v-8l8 3.993-8 4.007z"/>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" id="stackoverflow">
+    <path d="M21 27v-8h3v11H0V19h3v8h18z"></path><path d="M17.1.2L15 1.8l7.9 10.6 2.1-1.6L17.1.2zm3.7 14.7L10.6 6.4l1.7-2 10.2 8.5-1.7 2zM7.2 12.3l12 5.6 1.1-2.4-12-5.6-1.1 2.4zm-1.8 6.8l13.56 1.96.17-2.38-13.26-2.55-.47 2.97zM19 25H5v-3h14v3z"></path>
+  </symbol>
+</svg>
+
+
+<script src="/cvelist.github.io/js/bundle.2fc77b6c985082c66f35d2586a2fd14d6a302711b3b7633d28c3a3c66e9ef6e74d9fcc534bfb802cd174773560722e5a336a7cb7ea92503b8222c58bfe4103a4.js"></script>
+</body>
+</html>

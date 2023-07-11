@@ -19,15 +19,15 @@ Acknowledgement:
   Handle: ''
 Detection:
 - type: yara_signature
-  value: https://github.com/boss-net/risksDrivers/blob/main/detections/yara/4e3eb5b9bce2fd9f6878ae36288211f0997f6149aa8c290ed91228ba4cdfae80.yara
+  value: https://github.com/cvelist/cvelist/blob/main/detections/yara/4e3eb5b9bce2fd9f6878ae36288211f0997f6149aa8c290ed91228ba4cdfae80.yara
 - type: sigma_hash
-  value: https://github.com/boss-net/risksDrivers/blob/main/detections/sigma/driver_load_win_vuln_drivers.yml
+  value: https://github.com/cvelist/cvelist/blob/main/detections/sigma/driver_load_win_vuln_drivers.yml
 - type: sigma_names
-  value: https://github.com/boss-net/risksDrivers/blob/main/detections/sigma/driver_load_win_vuln_drivers_names.yml
+  value: https://github.com/cvelist/cvelist/blob/main/detections/sigma/driver_load_win_vuln_drivers_names.yml
 - type: sysmon_hash_detect
-  value: https://github.com/boss-net/risksDrivers/blob/main/detections/sysmon/sysmon_config_vulnerable_hashes.xml
+  value: https://github.com/cvelist/cvelist/blob/main/detections/sysmon/sysmon_config_vulnerable_hashes.xml
 - type: sysmon_hash_block
-  value: https://github.com/boss-net/risksDrivers/blob/main/detections/sysmon/sysmon_config_vulnerable_hashes_block.xml
+  value: https://github.com/cvelist/cvelist/blob/main/detections/sysmon/sysmon_config_vulnerable_hashes_block.xml
 KnownVulnerableSamples:
 - Filename: otipcibus.sys
   MD5: d5a642329cce4df94b8dc1ba9660ae34

@@ -1,6 +1,6 @@
-# YARA Rule Generator for the risksDrivers Project
+# YARA Rule Generator for the cvelist Project
 
-This YARA rule generator creates YARA rules for the vulnerable / malicious drivers collected in the risksDrivers project.
+This YARA rule generator creates YARA rules for the vulnerable / malicious drivers collected in the cvelist project.
 
 ## How does it work?
 
@@ -90,9 +90,9 @@ Example rule generated from the binaries in the `./drivers` folder.
 ```yara
 rule PUA_VULN_Driver_ASUSTekComputerInc_ATSZIOsys_ATSZIODriver__5kYV {
    meta:
-      description = "Detects vulnerable driver mentioned in risksDrivers project using VersionInfo values from the PE header"
+      description = "Detects vulnerable driver mentioned in cvelist project using VersionInfo values from the PE header"
       author = "Florian Roth"
-      reference = "https://github.com/boss-net/risksDrivers"
+      reference = "https://github.com/cvelist/cvelist"
       hash = "c64d4ac416363c7a1aa828929544d1c1d78cf032b39769943b851cfc4c0faafc"
       date = "2023-05-12"
       score = 70
